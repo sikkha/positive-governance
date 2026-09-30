@@ -1,0 +1,86 @@
+{
+  "design": {
+    "n_seeds": 24,
+    "n_steps": 600,
+    "burn_in_fraction": 0.2
+  },
+  "primary_agreement_threshold": 0.7,
+  "n_failures": 0,
+  "failures": [],
+  "per_candidate": {
+    "interior_persistent": {
+      "status": "not robustly confirmed",
+      "n_seeds": 24,
+      "label_distribution": {
+        "unclassified": 14,
+        "interior-persistent": 5,
+        "depleted": 5
+      },
+      "plurality_label": "unclassified",
+      "agreement_fraction": 0.5833333333333334,
+      "threshold_sensitivity": {
+        "robust_at_60pct": false,
+        "robust_at_70pct": false,
+        "robust_at_80pct": false
+      },
+      "mean_post_burn_in_occupancy": 0.1698517853319034,
+      "std_post_burn_in_occupancy": 0.12265185668225079,
+      "mean_terminal_occupancy": 0.17868876014893798,
+      "mean_patch_survival_fraction": 0.2380952380952381,
+      "mean_extraction_propensity_before": 0.5012642475042565,
+      "mean_extraction_propensity_after": 0.5300491291765113,
+      "mean_maintenance_propensity_before": 0.3071153792101485,
+      "mean_maintenance_propensity_after": 0.07063770579370347
+    },
+    "nonstationary": {
+      "status": "not robustly confirmed",
+      "n_seeds": 24,
+      "label_distribution": {
+        "depleted": 16,
+        "unclassified": 4,
+        "intermittent": 2,
+        "oscillatory": 1,
+        "interior-persistent": 1
+      },
+      "plurality_label": "depleted",
+      "agreement_fraction": 0.6666666666666666,
+      "threshold_sensitivity": {
+        "robust_at_60pct": true,
+        "robust_at_70pct": false,
+        "robust_at_80pct": false
+      },
+      "mean_post_burn_in_occupancy": 0.11687736145437151,
+      "std_post_burn_in_occupancy": 0.18932050959364022,
+      "mean_terminal_occupancy": 0.09606734265835187,
+      "mean_patch_survival_fraction": 0.14583333333333334,
+      "mean_extraction_propensity_before": 0.4914901679836568,
+      "mean_extraction_propensity_after": 0.5754802967920076,
+      "mean_maintenance_propensity_before": 0.2985896975979246,
+      "mean_maintenance_propensity_after": 0.02706807133242523
+    },
+    "near_collapse": {
+      "status": "confirmed",
+      "n_seeds": 24,
+      "label_distribution": {
+        "depleted": 18,
+        "unclassified": 3,
+        "interior-persistent": 3
+      },
+      "plurality_label": "depleted",
+      "agreement_fraction": 0.75,
+      "threshold_sensitivity": {
+        "robust_at_60pct": true,
+        "robust_at_70pct": true,
+        "robust_at_80pct": false
+      },
+      "mean_post_burn_in_occupancy": 0.05652164138786589,
+      "std_post_burn_in_occupancy": 0.10661342254549067,
+      "mean_terminal_occupancy": 0.04540695705493077,
+      "mean_patch_survival_fraction": 0.05555555555555556,
+      "mean_extraction_propensity_before": 0.4914901679836568,
+      "mean_extraction_propensity_after": 0.5739282832423928,
+      "mean_maintenance_propensity_before": 0.2985896975979246,
+      "mean_maintenance_propensity_after": 0.0175006687782252
+    }
+  }
+}

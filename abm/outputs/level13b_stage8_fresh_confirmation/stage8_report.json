@@ -1,0 +1,44 @@
+{
+  "covariance_types_used": {
+    "k1": "full",
+    "k8": "full"
+  },
+  "frozen_pca_continuum_on_fresh_data": {
+    "reconstruction_error_on_fresh_standardized_data": 0.6184080121368454
+  },
+  "generalization_gap_test": {
+    "interpretation_note": "a POSITIVE gap means the k=8 structure fits fresh data better than the no-structure k=1 baseline (evidence the discrete structure generalizes); a gap near zero or negative means k=8's apparent structure was fit to Stage 4's own idiosyncrasies and does not reproduce on fresh data -- this number is reported, not interpreted into a decision-gate verdict, which is Section 17/task #126's own job",
+    "leading_k8_per_run_log_likelihood": -4.7081627219233475,
+    "leading_k8_total_log_likelihood": -451.98362130464136,
+    "null_k1_per_run_log_likelihood": -7.820998109638398,
+    "null_k1_total_log_likelihood": -750.8158185252862,
+    "per_run_log_likelihood_gap_k8_minus_k1": 3.1128353877150508
+  },
+  "n_complete_rows": 96,
+  "n_records": 96,
+  "scope": {
+    "disjoint_from_stage4": {
+      "stage4_lhs_seed": 20260821001,
+      "stage4_seed_range_start": 8700000
+    },
+    "frozen_before_scoring": [
+      "preprocessing",
+      "phenotype_fields",
+      "observer_thresholds",
+      "clustering_or_manifold_model_from_stage7"
+    ],
+    "lhs_seed": 20260821008,
+    "milestone": "level1.3b_work_package_i_stage8_fresh_confirmation",
+    "n_patches": 4,
+    "n_points": 24,
+    "n_runs_declared": 96,
+    "n_seeds_per_point": 4,
+    "n_steps": 500,
+    "no_post_hoc_parameter_selection": true,
+    "no_refitting_before_primary_scoring": true,
+    "population_size": 40,
+    "scale_disclosed_as": "Section 13's own stated MINIMUM (24 x 4 = 96), not the preferred 36-48 x 4-6",
+    "seed_base": 8950000
+  },
+  "smoke_test_passed": true
+}

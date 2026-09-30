@@ -1,0 +1,40 @@
+{
+  "design": {
+    "n_points": 16,
+    "seeds_per_point": 3,
+    "n_steps": 250,
+    "design_seed": 20260817,
+    "param_names": [
+      "patch_regen_rate",
+      "patch_capacity",
+      "n_patches",
+      "population_size",
+      "ecological_harvest_unit",
+      "ecological_search_cost",
+      "ecological_maintenance_unit",
+      "maintenance_efficiency",
+      "ecological_mutation_rate",
+      "scarcity_sensitivity_mean",
+      "fitness_mode"
+    ],
+    "scale_reduction_note": "milestone brief suggests >=48 points and 8-10 seeds/point; this run used 16 points x 3 seeds, documented as a deliberate compute-budget reduction (see module docstring)."
+  },
+  "n_runs": 48,
+  "n_failures": 0,
+  "failures": [],
+  "region_label_counts_post_hoc": {
+    "oscillatory": 14,
+    "depleted": 14,
+    "abundant": 9,
+    "intermittent": 6,
+    "interior-persistent": 5
+  },
+  "region_label_fractions_post_hoc": {
+    "oscillatory": 0.2916666666666667,
+    "depleted": 0.2916666666666667,
+    "abundant": 0.1875,
+    "intermittent": 0.125,
+    "interior-persistent": 0.10416666666666667
+  },
+  "note": "Region labels are purely descriptive, computed after every point was already run; no point was selected, retried, or excluded based on its outcome, and this search was not stopped early because a particular cluster count appeared."
+}

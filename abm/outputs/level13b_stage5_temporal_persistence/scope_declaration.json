@@ -1,0 +1,33 @@
+{
+  "disclosed_scope_reduction": "single representative cell (not the full Stage 3 factorial) -- Stage 3 already covered the factorial at final-step resolution; this stage's job is windowed trajectories at that one cell, not a full factorial re-run",
+  "intervention_step": 250,
+  "milestone": "level1.3b_work_package_f_stage5_temporal_persistence",
+  "n_patches": 3,
+  "n_runs_total_unique": 80,
+  "n_steps": 500,
+  "part_a": {
+    "n_runs": 32,
+    "n_seeds": 16,
+    "orderings": [
+      "security_first",
+      "coevolution"
+    ]
+  },
+  "part_b": {
+    "base_ordering": "security_first",
+    "n_runs": 48,
+    "n_seeds": 16,
+    "variants": [
+      "removed",
+      "reversed",
+      "equalized"
+    ]
+  },
+  "population_size": 40,
+  "representative_cell": {
+    "entrenchment": "moderate",
+    "legitimacy": "dual",
+    "stratum": "medium_feasibility"
+  },
+  "seed_base": 8900000
+}

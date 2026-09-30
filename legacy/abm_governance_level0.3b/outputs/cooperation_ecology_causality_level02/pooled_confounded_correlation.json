@@ -1,0 +1,8 @@
+{
+  "n_runs": 630,
+  "pooled_pearson_coop_vs_mean_occupancy": -0.7533137179892182,
+  "pooled_pearson_coop_vs_fraction_time_depleted": 0.7409056840973586,
+  "pooled_pearson_coop_vs_n_collapse_episodes": 0.7632133326623187,
+  "pooled_pearson_coop_vs_longest_collapse_duration": 0.740666704066761,
+  "pooled_pearson_coop_vs_population_failure_peak_fraction": NaN
+}

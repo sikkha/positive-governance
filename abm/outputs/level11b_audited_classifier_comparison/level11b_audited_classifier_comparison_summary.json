@@ -1,0 +1,1493 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "condition": "default_full",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 0,
+      "condition": "audit_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 0,
+      "condition": "recall_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 0,
+      "condition": "costless",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 0,
+      "condition": "perfect_info",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 5,
+      "n_audited_accountable": 5,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 0,
+      "condition": "randomized_placebo",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 1,
+      "condition": "default_full",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 1,
+      "condition": "audit_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 1,
+      "condition": "recall_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 1,
+      "condition": "costless",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 1,
+      "n_audited_accountable": 1,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 1,
+      "condition": "perfect_info",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 3,
+      "n_audited_accountable": 3,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 1,
+      "condition": "randomized_placebo",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 2,
+      "condition": "default_full",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 2,
+      "condition": "audit_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 2,
+      "condition": "recall_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 3,
+      "n_audited_accountable": 3,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 2,
+      "condition": "costless",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 2,
+      "condition": "perfect_info",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 5,
+      "n_audited_accountable": 5,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 2,
+      "condition": "randomized_placebo",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 3,
+      "condition": "default_full",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 3,
+      "n_audited_accountable": 3,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 3,
+      "condition": "audit_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 3,
+      "condition": "recall_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 3,
+      "n_audited_accountable": 3,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 3,
+      "condition": "costless",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 3,
+      "condition": "perfect_info",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 5,
+      "n_audited_accountable": 5,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 3,
+      "condition": "randomized_placebo",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 4,
+      "condition": "default_full",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 4,
+      "condition": "audit_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 4,
+      "condition": "recall_only",
+      "n_rules_classified": 6,
+      "n_agree": 5,
+      "agreement_rate": 0.8333333333333334,
+      "n_historical_accountable": 3,
+      "n_audited_accountable": 2,
+      "n_downgraded": 1,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.3333333333333333
+    },
+    {
+      "seed": 4,
+      "condition": "costless",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 3,
+      "n_audited_accountable": 3,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 4,
+      "condition": "perfect_info",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 4,
+      "n_audited_accountable": 4,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 4,
+      "condition": "randomized_placebo",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 5,
+      "condition": "default_full",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 4,
+      "n_audited_accountable": 4,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 5,
+      "condition": "audit_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 5,
+      "condition": "recall_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 3,
+      "n_audited_accountable": 3,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 5,
+      "condition": "costless",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 5,
+      "condition": "perfect_info",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 4,
+      "n_audited_accountable": 4,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 5,
+      "condition": "randomized_placebo",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 6,
+      "condition": "default_full",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 1,
+      "n_audited_accountable": 1,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 6,
+      "condition": "audit_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 6,
+      "condition": "recall_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 4,
+      "n_audited_accountable": 4,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 6,
+      "condition": "costless",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 6,
+      "condition": "perfect_info",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 4,
+      "n_audited_accountable": 4,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 6,
+      "condition": "randomized_placebo",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 1,
+      "n_audited_accountable": 1,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 7,
+      "condition": "default_full",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 1,
+      "n_audited_accountable": 1,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 7,
+      "condition": "audit_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 7,
+      "condition": "recall_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 7,
+      "condition": "costless",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 7,
+      "condition": "perfect_info",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 4,
+      "n_audited_accountable": 4,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 7,
+      "condition": "randomized_placebo",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 8,
+      "condition": "default_full",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 8,
+      "condition": "audit_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 8,
+      "condition": "recall_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 3,
+      "n_audited_accountable": 3,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 8,
+      "condition": "costless",
+      "n_rules_classified": 6,
+      "n_agree": 5,
+      "agreement_rate": 0.8333333333333334,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 1,
+      "n_downgraded": 1,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.5
+    },
+    {
+      "seed": 8,
+      "condition": "perfect_info",
+      "n_rules_classified": 6,
+      "n_agree": 5,
+      "agreement_rate": 0.8333333333333334,
+      "n_historical_accountable": 6,
+      "n_audited_accountable": 5,
+      "n_downgraded": 1,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.16666666666666666
+    },
+    {
+      "seed": 8,
+      "condition": "randomized_placebo",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 9,
+      "condition": "default_full",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 9,
+      "condition": "audit_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 9,
+      "condition": "recall_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 3,
+      "n_audited_accountable": 3,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 9,
+      "condition": "costless",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 4,
+      "n_audited_accountable": 4,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 9,
+      "condition": "perfect_info",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 5,
+      "n_audited_accountable": 5,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 9,
+      "condition": "randomized_placebo",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 10,
+      "condition": "default_full",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 10,
+      "condition": "audit_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 10,
+      "condition": "recall_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 10,
+      "condition": "costless",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 10,
+      "condition": "perfect_info",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 6,
+      "n_audited_accountable": 6,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 10,
+      "condition": "randomized_placebo",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 1,
+      "n_audited_accountable": 1,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 11,
+      "condition": "default_full",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 11,
+      "condition": "audit_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 11,
+      "condition": "recall_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 1,
+      "n_audited_accountable": 1,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 11,
+      "condition": "costless",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 1,
+      "n_audited_accountable": 1,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 11,
+      "condition": "perfect_info",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 5,
+      "n_audited_accountable": 5,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 11,
+      "condition": "randomized_placebo",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 1,
+      "n_audited_accountable": 1,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 12,
+      "condition": "default_full",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 3,
+      "n_audited_accountable": 3,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 12,
+      "condition": "audit_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 12,
+      "condition": "recall_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 12,
+      "condition": "costless",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 3,
+      "n_audited_accountable": 3,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 12,
+      "condition": "perfect_info",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 5,
+      "n_audited_accountable": 5,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 12,
+      "condition": "randomized_placebo",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 13,
+      "condition": "default_full",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 13,
+      "condition": "audit_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 13,
+      "condition": "recall_only",
+      "n_rules_classified": 6,
+      "n_agree": 5,
+      "agreement_rate": 0.8333333333333334,
+      "n_historical_accountable": 3,
+      "n_audited_accountable": 2,
+      "n_downgraded": 1,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.3333333333333333
+    },
+    {
+      "seed": 13,
+      "condition": "costless",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 13,
+      "condition": "perfect_info",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 5,
+      "n_audited_accountable": 5,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 13,
+      "condition": "randomized_placebo",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 14,
+      "condition": "default_full",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 14,
+      "condition": "audit_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 0,
+      "n_audited_accountable": 0,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": null
+    },
+    {
+      "seed": 14,
+      "condition": "recall_only",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 14,
+      "condition": "costless",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 2,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 14,
+      "condition": "perfect_info",
+      "n_rules_classified": 6,
+      "n_agree": 6,
+      "agreement_rate": 1.0,
+      "n_historical_accountable": 5,
+      "n_audited_accountable": 5,
+      "n_downgraded": 0,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.0
+    },
+    {
+      "seed": 14,
+      "condition": "randomized_placebo",
+      "n_rules_classified": 6,
+      "n_agree": 5,
+      "agreement_rate": 0.8333333333333334,
+      "n_historical_accountable": 2,
+      "n_audited_accountable": 1,
+      "n_downgraded": 1,
+      "n_upgraded": 0,
+      "downgrade_rate": 0.5
+    }
+  ],
+  "design": {
+    "n_seeds": 15,
+    "population_size": 60,
+    "n_patches": 6,
+    "n_steps": 300,
+    "conditions": [
+      "default_full",
+      "audit_only",
+      "recall_only",
+      "costless",
+      "perfect_info",
+      "randomized_placebo"
+    ]
+  },
+  "per_condition_seed_clustered_bootstrap": {
+    "default_full": {
+      "n_rules_classified": {
+        "point_estimate": 6.0,
+        "ci_low": 6.0,
+        "ci_high": 6.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_agree": {
+        "point_estimate": 6.0,
+        "ci_low": 6.0,
+        "ci_high": 6.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "agreement_rate": {
+        "point_estimate": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_historical_accountable": {
+        "point_estimate": 2.0,
+        "ci_low": 1.5333333333333334,
+        "ci_high": 2.466666666666667,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_audited_accountable": {
+        "point_estimate": 2.0,
+        "ci_low": 1.5333333333333334,
+        "ci_high": 2.466666666666667,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_downgraded": {
+        "point_estimate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_upgraded": {
+        "point_estimate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "downgrade_rate": {
+        "point_estimate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n_seeds": 14,
+        "n_seeds_skipped_undefined": 1
+      }
+    },
+    "audit_only": {
+      "n_rules_classified": {
+        "point_estimate": 6.0,
+        "ci_low": 6.0,
+        "ci_high": 6.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_agree": {
+        "point_estimate": 6.0,
+        "ci_low": 6.0,
+        "ci_high": 6.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "agreement_rate": {
+        "point_estimate": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_historical_accountable": {
+        "point_estimate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_audited_accountable": {
+        "point_estimate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_downgraded": {
+        "point_estimate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_upgraded": {
+        "point_estimate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "downgrade_rate": {
+        "point_estimate": null,
+        "ci_low": null,
+        "ci_high": null,
+        "n_seeds": 0,
+        "n_seeds_skipped_undefined": 15
+      }
+    },
+    "recall_only": {
+      "n_rules_classified": {
+        "point_estimate": 6.0,
+        "ci_low": 6.0,
+        "ci_high": 6.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_agree": {
+        "point_estimate": 5.866666666666666,
+        "ci_low": 5.666666666666667,
+        "ci_high": 6.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "agreement_rate": {
+        "point_estimate": 0.9777777777777779,
+        "ci_low": 0.9444444444444445,
+        "ci_high": 1.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_historical_accountable": {
+        "point_estimate": 2.4,
+        "ci_low": 1.8666666666666667,
+        "ci_high": 2.8666666666666667,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_audited_accountable": {
+        "point_estimate": 2.2666666666666666,
+        "ci_low": 1.8,
+        "ci_high": 2.7333333333333334,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_downgraded": {
+        "point_estimate": 0.13333333333333333,
+        "ci_low": 0.0,
+        "ci_high": 0.3333333333333333,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_upgraded": {
+        "point_estimate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "downgrade_rate": {
+        "point_estimate": 0.047619047619047616,
+        "ci_low": 0.0,
+        "ci_high": 0.11904761904761904,
+        "n_seeds": 14,
+        "n_seeds_skipped_undefined": 1
+      }
+    },
+    "costless": {
+      "n_rules_classified": {
+        "point_estimate": 6.0,
+        "ci_low": 6.0,
+        "ci_high": 6.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_agree": {
+        "point_estimate": 5.933333333333334,
+        "ci_low": 5.8,
+        "ci_high": 6.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "agreement_rate": {
+        "point_estimate": 0.9888888888888889,
+        "ci_low": 0.9666666666666668,
+        "ci_high": 1.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_historical_accountable": {
+        "point_estimate": 2.0,
+        "ci_low": 1.5333333333333334,
+        "ci_high": 2.466666666666667,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_audited_accountable": {
+        "point_estimate": 1.9333333333333333,
+        "ci_low": 1.4666666666666666,
+        "ci_high": 2.4,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_downgraded": {
+        "point_estimate": 0.06666666666666667,
+        "ci_low": 0.0,
+        "ci_high": 0.2,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_upgraded": {
+        "point_estimate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "downgrade_rate": {
+        "point_estimate": 0.03571428571428571,
+        "ci_low": 0.0,
+        "ci_high": 0.10714285714285714,
+        "n_seeds": 14,
+        "n_seeds_skipped_undefined": 1
+      }
+    },
+    "perfect_info": {
+      "n_rules_classified": {
+        "point_estimate": 6.0,
+        "ci_low": 6.0,
+        "ci_high": 6.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_agree": {
+        "point_estimate": 5.933333333333334,
+        "ci_low": 5.8,
+        "ci_high": 6.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "agreement_rate": {
+        "point_estimate": 0.9888888888888889,
+        "ci_low": 0.9666666666666668,
+        "ci_high": 1.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_historical_accountable": {
+        "point_estimate": 4.733333333333333,
+        "ci_low": 4.333333333333333,
+        "ci_high": 5.133333333333334,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_audited_accountable": {
+        "point_estimate": 4.666666666666667,
+        "ci_low": 4.333333333333333,
+        "ci_high": 5.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_downgraded": {
+        "point_estimate": 0.06666666666666667,
+        "ci_low": 0.0,
+        "ci_high": 0.2,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_upgraded": {
+        "point_estimate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "downgrade_rate": {
+        "point_estimate": 0.01111111111111111,
+        "ci_low": 0.0,
+        "ci_high": 0.03333333333333333,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      }
+    },
+    "randomized_placebo": {
+      "n_rules_classified": {
+        "point_estimate": 6.0,
+        "ci_low": 6.0,
+        "ci_high": 6.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_agree": {
+        "point_estimate": 5.933333333333334,
+        "ci_low": 5.8,
+        "ci_high": 6.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "agreement_rate": {
+        "point_estimate": 0.9888888888888889,
+        "ci_low": 0.9666666666666667,
+        "ci_high": 1.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_historical_accountable": {
+        "point_estimate": 0.3333333333333333,
+        "ci_low": 0.06666666666666667,
+        "ci_high": 0.6666666666666666,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_audited_accountable": {
+        "point_estimate": 0.26666666666666666,
+        "ci_low": 0.06666666666666667,
+        "ci_high": 0.5333333333333333,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_downgraded": {
+        "point_estimate": 0.06666666666666667,
+        "ci_low": 0.0,
+        "ci_high": 0.2,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "n_upgraded": {
+        "point_estimate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n_seeds": 15,
+        "n_seeds_skipped_undefined": 0
+      },
+      "downgrade_rate": {
+        "point_estimate": 0.125,
+        "ci_low": 0.0,
+        "ci_high": 0.375,
+        "n_seeds": 4,
+        "n_seeds_skipped_undefined": 11
+      }
+    }
+  },
+  "pooled_by_condition": {
+    "default_full": {
+      "total_rules_classified": 90,
+      "total_historical_accountable": 30,
+      "total_audited_accountable": 30,
+      "total_downgraded": 0,
+      "pooled_downgrade_rate": 0.0
+    },
+    "audit_only": {
+      "total_rules_classified": 90,
+      "total_historical_accountable": 0,
+      "total_audited_accountable": 0,
+      "total_downgraded": 0,
+      "pooled_downgrade_rate": null
+    },
+    "recall_only": {
+      "total_rules_classified": 90,
+      "total_historical_accountable": 36,
+      "total_audited_accountable": 34,
+      "total_downgraded": 2,
+      "pooled_downgrade_rate": 0.05555555555555555
+    },
+    "costless": {
+      "total_rules_classified": 90,
+      "total_historical_accountable": 30,
+      "total_audited_accountable": 29,
+      "total_downgraded": 1,
+      "pooled_downgrade_rate": 0.03333333333333333
+    },
+    "perfect_info": {
+      "total_rules_classified": 90,
+      "total_historical_accountable": 71,
+      "total_audited_accountable": 70,
+      "total_downgraded": 1,
+      "pooled_downgrade_rate": 0.014084507042253521
+    },
+    "randomized_placebo": {
+      "total_rules_classified": 90,
+      "total_historical_accountable": 5,
+      "total_audited_accountable": 4,
+      "total_downgraded": 1,
+      "pooled_downgrade_rate": 0.2
+    }
+  },
+  "interpretation": "Per-condition downgrade rate (fraction of the historical classifier's own 'accountable_delegation' calls that the ground-truth-corrected audited classifier does not support): default_full: pooled downgrade_rate=0.0 (0/30 historical-'accountable_delegation' rules the audited classifier does NOT also call accountable), seed-clustered point=0.0, CI=[0.0, 0.0] over n_seeds=14 (n_seeds_skipped_undefined=1, i.e. seeds where the historical classifier never called anything accountable in this condition). | audit_only: pooled downgrade_rate=None (0/0 historical-'accountable_delegation' rules the audited classifier does NOT also call accountable), seed-clustered point=None, CI=[None, None] over n_seeds=0 (n_seeds_skipped_undefined=15, i.e. seeds where the historical classifier never called anything accountable in this condition). | recall_only: pooled downgrade_rate=0.05555555555555555 (2/36 historical-'accountable_delegation' rules the audited classifier does NOT also call accountable), seed-clustered point=0.047619047619047616, CI=[0.0, 0.11904761904761904] over n_seeds=14 (n_seeds_skipped_undefined=1, i.e. seeds where the historical classifier never called anything accountable in this condition). | costless: pooled downgrade_rate=0.03333333333333333 (1/30 historical-'accountable_delegation' rules the audited classifier does NOT also call accountable), seed-clustered point=0.03571428571428571, CI=[0.0, 0.10714285714285714] over n_seeds=14 (n_seeds_skipped_undefined=1, i.e. seeds where the historical classifier never called anything accountable in this condition). | perfect_info: pooled downgrade_rate=0.014084507042253521 (1/71 historical-'accountable_delegation' rules the audited classifier does NOT also call accountable), seed-clustered point=0.01111111111111111, CI=[0.0, 0.03333333333333333] over n_seeds=15 (n_seeds_skipped_undefined=0, i.e. seeds where the historical classifier never called anything accountable in this condition). | randomized_placebo: pooled downgrade_rate=0.2 (1/5 historical-'accountable_delegation' rules the audited classifier does NOT also call accountable), seed-clustered point=0.125, CI=[0.0, 0.375] over n_seeds=4 (n_seeds_skipped_undefined=11, i.e. seeds where the historical classifier never called anything accountable in this condition). Read the ordering of these rates across conditions directly -- this text does not assert that perfect_info's rate is lower than randomized_placebo's or by how much, since that must be read from the actual numbers above, including whether the conditions' CIs overlap, not asserted in advance. See docs/level1.1b_validation_note.md for the confirmatory read and this milestone's final recommendation on which classifier (or explicit disclosure of both) Level 1.2 should use."
+}

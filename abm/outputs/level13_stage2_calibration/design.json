@@ -1,0 +1,470 @@
+{
+  "lhs_seed": 20260820001,
+  "milestone": "level1.3_ecological_feasibility_integration",
+  "n_patches": 4,
+  "n_points": 30,
+  "n_steps": 200,
+  "points": [
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 8.204830124418855,
+        "maintenance_efficiency": 0.9596022213539305,
+        "patch_capacity": 127.87924791311765,
+        "patch_initial_fraction": 0.772636586928743,
+        "patch_regen_rate": 0.7543274074805696,
+        "shock_interval_steps": 127.8680229514167,
+        "shock_magnitude": 0.46139594550122676,
+        "subsistence_cost": 0.48209942807354067
+      },
+      "expected_pressure_ratio": 0.7594728037627866,
+      "expected_stratum": "low_feasibility",
+      "point_id": 0
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 9.682311178697041,
+        "maintenance_efficiency": 0.1668107131544625,
+        "patch_capacity": 1449.6899652343075,
+        "patch_initial_fraction": 0.2170417413103034,
+        "patch_regen_rate": 1.0035084067439792,
+        "shock_interval_steps": 351.7405568431771,
+        "shock_magnitude": 0.05278201241327859,
+        "subsistence_cost": 0.7487018219972386
+      },
+      "expected_pressure_ratio": 9.347184443076591,
+      "expected_stratum": "high_feasibility",
+      "point_id": 1
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 6.203061936415129,
+        "maintenance_efficiency": 0.18182954549214914,
+        "patch_capacity": 581.9050893094873,
+        "patch_initial_fraction": 0.6620137809599101,
+        "patch_regen_rate": 0.7397312414961761,
+        "shock_interval_steps": 330.7001145626528,
+        "shock_magnitude": 0.42558058166996854,
+        "subsistence_cost": 0.08920919230751582
+      },
+      "expected_pressure_ratio": 4.935467269961684,
+      "expected_stratum": "medium_feasibility",
+      "point_id": 2
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 1.6414118066942116,
+        "maintenance_efficiency": 0.7696795403049519,
+        "patch_capacity": 1352.5986015543745,
+        "patch_initial_fraction": 0.9175519358705156,
+        "patch_regen_rate": 0.8245506292315405,
+        "shock_interval_steps": 122.88834069990128,
+        "shock_magnitude": 0.3659022610994727,
+        "subsistence_cost": 0.285541895934552
+      },
+      "expected_pressure_ratio": 35.450312805101376,
+      "expected_stratum": "high_feasibility",
+      "point_id": 3
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 2.6420874194369643,
+        "maintenance_efficiency": 0.08112836706189044,
+        "patch_capacity": 99.54677607004295,
+        "patch_initial_fraction": 0.8439543891219565,
+        "patch_regen_rate": 0.2907506051447435,
+        "shock_interval_steps": 80.29962991162624,
+        "shock_magnitude": 0.0384877847444514,
+        "subsistence_cost": 0.6909779543250921
+      },
+      "expected_pressure_ratio": 0.49864659969629493,
+      "expected_stratum": "low_feasibility",
+      "point_id": 4
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 9.726036852177048,
+        "maintenance_efficiency": 0.10553008672511696,
+        "patch_capacity": 776.9050733618581,
+        "patch_initial_fraction": 0.13758873500197605,
+        "patch_regen_rate": 0.19051187927585056,
+        "shock_interval_steps": 208.6800151436322,
+        "shock_magnitude": 0.1250385288502781,
+        "subsistence_cost": 0.3452639877013087
+      },
+      "expected_pressure_ratio": 1.0327031356086906,
+      "expected_stratum": "low_feasibility",
+      "point_id": 5
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 0.8706485235003434,
+        "maintenance_efficiency": 0.23705185217214658,
+        "patch_capacity": 986.7739528649549,
+        "patch_initial_fraction": 0.17794132687617492,
+        "patch_regen_rate": 0.22523200885295042,
+        "shock_interval_steps": 268.9671445696631,
+        "shock_magnitude": 0.5330499712550788,
+        "subsistence_cost": 0.5744280789248668
+      },
+      "expected_pressure_ratio": 7.353890116421985,
+      "expected_stratum": "high_feasibility",
+      "point_id": 6
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 4.574103755103053,
+        "maintenance_efficiency": 0.24082798736791322,
+        "patch_capacity": 426.4416629679905,
+        "patch_initial_fraction": 0.5454964323577504,
+        "patch_regen_rate": 0.874938388015215,
+        "shock_interval_steps": 186.90256601002264,
+        "shock_magnitude": 0.41525084472024293,
+        "subsistence_cost": 0.3237031301476073
+      },
+      "expected_pressure_ratio": 5.141644584578013,
+      "expected_stratum": "medium_feasibility",
+      "point_id": 7
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 10.853330270434137,
+        "maintenance_efficiency": 0.8222366969869244,
+        "patch_capacity": 250.80866541432886,
+        "patch_initial_fraction": 0.09714760097108102,
+        "patch_regen_rate": 1.125240280617759,
+        "shock_interval_steps": 106.23101751326006,
+        "shock_magnitude": 0.30059221960705,
+        "subsistence_cost": 0.6597353959163689
+      },
+      "expected_pressure_ratio": 1.6727437476618305,
+      "expected_stratum": "low_feasibility",
+      "point_id": 8
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 11.594348187936927,
+        "maintenance_efficiency": 0.13161242975652698,
+        "patch_capacity": 941.5551509666344,
+        "patch_initial_fraction": 0.5083445950975471,
+        "patch_regen_rate": 0.6999750415404414,
+        "shock_interval_steps": 324.59523549579853,
+        "shock_magnitude": 0.2237123210836684,
+        "subsistence_cost": 0.7842618157375698
+      },
+      "expected_pressure_ratio": 3.605793086085443,
+      "expected_stratum": "medium_feasibility",
+      "point_id": 9
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 1.720336304272668,
+        "maintenance_efficiency": 0.3033949989648023,
+        "patch_capacity": 525.64713564707,
+        "patch_initial_fraction": 0.38208825995346213,
+        "patch_regen_rate": 0.5066441176538996,
+        "shock_interval_steps": 301.5636074348361,
+        "shock_magnitude": 0.09640523909898198,
+        "subsistence_cost": 0.02916523090301675
+      },
+      "expected_pressure_ratio": 10.946056282319391,
+      "expected_stratum": "high_feasibility",
+      "point_id": 10
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 8.955993722834084,
+        "maintenance_efficiency": 0.55257989586895,
+        "patch_capacity": 917.2521217775964,
+        "patch_initial_fraction": 0.241181695600025,
+        "patch_regen_rate": 0.9086475631423148,
+        "shock_interval_steps": 41.70395237155449,
+        "shock_magnitude": 0.18125700369912623,
+        "subsistence_cost": 0.16575276724222104
+      },
+      "expected_pressure_ratio": 6.557216081536433,
+      "expected_stratum": "medium_feasibility",
+      "point_id": 11
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 7.624254259079717,
+        "maintenance_efficiency": 0.35409223106333493,
+        "patch_capacity": 313.7433653346326,
+        "patch_initial_fraction": 0.7269714843373212,
+        "patch_regen_rate": 0.13545581568581366,
+        "shock_interval_steps": 246.7319931387669,
+        "shock_magnitude": 0.011910670386911001,
+        "subsistence_cost": 0.12436262844290581
+      },
+      "expected_pressure_ratio": 0.39471139415677614,
+      "expected_stratum": "low_feasibility",
+      "point_id": 12
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 7.335137986744402,
+        "maintenance_efficiency": 0.6278147763700054,
+        "patch_capacity": 1185.008384927056,
+        "patch_initial_fraction": 0.14021712347053306,
+        "patch_regen_rate": 0.40140041513423314,
+        "shock_interval_steps": 60.385042749972314,
+        "shock_magnitude": 0.48701450154310255,
+        "subsistence_cost": 0.2635325392383383
+      },
+      "expected_pressure_ratio": 4.396513746147249,
+      "expected_stratum": "medium_feasibility",
+      "point_id": 13
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 4.332761569221822,
+        "maintenance_efficiency": 0.5022323992657818,
+        "patch_capacity": 634.2324578698233,
+        "patch_initial_fraction": 0.05337364364004601,
+        "patch_regen_rate": 0.8116735902345479,
+        "shock_interval_steps": 262.0223385060377,
+        "shock_magnitude": 0.5022727269043953,
+        "subsistence_cost": 0.3986385136611377
+      },
+      "expected_pressure_ratio": 7.181577097855053,
+      "expected_stratum": "high_feasibility",
+      "point_id": 14
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 11.689276274703962,
+        "maintenance_efficiency": 0.41938784775198756,
+        "patch_capacity": 865.8612240742076,
+        "patch_initial_fraction": 0.7565863026474074,
+        "patch_regen_rate": 0.4355944349963197,
+        "shock_interval_steps": 237.17243607120056,
+        "shock_magnitude": 0.21816002507840018,
+        "subsistence_cost": 0.49742831801467596
+      },
+      "expected_pressure_ratio": 2.1565573326914156,
+      "expected_stratum": "low_feasibility",
+      "point_id": 15
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 8.155239545434684,
+        "maintenance_efficiency": 0.8061659269716165,
+        "patch_capacity": 403.81010698302924,
+        "patch_initial_fraction": 0.3471615491886401,
+        "patch_regen_rate": 0.3403434536279518,
+        "shock_interval_steps": 166.71680135258015,
+        "shock_magnitude": 0.24186214304491888,
+        "subsistence_cost": 0.6172671515720178
+      },
+      "expected_pressure_ratio": 1.051814805682586,
+      "expected_stratum": "low_feasibility",
+      "point_id": 16
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 3.3034467030986447,
+        "maintenance_efficiency": 0.9250080273051826,
+        "patch_capacity": 463.3234585706376,
+        "patch_initial_fraction": 0.4476894593173781,
+        "patch_regen_rate": 0.9627501313646096,
+        "shock_interval_steps": 282.19494102657694,
+        "shock_magnitude": 0.10075280398282861,
+        "subsistence_cost": 0.764652431396876
+      },
+      "expected_pressure_ratio": 6.427838902710999,
+      "expected_stratum": "medium_feasibility",
+      "point_id": 17
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 10.653034776393543,
+        "maintenance_efficiency": 0.6059018161433458,
+        "patch_capacity": 1254.7802312037527,
+        "patch_initial_fraction": 0.26895001736734175,
+        "patch_regen_rate": 0.5640234449843939,
+        "shock_interval_steps": 70.85498589928824,
+        "shock_magnitude": 0.5698434245986417,
+        "subsistence_cost": 0.8404451644768814
+      },
+      "expected_pressure_ratio": 4.1200601577363685,
+      "expected_stratum": "medium_feasibility",
+      "point_id": 18
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 6.330879471887796,
+        "maintenance_efficiency": 0.684385622096314,
+        "patch_capacity": 1382.9194345956585,
+        "patch_initial_fraction": 0.2974824174249293,
+        "patch_regen_rate": 0.09428489889601083,
+        "shock_interval_steps": 345.48468433127596,
+        "shock_magnitude": 0.07717119685533773,
+        "subsistence_cost": 0.8759056657859837
+      },
+      "expected_pressure_ratio": 1.1424658517543795,
+      "expected_stratum": "low_feasibility",
+      "point_id": 19
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 4.82150274994406,
+        "maintenance_efficiency": 0.9802387573101385,
+        "patch_capacity": 722.8590236973265,
+        "patch_initial_fraction": 0.8294427409443514,
+        "patch_regen_rate": 0.630454078714543,
+        "shock_interval_steps": 217.72214399795482,
+        "shock_magnitude": 0.2689820717255686,
+        "subsistence_cost": 0.4241971661656618
+      },
+      "expected_pressure_ratio": 5.758030983355022,
+      "expected_stratum": "medium_feasibility",
+      "point_id": 20
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 5.156221964980434,
+        "maintenance_efficiency": 0.8700398664287995,
+        "patch_capacity": 1067.8118339058674,
+        "patch_initial_fraction": 0.37706782554814894,
+        "patch_regen_rate": 0.054563986291545304,
+        "shock_interval_steps": 191.762003240561,
+        "shock_magnitude": 0.44577577214546693,
+        "subsistence_cost": 0.4594698154688425
+      },
+      "expected_pressure_ratio": 0.686852321514667,
+      "expected_stratum": "low_feasibility",
+      "point_id": 21
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 1.1668427298586779,
+        "maintenance_efficiency": 0.2857979570468711,
+        "patch_capacity": 828.4121606841655,
+        "patch_initial_fraction": 0.8860823321032575,
+        "patch_regen_rate": 1.1665420993407511,
+        "shock_interval_steps": 88.06816895188084,
+        "shock_magnitude": 0.16562814980664498,
+        "subsistence_cost": 0.05696019164000188
+      },
+      "expected_pressure_ratio": 54.62295283798682,
+      "expected_stratum": "high_feasibility",
+      "point_id": 22
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 2.215393362234593,
+        "maintenance_efficiency": 0.6821221631847993,
+        "patch_capacity": 1139.475092993387,
+        "patch_initial_fraction": 0.6088831638747128,
+        "patch_regen_rate": 0.35688244855739876,
+        "shock_interval_steps": 370.8554664711953,
+        "shock_magnitude": 0.5983304537380774,
+        "subsistence_cost": 0.7063397555939828
+      },
+      "expected_pressure_ratio": 7.7117679961826555,
+      "expected_stratum": "high_feasibility",
+      "point_id": 23
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 10.274531561926068,
+        "maintenance_efficiency": 0.7387158938683115,
+        "patch_capacity": 1079.6807249765238,
+        "patch_initial_fraction": 0.6471541570350043,
+        "patch_regen_rate": 0.5438521122488282,
+        "shock_interval_steps": 143.8249674877718,
+        "shock_magnitude": 0.3361850851309559,
+        "subsistence_cost": 0.23959169895408122
+      },
+      "expected_pressure_ratio": 3.983611924249598,
+      "expected_stratum": "medium_feasibility",
+      "point_id": 24
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 3.7265512623992545,
+        "maintenance_efficiency": 0.8934017827133749,
+        "patch_capacity": 656.2439962191443,
+        "patch_initial_fraction": 0.5709089800708957,
+        "patch_regen_rate": 1.0270649388581448,
+        "shock_interval_steps": 395.65599562446573,
+        "shock_magnitude": 0.1479595896242269,
+        "subsistence_cost": 0.5260655787366665
+      },
+      "expected_pressure_ratio": 9.983014830698442,
+      "expected_stratum": "high_feasibility",
+      "point_id": 25
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 5.6825404282196725,
+        "maintenance_efficiency": 0.4335311427808566,
+        "patch_capacity": 320.1777361529356,
+        "patch_initial_fraction": 0.4747737349413308,
+        "patch_regen_rate": 1.1122041912344767,
+        "shock_interval_steps": 26.35412435249981,
+        "shock_magnitude": 0.5429699932556157,
+        "subsistence_cost": 0.8644820377933735
+      },
+      "expected_pressure_ratio": 3.3932032169570125,
+      "expected_stratum": "low_feasibility",
+      "point_id": 26
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 2.80841254282394,
+        "maintenance_efficiency": 0.37587996665612217,
+        "patch_capacity": 1307.1554276523157,
+        "patch_initial_fraction": 0.6899446439290406,
+        "patch_regen_rate": 0.6063578435544767,
+        "shock_interval_steps": 152.28742087240832,
+        "shock_magnitude": 0.3975952482475667,
+        "subsistence_cost": 0.5908406562000549
+      },
+      "expected_pressure_ratio": 13.88066095785083,
+      "expected_stratum": "high_feasibility",
+      "point_id": 27
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 8.698625979360143,
+        "maintenance_efficiency": 0.4786348038128513,
+        "patch_capacity": 211.57667760746858,
+        "patch_initial_fraction": 0.4248815605315089,
+        "patch_regen_rate": 1.0483348101452505,
+        "shock_interval_steps": 299.028523910108,
+        "shock_magnitude": 0.34501192596032493,
+        "subsistence_cost": 0.1686535130324475
+      },
+      "expected_pressure_ratio": 1.7930992528830907,
+      "expected_stratum": "low_feasibility",
+      "point_id": 28
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 6.88605022331086,
+        "maintenance_efficiency": 0.586474423072821,
+        "patch_capacity": 1486.5562304653204,
+        "patch_initial_fraction": 0.928505508756982,
+        "patch_regen_rate": 0.24712170974922226,
+        "shock_interval_steps": 386.92450607221167,
+        "shock_magnitude": 0.2886502125926339,
+        "subsistence_cost": 0.19950991737761922
+      },
+      "expected_pressure_ratio": 3.6723325316171875,
+      "expected_stratum": "medium_feasibility",
+      "point_id": 29
+    }
+  ],
+  "population_size": 32,
+  "stratification_basis": "ex_ante_expected_pressure_ratio_only_never_realized_outcomes",
+  "stratum_counts": {
+    "high_feasibility": 9,
+    "low_feasibility": 11,
+    "medium_feasibility": 10
+  },
+  "stratum_cut_points": {
+    "high_cut": 6.557216081536433,
+    "low_cut": 3.3932032169570125
+  }
+}

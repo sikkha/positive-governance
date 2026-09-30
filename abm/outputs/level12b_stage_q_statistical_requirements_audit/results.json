@@ -1,0 +1,156 @@
+{
+  "preregistration_manifest_hash": "f5bd19df912c0653b97d83f98a4685bb6020fc18b33092e2b2e1ecf11c319b77",
+  "requirements": [
+    "seed_clustered_hierarchical_bootstrap",
+    "discovery_confirmation_seed_disjointness",
+    "training_only_preprocessing",
+    "uncertainty_reporting_at_all_levels",
+    "sample_size_reporting_at_every_level",
+    "multiplicity_disclosure",
+    "structural_nan_preservation"
+  ],
+  "checks": {
+    "seed_clustered_hierarchical_bootstrap": {
+      "status": "implemented_and_applied",
+      "flat_bootstrap_mean_ari_from_work_package_k": 0.5977863575960163,
+      "seed_clustered_bootstrap": {
+        "method": "gmm",
+        "k": 4,
+        "n_bootstrap": 30,
+        "n_clusters": 48,
+        "mean_ari": 0.5910085154609058,
+        "std_ari": 0.1200342319577592
+      },
+      "interpretation": "the seed-clustered estimate accounts for the nested (joint_point -> seed) structure; compared side by side with Work Package K's own flat estimate rather than replacing it"
+    },
+    "discovery_confirmation_seed_disjointness": {
+      "status": "pass",
+      "pool_sizes": {
+        "E_discovery": 288,
+        "L_confirmation": 192,
+        "M_scaling": 32,
+        "N_causal": 104
+      },
+      "pairwise_overlaps": {
+        "E_discovery_vs_L_confirmation": [],
+        "E_discovery_vs_M_scaling": [],
+        "E_discovery_vs_N_causal": [],
+        "L_confirmation_vs_M_scaling": [],
+        "L_confirmation_vs_N_causal": [],
+        "M_scaling_vs_N_causal": []
+      }
+    },
+    "training_only_preprocessing": {
+      "status": "pass",
+      "evidence": [
+        "preprocess_features(X_train, X_apply, strategy) fits every transform (imputation values, standardization mean/std) on X_train ONLY, per its own docstring and tests/test_level12_phenotype_discovery.py",
+        "Work Package L stage 3's held_out_predictiveness call uses X_train=discovery pool, X_apply=confirmation pool -- disjoint pools by seed-construction (see discovery_confirmation_seed_disjointness check)",
+        "Work Package L stage 3's assignment_stability computation refits the frozen rule on the discovery pool only, then .predict()s on the confirmation pool -- never refit on the combined pool"
+      ]
+    },
+    "uncertainty_reporting_at_all_levels": {
+      "status": "gaps_found_and_closed",
+      "per_work_package_uncertainty_fields": {
+        "E_discovery": "none at the summary level (design/ledger-closure report only) -- no cluster/probability estimate is reported at this stage to need one",
+        "J_main_discovery": "NONE originally (gap) -- CLOSED here via supplementary bootstrap CIs, see wp_j_supplementary_ci below",
+        "K_clustering": "bootstrap_stability (mean/std ARI), algorithm_agreement (pairwise ARI/VI), missingness_strategy_robustness_ari",
+        "L_confirmation": "assignment_stability_ari, feature_profile_stability cosine similarities, held_out_log_likelihood, independent_replication's own bootstrap/algorithm-agreement",
+        "M_scaling": "NONE originally (gap) -- CLOSED here via supplementary bootstrap CIs, see wp_m_supplementary_ci below; measured_modularity reported per-run (raw spread visible, not just a mean)",
+        "N_causal_ablations": "Wilcoxon signed-rank statistic/p-value per outcome per factor (explicitly labeled supplementary given n=8)",
+        "O_recurrence_classification": "reuses K/L's own uncertainty fields directly (proxy convergence evidence), attractor_label_evidence reports both recovery rates rather than a single point claim"
+      },
+      "wp_j_supplementary_bootstrap_ci": {
+        "collapse_fraction": {
+          "point_estimate": 0.5659722222222222,
+          "ci_low": 0.5260416666666666,
+          "ci_high": 0.6076388888888888,
+          "n": 576,
+          "method": "nonparametric_percentile_bootstrap_2.5_97.5"
+        },
+        "viable_fraction": {
+          "point_estimate": 0.2795138888888889,
+          "ci_low": 0.24131944444444445,
+          "ci_high": 0.3159722222222222,
+          "n": 576,
+          "method": "nonparametric_percentile_bootstrap_2.5_97.5"
+        }
+      },
+      "wp_m_supplementary_bootstrap_ci": {
+        "population_recovery_rate": {
+          "point_estimate": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n": 32,
+          "method": "nonparametric_percentile_bootstrap_2.5_97.5"
+        },
+        "ecological_recovery_rate": {
+          "point_estimate": 0.875,
+          "ci_low": 0.75,
+          "ci_high": 0.96875,
+          "n": 32,
+          "method": "nonparametric_percentile_bootstrap_2.5_97.5"
+        }
+      }
+    },
+    "sample_size_reporting_at_every_level": {
+      "status": "pass",
+      "findings": {
+        "E_discovery": {
+          "present_keys": [
+            "n_runs_completed"
+          ],
+          "has_sample_size_field": true
+        },
+        "J_main_discovery": {
+          "present_keys": [
+            "n_runs_completed"
+          ],
+          "has_sample_size_field": true
+        },
+        "K_clustering": {
+          "present_keys": [
+            "n_total"
+          ],
+          "has_sample_size_field": true
+        },
+        "L_confirmation": {
+          "present_keys": [
+            "n_confirmation_runs"
+          ],
+          "has_sample_size_field": true
+        },
+        "M_scaling": {
+          "present_keys": [
+            "n_runs_completed"
+          ],
+          "has_sample_size_field": true
+        },
+        "N_causal_ablations": {
+          "present_keys": [
+            "n_total_runs"
+          ],
+          "has_sample_size_field": true
+        }
+      }
+    },
+    "multiplicity_disclosure": {
+      "status": "disclosed",
+      "multiple_comparisons_in_this_milestone": [
+        "Work Package K: up to 8 k values x up to 3 candidate methods (gmm/hierarchical/hdbscan) model-selection metrics evaluated side by side -- no single metric or k privileged (Section 9.3's own rule), which avoids p-hacking a cluster count but does mean many metric values are reported without a joint correction",
+        "Work Package N: 13 factors x 3 primary paired outcomes (ecological_resource_fraction, cumulative_unmet_extraction_demand, fraction_of_steps_below_one) = 39 Wilcoxon signed-rank tests, each with n=8 pairs",
+        "Work Package L: headline_k=4 clusters x per-cluster feature-profile-stability cosine similarity comparisons"
+      ],
+      "correction_applied": false,
+      "rationale": "no formal family-wise (Bonferroni/Benjamini-Hochberg) correction is applied anywhere in this milestone. Every one of the 39 Work Package N Wilcoxon tests already carries its own 'n too small for a confident test; supplementary only' disclosure in its own output -- at n=8 per test, a correction would leave essentially no power to detect anything, so results are read descriptively (paired-difference direction and magnitude, outcome-label transition counts) rather than as a battery of confirmatory p<0.05 claims. Work Package K's multi-metric/multi-k reporting is explicitly Section 9.3's own anti-p-hacking design (report everything, privilege nothing) rather than a hypothesis-testing multiplicity problem."
+    },
+    "structural_nan_preservation": {
+      "status": "pass",
+      "evidence": "build_feature_matrix's own docstring: 'Structural NaN is preserved exactly, never zero-filled here'",
+      "direct_check_result": {
+        "value_at_missing_dimension": null,
+        "preserved_as_nan": true
+      },
+      "note": "zero-filling (mean_impute's own column-mean fallback) happens ONLY inside preprocess_features, a separate, later, explicitly-disclosed step -- never inside build_feature_matrix itself"
+    }
+  }
+}

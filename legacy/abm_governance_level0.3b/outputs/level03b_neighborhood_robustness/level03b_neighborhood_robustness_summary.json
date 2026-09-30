@@ -1,0 +1,136 @@
+{
+  "design": {
+    "n_steps": 600,
+    "n_seeds_per_local_point": 8,
+    "local_deltas": [
+      -0.1,
+      0.0,
+      0.1
+    ],
+    "primary_axes": [
+      "patch_regen_rate",
+      "ecological_harvest_unit",
+      "maintenance_efficiency",
+      "ecological_maintenance_unit"
+    ],
+    "secondary_axes": [
+      "patch_regen_rate",
+      "maintenance_efficiency"
+    ],
+    "primary_candidate": "interior_persistent"
+  },
+  "per_candidate": {
+    "interior_persistent": {
+      "target_label": "unclassified",
+      "axes_tested": [
+        "patch_regen_rate",
+        "ecological_harvest_unit",
+        "maintenance_efficiency",
+        "ecological_maintenance_unit"
+      ],
+      "n_seeds_per_local_point": 8,
+      "per_axis_robustness": {
+        "patch_regen_rate": {
+          "n_neighbors": 24,
+          "n_passing": 13,
+          "fraction_passing": 0.5416666666666666,
+          "min_fraction_required": 0.5,
+          "criterion_met": true
+        },
+        "ecological_harvest_unit": {
+          "n_neighbors": 24,
+          "n_passing": 16,
+          "fraction_passing": 0.6666666666666666,
+          "min_fraction_required": 0.5,
+          "criterion_met": true
+        },
+        "maintenance_efficiency": {
+          "n_neighbors": 24,
+          "n_passing": 13,
+          "fraction_passing": 0.5416666666666666,
+          "min_fraction_required": 0.5,
+          "criterion_met": true
+        },
+        "ecological_maintenance_unit": {
+          "n_neighbors": 24,
+          "n_passing": 14,
+          "fraction_passing": 0.5833333333333334,
+          "min_fraction_required": 0.5,
+          "criterion_met": true
+        }
+      },
+      "overall_robustness": {
+        "n_neighbors": 96,
+        "n_passing": 56,
+        "fraction_passing": 0.5833333333333334,
+        "min_fraction_required": 0.5,
+        "criterion_met": true
+      },
+      "interpretation": "occupies a local parameter neighborhood, not only a single point"
+    },
+    "nonstationary": {
+      "target_label": "depleted",
+      "axes_tested": [
+        "patch_regen_rate",
+        "maintenance_efficiency"
+      ],
+      "n_seeds_per_local_point": 8,
+      "per_axis_robustness": {
+        "patch_regen_rate": {
+          "n_neighbors": 24,
+          "n_passing": 17,
+          "fraction_passing": 0.7083333333333334,
+          "min_fraction_required": 0.5,
+          "criterion_met": true
+        },
+        "maintenance_efficiency": {
+          "n_neighbors": 24,
+          "n_passing": 19,
+          "fraction_passing": 0.7916666666666666,
+          "min_fraction_required": 0.5,
+          "criterion_met": true
+        }
+      },
+      "overall_robustness": {
+        "n_neighbors": 48,
+        "n_passing": 36,
+        "fraction_passing": 0.75,
+        "min_fraction_required": 0.5,
+        "criterion_met": true
+      },
+      "interpretation": "occupies a local parameter neighborhood, not only a single point"
+    },
+    "near_collapse": {
+      "target_label": "depleted",
+      "axes_tested": [
+        "patch_regen_rate",
+        "maintenance_efficiency"
+      ],
+      "n_seeds_per_local_point": 8,
+      "per_axis_robustness": {
+        "patch_regen_rate": {
+          "n_neighbors": 24,
+          "n_passing": 19,
+          "fraction_passing": 0.7916666666666666,
+          "min_fraction_required": 0.5,
+          "criterion_met": true
+        },
+        "maintenance_efficiency": {
+          "n_neighbors": 24,
+          "n_passing": 20,
+          "fraction_passing": 0.8333333333333334,
+          "min_fraction_required": 0.5,
+          "criterion_met": true
+        }
+      },
+      "overall_robustness": {
+        "n_neighbors": 48,
+        "n_passing": 39,
+        "fraction_passing": 0.8125,
+        "min_fraction_required": 0.5,
+        "criterion_met": true
+      },
+      "interpretation": "occupies a local parameter neighborhood, not only a single point"
+    }
+  }
+}

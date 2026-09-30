@@ -1,0 +1,23 @@
+{
+  "disclosed_limitation": "n_seeds_per_cell=2 gives a coarse (3-resample) seed-clustered bootstrap; reported honestly, not smoothed over.",
+  "disclosed_simplification": "mean_resources_final_step is a final-STEP snapshot, not a true final-third windowed average (Simulation does not retain per-step per-agent resource history) -- the windowed version is Stage 5/Work Package F's own job (task #118).",
+  "milestone": "level1.3b_work_package_e_stage3_matched_sequencing_factorial",
+  "n_cells": 108,
+  "n_patches": 3,
+  "n_runs_declared": 216,
+  "n_seeds_per_cell": 2,
+  "n_steps": 500,
+  "population_size": 40,
+  "primary_outcomes": [
+    "bargaining_participation_sustained_crossing_step",
+    "S_obs",
+    "Z_obs",
+    "realized_compliance_rate",
+    "mean_resources_final_third",
+    "n_active_rules_final_step",
+    "entrenchment_index_final_step",
+    "cross_founder_reconstruction_count"
+  ],
+  "seed_base": 8300000,
+  "uncertainty_method": "seed-clustered bootstrap CIs (resample whole seeds, not individual runs, within each matched cell) -- raw matched differences reported alongside, never pooled means alone"
+}

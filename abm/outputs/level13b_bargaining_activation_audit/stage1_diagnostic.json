@@ -1,0 +1,63 @@
+{
+  "disposition": {
+    "cause_1_construction_defect": "fixed_in_observer_sequencing_diagnostics_this_milestone",
+    "cause_2_solvency_conflation_and_resource_collapse": "genuine_disclosed_finding_not_a_defect",
+    "still_no_sustained_crossing_post_fix_on_representative_configs": false
+  },
+  "empirical_diagnostics": [
+    {
+      "bargaining_participation_sustained_crossing_step_post_fix": null,
+      "frac_negative_or_zero_resources_at_decision": 0.8966275659824047,
+      "frac_would_comply_by_willingness_alone": 0.5769794721407625,
+      "label": "stage3_representative",
+      "mean_bargaining_pressure_level_at_decision": 0.3873900293255132,
+      "mean_effective_willingness": 0.5373708285348306,
+      "mean_raw_willingness_trait": 0.45989282266972803,
+      "mean_resources_by_run_third": {
+        "early": -95.33728805255119,
+        "late": -344.2738679289067,
+        "mid": -242.12702605305262
+      },
+      "n_complied_events": 91,
+      "n_contribution_events": 1364,
+      "n_decisions_instrumented": 1364,
+      "realized_compliance_rate": 0.06671554252199413
+    },
+    {
+      "bargaining_participation_sustained_crossing_step_post_fix": 10,
+      "frac_negative_or_zero_resources_at_decision": 0.8786127167630058,
+      "frac_would_comply_by_willingness_alone": 0.7825144508670521,
+      "label": "stage4_representative",
+      "mean_bargaining_pressure_level_at_decision": 0.4390173410404624,
+      "mean_effective_willingness": 0.6232363162345553,
+      "mean_raw_willingness_trait": 0.5374711692391216,
+      "mean_resources_by_run_third": {
+        "early": -73.43347560132285,
+        "late": -409.58525343441227,
+        "mid": -210.81103878253714
+      },
+      "n_complied_events": 104,
+      "n_contribution_events": 1384,
+      "n_decisions_instrumented": 1384,
+      "realized_compliance_rate": 0.07514450867052024
+    }
+  ],
+  "hand_computed_microcase": {
+    "computed_series_first_10_steps": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "hand_computed_expected_series_matches_implementation": true,
+    "sustained_crossing_step": 0,
+    "sustained_crossing_step_matches_hand_expectation": true
+  },
+  "milestone": "level1.3b_work_package_b_stage1_bargaining_audit"
+}

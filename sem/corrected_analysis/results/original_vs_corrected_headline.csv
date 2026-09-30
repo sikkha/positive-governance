@@ -1,0 +1,137 @@
+model,block,parameter,dissertation_v1.2_reported,S0_original_reconstruction,S1_corrected_mlr,S2_corrected_wlsmv_ordinal,S3_corrected_mlr_weighted
+model1,estimation,converged,,TRUE,TRUE,TRUE,TRUE
+model1,estimation,n_obs,94278,94278,76522,76522,76522
+model1,estimation,estimator,,ML,ML,DWLS,ML
+model1,identification,df,,17,17,17,17
+model1,identification,vcov_positive_definite,,TRUE,TRUE,TRUE,TRUE
+model1,admissibility,lavaan_post_check_passed,,TRUE,TRUE,TRUE,TRUE
+model1,admissibility,cov_lv_positive_definite,,TRUE,TRUE,TRUE,TRUE
+model1,admissibility,n_negative_residual_variances,,0,0,0,0
+model1,admissibility,n_negative_latent_variances,,0,0,0,0
+model1,admissibility,max_abs_std_loading,,0.878,0.861,0.9003,0.8612
+model1,admissibility,max_abs_latent_correlation,,0.8654,0.7458,0.8044,0.7473
+model1,fit,chisq,,40674.3,12658.6,12501.2,12668.2
+model1,fit,chisq.scaled,,33033.5,10088.7,25259.5,8662.27
+model1,fit,cfi,.889,0.888828,0.949525,0.991214,0.949742
+model1,fit,tli,.817,0.816893,0.916864,0.985529,0.917222
+model1,fit,cfi.scaled,,0.81723,0.944028,0.967792,0.9442
+model1,fit,tli.scaled,,0.698967,0.907811,0.946951,0.908094
+model1,fit,cfi.robust,,0.88883,0.94954,0.940183,0.94977
+model1,fit,tli.robust,,0.816897,0.916889,0.901478,0.917268
+model1,fit,rmsea,,0.159272,0.0985786,0.0979637,0.0986163
+model1,fit,rmsea.scaled,.144,0.143528,0.0879901,0.1393,0.0815214
+model1,fit,rmsea.robust,,0.159264,0.0985618,0.124046,0.0985857
+model1,fit,srmr,.073,0.0731356,0.0529329,0.0529007,0.0529277
+model1,latent_correlation,State_Capacity ~~ Rule_of_Law,,0.8654,0.7458,0.8044,0.7473
+model1,latent_correlation,State_Capacity ~~ Democratic_Accountability,,0.3805,0.4461,0.4603,0.4502
+model1,latent_correlation,Rule_of_Law ~~ Democratic_Accountability,,0.2776,0.4862,0.4951,0.4868
+model1,std_loading,State_Capacity =~ Q65,.583,0.5833,0.4187,0.5571,0.4206
+model1,std_loading,State_Capacity =~ Q71,.860,0.8605,0.8023,0.8439,0.8036
+model1,std_loading,State_Capacity =~ Q72,.628,0.6285,0.7913,0.8398,0.7924
+model1,std_loading,State_Capacity =~ Q73,.631,0.6311,0.861,0.9003,0.8612
+model1,std_loading,Rule_of_Law =~ Q69,.830,0.83,0.7388,0.802,0.7397
+model1,std_loading,Rule_of_Law =~ Q70,.878,0.878,0.8538,0.8751,0.8552
+model1,std_loading,Democratic_Accountability =~ Q224,.856,0.8564,0.767,0.8231,0.7661
+model1,std_loading,Democratic_Accountability =~ Q229,.868,0.8681,0.7489,0.7972,0.7483
+model2,estimation,converged,,TRUE,TRUE,TRUE,TRUE
+model2,estimation,n_obs,,94278,76522,76522,76522
+model2,estimation,estimator,,ML,ML,DWLS,ML
+model2,identification,df,,17,17,17,17
+model2,identification,vcov_positive_definite,,TRUE,TRUE,TRUE,TRUE
+model2,admissibility,lavaan_post_check_passed,,FALSE,TRUE,TRUE,TRUE
+model2,admissibility,cov_lv_positive_definite,,FALSE,TRUE,TRUE,TRUE
+model2,admissibility,n_negative_residual_variances,,0,0,0,0
+model2,admissibility,n_negative_latent_variances,,0,0,0,0
+model2,admissibility,max_abs_std_loading,,0.878,0.9016,0.9302,0.8989
+model2,admissibility,max_abs_latent_correlation,,1.0892,0.8272,0.8648,0.8314
+model2,fit,chisq,,40674.3,12658.6,12501.2,12668.2
+model2,fit,chisq.scaled,,33033.5,10088.7,25259.5,8662.28
+model2,fit,cfi,,0.888828,0.949525,0.991214,0.949742
+model2,fit,tli,,0.816893,0.916864,0.985529,0.917222
+model2,fit,cfi.scaled,,0.81723,0.944028,0.967792,0.9442
+model2,fit,tli.scaled,,0.698967,0.907811,0.946951,0.908094
+model2,fit,cfi.robust,,0.88883,0.94954,0.940183,0.94977
+model2,fit,tli.robust,,0.816897,0.916889,0.901478,0.917268
+model2,fit,rmsea,,0.159272,0.0985786,0.0979637,0.0986163
+model2,fit,rmsea.scaled,,0.143528,0.0879901,0.1393,0.0815214
+model2,fit,rmsea.robust,,0.159264,0.0985618,0.124046,0.0985857
+model2,fit,srmr,,0.0731356,0.052933,0.0529007,0.0529277
+model2,std_loading,Z =~ Rule_of_Law,.795,0.7946,0.9016,0.9302,0.8989
+model2,std_loading,Z =~ Democratic_Accountability,.349,0.3493,0.5393,0.5323,0.5415
+model2,latent_correlation,State_Capacity ~~ Z,,1.0892,0.8272,0.8648,0.8314
+model2,std_loading,State_Capacity =~ Q65,,0.5833,0.4187,0.5571,0.4206
+model2,std_loading,State_Capacity =~ Q71,,0.8605,0.8023,0.8439,0.8036
+model2,std_loading,State_Capacity =~ Q72,,0.6285,0.7913,0.8398,0.7924
+model2,std_loading,State_Capacity =~ Q73,,0.6311,0.861,0.9003,0.8612
+model2,std_loading,Rule_of_Law =~ Q69,,0.83,0.7388,0.802,0.7397
+model2,std_loading,Rule_of_Law =~ Q70,,0.878,0.8538,0.8751,0.8552
+model2,std_loading,Democratic_Accountability =~ Q224,,0.8564,0.767,0.8231,0.7661
+model2,std_loading,Democratic_Accountability =~ Q229,,0.8681,0.7489,0.7972,0.7483
+model3,estimation,converged,,TRUE,FALSE,TRUE,FALSE
+model3,estimation,n_obs,,94278,76522,76522,76522
+model3,estimation,estimator,,ML,ML,DWLS,ML
+model3,identification,df,,11,,11,
+model3,identification,vcov_positive_definite,,FALSE,,FALSE,
+model3,admissibility,lavaan_post_check_passed,,FALSE,,FALSE,
+model3,admissibility,cov_lv_positive_definite,,FALSE,,TRUE,
+model3,admissibility,n_negative_residual_variances,,0,,2,
+model3,admissibility,n_negative_latent_variances,,2,,0,
+model3,admissibility,max_abs_std_loading,,NA,,3.8758,
+model3,admissibility,max_abs_latent_correlation,,0.1966,,0.8282,
+model3,fit,chisq,,29595.7,,12159.5,
+model3,fit,chisq.scaled,,18626.6,,NA,
+model3,fit,cfi,,0.919105,,0.99145,
+model3,fit,tli,,0.794085,,0.978237,
+model3,fit,cfi.scaled,,0.896949,,NA,
+model3,fit,tli.scaled,,0.737689,,NA,
+model3,fit,cfi.robust,,0.919116,,NA,
+model3,fit,tli.robust,,0.794113,,NA,
+model3,fit,rmsea,,0.168901,,0.120136,
+model3,fit,rmsea.scaled,,0.133979,,NA,
+model3,fit,rmsea.robust,,0.168882,,NA,
+model3,fit,srmr,,0.0886562,,0.0530466,
+model3,std_loading,Z =~ Rule_of_Law,,NA,,0.2007,
+model3,std_loading,Z =~ Democratic_Accountability,,NA,,0.4359,
+model3,latent_correlation,State_Capacity ~~ Z,,0.1966,,0.8282,
+model3,std_loading,State_Capacity =~ Q65,,0.4155,,0.5602,
+model3,std_loading,State_Capacity =~ Q71,,0.5599,,0.7686,
+model3,std_loading,State_Capacity =~ Q72,,0.7977,,0.8422,
+model3,std_loading,State_Capacity =~ Q73,,0.8064,,0.9065,
+model3,std_loading,Rule_of_Law =~ Q69,,0.7477,,3.8758,
+model3,std_loading,Rule_of_Law =~ Q70,,0.752,,0.0619,
+model3,std_loading,Democratic_Accountability =~ Q224,,0.7485,,0.7831,
+model3,std_loading,Democratic_Accountability =~ Q229,,0.7526,,0.7402,
+model4,estimation,converged,,TRUE,TRUE,TRUE,TRUE
+model4,estimation,n_obs,,94278,76522,76522,76522
+model4,estimation,estimator,,ML,ML,DWLS,ML
+model4,identification,df,,10,10,10,10
+model4,identification,vcov_positive_definite,,FALSE,FALSE,FALSE,FALSE
+model4,admissibility,lavaan_post_check_passed,,TRUE,TRUE,TRUE,TRUE
+model4,admissibility,cov_lv_positive_definite,,TRUE,TRUE,TRUE,TRUE
+model4,admissibility,n_negative_residual_variances,,0,0,0,0
+model4,admissibility,n_negative_latent_variances,,0,0,0,0
+model4,admissibility,max_abs_std_loading,,1.3516,0.8767,0.9065,0.8769
+model4,admissibility,max_abs_latent_correlation,,0.5622,0.67,0.7898,0.6623
+model4,fit,chisq,,29590.5,11459,12160.4,11437.8
+model4,fit,chisq.scaled,,18586.9,8563.6,NA,7401.46
+model4,fit,cfi,,0.919116,0.954286,0.991449,0.954602
+model4,fit,tli,,0.773525,0.872001,0.976056,0.872886
+model4,fit,cfi.scaled,,0.897164,0.952465,NA,0.952292
+model4,fit,tli.scaled,,0.712058,0.866901,NA,0.866419
+model4,fit,cfi.robust,,0.919126,0.954298,NA,0.95462
+model4,fit,tli.robust,,0.773553,0.872034,NA,0.872937
+model4,fit,rmsea,,0.177132,0.122318,0.12601,0.122205
+model4,fit,rmsea.scaled,,0.140372,0.105726,NA,0.0982815
+model4,fit,rmsea.robust,,0.177114,0.1223,NA,0.122176
+model4,fit,srmr,,0.088658,0.0555158,0.0530477,0.0555347
+model4,latent_correlation,State_Capacity ~~ Rule_of_Law,,0.5622,0.67,0.7898,0.6623
+model4,latent_correlation,State_Capacity ~~ Democratic_Accountability,,-0.1631,0.116,0.4376,0.225
+model4,latent_correlation,Rule_of_Law ~~ Democratic_Accountability,,-0.2381,0.2031,0.4694,0.2731
+model4,std_loading,State_Capacity =~ Q65,,0.4154,0.4036,0.5602,0.4055
+model4,std_loading,State_Capacity =~ Q71,,-0.5077,0.4473,0.8178,0.5534
+model4,std_loading,State_Capacity =~ Q72,,0.7977,0.799,0.8422,0.8003
+model4,std_loading,State_Capacity =~ Q73,,0.8064,0.8767,0.9065,0.8769
+model4,std_loading,Rule_of_Law =~ Q69,,0.8701,0.7756,0.8154,0.7863
+model4,std_loading,Rule_of_Law =~ Q70,,0.7066,0.6557,0.845,0.5555
+model4,std_loading,Democratic_Accountability =~ Q224,,0.8555,0.7163,0.8316,0.7682
+model4,std_loading,Democratic_Accountability =~ Q229,,0.8296,0.6529,0.8045,0.6146

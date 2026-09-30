@@ -1,0 +1,111 @@
+{
+  "consistency_check_against_stage4_archive": {
+    "exact_reproduction": true,
+    "mismatches": [],
+    "n_checked": 240,
+    "n_mismatches": 0
+  },
+  "equal_weight_variant": {
+    "equal_weight_correlation": 0.26428247245115694,
+    "pca_weighted_correlation": 0.13553190850121538
+  },
+  "factor_structure_analysis": {
+    "component_names": [
+      "delegation",
+      "administrative_function",
+      "monitoring",
+      "interpatch_coordination",
+      "performance_legitimacy",
+      "accountability",
+      "bargaining_participation",
+      "procedural_legitimacy"
+    ],
+    "explained_variance_ratio": [
+      0.227869990731941,
+      0.1813425775323019,
+      0.1372896421512917,
+      0.13107277627825561,
+      0.11315571816474426,
+      0.10317622910671925,
+      0.07709229970085778
+    ],
+    "first_two_components_cumulative": 0.4092125682642429,
+    "note": "if PC1 alone explains most variance across ALL 7 components (S-axis and Z-axis members loading similarly on PC1), that favors a common driver over 2 genuinely distinct axes; if S-axis members load mainly on PC1 and Z-axis members mainly on PC2 (or vice versa), that favors 2 distinct axes",
+    "pc1_loadings": [
+      0.18254324001186073,
+      0.05263657549531514,
+      0.1390079130564975,
+      0.02851093831099935,
+      0.6538050347296289,
+      0.24748241025445006,
+      -0.027777841505706686,
+      0.6740112073612153
+    ],
+    "pc2_loadings": [
+      0.6177972156587134,
+      0.4507569908340402,
+      0.008533374992820685,
+      0.39387694671319573,
+      -0.22146789073197906,
+      0.41954377302406115,
+      0.10273676668746626,
+      -0.1559263305531585
+    ]
+  },
+  "leave_one_out_variant": {
+    "full_correlation": 0.26428247245115694,
+    "leave_one_out_correlations": {
+      "accountability": 0.1752791671076567,
+      "administrative_function": 0.30654746664211474,
+      "bargaining_participation": 0.26868168703089196,
+      "delegation": 0.18996096719449726,
+      "interpatch_coordination": 0.29035086316831277,
+      "monitoring": 0.23700493262933375,
+      "performance_legitimacy": 0.2067475738067619,
+      "procedural_legitimacy": 0.2125248920069879
+    },
+    "max_shift_from_full": 0.08900330534350023
+  },
+  "milestone": "level1.3b_work_package_j_stage9_measurement_audit",
+  "n_records": 240,
+  "non_normalized_variant": {
+    "mean_variant_correlation_for_comparison": 0.26428247245115694,
+    "sum_variant_correlation": 0.26428247245115705
+  },
+  "opportunity_denominated_variant": {
+    "opportunity_denominated_correlation": 0.26428247245115705,
+    "opportunity_proxy": "n_patches (held constant at 4 this milestone)"
+  },
+  "partial_correlation_controlling_ecological_stratum": {
+    "partial_correlation": 0.2721945435672353,
+    "strata": [
+      "high_feasibility",
+      "low_feasibility",
+      "medium_feasibility"
+    ]
+  },
+  "raw_correlation": 0.26428247245115694,
+  "redefinition_status": "observer/sz_obs.py was NOT modified by this audit -- every variant above is a side analysis only",
+  "rule": "do not redefine S_obs/Z_obs to manufacture independence; if measurement-induced, correct transparently, version it, preserve both the original and corrected variant",
+  "structural_fact_measurement_overlap": {
+    "note": "zero shared dimensions confirmed by direct inspection of observer/sz_obs.py's own constants",
+    "s_obs_dimensions": [
+      "delegation",
+      "administrative_function",
+      "monitoring",
+      "interpatch_coordination",
+      "performance_legitimacy"
+    ],
+    "shared_dimensions": [],
+    "z_obs_dimensions": [
+      "accountability",
+      "bargaining_participation",
+      "procedural_legitimacy"
+    ]
+  },
+  "within_and_between_point_correlation": {
+    "between_point_correlation": 0.2849874305260333,
+    "n_points": 48,
+    "within_point_correlation": 0.2606174002503612
+  }
+}

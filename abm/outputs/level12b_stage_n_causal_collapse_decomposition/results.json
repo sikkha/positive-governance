@@ -1,0 +1,2580 @@
+{
+  "preregistration_manifest_hash": "f5bd19df912c0653b97d83f98a4685bb6020fc18b33092e2b2e1ecf11c319b77",
+  "n_factors": 13,
+  "n_seeds_per_ablation": 8,
+  "n_total_runs": 208,
+  "recalibration_note": "results here are never fed back into Work Package E's design, Work Package I's manifest, or any other already-frozen artifact -- Section 19's own stop condition, honored as-is",
+  "factor_results": [
+    {
+      "factor": "migration_on_off",
+      "field": "migration_enabled",
+      "low_value": false,
+      "high_value": true,
+      "extra_overrides": {},
+      "n_pairs": 8,
+      "pairs": [
+        {
+          "seed": 21000000,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.2216161379008825,
+            "cumulative_unmet_extraction_demand": 46353.76885920612,
+            "fraction_of_steps_below_one": 0.8642857142857143
+          },
+          "high": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.20116887370140504,
+            "cumulative_unmet_extraction_demand": 35749.04600622393,
+            "fraction_of_steps_below_one": 0.9771428571428571
+          }
+        },
+        {
+          "seed": 21000001,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.004960984743275902,
+            "cumulative_unmet_extraction_demand": 46006.42228667492,
+            "fraction_of_steps_below_one": 0.9885714285714285
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.013439232472248663,
+            "cumulative_unmet_extraction_demand": 42671.014580324365,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          }
+        },
+        {
+          "seed": 21000002,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.21662203409356737,
+            "cumulative_unmet_extraction_demand": 32760.279833371977,
+            "fraction_of_steps_below_one": 0.26285714285714284
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.011133143080848928,
+            "cumulative_unmet_extraction_demand": 37592.95298120952,
+            "fraction_of_steps_below_one": 0.8871428571428571
+          }
+        },
+        {
+          "seed": 21000003,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.22085976621815084,
+            "cumulative_unmet_extraction_demand": 67195.54009538244,
+            "fraction_of_steps_below_one": 0.9871428571428571
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.015396414026607352,
+            "cumulative_unmet_extraction_demand": 54870.1188827,
+            "fraction_of_steps_below_one": 0.9842857142857143
+          }
+        },
+        {
+          "seed": 21000004,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.24511844069777733,
+            "cumulative_unmet_extraction_demand": 37071.05124936761,
+            "fraction_of_steps_below_one": 0.9857142857142858
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.012224717802281702,
+            "cumulative_unmet_extraction_demand": 46473.01317275095,
+            "fraction_of_steps_below_one": 0.9271428571428572
+          }
+        },
+        {
+          "seed": 21000005,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.24342578767097683,
+            "cumulative_unmet_extraction_demand": 39848.3118256215,
+            "fraction_of_steps_below_one": 0.9942857142857143
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.022550260583400452,
+            "cumulative_unmet_extraction_demand": 66368.65533425342,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          }
+        },
+        {
+          "seed": 21000006,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.013639652468254422,
+            "cumulative_unmet_extraction_demand": 36038.81279544635,
+            "fraction_of_steps_below_one": 0.7757142857142857
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.018525020537510418,
+            "cumulative_unmet_extraction_demand": 34658.34688877361,
+            "fraction_of_steps_below_one": 0.8171428571428572
+          }
+        },
+        {
+          "seed": 21000007,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.01582522416199606,
+            "cumulative_unmet_extraction_demand": 42131.791627513885,
+            "fraction_of_steps_below_one": 0.9814285714285714
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.011181379233122579,
+            "cumulative_unmet_extraction_demand": 42112.65114405535,
+            "fraction_of_steps_below_one": 0.9685714285714285
+          }
+        }
+      ],
+      "n_outcome_label_transitions": 4,
+      "summary": {
+        "ecological_resource_fraction": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -0.10955612331468202,
+          "n_high_greater": 2,
+          "n_low_greater": 6,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 5.0,
+            "p_value": 0.078125,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "cumulative_unmet_extraction_demand": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 1636.2275522132932,
+          "n_high_greater": 3,
+          "n_low_greater": 5,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 17.0,
+            "p_value": 0.9453125,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "fraction_of_steps_below_one": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 0.08839285714285715,
+          "n_high_greater": 4,
+          "n_low_greater": 4,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 13.0,
+            "p_value": 0.546875,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "collapse_probability": {
+          "low": 0.375,
+          "high": 0.875
+        },
+        "fragmentation_probability": {
+          "low": 0.625,
+          "high": 0.125
+        },
+        "sustained_system_probability": {
+          "low": 1.0,
+          "high": 1.0
+        }
+      }
+    },
+    {
+      "factor": "migration_rate",
+      "field": "migration_propensity_mean",
+      "low_value": 0.05,
+      "high_value": 0.4,
+      "extra_overrides": {
+        "migration_enabled": true
+      },
+      "n_pairs": 8,
+      "pairs": [
+        {
+          "seed": 21000100,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.024577359146383395,
+            "cumulative_unmet_extraction_demand": 46186.50475870417,
+            "fraction_of_steps_below_one": 0.9814285714285714
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.014215855813156077,
+            "cumulative_unmet_extraction_demand": 32889.466088966234,
+            "fraction_of_steps_below_one": 0.6985714285714286
+          }
+        },
+        {
+          "seed": 21000101,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.008657958651984746,
+            "cumulative_unmet_extraction_demand": 53282.179514585885,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.008141750474045646,
+            "cumulative_unmet_extraction_demand": 52424.90950192796,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          }
+        },
+        {
+          "seed": 21000102,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.0063863830542331265,
+            "cumulative_unmet_extraction_demand": 44847.23871455231,
+            "fraction_of_steps_below_one": 0.9942857142857143
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.007450514912037511,
+            "cumulative_unmet_extraction_demand": 47872.72943782512,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          }
+        },
+        {
+          "seed": 21000103,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.008924342582876617,
+            "cumulative_unmet_extraction_demand": 61002.59588201744,
+            "fraction_of_steps_below_one": 0.9942857142857143
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.004963639035743526,
+            "cumulative_unmet_extraction_demand": 68611.51927864106,
+            "fraction_of_steps_below_one": 0.99
+          }
+        },
+        {
+          "seed": 21000104,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.016936503483006946,
+            "cumulative_unmet_extraction_demand": 43360.75454638119,
+            "fraction_of_steps_below_one": 0.9271428571428572
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.009104778602776177,
+            "cumulative_unmet_extraction_demand": 40350.974601942435,
+            "fraction_of_steps_below_one": 0.9171428571428571
+          }
+        },
+        {
+          "seed": 21000105,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.2391266263754492,
+            "cumulative_unmet_extraction_demand": 31789.645363349595,
+            "fraction_of_steps_below_one": 0.8085714285714286
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.013248423212679114,
+            "cumulative_unmet_extraction_demand": 26958.488965549142,
+            "fraction_of_steps_below_one": 0.8842857142857142
+          }
+        },
+        {
+          "seed": 21000106,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.013293559383168728,
+            "cumulative_unmet_extraction_demand": 52797.649403601565,
+            "fraction_of_steps_below_one": 0.9471428571428572
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.01001932437165572,
+            "cumulative_unmet_extraction_demand": 52974.82785536607,
+            "fraction_of_steps_below_one": 0.9885714285714285
+          }
+        },
+        {
+          "seed": 21000107,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.00837831078096904,
+            "cumulative_unmet_extraction_demand": 71822.03263769674,
+            "fraction_of_steps_below_one": 0.99
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.0030558993394152034,
+            "cumulative_unmet_extraction_demand": 71055.97241567328,
+            "fraction_of_steps_below_one": 0.9942857142857143
+          }
+        }
+      ],
+      "n_outcome_label_transitions": 1,
+      "summary": {
+        "ecological_resource_fraction": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -0.03201010721207036,
+          "n_high_greater": 1,
+          "n_low_greater": 7,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 2.0,
+            "p_value": 0.0234375,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "cumulative_unmet_extraction_demand": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -1493.7140843746988,
+          "n_high_greater": 3,
+          "n_low_greater": 5,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 13.0,
+            "p_value": 0.546875,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "fraction_of_steps_below_one": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -0.02214285714285716,
+          "n_high_greater": 3,
+          "n_low_greater": 4,
+          "n_tied": 1,
+          "wilcoxon_signed_rank": {
+            "statistic": 13.5,
+            "p_value": 0.984375,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "collapse_probability": {
+          "low": 0.875,
+          "high": 1.0
+        },
+        "fragmentation_probability": {
+          "low": 0.125,
+          "high": 0.0
+        },
+        "sustained_system_probability": {
+          "low": 1.0,
+          "high": 1.0
+        }
+      }
+    },
+    {
+      "factor": "migration_cost",
+      "field": "migration_cost",
+      "low_value": 0.0,
+      "high_value": 4.0,
+      "extra_overrides": {
+        "migration_enabled": true
+      },
+      "n_pairs": 8,
+      "pairs": [
+        {
+          "seed": 21000200,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.017043701918891624,
+            "cumulative_unmet_extraction_demand": 74381.13791914826,
+            "fraction_of_steps_below_one": 0.9828571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.01821072784872589,
+            "cumulative_unmet_extraction_demand": 63812.95359299117,
+            "fraction_of_steps_below_one": 0.9828571428571429
+          }
+        },
+        {
+          "seed": 21000201,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.021841662067329525,
+            "cumulative_unmet_extraction_demand": 35822.041278752855,
+            "fraction_of_steps_below_one": 0.48
+          },
+          "high": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.19998629286200417,
+            "cumulative_unmet_extraction_demand": 34684.16798907902,
+            "fraction_of_steps_below_one": 0.7942857142857143
+          }
+        },
+        {
+          "seed": 21000202,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.004746437492778446,
+            "cumulative_unmet_extraction_demand": 62318.44940859278,
+            "fraction_of_steps_below_one": 0.9828571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.014331330026861301,
+            "cumulative_unmet_extraction_demand": 69076.36606492123,
+            "fraction_of_steps_below_one": 0.9828571428571429
+          }
+        },
+        {
+          "seed": 21000203,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.015409532211359768,
+            "cumulative_unmet_extraction_demand": 38035.258527118574,
+            "fraction_of_steps_below_one": 0.9214285714285714
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.008443183939271497,
+            "cumulative_unmet_extraction_demand": 29546.28245206951,
+            "fraction_of_steps_below_one": 0.6614285714285715
+          }
+        },
+        {
+          "seed": 21000204,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.018086753485792726,
+            "cumulative_unmet_extraction_demand": 42614.56749044074,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.018252917958364905,
+            "cumulative_unmet_extraction_demand": 41038.65827623543,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          }
+        },
+        {
+          "seed": 21000205,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.2650243516373191,
+            "cumulative_unmet_extraction_demand": 54236.434835037195,
+            "fraction_of_steps_below_one": 0.9585714285714285
+          },
+          "high": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.22433383363088838,
+            "cumulative_unmet_extraction_demand": 63622.037465441615,
+            "fraction_of_steps_below_one": 0.9257142857142857
+          }
+        },
+        {
+          "seed": 21000206,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.055297875399983834,
+            "cumulative_unmet_extraction_demand": 62637.61594524461,
+            "fraction_of_steps_below_one": 0.98
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.01717711843346149,
+            "cumulative_unmet_extraction_demand": 55867.38285698428,
+            "fraction_of_steps_below_one": 0.91
+          }
+        },
+        {
+          "seed": 21000207,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.00852513989064245,
+            "cumulative_unmet_extraction_demand": 41050.18293299506,
+            "fraction_of_steps_below_one": 0.9885714285714285
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.0173881575847516,
+            "cumulative_unmet_extraction_demand": 41012.152184587525,
+            "fraction_of_steps_below_one": 0.93
+          }
+        }
+      ],
+      "n_outcome_label_transitions": 2,
+      "summary": {
+        "ecological_resource_fraction": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 0.014018513522528973,
+          "n_high_greater": 5,
+          "n_low_greater": 3,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 16.0,
+            "p_value": 0.84375,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "cumulative_unmet_extraction_demand": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -1554.460931877537,
+          "n_high_greater": 2,
+          "n_low_greater": 6,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 11.0,
+            "p_value": 0.3828125,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "fraction_of_steps_below_one": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -0.01339285714285711,
+          "n_high_greater": 1,
+          "n_low_greater": 4,
+          "n_tied": 3,
+          "wilcoxon_signed_rank": {
+            "statistic": 5.0,
+            "p_value": 0.625,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "collapse_probability": {
+          "low": 0.75,
+          "high": 0.75
+        },
+        "fragmentation_probability": {
+          "low": 0.25,
+          "high": 0.25
+        },
+        "sustained_system_probability": {
+          "low": 1.0,
+          "high": 1.0
+        }
+      }
+    },
+    {
+      "factor": "migration_congestion",
+      "field": "migration_capacity_per_patch",
+      "low_value": null,
+      "high_value": 2,
+      "extra_overrides": {
+        "migration_enabled": true
+      },
+      "n_pairs": 8,
+      "pairs": [
+        {
+          "seed": 21000300,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.010090518867923694,
+            "cumulative_unmet_extraction_demand": 64166.14633532852,
+            "fraction_of_steps_below_one": 0.9557142857142857
+          },
+          "high": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.22285955596787468,
+            "cumulative_unmet_extraction_demand": 58683.03882129751,
+            "fraction_of_steps_below_one": 0.9557142857142857
+          }
+        },
+        {
+          "seed": 21000301,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.004750592459262433,
+            "cumulative_unmet_extraction_demand": 44476.17537451433,
+            "fraction_of_steps_below_one": 0.9257142857142857
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.009332190713978079,
+            "cumulative_unmet_extraction_demand": 45481.67399632191,
+            "fraction_of_steps_below_one": 0.9771428571428571
+          }
+        },
+        {
+          "seed": 21000302,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.010553465988018509,
+            "cumulative_unmet_extraction_demand": 51985.416124882046,
+            "fraction_of_steps_below_one": 0.9071428571428571
+          },
+          "high": {
+            "all_outcome_label": "viable",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.45432824956327017,
+            "cumulative_unmet_extraction_demand": 45684.269131861416,
+            "fraction_of_steps_below_one": 0.5085714285714286
+          }
+        },
+        {
+          "seed": 21000303,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.010996803076991106,
+            "cumulative_unmet_extraction_demand": 62748.623442490614,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.015339972346372601,
+            "cumulative_unmet_extraction_demand": 66513.75683199866,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          }
+        },
+        {
+          "seed": 21000304,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.01057045291602633,
+            "cumulative_unmet_extraction_demand": 48088.07379856046,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.006556960462092753,
+            "cumulative_unmet_extraction_demand": 47878.74864164373,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          }
+        },
+        {
+          "seed": 21000305,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.006665116253775888,
+            "cumulative_unmet_extraction_demand": 53056.157191922626,
+            "fraction_of_steps_below_one": 0.9385714285714286
+          },
+          "high": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.25175263160250844,
+            "cumulative_unmet_extraction_demand": 63682.05621819767,
+            "fraction_of_steps_below_one": 0.9842857142857143
+          }
+        },
+        {
+          "seed": 21000306,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.004730659313153868,
+            "cumulative_unmet_extraction_demand": 56885.21412053158,
+            "fraction_of_steps_below_one": 0.97
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.021732319529853123,
+            "cumulative_unmet_extraction_demand": 49615.902863895935,
+            "fraction_of_steps_below_one": 0.9271428571428572
+          }
+        },
+        {
+          "seed": 21000307,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.007865226190006456,
+            "cumulative_unmet_extraction_demand": 58156.55180019677,
+            "fraction_of_steps_below_one": 0.9871428571428571
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.02276404721822945,
+            "cumulative_unmet_extraction_demand": 62402.90954969,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          }
+        }
+      ],
+      "n_outcome_label_transitions": 3,
+      "summary": {
+        "ecological_resource_fraction": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 0.11730538654237763,
+          "n_high_greater": 7,
+          "n_low_greater": 1,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 1.0,
+            "p_value": 0.015625,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "cumulative_unmet_extraction_demand": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 47.49973330998546,
+          "n_high_greater": 4,
+          "n_low_greater": 4,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 17.0,
+            "p_value": 0.9453125,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "fraction_of_steps_below_one": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -0.042321428571428565,
+          "n_high_greater": 3,
+          "n_low_greater": 2,
+          "n_tied": 3,
+          "wilcoxon_signed_rank": {
+            "statistic": 7.0,
+            "p_value": 1.0,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "collapse_probability": {
+          "low": 1.0,
+          "high": 0.625
+        },
+        "fragmentation_probability": {
+          "low": 0.0,
+          "high": 0.25
+        },
+        "sustained_system_probability": {
+          "low": 1.0,
+          "high": 1.0
+        }
+      }
+    },
+    {
+      "factor": "patch_regen",
+      "field": "patch_regen_rate",
+      "low_value": 0.2,
+      "high_value": 1.0,
+      "extra_overrides": {},
+      "n_pairs": 8,
+      "pairs": [
+        {
+          "seed": 21000400,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.013895287844233375,
+            "cumulative_unmet_extraction_demand": 27584.188201141038,
+            "fraction_of_steps_below_one": 0.9985714285714286
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.04357553756342806,
+            "cumulative_unmet_extraction_demand": 45043.20761513858,
+            "fraction_of_steps_below_one": 0.6471428571428571
+          }
+        },
+        {
+          "seed": 21000401,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.0013029064811553217,
+            "cumulative_unmet_extraction_demand": 48895.66845437236,
+            "fraction_of_steps_below_one": 0.9985714285714286
+          },
+          "high": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.2826533667284519,
+            "cumulative_unmet_extraction_demand": 66419.33356403615,
+            "fraction_of_steps_below_one": 0.7828571428571428
+          }
+        },
+        {
+          "seed": 21000402,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.011134717481581709,
+            "cumulative_unmet_extraction_demand": 59995.35238628938,
+            "fraction_of_steps_below_one": 0.9985714285714286
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.01660497691650906,
+            "cumulative_unmet_extraction_demand": 36561.33385145196,
+            "fraction_of_steps_below_one": 0.2842857142857143
+          }
+        },
+        {
+          "seed": 21000403,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.008928329610828106,
+            "cumulative_unmet_extraction_demand": 45597.466723047604,
+            "fraction_of_steps_below_one": 0.9985714285714286
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.036228678664889616,
+            "cumulative_unmet_extraction_demand": 29357.955988022935,
+            "fraction_of_steps_below_one": 0.10142857142857142
+          }
+        },
+        {
+          "seed": 21000404,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.011865926678097537,
+            "cumulative_unmet_extraction_demand": 62937.0666468578,
+            "fraction_of_steps_below_one": 0.9985714285714286
+          },
+          "high": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.2685930935230549,
+            "cumulative_unmet_extraction_demand": 59667.36646536106,
+            "fraction_of_steps_below_one": 0.6471428571428571
+          }
+        },
+        {
+          "seed": 21000405,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.0035563009022891367,
+            "cumulative_unmet_extraction_demand": 37217.947627793954,
+            "fraction_of_steps_below_one": 0.9985714285714286
+          },
+          "high": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.22854702409320904,
+            "cumulative_unmet_extraction_demand": 12884.759682928605,
+            "fraction_of_steps_below_one": 0.0014285714285714286
+          }
+        },
+        {
+          "seed": 21000406,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.012288834302092525,
+            "cumulative_unmet_extraction_demand": 70123.35264145302,
+            "fraction_of_steps_below_one": 1.0
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.004538343926468488,
+            "cumulative_unmet_extraction_demand": 67245.05968826525,
+            "fraction_of_steps_below_one": 0.7942857142857143
+          }
+        },
+        {
+          "seed": 21000407,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.011123859311818125,
+            "cumulative_unmet_extraction_demand": 59905.040843918665,
+            "fraction_of_steps_below_one": 0.9985714285714286
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.009307295374969915,
+            "cumulative_unmet_extraction_demand": 63105.71441889038,
+            "fraction_of_steps_below_one": 0.8285714285714286
+          }
+        }
+      ],
+      "n_outcome_label_transitions": 3,
+      "summary": {
+        "ecological_resource_fraction": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 0.10199401927236064,
+          "n_high_greater": 6,
+          "n_low_greater": 2,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 4.0,
+            "p_value": 0.0546875,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "cumulative_unmet_extraction_demand": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -3996.4190313473637,
+          "n_high_greater": 3,
+          "n_low_greater": 5,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 13.0,
+            "p_value": 0.546875,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "fraction_of_steps_below_one": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -0.48785714285714277,
+          "n_high_greater": 0,
+          "n_low_greater": 8,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 0.0,
+            "p_value": 0.0078125,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "collapse_probability": {
+          "low": 1.0,
+          "high": 0.625
+        },
+        "fragmentation_probability": {
+          "low": 0.0,
+          "high": 0.375
+        },
+        "sustained_system_probability": {
+          "low": 1.0,
+          "high": 1.0
+        }
+      }
+    },
+    {
+      "factor": "capacity",
+      "field": "patch_capacity",
+      "low_value": 200.0,
+      "high_value": 1000.0,
+      "extra_overrides": {},
+      "n_pairs": 8,
+      "pairs": [
+        {
+          "seed": 21000500,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.02656068037223374,
+            "cumulative_unmet_extraction_demand": 59276.58560145209,
+            "fraction_of_steps_below_one": 1.0
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.006062867318782225,
+            "cumulative_unmet_extraction_demand": 74115.2241011283,
+            "fraction_of_steps_below_one": 0.8714285714285714
+          }
+        },
+        {
+          "seed": 21000501,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.03631876600611311,
+            "cumulative_unmet_extraction_demand": 59920.91997095742,
+            "fraction_of_steps_below_one": 1.0
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.006285005045547004,
+            "cumulative_unmet_extraction_demand": 57424.40165712473,
+            "fraction_of_steps_below_one": 0.8185714285714286
+          }
+        },
+        {
+          "seed": 21000502,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.021852923281349933,
+            "cumulative_unmet_extraction_demand": 44802.74053843168,
+            "fraction_of_steps_below_one": 1.0
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.00853580424902086,
+            "cumulative_unmet_extraction_demand": 42222.87152270239,
+            "fraction_of_steps_below_one": 0.54
+          }
+        },
+        {
+          "seed": 21000503,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.04007192369894353,
+            "cumulative_unmet_extraction_demand": 31117.37437949334,
+            "fraction_of_steps_below_one": 1.0
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.009939197780195978,
+            "cumulative_unmet_extraction_demand": 36399.80531882889,
+            "fraction_of_steps_below_one": 0.61
+          }
+        },
+        {
+          "seed": 21000504,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.022708574658958078,
+            "cumulative_unmet_extraction_demand": 55919.55220463254,
+            "fraction_of_steps_below_one": 1.0
+          },
+          "high": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.25477728865515514,
+            "cumulative_unmet_extraction_demand": 53080.47349737409,
+            "fraction_of_steps_below_one": 0.8214285714285714
+          }
+        },
+        {
+          "seed": 21000505,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.05346262452169701,
+            "cumulative_unmet_extraction_demand": 38576.567572684224,
+            "fraction_of_steps_below_one": 1.0
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.0,
+            "cumulative_unmet_extraction_demand": 50363.46852187722,
+            "fraction_of_steps_below_one": 0.6685714285714286
+          }
+        },
+        {
+          "seed": 21000506,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.02729635093183794,
+            "cumulative_unmet_extraction_demand": 46710.63862242373,
+            "fraction_of_steps_below_one": 1.0
+          },
+          "high": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.2598619112667102,
+            "cumulative_unmet_extraction_demand": 55200.020937585374,
+            "fraction_of_steps_below_one": 0.6085714285714285
+          }
+        },
+        {
+          "seed": 21000507,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.041588542631262604,
+            "cumulative_unmet_extraction_demand": 39122.59346257161,
+            "fraction_of_steps_below_one": 1.0
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.012066387431458901,
+            "cumulative_unmet_extraction_demand": 74315.56959330554,
+            "fraction_of_steps_below_one": 0.8171428571428572
+          }
+        }
+      ],
+      "n_outcome_label_transitions": 3,
+      "summary": {
+        "ecological_resource_fraction": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 0.0359585094555593,
+          "n_high_greater": 2,
+          "n_low_greater": 6,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 15.0,
+            "p_value": 0.7421875,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "cumulative_unmet_extraction_demand": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 8459.357849659988,
+          "n_high_greater": 5,
+          "n_low_greater": 3,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 6.0,
+            "p_value": 0.109375,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "fraction_of_steps_below_one": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -0.2805357142857143,
+          "n_high_greater": 0,
+          "n_low_greater": 8,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 0.0,
+            "p_value": 0.0078125,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "collapse_probability": {
+          "low": 0.875,
+          "high": 0.75
+        },
+        "fragmentation_probability": {
+          "low": 0.125,
+          "high": 0.25
+        },
+        "sustained_system_probability": {
+          "low": 1.0,
+          "high": 1.0
+        }
+      }
+    },
+    {
+      "factor": "extraction_unit",
+      "field": "ecological_harvest_unit",
+      "low_value": 2.0,
+      "high_value": 10.0,
+      "extra_overrides": {},
+      "n_pairs": 8,
+      "pairs": [
+        {
+          "seed": 21000600,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.0046441200996828426,
+            "cumulative_unmet_extraction_demand": 21486.69403629332,
+            "fraction_of_steps_below_one": 0.9528571428571428
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.010066329181462792,
+            "cumulative_unmet_extraction_demand": 71100.02317605079,
+            "fraction_of_steps_below_one": 0.9971428571428571
+          }
+        },
+        {
+          "seed": 21000601,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.013970016293267903,
+            "cumulative_unmet_extraction_demand": 20427.236823871517,
+            "fraction_of_steps_below_one": 0.7871428571428571
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.015583031657764475,
+            "cumulative_unmet_extraction_demand": 135591.6180425658,
+            "fraction_of_steps_below_one": 0.99
+          }
+        },
+        {
+          "seed": 21000602,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.013258977216603487,
+            "cumulative_unmet_extraction_demand": 19770.529029359906,
+            "fraction_of_steps_below_one": 0.5171428571428571
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.00969404641549994,
+            "cumulative_unmet_extraction_demand": 77409.3018025085,
+            "fraction_of_steps_below_one": 0.9971428571428571
+          }
+        },
+        {
+          "seed": 21000603,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.01818425564657006,
+            "cumulative_unmet_extraction_demand": 23941.09790629707,
+            "fraction_of_steps_below_one": 0.7814285714285715
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.016087040520889495,
+            "cumulative_unmet_extraction_demand": 113206.05972098562,
+            "fraction_of_steps_below_one": 0.9985714285714286
+          }
+        },
+        {
+          "seed": 21000604,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.18005338303855611,
+            "cumulative_unmet_extraction_demand": 24018.660762833468,
+            "fraction_of_steps_below_one": 0.5971428571428572
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.005098317289098378,
+            "cumulative_unmet_extraction_demand": 109290.50175843785,
+            "fraction_of_steps_below_one": 0.9985714285714286
+          }
+        },
+        {
+          "seed": 21000605,
+          "low": {
+            "all_outcome_label": "viable",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.4840241039373187,
+            "cumulative_unmet_extraction_demand": 26407.19198597027,
+            "fraction_of_steps_below_one": 0.0
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.0032894413903073235,
+            "cumulative_unmet_extraction_demand": 137444.3717233706,
+            "fraction_of_steps_below_one": 0.9885714285714285
+          }
+        },
+        {
+          "seed": 21000606,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.01297198367068914,
+            "cumulative_unmet_extraction_demand": 27815.50019373862,
+            "fraction_of_steps_below_one": 0.9828571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.010851583683955337,
+            "cumulative_unmet_extraction_demand": 110309.74976741822,
+            "fraction_of_steps_below_one": 0.9971428571428571
+          }
+        },
+        {
+          "seed": 21000607,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.014320889199581088,
+            "cumulative_unmet_extraction_demand": 27914.1093212276,
+            "fraction_of_steps_below_one": 0.5785714285714286
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.03113702307350351,
+            "cumulative_unmet_extraction_demand": 83646.7683505641,
+            "fraction_of_steps_below_one": 0.9971428571428571
+          }
+        }
+      ],
+      "n_outcome_label_transitions": 2,
+      "summary": {
+        "ecological_resource_fraction": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -0.07995261448622351,
+          "n_high_greater": 3,
+          "n_low_greater": 5,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 12.0,
+            "p_value": 0.4609375,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "cumulative_unmet_extraction_demand": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 80777.17178528872,
+          "n_high_greater": 8,
+          "n_low_greater": 0,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 0.0,
+            "p_value": 0.0078125,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "fraction_of_steps_below_one": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 0.3458928571428571,
+          "n_high_greater": 8,
+          "n_low_greater": 0,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 0.0,
+            "p_value": 0.0078125,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "collapse_probability": {
+          "low": 0.75,
+          "high": 1.0
+        },
+        "fragmentation_probability": {
+          "low": 0.125,
+          "high": 0.0
+        },
+        "sustained_system_probability": {
+          "low": 1.0,
+          "high": 1.0
+        }
+      }
+    },
+    {
+      "factor": "subsistence",
+      "field": "subsistence_cost",
+      "low_value": 0.1,
+      "high_value": 0.6,
+      "extra_overrides": {},
+      "n_pairs": 8,
+      "pairs": [
+        {
+          "seed": 21000700,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.014092007205061917,
+            "cumulative_unmet_extraction_demand": 55246.259228856434,
+            "fraction_of_steps_below_one": 0.9685714285714285
+          },
+          "high": {
+            "all_outcome_label": "viable",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.9203363640561584,
+            "cumulative_unmet_extraction_demand": 33391.420818503764,
+            "fraction_of_steps_below_one": 0.5571428571428572
+          }
+        },
+        {
+          "seed": 21000701,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.018949577652637214,
+            "cumulative_unmet_extraction_demand": 46058.91629853986,
+            "fraction_of_steps_below_one": 0.99
+          },
+          "high": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.27038380879029705,
+            "cumulative_unmet_extraction_demand": 52816.92093860584,
+            "fraction_of_steps_below_one": 0.9942857142857143
+          }
+        },
+        {
+          "seed": 21000702,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.023649116813671253,
+            "cumulative_unmet_extraction_demand": 63412.7483518972,
+            "fraction_of_steps_below_one": 0.9842857142857143
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.002672069840242819,
+            "cumulative_unmet_extraction_demand": 67492.68704596214,
+            "fraction_of_steps_below_one": 0.9914285714285714
+          }
+        },
+        {
+          "seed": 21000703,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 5.41315204109146e-05,
+            "cumulative_unmet_extraction_demand": 43631.73832141876,
+            "fraction_of_steps_below_one": 0.9842857142857143
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.01650689824083452,
+            "cumulative_unmet_extraction_demand": 55449.53832914937,
+            "fraction_of_steps_below_one": 0.9842857142857143
+          }
+        },
+        {
+          "seed": 21000704,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.029600154070756154,
+            "cumulative_unmet_extraction_demand": 38581.587193979256,
+            "fraction_of_steps_below_one": 0.9685714285714285
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.038486676820605706,
+            "cumulative_unmet_extraction_demand": 47949.04565723878,
+            "fraction_of_steps_below_one": 0.9885714285714285
+          }
+        },
+        {
+          "seed": 21000705,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.01572668340277886,
+            "cumulative_unmet_extraction_demand": 46276.28894140225,
+            "fraction_of_steps_below_one": 0.9914285714285714
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.011692548884818186,
+            "cumulative_unmet_extraction_demand": 47699.48097213429,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          }
+        },
+        {
+          "seed": 21000706,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.015291750228567345,
+            "cumulative_unmet_extraction_demand": 43245.76385457454,
+            "fraction_of_steps_below_one": 0.9628571428571429
+          },
+          "high": {
+            "all_outcome_label": "viable",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.44307119573509135,
+            "cumulative_unmet_extraction_demand": 31617.55965484155,
+            "fraction_of_steps_below_one": 0.9128571428571428
+          }
+        },
+        {
+          "seed": 21000707,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.008529539394252094,
+            "cumulative_unmet_extraction_demand": 44355.957091330725,
+            "fraction_of_steps_below_one": 0.9757142857142858
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.009945586107010265,
+            "cumulative_unmet_extraction_demand": 61089.46102654939,
+            "fraction_of_steps_below_one": 0.9842857142857143
+          }
+        }
+      ],
+      "n_outcome_label_transitions": 3,
+      "summary": {
+        "ecological_resource_fraction": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 0.1984002735233653,
+          "n_high_greater": 6,
+          "n_low_greater": 2,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 7.0,
+            "p_value": 0.1484375,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "cumulative_unmet_extraction_demand": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 2087.106895123263,
+          "n_high_greater": 6,
+          "n_low_greater": 2,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 13.0,
+            "p_value": 0.546875,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "fraction_of_steps_below_one": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -0.05249999999999999,
+          "n_high_greater": 5,
+          "n_low_greater": 2,
+          "n_tied": 1,
+          "wilcoxon_signed_rank": {
+            "statistic": 13.0,
+            "p_value": 0.9375,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "collapse_probability": {
+          "low": 1.0,
+          "high": 0.625
+        },
+        "fragmentation_probability": {
+          "low": 0.0,
+          "high": 0.125
+        },
+        "sustained_system_probability": {
+          "low": 1.0,
+          "high": 1.0
+        }
+      }
+    },
+    {
+      "factor": "maintenance_efficiency",
+      "field": "maintenance_efficiency",
+      "low_value": 0.3,
+      "high_value": 1.0,
+      "extra_overrides": {},
+      "n_pairs": 8,
+      "pairs": [
+        {
+          "seed": 21000800,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.1894036974674166,
+            "cumulative_unmet_extraction_demand": 30843.260012428793,
+            "fraction_of_steps_below_one": 0.5228571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.011738550117403846,
+            "cumulative_unmet_extraction_demand": 43757.78698746373,
+            "fraction_of_steps_below_one": 0.9271428571428572
+          }
+        },
+        {
+          "seed": 21000801,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.005694056239274445,
+            "cumulative_unmet_extraction_demand": 38871.958530613796,
+            "fraction_of_steps_below_one": 0.9842857142857143
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.016562603515392852,
+            "cumulative_unmet_extraction_demand": 39375.88169213822,
+            "fraction_of_steps_below_one": 0.8828571428571429
+          }
+        },
+        {
+          "seed": 21000802,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.006012712649005164,
+            "cumulative_unmet_extraction_demand": 42116.65503390801,
+            "fraction_of_steps_below_one": 0.9914285714285714
+          },
+          "high": {
+            "all_outcome_label": "viable",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.6587780582508537,
+            "cumulative_unmet_extraction_demand": 35224.53183506428,
+            "fraction_of_steps_below_one": 0.7514285714285714
+          }
+        },
+        {
+          "seed": 21000803,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.0003039453641825199,
+            "cumulative_unmet_extraction_demand": 35173.34908062162,
+            "fraction_of_steps_below_one": 0.9942857142857143
+          },
+          "high": {
+            "all_outcome_label": "viable",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.9055206381792822,
+            "cumulative_unmet_extraction_demand": 19421.75359537113,
+            "fraction_of_steps_below_one": 0.4714285714285714
+          }
+        },
+        {
+          "seed": 21000804,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.21889921930061743,
+            "cumulative_unmet_extraction_demand": 39537.36792766492,
+            "fraction_of_steps_below_one": 0.9785714285714285
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.03789564457614711,
+            "cumulative_unmet_extraction_demand": 40529.032974409645,
+            "fraction_of_steps_below_one": 0.6585714285714286
+          }
+        },
+        {
+          "seed": 21000805,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.22927579604872342,
+            "cumulative_unmet_extraction_demand": 34928.86771981586,
+            "fraction_of_steps_below_one": 0.9828571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.01581416136465919,
+            "cumulative_unmet_extraction_demand": 44872.19615665605,
+            "fraction_of_steps_below_one": 0.9642857142857143
+          }
+        },
+        {
+          "seed": 21000806,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.005484451220125197,
+            "cumulative_unmet_extraction_demand": 39800.31848507612,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.02029262855151162,
+            "cumulative_unmet_extraction_demand": 39302.35192839638,
+            "fraction_of_steps_below_one": 0.9785714285714285
+          }
+        },
+        {
+          "seed": 21000807,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.22214007727698534,
+            "cumulative_unmet_extraction_demand": 42629.93284962807,
+            "fraction_of_steps_below_one": 0.99
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.018322827410752793,
+            "cumulative_unmet_extraction_demand": 39509.790281845904,
+            "fraction_of_steps_below_one": 0.9185714285714286
+          }
+        }
+      ],
+      "n_outcome_label_transitions": 6,
+      "summary": {
+        "ecological_resource_fraction": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 0.10096389454995919,
+          "n_high_greater": 4,
+          "n_low_greater": 4,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 18.0,
+            "p_value": 1.0,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "cumulative_unmet_extraction_demand": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -238.54802355148195,
+          "n_high_greater": 4,
+          "n_low_greater": 4,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 18.0,
+            "p_value": 1.0,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "fraction_of_steps_below_one": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -0.11053571428571429,
+          "n_high_greater": 1,
+          "n_low_greater": 7,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 7.0,
+            "p_value": 0.1484375,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "collapse_probability": {
+          "low": 0.5,
+          "high": 0.75
+        },
+        "fragmentation_probability": {
+          "low": 0.5,
+          "high": 0.0
+        },
+        "sustained_system_probability": {
+          "low": 1.0,
+          "high": 1.0
+        }
+      }
+    },
+    {
+      "factor": "admin_cost",
+      "field": "delegation_task_cost",
+      "low_value": 0.0,
+      "high_value": 0.2,
+      "extra_overrides": {},
+      "n_pairs": 8,
+      "pairs": [
+        {
+          "seed": 21000900,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.01254958866910882,
+            "cumulative_unmet_extraction_demand": 41119.26282112518,
+            "fraction_of_steps_below_one": 0.8914285714285715
+          },
+          "high": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.19749142852806997,
+            "cumulative_unmet_extraction_demand": 37547.68865758209,
+            "fraction_of_steps_below_one": 0.8857142857142857
+          }
+        },
+        {
+          "seed": 21000901,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.23381911584785148,
+            "cumulative_unmet_extraction_demand": 28803.717045874164,
+            "fraction_of_steps_below_one": 0.28285714285714286
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.02260680263988242,
+            "cumulative_unmet_extraction_demand": 32630.380043480403,
+            "fraction_of_steps_below_one": 0.7071428571428572
+          }
+        },
+        {
+          "seed": 21000902,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.0026783029948677203,
+            "cumulative_unmet_extraction_demand": 49823.17719367769,
+            "fraction_of_steps_below_one": 0.9842857142857143
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.012622852489257525,
+            "cumulative_unmet_extraction_demand": 53492.774314582246,
+            "fraction_of_steps_below_one": 0.9842857142857143
+          }
+        },
+        {
+          "seed": 21000903,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.00593704316496283,
+            "cumulative_unmet_extraction_demand": 44222.326348020986,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.011763826945532732,
+            "cumulative_unmet_extraction_demand": 43142.290367412505,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          }
+        },
+        {
+          "seed": 21000904,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.010832047242820213,
+            "cumulative_unmet_extraction_demand": 63866.98892048447,
+            "fraction_of_steps_below_one": 0.99
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.004683409457838841,
+            "cumulative_unmet_extraction_demand": 65775.47484137009,
+            "fraction_of_steps_below_one": 0.99
+          }
+        },
+        {
+          "seed": 21000905,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.24174919507085627,
+            "cumulative_unmet_extraction_demand": 21082.72318273962,
+            "fraction_of_steps_below_one": 0.8242857142857143
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.005184560561012026,
+            "cumulative_unmet_extraction_demand": 27782.501221741997,
+            "fraction_of_steps_below_one": 0.8714285714285714
+          }
+        },
+        {
+          "seed": 21000906,
+          "low": {
+            "all_outcome_label": "viable",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.4488047034543241,
+            "cumulative_unmet_extraction_demand": 36407.49292735251,
+            "fraction_of_steps_below_one": 0.5357142857142857
+          },
+          "high": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.22624940352443038,
+            "cumulative_unmet_extraction_demand": 38103.93313748289,
+            "fraction_of_steps_below_one": 0.9157142857142857
+          }
+        },
+        {
+          "seed": 21000907,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.015235291086430122,
+            "cumulative_unmet_extraction_demand": 56294.88102669586,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.005524829356667487,
+            "cumulative_unmet_extraction_demand": 57902.202823452884,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          }
+        }
+      ],
+      "n_outcome_label_transitions": 4,
+      "summary": {
+        "ecological_resource_fraction": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -0.06068477175356628,
+          "n_high_greater": 3,
+          "n_low_greater": 5,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 10.0,
+            "p_value": 0.3125,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "cumulative_unmet_extraction_demand": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 1844.5844926418267,
+          "n_high_greater": 6,
+          "n_low_greater": 2,
+          "n_tied": 0,
+          "wilcoxon_signed_rank": {
+            "statistic": 6.0,
+            "p_value": 0.109375,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "fraction_of_steps_below_one": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 0.1057142857142857,
+          "n_high_greater": 3,
+          "n_low_greater": 1,
+          "n_tied": 4,
+          "wilcoxon_signed_rank": {
+            "statistic": 1.0,
+            "p_value": 0.25,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "collapse_probability": {
+          "low": 0.625,
+          "high": 0.75
+        },
+        "fragmentation_probability": {
+          "low": 0.25,
+          "high": 0.25
+        },
+        "sustained_system_probability": {
+          "low": 1.0,
+          "high": 1.0
+        }
+      }
+    },
+    {
+      "factor": "transmission_cost",
+      "field": "transmission_base_probability",
+      "low_value": 0.01,
+      "high_value": 0.2,
+      "extra_overrides": {
+        "institutional_transmission_enabled": true
+      },
+      "n_pairs": 8,
+      "pairs": [
+        {
+          "seed": 21001000,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.02139964352366222,
+            "cumulative_unmet_extraction_demand": 47714.324612749384,
+            "fraction_of_steps_below_one": 0.9914285714285714
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.02139964352366222,
+            "cumulative_unmet_extraction_demand": 47714.324612749384,
+            "fraction_of_steps_below_one": 0.9914285714285714
+          }
+        },
+        {
+          "seed": 21001001,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.03570284850333136,
+            "cumulative_unmet_extraction_demand": 46294.53360978851,
+            "fraction_of_steps_below_one": 0.84
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.03570284850333136,
+            "cumulative_unmet_extraction_demand": 46294.53360978851,
+            "fraction_of_steps_below_one": 0.84
+          }
+        },
+        {
+          "seed": 21001002,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.00793642838728238,
+            "cumulative_unmet_extraction_demand": 45045.71783857455,
+            "fraction_of_steps_below_one": 0.9614285714285714
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.00793642838728238,
+            "cumulative_unmet_extraction_demand": 45042.646171358145,
+            "fraction_of_steps_below_one": 0.9614285714285714
+          }
+        },
+        {
+          "seed": 21001003,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.026194254645594658,
+            "cumulative_unmet_extraction_demand": 37827.27791252386,
+            "fraction_of_steps_below_one": 0.99
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.015548644643550862,
+            "cumulative_unmet_extraction_demand": 37523.34695011825,
+            "fraction_of_steps_below_one": 0.99
+          }
+        },
+        {
+          "seed": 21001004,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.007260361962293858,
+            "cumulative_unmet_extraction_demand": 56086.70271812797,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.00859136306325144,
+            "cumulative_unmet_extraction_demand": 52206.19288784193,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          }
+        },
+        {
+          "seed": 21001005,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.004823313661443485,
+            "cumulative_unmet_extraction_demand": 53535.72482980717,
+            "fraction_of_steps_below_one": 0.9842857142857143
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.007080003095757512,
+            "cumulative_unmet_extraction_demand": 54260.82070401876,
+            "fraction_of_steps_below_one": 0.9842857142857143
+          }
+        },
+        {
+          "seed": 21001006,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.012519573815045317,
+            "cumulative_unmet_extraction_demand": 48499.709578081434,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.005026472767042717,
+            "cumulative_unmet_extraction_demand": 60342.16248558381,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          }
+        },
+        {
+          "seed": 21001007,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.013016387150316217,
+            "cumulative_unmet_extraction_demand": 65895.31567433791,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.013016387150316217,
+            "cumulative_unmet_extraction_demand": 65895.31567433791,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          }
+        }
+      ],
+      "n_outcome_label_transitions": 0,
+      "summary": {
+        "ecological_resource_fraction": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -0.0018188775643468483,
+          "n_high_greater": 2,
+          "n_low_greater": 2,
+          "n_tied": 4,
+          "wilcoxon_signed_rank": {
+            "statistic": 3.0,
+            "p_value": 0.625,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "cumulative_unmet_extraction_demand": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 1047.5045402257383,
+          "n_high_greater": 2,
+          "n_low_greater": 3,
+          "n_tied": 3,
+          "wilcoxon_signed_rank": {
+            "statistic": 7.0,
+            "p_value": 1.0,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "fraction_of_steps_below_one": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 0.0,
+          "n_high_greater": 0,
+          "n_low_greater": 0,
+          "n_tied": 8,
+          "wilcoxon_signed_rank": {
+            "statistic": null,
+            "p_value": null,
+            "note": "not computed"
+          }
+        },
+        "collapse_probability": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "fragmentation_probability": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "sustained_system_probability": {
+          "low": 1.0,
+          "high": 1.0
+        }
+      }
+    },
+    {
+      "factor": "coordination_cost",
+      "field": "coordination_cost_per_step",
+      "low_value": 0.0,
+      "high_value": 0.2,
+      "extra_overrides": {},
+      "n_pairs": 8,
+      "pairs": [
+        {
+          "seed": 21001100,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.017003658900695166,
+            "cumulative_unmet_extraction_demand": 45315.06464714219,
+            "fraction_of_steps_below_one": 0.9828571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.013772027149807294,
+            "cumulative_unmet_extraction_demand": 40500.41626567594,
+            "fraction_of_steps_below_one": 0.9828571428571429
+          }
+        },
+        {
+          "seed": 21001101,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.22681313267484818,
+            "cumulative_unmet_extraction_demand": 52099.37875137353,
+            "fraction_of_steps_below_one": 0.9914285714285714
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.02514640738777257,
+            "cumulative_unmet_extraction_demand": 50552.31044327255,
+            "fraction_of_steps_below_one": 0.9914285714285714
+          }
+        },
+        {
+          "seed": 21001102,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.007872464167506832,
+            "cumulative_unmet_extraction_demand": 74731.93037714923,
+            "fraction_of_steps_below_one": 0.9857142857142858
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.007872464167506832,
+            "cumulative_unmet_extraction_demand": 74731.93037714923,
+            "fraction_of_steps_below_one": 0.9857142857142858
+          }
+        },
+        {
+          "seed": 21001103,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.014486900103395229,
+            "cumulative_unmet_extraction_demand": 41904.22462328557,
+            "fraction_of_steps_below_one": 0.8671428571428571
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.016475140279923122,
+            "cumulative_unmet_extraction_demand": 53218.379949451606,
+            "fraction_of_steps_below_one": 0.8585714285714285
+          }
+        },
+        {
+          "seed": 21001104,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.007286880107315324,
+            "cumulative_unmet_extraction_demand": 44610.859735244696,
+            "fraction_of_steps_below_one": 0.9942857142857143
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.013462743898369173,
+            "cumulative_unmet_extraction_demand": 47877.28749313109,
+            "fraction_of_steps_below_one": 0.9942857142857143
+          }
+        },
+        {
+          "seed": 21001105,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.0034251577312843203,
+            "cumulative_unmet_extraction_demand": 33935.70100749603,
+            "fraction_of_steps_below_one": 0.9671428571428572
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.007744502506781258,
+            "cumulative_unmet_extraction_demand": 39168.564921468824,
+            "fraction_of_steps_below_one": 0.9671428571428572
+          }
+        },
+        {
+          "seed": 21001106,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.23796188117111244,
+            "cumulative_unmet_extraction_demand": 26916.696479262115,
+            "fraction_of_steps_below_one": 0.8671428571428571
+          },
+          "high": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.23831009716769777,
+            "cumulative_unmet_extraction_demand": 30810.293309078217,
+            "fraction_of_steps_below_one": 0.9685714285714285
+          }
+        },
+        {
+          "seed": 21001107,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.24918822570273358,
+            "cumulative_unmet_extraction_demand": 56441.65823508527,
+            "fraction_of_steps_below_one": 0.9914285714285714
+          },
+          "high": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.22891172728051276,
+            "cumulative_unmet_extraction_demand": 58629.570369337926,
+            "fraction_of_steps_below_one": 0.9914285714285714
+          }
+        }
+      ],
+      "n_outcome_label_transitions": 1,
+      "summary": {
+        "ecological_resource_fraction": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -0.026542898840065034,
+          "n_high_greater": 4,
+          "n_low_greater": 3,
+          "n_tied": 1,
+          "wilcoxon_signed_rank": {
+            "statistic": 12.0,
+            "p_value": 0.8125,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "cumulative_unmet_extraction_demand": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 2441.6549090658445,
+          "n_high_greater": 5,
+          "n_low_greater": 2,
+          "n_tied": 1,
+          "wilcoxon_signed_rank": {
+            "statistic": 6.0,
+            "p_value": 0.21875,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "fraction_of_steps_below_one": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 0.011607142857142858,
+          "n_high_greater": 1,
+          "n_low_greater": 1,
+          "n_tied": 6,
+          "wilcoxon_signed_rank": {
+            "statistic": 1.0,
+            "p_value": 1.0,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "collapse_probability": {
+          "low": 0.625,
+          "high": 0.75
+        },
+        "fragmentation_probability": {
+          "low": 0.375,
+          "high": 0.25
+        },
+        "sustained_system_probability": {
+          "low": 1.0,
+          "high": 1.0
+        }
+      }
+    },
+    {
+      "factor": "scale_overload",
+      "field": "scaling_admin_overhead_per_patch",
+      "low_value": 0.0,
+      "high_value": 0.2,
+      "extra_overrides": {
+        "institutional_scaling_enabled": true
+      },
+      "n_pairs": 8,
+      "pairs": [
+        {
+          "seed": 21001200,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.010759185755777917,
+            "cumulative_unmet_extraction_demand": 46975.73291926556,
+            "fraction_of_steps_below_one": 0.97
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.010759185755777917,
+            "cumulative_unmet_extraction_demand": 46975.73291926556,
+            "fraction_of_steps_below_one": 0.97
+          }
+        },
+        {
+          "seed": 21001201,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.041838997337923664,
+            "cumulative_unmet_extraction_demand": 37705.8960519071,
+            "fraction_of_steps_below_one": 0.6071428571428571
+          },
+          "high": {
+            "all_outcome_label": "viable",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.4166954678454701,
+            "cumulative_unmet_extraction_demand": 36647.572648022535,
+            "fraction_of_steps_below_one": 0.5771428571428572
+          }
+        },
+        {
+          "seed": 21001202,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.006709315397018897,
+            "cumulative_unmet_extraction_demand": 48910.08350082341,
+            "fraction_of_steps_below_one": 0.9457142857142857
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.01242735929358733,
+            "cumulative_unmet_extraction_demand": 49276.75516139596,
+            "fraction_of_steps_below_one": 0.9457142857142857
+          }
+        },
+        {
+          "seed": 21001203,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.007385026926680728,
+            "cumulative_unmet_extraction_demand": 49295.92655503607,
+            "fraction_of_steps_below_one": 0.8471428571428572
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.008159986834636566,
+            "cumulative_unmet_extraction_demand": 49343.09615788304,
+            "fraction_of_steps_below_one": 0.8471428571428572
+          }
+        },
+        {
+          "seed": 21001204,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.013314856283590682,
+            "cumulative_unmet_extraction_demand": 42501.243259284514,
+            "fraction_of_steps_below_one": 0.9628571428571429
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.017008535182618904,
+            "cumulative_unmet_extraction_demand": 45664.6944995911,
+            "fraction_of_steps_below_one": 0.9628571428571429
+          }
+        },
+        {
+          "seed": 21001205,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.2429948489346141,
+            "cumulative_unmet_extraction_demand": 45174.955334412196,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          },
+          "high": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.23676328311988662,
+            "cumulative_unmet_extraction_demand": 45702.509242188185,
+            "fraction_of_steps_below_one": 0.9928571428571429
+          }
+        },
+        {
+          "seed": 21001206,
+          "low": {
+            "all_outcome_label": "fragmented",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.2427822427084073,
+            "cumulative_unmet_extraction_demand": 53182.6678621926,
+            "fraction_of_steps_below_one": 0.9885714285714285
+          },
+          "high": {
+            "all_outcome_label": "viable",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.48061400016054345,
+            "cumulative_unmet_extraction_demand": 47872.33595915888,
+            "fraction_of_steps_below_one": 0.98
+          }
+        },
+        {
+          "seed": 21001207,
+          "low": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.021575311174207832,
+            "cumulative_unmet_extraction_demand": 47708.626098494846,
+            "fraction_of_steps_below_one": 0.9785714285714285
+          },
+          "high": {
+            "all_outcome_label": "collapse",
+            "sustained_eligible": true,
+            "ecological_resource_fraction": 0.021575311174207832,
+            "cumulative_unmet_extraction_demand": 47708.626098494846,
+            "fraction_of_steps_below_one": 0.9785714285714285
+          }
+        }
+      ],
+      "n_outcome_label_transitions": 2,
+      "summary": {
+        "ecological_resource_fraction": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": 0.07708041810606345,
+          "n_high_greater": 5,
+          "n_low_greater": 1,
+          "n_tied": 2,
+          "wilcoxon_signed_rank": {
+            "statistic": 4.0,
+            "p_value": 0.21875,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "cumulative_unmet_extraction_demand": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -282.97611192702334,
+          "n_high_greater": 4,
+          "n_low_greater": 2,
+          "n_tied": 2,
+          "wilcoxon_signed_rank": {
+            "statistic": 10.0,
+            "p_value": 1.0,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "fraction_of_steps_below_one": {
+          "n_defined_pairs": 8,
+          "mean_paired_difference_high_minus_low": -0.00482142857142856,
+          "n_high_greater": 0,
+          "n_low_greater": 2,
+          "n_tied": 6,
+          "wilcoxon_signed_rank": {
+            "statistic": 0.0,
+            "p_value": 0.5,
+            "note": "n too small for a confident test; supplementary only"
+          }
+        },
+        "collapse_probability": {
+          "low": 0.75,
+          "high": 0.625
+        },
+        "fragmentation_probability": {
+          "low": 0.25,
+          "high": 0.125
+        },
+        "sustained_system_probability": {
+          "low": 1.0,
+          "high": 1.0
+        }
+      }
+    }
+  ]
+}

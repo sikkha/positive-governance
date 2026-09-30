@@ -1,0 +1,17 @@
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Design element} & \textbf{Level 1.2} & \textbf{Level 1.2b} \\
+\midrule
+Main discovery sample & 24 runs (12 draws $\times$ 2 seeds) & 576 runs (48 pts $\times$ 6 seeds $\times$ 2 IC families) \\
+Confirmation sample & 12 fresh runs & 384 fresh runs (24 pts $\times$ 8 seeds $\times$ 2 IC families) \\
+Ecological stratification & none (unstratified sweep) & ex ante, by expected-pressure ratio tertile \\
+Ecological ledger validated at production scale & no (short-scale only) & yes; 6 bugs found and fixed, residual $\sim10^{-10}$ \\
+Feasibility measure validated against outcomes & no & yes; $r\approx0.84$ (expected-pressure), $r\approx0.48$ (structural) \\
+Institutional design dimensions & 8 (parameter-space sweep) & 21 (Latin Hypercube, 60 points, 0 packages) \\
+Causal ablation & 2 factors, $n=8$ pairs each & 13 factors, $n=8$ pairs each (208 runs) \\
+Scaling-robustness grid & 4 conditions, 2 seeds (8 runs) & 8 conditions, 4 seeds (32 runs) \\
+Discovery verdict vocabulary & pass/fail vs.\ 12 criteria only & 6-label closed verdict incl.\ \texttt{continuum} \\
+Discovery result & 0/76 candidates meet all 12 criteria & \texttt{continuum} (headline $k$=4) \\
+Confirmation result & 0/72 candidates meet all 12 criteria & \texttt{null\_replicated} (headline $k$=2, \texttt{unstable}) \\
+\bottomrule
+\end{tabular}

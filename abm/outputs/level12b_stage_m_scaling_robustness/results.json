@@ -1,0 +1,2572 @@
+{
+  "confirmation_registry_hash": "da4777d80b0cd538f9e774fcbe083cc56b9193309418c031916be346dd88ec75",
+  "source_design_hash": "04e2987fe2710014da00c3d917541983e34a5fcd1cc1087b9cb1d271d4f4b89d",
+  "preregistration_manifest_hash": "f5bd19df912c0653b97d83f98a4685bb6020fc18b33092e2b2e1ecf11c319b77",
+  "candidate_or_null_baseline": "null_baseline (no confirmed candidates per Work Package L's own null_replication result -- see module docstring)",
+  "n_runs_completed": 32,
+  "n_runs_failed": 0,
+  "failures": [],
+  "scale_invariance_required": false,
+  "records": [
+    {
+      "population_size": 32,
+      "n_patches": 4,
+      "modularity_level": "high_modularity",
+      "rewiring_prob": 0.02,
+      "measured_modularity": 0.5313360881542699,
+      "seed": 18000000,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.012466088937291203
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 22.5576692921803,
+          "denominator": 24.932177874582408,
+          "value": 0.9047612850210391,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": NaN,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 32,
+        "n_patches": 4
+      },
+      "migration": {
+        "n_migration_events": 91,
+        "migration_rate": 2.84375
+      },
+      "fragmentation": {
+        "index": 0.75,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 4
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": 0.000727279807890481,
+          "time_to_minimum": 31,
+          "minimum_value": 0.01234807300020055,
+          "overshoot": 0.01284363909601787,
+          "pre_shock_min": 0.02519171209621842,
+          "pre_shock_max": 0.03626421334269608
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 32,
+      "n_patches": 4,
+      "modularity_level": "high_modularity",
+      "rewiring_prob": 0.02,
+      "measured_modularity": 0.5305325443786983,
+      "seed": 18000001,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.033613273692633186
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 31.84521794158115,
+          "denominator": 67.22654738526637,
+          "value": 0.4737000363722453,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 1.015207125,
+          "denominator": 2,
+          "value": 0.5076035625,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 32,
+        "n_patches": 4
+      },
+      "migration": {
+        "n_migration_events": 107,
+        "migration_rate": 3.34375
+      },
+      "fragmentation": {
+        "index": 0.75,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 4
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": 0.005941799511177445,
+          "time_to_minimum": 31,
+          "minimum_value": 0.017855770778767828,
+          "overshoot": 0.005889472646586534,
+          "pre_shock_min": 0.023745243425354362,
+          "pre_shock_max": 0.23341129524414864
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 32,
+      "n_patches": 4,
+      "modularity_level": "high_modularity",
+      "rewiring_prob": 0.02,
+      "measured_modularity": 0.5234375,
+      "seed": 18000002,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.6747762005446052
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 30.709236575777933,
+          "denominator": 1349.5524010892104,
+          "value": 0.022755127219211947,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0.447,
+          "denominator": 1,
+          "value": 0.447,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 32,
+        "n_patches": 4
+      },
+      "migration": {
+        "n_migration_events": 149,
+        "migration_rate": 4.65625
+      },
+      "fragmentation": {
+        "index": 0.75,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 4
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 1,
+          "immediate_shock_magnitude": 0.10576071286630312,
+          "time_to_minimum": 0,
+          "minimum_value": 0.3860847269690635,
+          "overshoot": 0.2052914288819977,
+          "pre_shock_min": 0.4792335371100994,
+          "pre_shock_max": 0.5055883155914143
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "viable"
+      }
+    },
+    {
+      "population_size": 32,
+      "n_patches": 4,
+      "modularity_level": "high_modularity",
+      "rewiring_prob": 0.02,
+      "measured_modularity": 0.5487573964497042,
+      "seed": 18000003,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.0058304351263073935
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 30.231891946729164,
+          "denominator": 11.660870252614787,
+          "value": 2.5925931162770706,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0.012,
+          "denominator": 1,
+          "value": 0.012,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 32,
+        "n_patches": 4
+      },
+      "migration": {
+        "n_migration_events": 100,
+        "migration_rate": 3.125
+      },
+      "fragmentation": {
+        "index": 0.75,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 4
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": 0.002367799837389075,
+          "time_to_minimum": 33,
+          "minimum_value": 0.004073722489939007,
+          "overshoot": 0.0019490661019452224,
+          "pre_shock_min": 0.006022788591884229,
+          "pre_shock_max": 0.011627201610032414
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 32,
+      "n_patches": 4,
+      "modularity_level": "low_modularity",
+      "rewiring_prob": 0.6,
+      "measured_modularity": 0.37110457063711916,
+      "seed": 18001000,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.011130919312202964
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 17.829424173440074,
+          "denominator": 22.26183862440593,
+          "value": 0.8008962994589969,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 1.4260091481846229,
+          "denominator": 2,
+          "value": 0.7130045740923114,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 32,
+        "n_patches": 4
+      },
+      "migration": {
+        "n_migration_events": 92,
+        "migration_rate": 2.875
+      },
+      "fragmentation": {
+        "index": 0.75,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 4
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": 0.002469765428271503,
+          "time_to_minimum": 28,
+          "minimum_value": 0.0025084824583211044,
+          "overshoot": 0.0068765514337146266,
+          "pre_shock_min": 0.0015824366466962833,
+          "pre_shock_max": 0.006488046882051242
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 32,
+      "n_patches": 4,
+      "modularity_level": "low_modularity",
+      "rewiring_prob": 0.6,
+      "measured_modularity": 0.32897764628533854,
+      "seed": 18001001,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.006825945161444184
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 20.517738772995507,
+          "denominator": 13.651890322888368,
+          "value": 1.5029229130705843,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": NaN,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 32,
+        "n_patches": 4
+      },
+      "migration": {
+        "n_migration_events": 100,
+        "migration_rate": 3.125
+      },
+      "fragmentation": {
+        "index": 0.75,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 4
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": 0.002478888180036845,
+          "time_to_minimum": 21,
+          "minimum_value": 0.0020532257468679686,
+          "overshoot": 0.003267451009252132,
+          "pre_shock_min": 0.0053206767561201004,
+          "pre_shock_max": 0.013021142466924313
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 32,
+      "n_patches": 4,
+      "modularity_level": "low_modularity",
+      "rewiring_prob": 0.6,
+      "measured_modularity": 0.3240006746500253,
+      "seed": 18001002,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.0007946420884849719
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 8.635696118990062,
+          "denominator": 1.5892841769699437,
+          "value": 5.43370169043933,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 1.34467435,
+          "denominator": 3,
+          "value": 0.4482247833333333,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 32,
+        "n_patches": 4
+      },
+      "migration": {
+        "n_migration_events": 119,
+        "migration_rate": 3.71875
+      },
+      "fragmentation": {
+        "index": 0.75,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 4
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": -0.0014649264256919167,
+          "time_to_minimum": 22,
+          "minimum_value": 0.00028452817613227666,
+          "overshoot": 0.003341552920771572,
+          "pre_shock_min": 0.0006492604642724138,
+          "pre_shock_max": 0.0025291163855804075
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 32,
+      "n_patches": 4,
+      "modularity_level": "low_modularity",
+      "rewiring_prob": 0.6,
+      "measured_modularity": 0.3375111111111111,
+      "seed": 18001003,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.02994168377550943
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 37.159885211804124,
+          "denominator": 59.883367551018864,
+          "value": 0.6205376673271589,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0.5115952358231377,
+          "denominator": 2,
+          "value": 0.25579761791156885,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 32,
+        "n_patches": 4
+      },
+      "migration": {
+        "n_migration_events": 106,
+        "migration_rate": 3.3125
+      },
+      "fragmentation": {
+        "index": 0.75,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 4
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": 0.003849718934005677,
+          "time_to_minimum": 9,
+          "minimum_value": 0.015897542850350943,
+          "overshoot": 0.01213265684499527,
+          "pre_shock_min": 0.028030199695346213,
+          "pre_shock_max": 0.21093285132883813
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 32,
+      "n_patches": 8,
+      "modularity_level": "high_modularity",
+      "rewiring_prob": 0.02,
+      "measured_modularity": 0.5166863905325445,
+      "seed": 18002000,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.01383216436286633
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 71.63268224559746,
+          "denominator": 55.32865745146532,
+          "value": 1.294675951760336,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0.6498771929824562,
+          "denominator": 1,
+          "value": 0.6498771929824562,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 0,
+          "denominator": 8,
+          "value": 0.0,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 32,
+        "n_patches": 8
+      },
+      "migration": {
+        "n_migration_events": 121,
+        "migration_rate": 3.78125
+      },
+      "fragmentation": {
+        "index": 0.875,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 8
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 1,
+          "immediate_shock_magnitude": 0.026323862287194605,
+          "time_to_minimum": 14,
+          "minimum_value": 0.006770864164280341,
+          "overshoot": 0.11638652444497884,
+          "pre_shock_min": 0.12315738860925918,
+          "pre_shock_max": 0.24451615248062525
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 32,
+      "n_patches": 8,
+      "modularity_level": "high_modularity",
+      "rewiring_prob": 0.02,
+      "measured_modularity": 0.5631952662721894,
+      "seed": 18002001,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.008536158523992992
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 72.49003456222853,
+          "denominator": 34.144634095971966,
+          "value": 2.1230285953124377,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0.19366666666666665,
+          "denominator": 1,
+          "value": 0.19366666666666665,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 0,
+          "denominator": 8,
+          "value": 0.0,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 32,
+        "n_patches": 8
+      },
+      "migration": {
+        "n_migration_events": 107,
+        "migration_rate": 3.34375
+      },
+      "fragmentation": {
+        "index": 0.875,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 8
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.13288937815308288,
+          "time_to_minimum": 10,
+          "minimum_value": 0.0011997019919924815,
+          "overshoot": 0.2846859317314896,
+          "pre_shock_min": 0.2858856337234821,
+          "pre_shock_max": 0.32117209665367935
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 32,
+      "n_patches": 8,
+      "modularity_level": "high_modularity",
+      "rewiring_prob": 0.02,
+      "measured_modularity": 0.5616391184573003,
+      "seed": 18002002,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.010530081122684038
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 127.648416568655,
+          "denominator": 42.12032449073615,
+          "value": 3.0305658399362447,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0.6022848257683114,
+          "denominator": 3,
+          "value": 0.20076160858943715,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 0,
+          "denominator": 8,
+          "value": 0.0,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 32,
+        "n_patches": 8
+      },
+      "migration": {
+        "n_migration_events": 121,
+        "migration_rate": 3.78125
+      },
+      "fragmentation": {
+        "index": 0.875,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 8
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.11457800770549359,
+          "time_to_minimum": 33,
+          "minimum_value": 0.00627949036549137,
+          "overshoot": 0.4198417778480404,
+          "pre_shock_min": 0.42612126821353175,
+          "pre_shock_max": 0.4531507286826032
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 32,
+      "n_patches": 8,
+      "modularity_level": "high_modularity",
+      "rewiring_prob": 0.02,
+      "measured_modularity": 0.529628027681661,
+      "seed": 18002003,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.12946032297851529
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 54.58294403495747,
+          "denominator": 517.8412919140611,
+          "value": 0.10540477340693766,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0.8621912179487179,
+          "denominator": 2,
+          "value": 0.43109560897435895,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 0,
+          "denominator": 8,
+          "value": 0.0,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 32,
+        "n_patches": 8
+      },
+      "migration": {
+        "n_migration_events": 115,
+        "migration_rate": 3.59375
+      },
+      "fragmentation": {
+        "index": 0.875,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 8
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.08707184038792995,
+          "time_to_minimum": 23,
+          "minimum_value": 0.0051077862498828,
+          "overshoot": 0.21943632785822487,
+          "pre_shock_min": 0.22454411410810768,
+          "pre_shock_max": 0.33248448314699786
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "fragmented"
+      }
+    },
+    {
+      "population_size": 32,
+      "n_patches": 8,
+      "modularity_level": "low_modularity",
+      "rewiring_prob": 0.6,
+      "measured_modularity": 0.3368049991988463,
+      "seed": 18003000,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.22404533085758016
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 82.17659746976688,
+          "denominator": 896.1813234303206,
+          "value": 0.09169639594275279,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 3.035590576526292,
+          "denominator": 6,
+          "value": 0.505931762754382,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 0,
+          "denominator": 8,
+          "value": 0.0,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 32,
+        "n_patches": 8
+      },
+      "migration": {
+        "n_migration_events": 123,
+        "migration_rate": 3.84375
+      },
+      "fragmentation": {
+        "index": 0.875,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 8
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 1,
+          "immediate_shock_magnitude": 0.08940232818596167,
+          "time_to_minimum": 15,
+          "minimum_value": 0.10206911029297731,
+          "overshoot": 0.23802486102649534,
+          "pre_shock_min": 0.34009397131947267,
+          "pre_shock_max": 0.5206401232043375
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "fragmented"
+      }
+    },
+    {
+      "population_size": 32,
+      "n_patches": 8,
+      "modularity_level": "low_modularity",
+      "rewiring_prob": 0.6,
+      "measured_modularity": 0.3982965086861191,
+      "seed": 18003001,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.4992707687588886
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 37.86333346738566,
+          "denominator": 1997.0830750355544,
+          "value": 0.018959318187958492,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": NaN,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 0,
+          "denominator": 8,
+          "value": 0.0,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 32,
+        "n_patches": 8
+      },
+      "migration": {
+        "n_migration_events": 152,
+        "migration_rate": 4.75
+      },
+      "fragmentation": {
+        "index": 0.875,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 7
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 1,
+          "immediate_shock_magnitude": 0.07339126607171864,
+          "time_to_minimum": 0,
+          "minimum_value": 0.2715976320391201,
+          "overshoot": 0.13296320375820475,
+          "pre_shock_min": 0.3449888981108387,
+          "pre_shock_max": 0.3683782289402839
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "viable"
+      }
+    },
+    {
+      "population_size": 32,
+      "n_patches": 8,
+      "modularity_level": "low_modularity",
+      "rewiring_prob": 0.6,
+      "measured_modularity": 0.3525889694720864,
+      "seed": 18003002,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.12791094348090618
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 75.10622312243851,
+          "denominator": 511.64377392362474,
+          "value": 0.14679397453910958,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0.17235714285714285,
+          "denominator": 1,
+          "value": 0.17235714285714285,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 8,
+          "value": 0.25,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 32,
+        "n_patches": 8
+      },
+      "migration": {
+        "n_migration_events": 118,
+        "migration_rate": 3.6875
+      },
+      "fragmentation": {
+        "index": 0.875,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 8
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 1,
+          "immediate_shock_magnitude": 0.05323484271783005,
+          "time_to_minimum": 19,
+          "minimum_value": 0.12150409445872712,
+          "overshoot": 0.12090003444380182,
+          "pre_shock_min": 0.24240412890252894,
+          "pre_shock_max": 0.2522200862596288
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "fragmented"
+      }
+    },
+    {
+      "population_size": 32,
+      "n_patches": 8,
+      "modularity_level": "low_modularity",
+      "rewiring_prob": 0.6,
+      "measured_modularity": 0.3316748186878057,
+      "seed": 18003003,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.3708431070807466
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 44.98280179527028,
+          "denominator": 1483.3724283229863,
+          "value": 0.03032468511372103,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 1.6301908339941846,
+          "denominator": 3,
+          "value": 0.5433969446647282,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 8,
+          "value": 0.25,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 32,
+        "n_patches": 8
+      },
+      "migration": {
+        "n_migration_events": 130,
+        "migration_rate": 4.0625
+      },
+      "fragmentation": {
+        "index": 0.875,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 8
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 30,
+          "immediate_shock_magnitude": 0.07672555069259908,
+          "time_to_minimum": 17,
+          "minimum_value": 0.06248180491049798,
+          "overshoot": 0.11413503404721248,
+          "pre_shock_min": 0.17661683895771046,
+          "pre_shock_max": 0.32921378613879937
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "viable"
+      }
+    },
+    {
+      "population_size": 64,
+      "n_patches": 4,
+      "modularity_level": "high_modularity",
+      "rewiring_prob": 0.02,
+      "measured_modularity": 0.6415179376239409,
+      "seed": 18004000,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.004451395745094411
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 24.063093238344123,
+          "denominator": 8.902791490188822,
+          "value": 2.702870584452356,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 1.0448333333333333,
+          "denominator": 2,
+          "value": 0.5224166666666666,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 64,
+        "n_patches": 4
+      },
+      "migration": {
+        "n_migration_events": 204,
+        "migration_rate": 3.1875
+      },
+      "fragmentation": {
+        "index": 0.75,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 4
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": 0.0018399618731837954,
+          "time_to_minimum": 35,
+          "minimum_value": 0.004451395745094411,
+          "overshoot": 0.01784711727782896,
+          "pre_shock_min": 0.00015030753470355817,
+          "pre_shock_max": 0.014216233363442337
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 64,
+      "n_patches": 4,
+      "modularity_level": "high_modularity",
+      "rewiring_prob": 0.02,
+      "measured_modularity": 0.64453125,
+      "seed": 18004001,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.024155079122024626
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 29.741287788401777,
+          "denominator": 48.310158244049255,
+          "value": 0.6156321748762901,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0.3980090909090909,
+          "denominator": 2,
+          "value": 0.19900454545454546,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 64,
+        "n_patches": 4
+      },
+      "migration": {
+        "n_migration_events": 227,
+        "migration_rate": 3.546875
+      },
+      "fragmentation": {
+        "index": 0.75,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 4
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": 0.0031062941923789313,
+          "time_to_minimum": 15,
+          "minimum_value": 0.011361603527456392,
+          "overshoot": 0.0174953793318618,
+          "pre_shock_min": 0.015205259877353643,
+          "pre_shock_max": 0.029279837330123647
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 64,
+      "n_patches": 4,
+      "modularity_level": "high_modularity",
+      "rewiring_prob": 0.02,
+      "measured_modularity": 0.64453125,
+      "seed": 18004002,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.02805792200723146
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 22.99691545111999,
+          "denominator": 56.11584401446292,
+          "value": 0.4098114508478732,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 1.5429295454545455,
+          "denominator": 2,
+          "value": 0.7714647727272728,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 64,
+        "n_patches": 4
+      },
+      "migration": {
+        "n_migration_events": 260,
+        "migration_rate": 4.0625
+      },
+      "fragmentation": {
+        "index": 0.75,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 4
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": 0.0018327796286390849,
+          "time_to_minimum": 14,
+          "minimum_value": 0.005167980003324535,
+          "overshoot": 0.00407435018542161,
+          "pre_shock_min": 0.009242330188746145,
+          "pre_shock_max": 0.0261767385184937
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 64,
+      "n_patches": 4,
+      "modularity_level": "high_modularity",
+      "rewiring_prob": 0.02,
+      "measured_modularity": 0.6343491124260354,
+      "seed": 18004003,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.008640186502509915
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 26.933764931440535,
+          "denominator": 17.28037300501983,
+          "value": 1.5586333074880074,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0.507186868125,
+          "denominator": 1,
+          "value": 0.507186868125,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 64,
+        "n_patches": 4
+      },
+      "migration": {
+        "n_migration_events": 225,
+        "migration_rate": 3.515625
+      },
+      "fragmentation": {
+        "index": 0.75,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 4
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": 0.0001251050002418104,
+          "time_to_minimum": 25,
+          "minimum_value": 0.002017383296275985,
+          "overshoot": 0.0018128736542684376,
+          "pre_shock_min": 0.0038302569505444225,
+          "pre_shock_max": 0.012812089099725336
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 64,
+      "n_patches": 4,
+      "modularity_level": "low_modularity",
+      "rewiring_prob": 0.6,
+      "measured_modularity": 0.41960266620498615,
+      "seed": 18005000,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.016229209137216753
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 18.08004029884953,
+          "denominator": 32.458418274433505,
+          "value": 0.5570216067210711,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 1.1687253498176315,
+          "denominator": 2,
+          "value": 0.5843626749088158,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 64,
+        "n_patches": 4
+      },
+      "migration": {
+        "n_migration_events": 178,
+        "migration_rate": 2.78125
+      },
+      "fragmentation": {
+        "index": 0.75,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 4
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": -0.002887349368646328,
+          "time_to_minimum": 12,
+          "minimum_value": 0.008044825256610488,
+          "overshoot": 0.011386258896815715,
+          "pre_shock_min": 0.01040280840822648,
+          "pre_shock_max": 0.016129044437074715
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 64,
+      "n_patches": 4,
+      "modularity_level": "low_modularity",
+      "rewiring_prob": 0.6,
+      "measured_modularity": 0.3766077003121749,
+      "seed": 18005001,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.03157267054991209
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 18.63579220000006,
+          "denominator": 63.14534109982418,
+          "value": 0.29512537069899447,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0.3085,
+          "denominator": 1,
+          "value": 0.3085,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 64,
+        "n_patches": 4
+      },
+      "migration": {
+        "n_migration_events": 195,
+        "migration_rate": 3.046875
+      },
+      "fragmentation": {
+        "index": 0.75,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 4
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": -0.005382492489524559,
+          "time_to_minimum": 15,
+          "minimum_value": 0.008247759239440182,
+          "overshoot": 0.009064075659134974,
+          "pre_shock_min": 0.014155053562903383,
+          "pre_shock_max": 0.027569635265828972
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 64,
+      "n_patches": 4,
+      "modularity_level": "low_modularity",
+      "rewiring_prob": 0.6,
+      "measured_modularity": 0.4245427832112627,
+      "seed": 18005002,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.0323667295987768
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 26.091500611804438,
+          "denominator": 64.7334591975536,
+          "value": 0.40306050279467354,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0.521,
+          "denominator": 1,
+          "value": 0.521,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 64,
+        "n_patches": 4
+      },
+      "migration": {
+        "n_migration_events": 206,
+        "migration_rate": 3.21875
+      },
+      "fragmentation": {
+        "index": 0.75,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 4
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": 0.005588382242321246,
+          "time_to_minimum": 27,
+          "minimum_value": 0.003399378845365044,
+          "overshoot": 0.012354089955537908,
+          "pre_shock_min": 0.01575346880090295,
+          "pre_shock_max": 0.037236676803126825
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 64,
+      "n_patches": 4,
+      "modularity_level": "low_modularity",
+      "rewiring_prob": 0.6,
+      "measured_modularity": 0.38804819668140694,
+      "seed": 18005003,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.03526227119983511
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 25.740665210496925,
+          "denominator": 70.52454239967022,
+          "value": 0.3649887590141569,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0.5629559128472222,
+          "denominator": 2,
+          "value": 0.2814779564236111,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 64,
+        "n_patches": 4
+      },
+      "migration": {
+        "n_migration_events": 221,
+        "migration_rate": 3.453125
+      },
+      "fragmentation": {
+        "index": 0.75,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 4
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": -0.009704401676000009,
+          "time_to_minimum": 28,
+          "minimum_value": 0.006302770881031267,
+          "overshoot": 0.010280530622499534,
+          "pre_shock_min": 0.012249868349100133,
+          "pre_shock_max": 0.024981740577335577
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 64,
+      "n_patches": 8,
+      "modularity_level": "high_modularity",
+      "rewiring_prob": 0.02,
+      "measured_modularity": 0.6422702639706311,
+      "seed": 18006000,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.006789275553048265
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 93.76340517667856,
+          "denominator": 27.15710221219306,
+          "value": 3.452629240191188,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 1.2834364974646864,
+          "denominator": 2,
+          "value": 0.6417182487323432,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 8,
+          "value": 0.25,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 64,
+        "n_patches": 8
+      },
+      "migration": {
+        "n_migration_events": 221,
+        "migration_rate": 3.453125
+      },
+      "fragmentation": {
+        "index": 0.875,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 8
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": 0.0013419272811835276,
+          "time_to_minimum": 30,
+          "minimum_value": 0.0061266223327519995,
+          "overshoot": 0.009250718209260812,
+          "pre_shock_min": 0.008822421579259032,
+          "pre_shock_max": 0.014421118802060071
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 64,
+      "n_patches": 8,
+      "modularity_level": "high_modularity",
+      "rewiring_prob": 0.02,
+      "measured_modularity": 0.6391527300273877,
+      "seed": 18006001,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.009867551309199783
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 65.23004737632114,
+          "denominator": 39.47020523679913,
+          "value": 1.6526401873255379,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0.8444442578551163,
+          "denominator": 4,
+          "value": 0.21111106446377909,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 8,
+          "value": 0.25,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 64,
+        "n_patches": 8
+      },
+      "migration": {
+        "n_migration_events": 289,
+        "migration_rate": 4.515625
+      },
+      "fragmentation": {
+        "index": 0.875,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 8
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": -0.0011890042292499424,
+          "time_to_minimum": 6,
+          "minimum_value": 0.008488476997293286,
+          "overshoot": 0.0,
+          "pre_shock_min": 0.008313414055798088,
+          "pre_shock_max": 0.10595998776976495
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 64,
+      "n_patches": 8,
+      "modularity_level": "high_modularity",
+      "rewiring_prob": 0.02,
+      "measured_modularity": 0.6291882757415069,
+      "seed": 18006002,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.009860794181732836
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 22.18417289527244,
+          "denominator": 39.44317672693135,
+          "value": 0.56243372710204,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 0.5039794444444444,
+          "denominator": 1,
+          "value": 0.5039794444444444,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 8,
+          "value": 0.25,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 64,
+        "n_patches": 8
+      },
+      "migration": {
+        "n_migration_events": 287,
+        "migration_rate": 4.484375
+      },
+      "fragmentation": {
+        "index": 0.875,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 8
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 1,
+          "immediate_shock_magnitude": 0.004227972606004642,
+          "time_to_minimum": 19,
+          "minimum_value": 0.005232229225956532,
+          "overshoot": 0.002983566673525894,
+          "pre_shock_min": 0.008215795899482426,
+          "pre_shock_max": 0.014652875703971752
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 64,
+      "n_patches": 8,
+      "modularity_level": "high_modularity",
+      "rewiring_prob": 0.02,
+      "measured_modularity": 0.6412721893491125,
+      "seed": 18006003,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.007110385389140274
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 81.93948211077564,
+          "denominator": 28.441541556561095,
+          "value": 2.8809789352600426,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 2.4000199319405393,
+          "denominator": 5,
+          "value": 0.4800039863881079,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 0,
+          "denominator": 8,
+          "value": 0.0,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 64,
+        "n_patches": 8
+      },
+      "migration": {
+        "n_migration_events": 273,
+        "migration_rate": 4.265625
+      },
+      "fragmentation": {
+        "index": 0.875,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 8
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0337052879206529,
+          "time_to_minimum": 31,
+          "minimum_value": 0.0019130941356085285,
+          "overshoot": 0.10277306827164395,
+          "pre_shock_min": 0.10468616240725248,
+          "pre_shock_max": 0.3039131997572349
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 64,
+      "n_patches": 8,
+      "modularity_level": "low_modularity",
+      "rewiring_prob": 0.6,
+      "measured_modularity": 0.39787721123829345,
+      "seed": 18007000,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.01036780695560601
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 49.55557776397782,
+          "denominator": 41.47122782242404,
+          "value": 1.1949387651643741,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 1.6469190476190476,
+          "denominator": 3,
+          "value": 0.5489730158730158,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 0,
+          "denominator": 8,
+          "value": 0.0,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 64,
+        "n_patches": 8
+      },
+      "migration": {
+        "n_migration_events": 204,
+        "migration_rate": 3.1875
+      },
+      "fragmentation": {
+        "index": 0.875,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 7
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": 0.0006892818758718368,
+          "time_to_minimum": 15,
+          "minimum_value": 0.0049103620361841665,
+          "overshoot": 0.0039362259896429524,
+          "pre_shock_min": 0.008846588025827119,
+          "pre_shock_max": 0.019349363194610288
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 64,
+      "n_patches": 8,
+      "modularity_level": "low_modularity",
+      "rewiring_prob": 0.6,
+      "measured_modularity": 0.4139453177784784,
+      "seed": 18007001,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.13350103678893419
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 54.01338255366469,
+          "denominator": 534.0041471557367,
+          "value": 0.10114787093200654,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 1.2336666666666667,
+          "denominator": 3,
+          "value": 0.4112222222222222,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 8,
+          "value": 0.25,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 64,
+        "n_patches": 8
+      },
+      "migration": {
+        "n_migration_events": 265,
+        "migration_rate": 4.140625
+      },
+      "fragmentation": {
+        "index": 0.875,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 8
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 1,
+          "immediate_shock_magnitude": 0.029424851837356575,
+          "time_to_minimum": 0,
+          "minimum_value": 0.09963899363240836,
+          "overshoot": 0.025751431293382532,
+          "pre_shock_min": 0.1253904249257909,
+          "pre_shock_max": 0.13462937454918497
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "fragmented"
+      }
+    },
+    {
+      "population_size": 64,
+      "n_patches": 8,
+      "modularity_level": "low_modularity",
+      "rewiring_prob": 0.6,
+      "measured_modularity": 0.4090171483706855,
+      "seed": 18007002,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.013863435830968223
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 68.10986225725296,
+          "denominator": 55.45374332387289,
+          "value": 1.2282283967641836,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 1.4239335729605607,
+          "denominator": 3,
+          "value": 0.4746445243201869,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 8,
+          "value": 0.25,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 64,
+        "n_patches": 8
+      },
+      "migration": {
+        "n_migration_events": 225,
+        "migration_rate": 3.515625
+      },
+      "fragmentation": {
+        "index": 0.875,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 8
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 1,
+          "immediate_shock_magnitude": -0.002955830176387805,
+          "time_to_minimum": 18,
+          "minimum_value": 0.006310039645567783,
+          "overshoot": 0.005716529375910429,
+          "pre_shock_min": 0.005472532423290172,
+          "pre_shock_max": 0.010088665673043541
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    },
+    {
+      "population_size": 64,
+      "n_patches": 8,
+      "modularity_level": "low_modularity",
+      "rewiring_prob": 0.6,
+      "measured_modularity": 0.4215801090040989,
+      "seed": 18007003,
+      "ecological_state": {
+        "population_alive_fraction": 1.0,
+        "ecological_resource_fraction": 0.01195244725851992
+      },
+      "phenotype_assignment": {
+        "predicted_cluster": 2,
+        "headline_k": 4
+      },
+      "administrative_workload": {
+        "R_administrative_appropriation_burden": {
+          "numerator": 51.76793211172841,
+          "denominator": 47.809789034079685,
+          "value": 1.082789385973389,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator"
+        },
+        "C_realized_administrative_capacity": {
+          "numerator": 2.8186339011887034,
+          "denominator": 6,
+          "value": 0.4697723168647839,
+          "window": null,
+          "window_applied": "partial",
+          "construct_type": "start_step_windowed_but_active_flag_is_current_state"
+        }
+      },
+      "scale": {
+        "S_institutional_scale_reach": {
+          "numerator": 2,
+          "denominator": 8,
+          "value": 0.25,
+          "window": null,
+          "window_applied": false,
+          "construct_type": "snapshot_current_state_ratio"
+        },
+        "population_size": 64,
+        "n_patches": 8
+      },
+      "migration": {
+        "n_migration_events": 258,
+        "migration_rate": 4.03125
+      },
+      "fragmentation": {
+        "index": 0.875,
+        "max_jurisdiction_size": 1,
+        "n_institutions_ever_formed": 8
+      },
+      "functional_recovery": {
+        "population": {
+          "recovered": false,
+          "recovery_time_steps": NaN,
+          "immediate_shock_magnitude": 0.0,
+          "time_to_minimum": 0,
+          "minimum_value": 1.0,
+          "overshoot": 0.0,
+          "pre_shock_min": 1.0,
+          "pre_shock_max": 1.0
+        },
+        "ecological": {
+          "recovered": true,
+          "recovery_time_steps": 0,
+          "immediate_shock_magnitude": -0.0016067159797682595,
+          "time_to_minimum": 11,
+          "minimum_value": 0.0027041311126748155,
+          "overshoot": 0.005187957963337101,
+          "pre_shock_min": 0.007892089076011917,
+          "pre_shock_max": 0.012955219395602988
+        }
+      },
+      "transition_to_failure": {
+        "all_outcome_label": "collapse"
+      }
+    }
+  ]
+}

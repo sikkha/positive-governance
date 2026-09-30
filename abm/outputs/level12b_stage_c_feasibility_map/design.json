@@ -1,0 +1,702 @@
+{
+  "institutional_design": "broad_but_fixed: SimulationConfig.level12_complete defaults, identical across all points",
+  "lhs_seed": 20260818,
+  "milestone": "level1.2b_ecological_feasibility_envelope_work_package_c",
+  "n_parameter_points": 30,
+  "n_points_per_combo": {
+    "combo_0": 15,
+    "combo_1": 15
+  },
+  "n_steps": 400,
+  "parameter_space": [
+    {
+      "field": "patch_regen_rate",
+      "high": 1.2,
+      "low": 0.05
+    },
+    {
+      "field": "patch_capacity",
+      "high": 1500.0,
+      "low": 80.0
+    },
+    {
+      "field": "patch_initial_fraction",
+      "high": 0.95,
+      "low": 0.05
+    },
+    {
+      "field": "subsistence_cost",
+      "high": 0.9,
+      "low": 0.02
+    },
+    {
+      "field": "ecological_harvest_unit",
+      "high": 12.0,
+      "low": 0.5
+    },
+    {
+      "field": "maintenance_efficiency",
+      "high": 1.0,
+      "low": 0.05
+    },
+    {
+      "field": "shock_interval_steps",
+      "high": 400.0,
+      "low": 25.0
+    },
+    {
+      "field": "shock_magnitude",
+      "high": 0.6,
+      "low": 0.0
+    },
+    {
+      "field": "population_patch_ratio_selector",
+      "high": 1.0,
+      "low": 0.0
+    }
+  ],
+  "points": [
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 10.05533058837799,
+        "maintenance_efficiency": 0.834193314078774,
+        "patch_capacity": 389.7949342273652,
+        "patch_initial_fraction": 0.7003449245889707,
+        "patch_regen_rate": 0.9929890088534763,
+        "shock_interval_steps": 366.7252403059096,
+        "shock_magnitude": 0.3402003714146559,
+        "subsistence_cost": 0.6533901732364586
+      },
+      "n_patches": 4,
+      "point_id": 0,
+      "population_size": 20,
+      "seeds": [
+        7000000,
+        7000001,
+        7000002,
+        7000003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 2.0191041588058383,
+        "maintenance_efficiency": 0.6453824804463242,
+        "patch_capacity": 819.9274761002908,
+        "patch_initial_fraction": 0.5887439390779462,
+        "patch_regen_rate": 0.4002494482401259,
+        "shock_interval_steps": 49.64609660520689,
+        "shock_magnitude": 0.3873793937005005,
+        "subsistence_cost": 0.3537281779551824
+      },
+      "n_patches": 4,
+      "point_id": 1,
+      "population_size": 60,
+      "seeds": [
+        7001000,
+        7001001,
+        7001002,
+        7001003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 11.061404318569554,
+        "maintenance_efficiency": 0.9924886214511467,
+        "patch_capacity": 1097.029768275684,
+        "patch_initial_fraction": 0.7511801547686427,
+        "patch_regen_rate": 0.6146857797894454,
+        "shock_interval_steps": 280.079915375831,
+        "shock_magnitude": 0.455754370637599,
+        "subsistence_cost": 0.4187297306726535
+      },
+      "n_patches": 4,
+      "point_id": 2,
+      "population_size": 60,
+      "seeds": [
+        7002000,
+        7002001,
+        7002002,
+        7002003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 6.454312655238876,
+        "maintenance_efficiency": 0.8694467573212873,
+        "patch_capacity": 885.6145612737171,
+        "patch_initial_fraction": 0.09911025797924641,
+        "patch_regen_rate": 1.0249954472280207,
+        "shock_interval_steps": 193.12380032456102,
+        "shock_magnitude": 0.01239390263246147,
+        "subsistence_cost": 0.8726677761588855
+      },
+      "n_patches": 4,
+      "point_id": 3,
+      "population_size": 60,
+      "seeds": [
+        7003000,
+        7003001,
+        7003002,
+        7003003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 0.8851294714868823,
+        "maintenance_efficiency": 0.08726677885791052,
+        "patch_capacity": 879.0972404225043,
+        "patch_initial_fraction": 0.8554939311328312,
+        "patch_regen_rate": 0.6737783143715689,
+        "shock_interval_steps": 66.88366481777342,
+        "shock_magnitude": 0.5931857948974499,
+        "subsistence_cost": 0.22313071171110047
+      },
+      "n_patches": 4,
+      "point_id": 4,
+      "population_size": 20,
+      "seeds": [
+        7004000,
+        7004001,
+        7004002,
+        7004003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 11.522397920336667,
+        "maintenance_efficiency": 0.38316500679031834,
+        "patch_capacity": 1242.7256647845602,
+        "patch_initial_fraction": 0.3137242345142137,
+        "patch_regen_rate": 0.36478952876129067,
+        "shock_interval_steps": 56.69946401095459,
+        "shock_magnitude": 0.3104609222636083,
+        "subsistence_cost": 0.7808768080584996
+      },
+      "n_patches": 4,
+      "point_id": 5,
+      "population_size": 60,
+      "seeds": [
+        7005000,
+        7005001,
+        7005002,
+        7005003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 2.7576522211295016,
+        "maintenance_efficiency": 0.3415285263637812,
+        "patch_capacity": 711.067657304334,
+        "patch_initial_fraction": 0.3640843992243414,
+        "patch_regen_rate": 0.7838568967229838,
+        "shock_interval_steps": 221.92154580106063,
+        "shock_magnitude": 0.03885663975629167,
+        "subsistence_cost": 0.6764067368845268
+      },
+      "n_patches": 4,
+      "point_id": 6,
+      "population_size": 20,
+      "seeds": [
+        7006000,
+        7006001,
+        7006002,
+        7006003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 3.7165863851666248,
+        "maintenance_efficiency": 0.5887417567415052,
+        "patch_capacity": 527.1725832622684,
+        "patch_initial_fraction": 0.9045033769640176,
+        "patch_regen_rate": 0.05466308382559028,
+        "shock_interval_steps": 121.45595160065331,
+        "shock_magnitude": 0.24883963918027824,
+        "subsistence_cost": 0.5774425793742325
+      },
+      "n_patches": 4,
+      "point_id": 7,
+      "population_size": 60,
+      "seeds": [
+        7007000,
+        7007001,
+        7007002,
+        7007003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 7.790590099359908,
+        "maintenance_efficiency": 0.07571795393496061,
+        "patch_capacity": 1172.7717140670427,
+        "patch_initial_fraction": 0.8798640326749824,
+        "patch_regen_rate": 0.6435447036218843,
+        "shock_interval_steps": 358.20197502504743,
+        "shock_magnitude": 0.5414618312641372,
+        "subsistence_cost": 0.17900504827862693
+      },
+      "n_patches": 4,
+      "point_id": 8,
+      "population_size": 20,
+      "seeds": [
+        7008000,
+        7008001,
+        7008002,
+        7008003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 0.8373569600164039,
+        "maintenance_efficiency": 0.27628323386727643,
+        "patch_capacity": 578.6542924870887,
+        "patch_initial_fraction": 0.20828419502033213,
+        "patch_regen_rate": 0.5854550371337109,
+        "shock_interval_steps": 293.30979557712067,
+        "shock_magnitude": 0.20287463708163767,
+        "subsistence_cost": 0.12562416411647107
+      },
+      "n_patches": 4,
+      "point_id": 9,
+      "population_size": 20,
+      "seeds": [
+        7009000,
+        7009001,
+        7009002,
+        7009003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 3.547537072136898,
+        "maintenance_efficiency": 0.22002941590970626,
+        "patch_capacity": 204.18791248687526,
+        "patch_initial_fraction": 0.7304088974693935,
+        "patch_regen_rate": 0.9555987252085464,
+        "shock_interval_steps": 36.62446557431393,
+        "shock_magnitude": 0.32505179937410095,
+        "subsistence_cost": 0.5022114712649101
+      },
+      "n_patches": 4,
+      "point_id": 10,
+      "population_size": 60,
+      "seeds": [
+        7010000,
+        7010001,
+        7010002,
+        7010003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 1.6445653442256476,
+        "maintenance_efficiency": 0.5348873541897123,
+        "patch_capacity": 1472.8179261565044,
+        "patch_initial_fraction": 0.1892427597868907,
+        "patch_regen_rate": 0.44490261219435034,
+        "shock_interval_steps": 318.4183252214268,
+        "shock_magnitude": 0.0984971306186727,
+        "subsistence_cost": 0.5619460863595455
+      },
+      "n_patches": 4,
+      "point_id": 11,
+      "population_size": 60,
+      "seeds": [
+        7011000,
+        7011001,
+        7011002,
+        7011003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 4.088997472077357,
+        "maintenance_efficiency": 0.134438865942231,
+        "patch_capacity": 272.0192756169483,
+        "patch_initial_fraction": 0.24930274441648542,
+        "patch_regen_rate": 0.3429762401523256,
+        "shock_interval_steps": 244.80524479873233,
+        "shock_magnitude": 0.47811976453981553,
+        "subsistence_cost": 0.741617405504144
+      },
+      "n_patches": 4,
+      "point_id": 12,
+      "population_size": 20,
+      "seeds": [
+        7012000,
+        7012001,
+        7012002,
+        7012003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 2.885201646770596,
+        "maintenance_efficiency": 0.1800419716861556,
+        "patch_capacity": 244.57566740242126,
+        "patch_initial_fraction": 0.46845649678791335,
+        "patch_regen_rate": 0.311218222567598,
+        "shock_interval_steps": 91.9407432227378,
+        "shock_magnitude": 0.2937576452679274,
+        "subsistence_cost": 0.09222141880688862
+      },
+      "n_patches": 4,
+      "point_id": 13,
+      "population_size": 60,
+      "seeds": [
+        7013000,
+        7013001,
+        7013002,
+        7013003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 7.23134894048752,
+        "maintenance_efficiency": 0.31945790730934454,
+        "patch_capacity": 1376.8133211128832,
+        "patch_initial_fraction": 0.4887464557119762,
+        "patch_regen_rate": 1.1240015019486458,
+        "shock_interval_steps": 147.78597753909304,
+        "shock_magnitude": 0.4132467137682735,
+        "subsistence_cost": 0.16179286342934432
+      },
+      "n_patches": 4,
+      "point_id": 14,
+      "population_size": 20,
+      "seeds": [
+        7014000,
+        7014001,
+        7014002,
+        7014003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 4.677879970863355,
+        "maintenance_efficiency": 0.6957925368109983,
+        "patch_capacity": 1326.1761717392087,
+        "patch_initial_fraction": 0.9435601569385211,
+        "patch_regen_rate": 0.250402539592744,
+        "shock_interval_steps": 77.27104265140629,
+        "shock_magnitude": 0.26934425204772144,
+        "subsistence_cost": 0.7980290157193578
+      },
+      "n_patches": 4,
+      "point_id": 15,
+      "population_size": 20,
+      "seeds": [
+        7015000,
+        7015001,
+        7015002,
+        7015003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 6.981267992439393,
+        "maintenance_efficiency": 0.774416264541714,
+        "patch_capacity": 342.45771966083976,
+        "patch_initial_fraction": 0.07540769056766292,
+        "patch_regen_rate": 0.7443945020866871,
+        "shock_interval_steps": 104.97687359303097,
+        "shock_magnitude": 0.5066174139521195,
+        "subsistence_cost": 0.7234138044082611
+      },
+      "n_patches": 4,
+      "point_id": 16,
+      "population_size": 20,
+      "seeds": [
+        7016000,
+        7016001,
+        7016002,
+        7016003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 8.989521275477577,
+        "maintenance_efficiency": 0.5157984395515872,
+        "patch_capacity": 659.3979803778251,
+        "patch_initial_fraction": 0.12030712491834548,
+        "patch_regen_rate": 0.8439361508455977,
+        "shock_interval_steps": 173.82745272905018,
+        "shock_magnitude": 0.19041013687677755,
+        "subsistence_cost": 0.44735592902439686
+      },
+      "n_patches": 4,
+      "point_id": 17,
+      "population_size": 60,
+      "seeds": [
+        7017000,
+        7017001,
+        7017002,
+        7017003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 11.8979482268372,
+        "maintenance_efficiency": 0.6558687182266874,
+        "patch_capacity": 617.9644195514808,
+        "patch_initial_fraction": 0.3398148086529002,
+        "patch_regen_rate": 0.18050622479152978,
+        "shock_interval_steps": 304.291558840879,
+        "shock_magnitude": 0.43552905633138145,
+        "subsistence_cost": 0.8410728818105312
+      },
+      "n_patches": 4,
+      "point_id": 18,
+      "population_size": 20,
+      "seeds": [
+        7018000,
+        7018001,
+        7018002,
+        7018003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 10.121757447722043,
+        "maintenance_efficiency": 0.14735852432428428,
+        "patch_capacity": 143.75948028226975,
+        "patch_initial_fraction": 0.38424905044271074,
+        "patch_regen_rate": 1.1032125234299393,
+        "shock_interval_steps": 152.50542196870583,
+        "shock_magnitude": 0.054468120861917484,
+        "subsistence_cost": 0.6352728697375701
+      },
+      "n_patches": 4,
+      "point_id": 19,
+      "population_size": 60,
+      "seeds": [
+        7019000,
+        7019001,
+        7019002,
+        7019003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 2.14328666757342,
+        "maintenance_efficiency": 0.4707993439913863,
+        "patch_capacity": 1278.3144122366932,
+        "patch_initial_fraction": 0.7754559019841621,
+        "patch_regen_rate": 0.8778102846897569,
+        "shock_interval_steps": 398.8400327303205,
+        "shock_magnitude": 0.0641071785125842,
+        "subsistence_cost": 0.021103245837633743
+      },
+      "n_patches": 4,
+      "point_id": 20,
+      "population_size": 20,
+      "seeds": [
+        7020000,
+        7020001,
+        7020002,
+        7020003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 5.00856408051385,
+        "maintenance_efficiency": 0.9295313687842736,
+        "patch_capacity": 1448.3175988997546,
+        "patch_initial_fraction": 0.554591121797559,
+        "patch_regen_rate": 0.15371146377835293,
+        "shock_interval_steps": 182.20933029358613,
+        "shock_magnitude": 0.3702220099275768,
+        "subsistence_cost": 0.525821869930507
+      },
+      "n_patches": 4,
+      "point_id": 21,
+      "population_size": 20,
+      "seeds": [
+        7021000,
+        7021001,
+        7021002,
+        7021003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 9.692604919287549,
+        "maintenance_efficiency": 0.7943196348516453,
+        "patch_capacity": 1044.3927516793538,
+        "patch_initial_fraction": 0.8086958225847785,
+        "patch_regen_rate": 1.1668705548794926,
+        "shock_interval_steps": 377.76031370509025,
+        "shock_magnitude": 0.4841402975813979,
+        "subsistence_cost": 0.052474688288503796
+      },
+      "n_patches": 4,
+      "point_id": 22,
+      "population_size": 60,
+      "seeds": [
+        7022000,
+        7022001,
+        7022002,
+        7022003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 8.34823756875084,
+        "maintenance_efficiency": 0.8919366783804399,
+        "patch_capacity": 1154.4633565946192,
+        "patch_initial_fraction": 0.5003308466290641,
+        "patch_regen_rate": 0.4733988035647253,
+        "shock_interval_steps": 273.1349191009567,
+        "shock_magnitude": 0.5238093500446251,
+        "subsistence_cost": 0.8699173092821306
+      },
+      "n_patches": 4,
+      "point_id": 23,
+      "population_size": 20,
+      "seeds": [
+        7023000,
+        7023001,
+        7023002,
+        7023003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 5.714129195122148,
+        "maintenance_efficiency": 0.7334511636615074,
+        "patch_capacity": 433.3118225292613,
+        "patch_initial_fraction": 0.6415069167221131,
+        "patch_regen_rate": 0.0919155929016437,
+        "shock_interval_steps": 328.96291018374944,
+        "shock_magnitude": 0.5659528941696194,
+        "subsistence_cost": 0.3864252140285831
+      },
+      "n_patches": 4,
+      "point_id": 24,
+      "population_size": 60,
+      "seeds": [
+        7024000,
+        7024001,
+        7024002,
+        7024003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 10.524389357424456,
+        "maintenance_efficiency": 0.24807544133271486,
+        "patch_capacity": 784.3106930422078,
+        "patch_initial_fraction": 0.6693955894950276,
+        "patch_regen_rate": 0.2358341179620646,
+        "shock_interval_steps": 227.0938692163871,
+        "shock_magnitude": 0.11384289773239643,
+        "subsistence_cost": 0.2520259736688146
+      },
+      "n_patches": 4,
+      "point_id": 25,
+      "population_size": 60,
+      "seeds": [
+        7025000,
+        7025001,
+        7025002,
+        7025003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 5.45753262652766,
+        "maintenance_efficiency": 0.40250510921658045,
+        "patch_capacity": 98.73602127852864,
+        "patch_initial_fraction": 0.5987716512921709,
+        "patch_regen_rate": 0.9090877964586977,
+        "shock_interval_steps": 131.41308805520498,
+        "shock_magnitude": 0.13438877076062722,
+        "subsistence_cost": 0.313007121679506
+      },
+      "n_patches": 4,
+      "point_id": 26,
+      "population_size": 20,
+      "seeds": [
+        7026000,
+        7026001,
+        7026002,
+        7026003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 7.731558595442387,
+        "maintenance_efficiency": 0.5858463114020072,
+        "patch_capacity": 1019.1769794780607,
+        "patch_initial_fraction": 0.2755098850323917,
+        "patch_regen_rate": 0.5199251897210386,
+        "shock_interval_steps": 348.35865094255036,
+        "shock_magnitude": 0.15540229853448725,
+        "subsistence_cost": 0.4641967269996282
+      },
+      "n_patches": 4,
+      "point_id": 27,
+      "population_size": 60,
+      "seeds": [
+        7027000,
+        7027001,
+        7027002,
+        7027003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 8.855108996918597,
+        "maintenance_efficiency": 0.93886109946027,
+        "patch_capacity": 499.46486688798217,
+        "patch_initial_fraction": 0.15812206209945703,
+        "patch_regen_rate": 0.7344818554902725,
+        "shock_interval_steps": 203.86726375769325,
+        "shock_magnitude": 0.22254013343742293,
+        "subsistence_cost": 0.2807068635398695
+      },
+      "n_patches": 4,
+      "point_id": 28,
+      "population_size": 60,
+      "seeds": [
+        7028000,
+        7028001,
+        7028002,
+        7028003
+      ]
+    },
+    {
+      "ecological_parameters": {
+        "ecological_harvest_unit": 6.079512599060518,
+        "maintenance_efficiency": 0.4537057380484477,
+        "patch_capacity": 952.2764796169469,
+        "patch_initial_fraction": 0.4299825408736125,
+        "patch_regen_rate": 1.0510059872698325,
+        "shock_interval_steps": 261.31671832822997,
+        "shock_magnitude": 0.16568546700722603,
+        "subsistence_cost": 0.3417318391411112
+      },
+      "n_patches": 4,
+      "point_id": 29,
+      "population_size": 20,
+      "seeds": [
+        7029000,
+        7029001,
+        7029002,
+        7029003
+      ]
+    }
+  ],
+  "population_patch_combos": [
+    [
+      20,
+      4
+    ],
+    [
+      60,
+      4
+    ]
+  ],
+  "seeds_per_point": 4,
+  "total_runs": 120
+}

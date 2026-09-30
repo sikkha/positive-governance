@@ -1,0 +1,113 @@
+{
+  "source_design_hash": "04e2987fe2710014da00c3d917541983e34a5fcd1cc1087b9cb1d271d4f4b89d",
+  "preregistration_manifest_hash": "f5bd19df912c0653b97d83f98a4685bb6020fc18b33092e2b2e1ecf11c319b77",
+  "headline_k": 4,
+  "cautious_vocabulary": [
+    "candidate",
+    "confirmed",
+    "transient",
+    "failure",
+    "boundary",
+    "continuum",
+    "unclassified"
+  ],
+  "overall_classification": {
+    "label": "continuum",
+    "reasons": [
+      "discovery_verdict=continuum"
+    ]
+  },
+  "attractor_label_assigned": false,
+  "attractor_label_evidence": {
+    "permitted": false,
+    "population_recovery_rate": 0.0,
+    "ecological_recovery_rate": 0.875,
+    "rationale": "both dimensions must show majority recovery for an attractor claim; population=0.0, ecological=0.875"
+  },
+  "explanatory_categories_evaluated": [
+    "shared_lineage_persistence",
+    "independent_structural_convergence",
+    "environmentally_forced_similarity",
+    "temporary_similarity",
+    "measurement_compression",
+    "failure_state_similarity"
+  ],
+  "shared_lineage_persistence": {
+    "evaluated": false,
+    "reason": "requires per-run rule_lineage_id data not persisted by any prior Work Package's saved output; a fourth full 576-run re-simulation was judged low-value given the already-established continuum/null-replication result -- disclosed scope reduction, see module docstring"
+  },
+  "independent_structural_convergence_proxy": {
+    "mean_algorithm_agreement_ari": 0.19203752097470037,
+    "bootstrap_mean_ari_in_pool": 0.5977863575960163,
+    "assignment_stability_ari_out_of_sample": 0.5268188352771932,
+    "interpretation": "consistent_with_independent_convergence",
+    "caveat": "a PROXY (do independent fits/algorithms agree) -- not a literal lineage-based permutation test; see module docstring's disclosed evidence gap"
+  },
+  "temporary_similarity": {
+    "temporal_window_stability_ari": 0.14084941355363056,
+    "interpretation": "consistent_with_temporary_similarity"
+  },
+  "measurement_compression": {
+    "pca_explained_variance_ratio": [
+      0.18731605456948897,
+      0.11681029753715627,
+      0.11360536808222967,
+      0.10058633542960543,
+      0.09232212148730608
+    ],
+    "n_components_for_90pct_variance": 5,
+    "n_raw_dimensions": 11,
+    "interpretation": "against_measurement_compression"
+  },
+  "failure_state_similarity": {
+    "cluster_vs_failure_proxy_ari": 0.0,
+    "interpretation": "against_failure_state_similarity"
+  },
+  "per_cluster_environmental_forcing": {
+    "0": {
+      "n_members": 367,
+      "environmentally_forced_similarity": {
+        "n_members": 367,
+        "distinct_joint_points": 48,
+        "distinct_joint_points_fraction": 0.1307901907356948,
+        "distinct_ic_families": 2,
+        "distinct_strata": 3,
+        "interpretation": "consistent_with_environmental_forcing"
+      }
+    },
+    "1": {
+      "n_members": 138,
+      "environmentally_forced_similarity": {
+        "n_members": 138,
+        "distinct_joint_points": 42,
+        "distinct_joint_points_fraction": 0.30434782608695654,
+        "distinct_ic_families": 2,
+        "distinct_strata": 3,
+        "interpretation": "consistent_with_environmental_forcing"
+      }
+    },
+    "2": {
+      "n_members": 70,
+      "environmentally_forced_similarity": {
+        "n_members": 70,
+        "distinct_joint_points": 29,
+        "distinct_joint_points_fraction": 0.4142857142857143,
+        "distinct_ic_families": 2,
+        "distinct_strata": 3,
+        "interpretation": "consistent_with_environmental_forcing"
+      }
+    },
+    "3": {
+      "n_members": 1,
+      "environmentally_forced_similarity": {
+        "n_members": 1,
+        "distinct_joint_points": 1,
+        "distinct_joint_points_fraction": 1.0,
+        "distinct_ic_families": 1,
+        "distinct_strata": 1,
+        "interpretation": "insufficient_members_for_interpretation"
+      }
+    }
+  },
+  "collinearity_n_complete_rows": 576
+}

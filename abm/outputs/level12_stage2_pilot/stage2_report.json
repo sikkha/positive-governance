@@ -1,0 +1,1071 @@
+{
+  "n_seeds": 10,
+  "n_steps": 400,
+  "population": 40,
+  "n_patches": 4,
+  "n_completed": 10,
+  "n_failed": 0,
+  "failures": [],
+  "per_seed": [
+    {
+      "seed": 0,
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 3,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 0.7805951250000001,
+          "denominator": 3,
+          "value": 0.26019837500000004,
+          "window": null
+        },
+        "E": {
+          "numerator": 91,
+          "denominator": 121,
+          "value": 0.7520661157024794,
+          "window": null
+        },
+        "L": {
+          "numerator": 29,
+          "denominator": 40,
+          "value": 0.725,
+          "window": null
+        },
+        "D": {
+          "numerator": 3.0,
+          "denominator": 3,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.042466012968749994,
+          "denominator": 4,
+          "value": 0.010616503242187499,
+          "window": null
+        },
+        "R": {
+          "numerator": 6.383619966355868,
+          "denominator": 4.464882115552893,
+          "value": 1.429739867961861,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 163,
+          "denominator": 1193,
+          "value": 0.1366303436714166,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.005150325802439266,
+            "denominator": 3,
+            "value": 0.0017167752674797554,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 29,
+            "denominator": 40,
+            "value": 0.725,
+            "window": null
+          },
+          "value": 0.36335838763373984,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.19139936859181284,
+          "denominator": 3,
+          "value": 0.06379978953060428,
+          "window": null
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 2,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 0.28564272727272727,
+          "denominator": 1,
+          "value": 0.28564272727272727,
+          "window": null
+        },
+        "E": {
+          "numerator": 114,
+          "denominator": 153,
+          "value": 0.7450980392156863,
+          "window": null
+        },
+        "L": {
+          "numerator": 33,
+          "denominator": 40,
+          "value": 0.825,
+          "window": null
+        },
+        "D": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": NaN,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.0038250000000000003,
+          "denominator": 4,
+          "value": 0.0009562500000000001,
+          "window": null
+        },
+        "R": {
+          "numerator": 20.16407092295145,
+          "denominator": 16.267946995387703,
+          "value": 1.2394969647164684,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 187,
+          "denominator": 1066,
+          "value": 0.175422138836773,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.0228158861440982,
+            "denominator": 2,
+            "value": 0.0114079430720491,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 33,
+            "denominator": 40,
+            "value": 0.825,
+            "window": null
+          },
+          "value": 0.4182039715360245,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.12249864293430461,
+          "denominator": 1,
+          "value": 0.12249864293430461,
+          "window": null
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 2,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": NaN,
+          "window": null
+        },
+        "E": {
+          "numerator": 109,
+          "denominator": 133,
+          "value": 0.8195488721804511,
+          "window": null
+        },
+        "L": {
+          "numerator": 28,
+          "denominator": 40,
+          "value": 0.7,
+          "window": null
+        },
+        "D": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": NaN,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.02146875,
+          "denominator": 4,
+          "value": 0.0053671875,
+          "window": null
+        },
+        "R": {
+          "numerator": 17.21375180922254,
+          "denominator": 10.170864283073106,
+          "value": 1.6924571334483915,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 71,
+          "denominator": 943,
+          "value": 0.07529162248144221,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.0066258030452660665,
+            "denominator": 2,
+            "value": 0.0033129015226330332,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 28,
+            "denominator": 40,
+            "value": 0.7,
+            "window": null
+          },
+          "value": 0.3516564507613165,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.07818270696079199,
+          "denominator": 1,
+          "value": 0.07818270696079199,
+          "window": null
+        }
+      }
+    },
+    {
+      "seed": 3,
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 2,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 1.014,
+          "denominator": 2,
+          "value": 0.507,
+          "window": null
+        },
+        "E": {
+          "numerator": 101,
+          "denominator": 135,
+          "value": 0.7481481481481481,
+          "window": null
+        },
+        "L": {
+          "numerator": 25,
+          "denominator": 40,
+          "value": 0.625,
+          "window": null
+        },
+        "D": {
+          "numerator": 2.0,
+          "denominator": 2,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.009887625,
+          "denominator": 4,
+          "value": 0.00247190625,
+          "window": null
+        },
+        "R": {
+          "numerator": 11.187198476454911,
+          "denominator": 25.31753308894513,
+          "value": 0.4418755349169382,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 176,
+          "denominator": 835,
+          "value": 0.21077844311377245,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.04260143412175693,
+            "denominator": 2,
+            "value": 0.021300717060878466,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 25,
+            "denominator": 40,
+            "value": 0.625,
+            "window": null
+          },
+          "value": 0.3231503585304392,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.06299497648873907,
+          "denominator": 1,
+          "value": 0.06299497648873907,
+          "window": null
+        }
+      }
+    },
+    {
+      "seed": 4,
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 2,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 1.5611857142857142,
+          "denominator": 4,
+          "value": 0.39029642857142854,
+          "window": null
+        },
+        "E": {
+          "numerator": 143,
+          "denominator": 192,
+          "value": 0.7447916666666666,
+          "window": null
+        },
+        "L": {
+          "numerator": 28,
+          "denominator": 40,
+          "value": 0.7,
+          "window": null
+        },
+        "D": {
+          "numerator": 2.0,
+          "denominator": 2,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.006449999999999999,
+          "denominator": 4,
+          "value": 0.0016124999999999998,
+          "window": null
+        },
+        "R": {
+          "numerator": 15.381135256474542,
+          "denominator": 22.960202220144865,
+          "value": 0.6699041719667178,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 145,
+          "denominator": 1034,
+          "value": 0.1402321083172147,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.024713440302386945,
+            "denominator": 2,
+            "value": 0.012356720151193473,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 28,
+            "denominator": 40,
+            "value": 0.7,
+            "window": null
+          },
+          "value": 0.3561783600755967,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.0691324437487364,
+          "denominator": 1,
+          "value": 0.0691324437487364,
+          "window": null
+        }
+      }
+    },
+    {
+      "seed": 5,
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 1,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 2.3205647222222225,
+          "denominator": 4,
+          "value": 0.5801411805555556,
+          "window": null
+        },
+        "E": {
+          "numerator": 99,
+          "denominator": 130,
+          "value": 0.7615384615384615,
+          "window": null
+        },
+        "L": {
+          "numerator": 24,
+          "denominator": 35,
+          "value": 0.6857142857142857,
+          "window": null
+        },
+        "D": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": NaN,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.029335312500000002,
+          "denominator": 3,
+          "value": 0.0097784375,
+          "window": null
+        },
+        "R": {
+          "numerator": 16.167638237579823,
+          "denominator": 15.371157341834913,
+          "value": 1.0518165859624096,
+          "window": null
+        },
+        "S": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null
+        },
+        "F": {
+          "numerator": 55,
+          "denominator": 578,
+          "value": 0.09515570934256055,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.020872547114911176,
+            "denominator": 1,
+            "value": 0.020872547114911176,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 24,
+            "denominator": 40,
+            "value": 0.6,
+            "window": null
+          },
+          "value": 0.31043627355745557,
+          "window": null
+        },
+        "H": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": NaN,
+          "window": null
+        }
+      }
+    },
+    {
+      "seed": 6,
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 3,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 1.1437820512820513,
+          "denominator": 2,
+          "value": 0.5718910256410257,
+          "window": null
+        },
+        "E": {
+          "numerator": 121,
+          "denominator": 159,
+          "value": 0.7610062893081762,
+          "window": null
+        },
+        "L": {
+          "numerator": 27,
+          "denominator": 38,
+          "value": 0.7105263157894737,
+          "window": null
+        },
+        "D": {
+          "numerator": 1.0,
+          "denominator": 1,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.024621898159802154,
+          "denominator": 3,
+          "value": 0.008207299386600718,
+          "window": null
+        },
+        "R": {
+          "numerator": 14.250985805386895,
+          "denominator": 14.416853185726064,
+          "value": 0.9884948970345767,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 184,
+          "denominator": 1139,
+          "value": 0.16154521510096576,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.028833706371452127,
+            "denominator": 3,
+            "value": 0.009611235457150709,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 27,
+            "denominator": 40,
+            "value": 0.675,
+            "window": null
+          },
+          "value": 0.3423056177285754,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.24436058501323538,
+          "denominator": 3,
+          "value": 0.08145352833774512,
+          "window": null
+        }
+      }
+    },
+    {
+      "seed": 7,
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 4,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 1.4219911349257306,
+          "denominator": 4,
+          "value": 0.35549778373143265,
+          "window": null
+        },
+        "E": {
+          "numerator": 140,
+          "denominator": 176,
+          "value": 0.7954545454545454,
+          "window": null
+        },
+        "L": {
+          "numerator": 34,
+          "denominator": 40,
+          "value": 0.85,
+          "window": null
+        },
+        "D": {
+          "numerator": 3.0,
+          "denominator": 3,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.048247134375,
+          "denominator": 4,
+          "value": 0.01206178359375,
+          "window": null
+        },
+        "R": {
+          "numerator": 15.817619600000057,
+          "denominator": 33.30602830235592,
+          "value": 0.4749176172074888,
+          "window": null
+        },
+        "S": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null
+        },
+        "F": {
+          "numerator": 290,
+          "denominator": 1211,
+          "value": 0.23947151114781173,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.06661205660471184,
+            "denominator": 4,
+            "value": 0.01665301415117796,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 34,
+            "denominator": 40,
+            "value": 0.85,
+            "window": null
+          },
+          "value": 0.43332650707558895,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.3737233913961285,
+          "denominator": 6,
+          "value": 0.06228723189935475,
+          "window": null
+        }
+      }
+    },
+    {
+      "seed": 8,
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 3,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 1.0076521739130435,
+          "denominator": 2,
+          "value": 0.5038260869565218,
+          "window": null
+        },
+        "E": {
+          "numerator": 149,
+          "denominator": 201,
+          "value": 0.7412935323383084,
+          "window": null
+        },
+        "L": {
+          "numerator": 30,
+          "denominator": 40,
+          "value": 0.75,
+          "window": null
+        },
+        "D": {
+          "numerator": 1.0,
+          "denominator": 1,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.025709704188281245,
+          "denominator": 4,
+          "value": 0.006427426047070311,
+          "window": null
+        },
+        "R": {
+          "numerator": 23.738768209076717,
+          "denominator": 65.53484081743993,
+          "value": 0.36223126375183673,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 190,
+          "denominator": 1373,
+          "value": 0.13838310269482884,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.11883983967501302,
+            "denominator": 3,
+            "value": 0.03961327989167101,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 30,
+            "denominator": 40,
+            "value": 0.75,
+            "window": null
+          },
+          "value": 0.3948066399458355,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.352310393162123,
+          "denominator": 3,
+          "value": 0.11743679772070766,
+          "window": null
+        }
+      }
+    },
+    {
+      "seed": 9,
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 3,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 1.740172768824777,
+          "denominator": 4,
+          "value": 0.43504319220619425,
+          "window": null
+        },
+        "E": {
+          "numerator": 129,
+          "denominator": 164,
+          "value": 0.7865853658536586,
+          "window": null
+        },
+        "L": {
+          "numerator": 20,
+          "denominator": 25,
+          "value": 0.8,
+          "window": null
+        },
+        "D": {
+          "numerator": 2.0,
+          "denominator": 2,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.021989863593750006,
+          "denominator": 3,
+          "value": 0.007329954531250002,
+          "window": null
+        },
+        "R": {
+          "numerator": 16.83181867308213,
+          "denominator": 35.834070888807574,
+          "value": 0.46971550414439195,
+          "window": null
+        },
+        "S": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null
+        },
+        "F": {
+          "numerator": 156,
+          "denominator": 1083,
+          "value": 0.1440443213296399,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.06896605142178645,
+            "denominator": 3,
+            "value": 0.022988683807262152,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 20,
+            "denominator": 40,
+            "value": 0.5,
+            "window": null
+          },
+          "value": 0.2614943419036311,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.26158642630981044,
+          "denominator": 3,
+          "value": 0.08719547543660348,
+          "window": null
+        }
+      }
+    }
+  ],
+  "feature_names": [
+    "C",
+    "E",
+    "L",
+    "D",
+    "M",
+    "R",
+    "S",
+    "F",
+    "V_ecological",
+    "V_demographic",
+    "H"
+  ],
+  "missingness_report": {
+    "C": 0.1,
+    "E": 0.0,
+    "L": 0.0,
+    "D": 0.3,
+    "M": 0.0,
+    "R": 0.0,
+    "S": 0.0,
+    "F": 0.0,
+    "V_ecological": 0.0,
+    "V_demographic": 0.0,
+    "H": 0.1
+  },
+  "collinearity_diagnostic": {
+    "feature_names": [
+      "C",
+      "E",
+      "L",
+      "D",
+      "M",
+      "R",
+      "S",
+      "F",
+      "V_ecological",
+      "V_demographic",
+      "H"
+    ],
+    "correlation_matrix": [
+      [
+        1.0,
+        -0.20056825768387287,
+        -0.34654997349998323,
+        NaN,
+        -0.403416902391479,
+        -0.4497618095975914,
+        0.23638515786414555,
+        0.0451994606482949,
+        0.4925720291289805,
+        -0.3164394542767556,
+        0.4891904739645145
+      ],
+      [
+        -0.2005682576838729,
+        1.0,
+        0.7943252891597695,
+        NaN,
+        0.6190428591734733,
+        -0.1950254529427405,
+        -0.9494633871948628,
+        0.4954203213230231,
+        -0.09687943721959581,
+        -0.012095582879488235,
+        -0.2414284561375317
+      ],
+      [
+        -0.34654997349998323,
+        0.7943252891597695,
+        1.0,
+        NaN,
+        0.7201693333554843,
+        -0.18175027563006255,
+        -0.8254633351721866,
+        0.16521701117997672,
+        0.13324858184518049,
+        0.29044128110959033,
+        0.16098538723644432
+      ],
+      [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ],
+      [
+        -0.403416902391479,
+        0.6190428591734733,
+        0.7201693333554842,
+        NaN,
+        1.0,
+        0.3656691141843161,
+        -0.4820730775660891,
+        0.21431043383623732,
+        -0.2539572963528653,
+        0.4194734433023614,
+        -0.06578107944953668
+      ],
+      [
+        -0.4497618095975914,
+        -0.1950254529427405,
+        -0.18175027563006255,
+        NaN,
+        0.3656691141843161,
+        1.0,
+        0.38558475374627244,
+        -0.3714767715639902,
+        -0.826181267981569,
+        0.0992969768054021,
+        -0.3684735796750926
+      ],
+      [
+        0.23638515786414555,
+        -0.9494633871948628,
+        -0.8254633351721866,
+        NaN,
+        -0.4820730775660891,
+        0.38558475374627244,
+        0.9999999999999999,
+        -0.4056098730288767,
+        -0.11744738894763436,
+        0.08966716793244406,
+        0.10293168688193945
+      ],
+      [
+        0.0451994606482949,
+        0.4954203213230231,
+        0.16521701117997672,
+        NaN,
+        0.21431043383623732,
+        -0.37147677156399017,
+        -0.4056098730288767,
+        1.0,
+        0.0019187013832130222,
+        0.37719561141147023,
+        -0.5022957838539225
+      ],
+      [
+        0.49257202912898057,
+        -0.09687943721959581,
+        0.13324858184518049,
+        NaN,
+        -0.2539572963528653,
+        -0.8261812679815691,
+        -0.11744738894763436,
+        0.0019187013832130222,
+        1.0,
+        -0.07405717606224109,
+        0.7749700924666576
+      ],
+      [
+        -0.31643945427675557,
+        -0.012095582879488235,
+        0.2904412811095904,
+        NaN,
+        0.4194734433023614,
+        0.0992969768054021,
+        0.08966716793244406,
+        0.37719561141147023,
+        -0.07405717606224109,
+        1.0,
+        -0.11922881881073513
+      ],
+      [
+        0.4891904739645144,
+        -0.24142845613753167,
+        0.16098538723644432,
+        NaN,
+        -0.06578107944953668,
+        -0.36847357967509253,
+        0.10293168688193945,
+        -0.5022957838539225,
+        0.7749700924666576,
+        -0.11922881881073513,
+        1.0
+      ]
+    ],
+    "n_complete_rows": 7
+  },
+  "pca_diagnostic": {
+    "explained_variance_ratio": [
+      0.25072225713853596,
+      0.23039682471719874
+    ],
+    "components": [
+      [
+        -2.3669878721895334,
+        0.2663221916345866
+      ],
+      [
+        -1.2913891171093475,
+        1.5870297904901955
+      ],
+      [
+        -2.6617294374252514,
+        -1.3585856750852172
+      ],
+      [
+        1.3217854834739242,
+        -1.381443216712322
+      ],
+      [
+        -0.29302816012618965,
+        -0.7318081675481227
+      ],
+      [
+        1.041022102951061,
+        -1.4770539215818166
+      ],
+      [
+        -0.033654884567259125,
+        -0.8936741670202085
+      ],
+      [
+        0.4225066717988688,
+        3.6175707622431856
+      ],
+      [
+        2.2181878989171935,
+        0.07584676735947134
+      ],
+      [
+        1.6432873142765323,
+        0.29579563622024785
+      ]
+    ],
+    "diagnostic_only": true
+  },
+  "outcome_label_distribution": {
+    "collapse": 10
+  },
+  "n_eligible": 10
+}

@@ -1,0 +1,130 @@
+\section{Reproducibility and Data Availability}
+\label{sec:reproducibility}
+
+\textbf{Source model repository.} The generative model, observer layer,
+experiment scripts, and every raw output artifact reported in this paper
+are drawn from a private, version-controlled model repository
+(\texttt{abm\_governance}, internal milestone label
+\texttt{abm\_governance\_level1.0}), which this paper's own workspace
+treats as read-only and does not modify, rename, delete, or regenerate.
+Full model documentation lives in that repository's own
+\texttt{docs/odd\_level0.1.md} through \texttt{docs/odd\_level1.3\_%
+addendum.md} (ODD-style model description, extended additively at every
+milestone), \texttt{docs/config\_reference.md} (every configuration
+field), and \texttt{docs/level0.2\_scientific\_note.md} through
+\texttt{docs/level1.3b\_scientific\_note.md} (per-milestone findings).
+\texttt{dev\_mem/project\_vision.md} documents the generative/observer
+separation and development philosophy this paper's
+\cref{sec:model-genealogy,sec:model-methods} summarize;
+\texttt{dev\_mem/status\_update.md} is that project's own chronological
+development log.
+
+\textbf{Determinism.} Every stochastic draw in the source model passes
+through one explicit, seeded random-number generator per run; two runs
+with the same configuration, including seed, are bit-for-bit identical.
+Every causal (matched-seed) experiment at every milestone uses the
+per-mechanism random-number substream architecture
+(\texttt{rng\_mode="mechanism\_substreams"}), so that a paired comparison
+isolating one mechanism never couples that mechanism's own random draws to
+any other mechanism's draws under the nominal seed. Level 1.3b's own Stage
+0 additionally found and fixed a cross-process frozenset-hash
+non-determinism (\texttt{rules/transmission.py}, introduced at Level 1.2,
+invisible to every prior single-process check) --- sorting the underlying
+component-name union before tupling restored bit-for-bit determinism
+across separate process launches of the same seed and configuration,
+confirmed by a standing regression test
+(\texttt{tests/test\_level13b\_cross\_process\_reproducibility.py}).
+
+\textbf{Preregistration.} All four milestones freeze a hashed manifest
+before generating data: Level 1.2's Stage 0 manifest
+(\texttt{outputs/level12\_stage0\_preregistration/manifest.json}); Level
+1.2b's Work Package I manifest
+(\texttt{outputs/level12b\_stage\_i\_preregistration\_manifest/manifest.json},
+SHA-256 \texttt{f5bd19df\ldots}); Level 1.3's own Stage 0 manifest; and
+Level 1.3b's own manifest (\texttt{docs/level13b\_preregistration.md} ---
+disclosed by its own source project as using the \texttt{level13b\_}
+no-dot naming convention, an inconsistency introduced when the file was
+first written and left as-is rather than renamed mid-milestone, since
+other files already reference the existing path). Every downstream stage
+script recomputes and verifies its own milestone's manifest hash before
+proceeding, via \texttt{load\_and\_verify\_manifest()}, and Level 1.3b's
+own manifest additionally freezes the eight-label decision-gate vocabulary
+(\cref{sec:decision-gate-extended}) and an explicit note that its own
+discovery pipeline's default must not be biased toward
+\texttt{three\_families}.
+
+\textbf{Software and testing.} The source model's test suite stood at
+1,084 passed / 6 skipped / 0 failed / 0 warnings at the close of Level 1.2;
+1,475 passed / 6 skipped / 0 failed / 0 warnings at the close of Level
+1.2b (389 new tests); and 1,869 passed / 6 skipped / 0 failed / 0 warnings
+immediately before Level 1.3b began (Level 1.3b's own disclosed preflight
+baseline, identical to Level 1.3's own closing count). At the close of
+Level 1.3b: \textbf{2,047 passed / 6 skipped / 0 failed / 0 warnings} (178
+new tests across 19 files, exactly matching the delta from the 1,869
+preflight baseline), run under \texttt{python -m pytest -q -W error -p
+no:cacheprovider}, re-run in full as Level 1.3b's own closing verification
+step rather than inferred from per-task runs. A whole-package,
+non-fixed-module-list forbidden-terminology scan and a dedicated
+SEM-firewall audit (which also confirms no dissertation-derived data file
+exists anywhere in the repository) both passed throughout all four
+milestones; Level 1.3b's own extension
+(\texttt{tests/test\_level13b\_sem\_firewall\_extension.py}) adds a
+docs-directory scan for \texttt{docs/level1.3b\_*.md} and reuses Level
+1.3's own forbidden-term list unmodified, introducing no new forbidden
+vocabulary. No milestone's generative, observer, or experiment code ever
+read, imported, or referenced the dissertation's own data, labels, or
+trajectory count. Two genuine source-layer bugs were found and fixed
+mid-Level-1.3b, neither contaminating any reported result
+(\cref{sec:level13b-limitations}): the cross-process frozenset-hash issue
+above, and a \texttt{copy.deepcopy}/frozenset-iteration-order defect in
+Stage 6's own new checkpoint machinery, caught by the sham-validation
+arm's own byte-identical requirement on its first smoke check before any
+real Stage 6 run completed.
+
+\textbf{This paper's own workspace.} This manuscript, its section sources,
+figures, tables, source data extracts, and figure/diagram-generation
+scripts are maintained in a separate paper repository
+(\texttt{abm\_governance\_paper}), built with \LaTeX{} (\texttt{pdflatex}
++ \texttt{biber}, orchestrated by \texttt{latexmk} where available, with a
+manual fallback sequence otherwise --- see \texttt{Makefile}). The
+repository's pre-revision (Level 1.2/1.2b-only) state is preserved via a
+local \texttt{git} commit and tag (\texttt{pre-level13b-revision}), created
+before any Level 1.3/1.3b edit began; \texttt{dev\_mem/revision\_level13b\_%
+status.md} records the pre-revision baseline build status in full. Every
+figure in \texttt{figures/} is either a byte-for-byte copy of an existing
+figure from the source model repository's own \texttt{outputs/%
+level12\_figures/}, \texttt{outputs/level12b\_figures/},
+\texttt{outputs/level13\_figures/}, or \texttt{outputs/level13b\_figures/}
+(never re-rendered, never re-labeled; full provenance in
+\texttt{dev\_mem/figure\_manifest.md}) or the one originally authored
+conceptual-framework diagram (\texttt{scripts/conceptual\_framework.tex},
+compiled with Ti\textit{k}Z). No figure links to an absolute path in the
+source model repository. Every central numerical claim in this paper is
+mapped to its exact source file and field in
+\texttt{dev\_mem/evidence\_ledger.md} and, for every Level 1.3/1.3b claim,
+in \texttt{claim\_evidence\_manifest.csv} at this repository's root ---
+recomputed directly from raw JSON output for every headline Level 1.3/1.3b
+correlation, silhouette, and BIC value reported in
+\cref{sec:level13,sec:level13b}, not merely copied from prose summaries.
+\texttt{dev\_mem/reference\_audit.md} records the verification basis for
+every bibliography entry. \texttt{dev\_mem/paper\_status.md} and
+\texttt{dev\_mem/revision\_level13b\_change\_log.md} are this paper's own
+development logs, in the same spirit as the source model's
+\texttt{dev\_mem/status\_update.md}.
+
+\textbf{What this revision implements, and what remains for future work.}
+The historically conditioned model $M_{\text{historical}}$ that the prior
+Level 1.2/1.2b manuscript motivated but did not implement is now
+implemented and tested (\cref{sec:level13,sec:level13b}): pressure-
+transmission channels, entrenchment, and dual legitimacy ledgers, a
+sham-controlled causal intervention design, and an eight-way decision-gate
+classification. What remains out of scope for this paper, and was not
+attempted, is Level 1.4 or any further recalibration of the generative
+model toward a predetermined cluster count, per this revision's own
+governing constraint; extending the tested $k$ range past 8; building a
+common discrete/continuous fresh-data comparison metric; extending Stage
+5/6 to the full Stage 3 factorial; and, most fundamentally, calibrating
+any part of this model against real historical governance data, which
+alone would let this project's own results speak to why real governance
+systems, as opposed to this model's own generated space, concentrate
+around particular recurring trajectories.

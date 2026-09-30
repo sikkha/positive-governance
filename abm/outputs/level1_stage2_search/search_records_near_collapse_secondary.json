@@ -1,0 +1,2090 @@
+[
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 0,
+    "seed": 0,
+    "overrides": {
+      "proposal_probability_mean": 0.01140056930066767,
+      "preferred_adoption_threshold_mean": 0.5439882178287412,
+      "monitoring_detection_accuracy": 0.5498038879095226,
+      "sanction_cost_per_unit": 0.8981391353484862,
+      "membership_exit_cost": 2.822882227717644,
+      "amendment_propensity_mean": 0.07364602972360375,
+      "rule_mutation_std": 0.06610040171483178,
+      "monitoring_mode": "voluntary",
+      "sanction_mode": "voluntary"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 10,
+        "n_adoptions": 10,
+        "n_rejections": 0,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 1.0
+      },
+      "persistence": {
+        "n_rule_instances": 3,
+        "mean_lifetime_steps": 144.33333333333334,
+        "median_lifetime_steps": 174.0,
+        "n_founder_independent": 1,
+        "founder_independence_rate": 0.3333333333333333,
+        "n_still_active_at_run_end": 3
+      },
+      "membership": {
+        "mean_peak_members": 2.3,
+        "n_joins": 710,
+        "n_exits": 709,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.8501990109757569,
+        "violation_rate": 0.14980098902424316,
+        "enforcement_altered_action_rate": 0.6628874683391629,
+        "monitoring_true_positive_rate": 0.5330535152151101,
+        "monitoring_false_positive_rate_observed": 0.04824084149437795,
+        "n_sanctions": 757,
+        "false_sanction_rate": 0.3368560105680317,
+        "total_sanction_cost": 330.7504351775824,
+        "total_monitoring_cost": 646.7000000000785
+      },
+      "welfare": {
+        "mean_member_resources": -23.86864390984327,
+        "mean_nonmember_resources": 99.72290665872535,
+        "member_gini": 0.0,
+        "nonmember_gini": 0.7499999999999999,
+        "overall_gini": 0.9500000000000002
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.12902718843312902,
+        "nonmember_cooperation_rate": 0.2347521651004238
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 174
+      },
+      {
+        "patch_id": 1,
+        "label": "persistent_proto_institution",
+        "duration_steps": 218
+      },
+      {
+        "patch_id": 2,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 41
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": 16.99332407740912,
+      "cumulative_extraction": 30452.895811784852,
+      "cumulative_maintenance_invested": 42179.57789896536,
+      "cumulative_unmet_extraction_demand": 18334.798981113127,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 0,
+    "seed": 1,
+    "overrides": {
+      "proposal_probability_mean": 0.01140056930066767,
+      "preferred_adoption_threshold_mean": 0.5439882178287412,
+      "monitoring_detection_accuracy": 0.5498038879095226,
+      "sanction_cost_per_unit": 0.8981391353484862,
+      "membership_exit_cost": 2.822882227717644,
+      "amendment_propensity_mean": 0.07364602972360375,
+      "rule_mutation_std": 0.06610040171483178,
+      "monitoring_mode": "voluntary",
+      "sanction_mode": "voluntary"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 13,
+        "n_adoptions": 10,
+        "n_rejections": 3,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 0.7692307692307693
+      },
+      "persistence": {
+        "n_rule_instances": 3,
+        "mean_lifetime_steps": 403.3333333333333,
+        "median_lifetime_steps": 513.0,
+        "n_founder_independent": 1,
+        "founder_independence_rate": 0.3333333333333333,
+        "n_still_active_at_run_end": 2
+      },
+      "membership": {
+        "mean_peak_members": 1.7,
+        "n_joins": 665,
+        "n_exits": 672,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.9266519537842399,
+        "violation_rate": 0.07334804621576009,
+        "enforcement_altered_action_rate": 0.707127093340257,
+        "monitoring_true_positive_rate": 0.5355648535564853,
+        "monitoring_false_positive_rate_observed": 0.04738197424892704,
+        "n_sanctions": 478,
+        "false_sanction_rate": 0.50418410041841,
+        "total_sanction_cost": 142.97317847560296,
+        "total_monitoring_cost": 630.3000000000748
+      },
+      "welfare": {
+        "mean_member_resources": -31.584952988598314,
+        "mean_nonmember_resources": -15.717821066693324,
+        "member_gini": 0.8888888888888891,
+        "nonmember_gini": 0.9039758004725051,
+        "overall_gini": 0.9115219094280408
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.611600264142637,
+        "nonmember_cooperation_rate": 0.5812009553053565
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "dissolved",
+        "duration_steps": 535
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 162
+      },
+      {
+        "patch_id": 2,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 513
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -457.1606086310113,
+      "cumulative_extraction": 18448.321772749572,
+      "cumulative_maintenance_invested": 38593.86525166982,
+      "cumulative_unmet_extraction_demand": 15121.66961021091,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 0,
+    "seed": 2,
+    "overrides": {
+      "proposal_probability_mean": 0.01140056930066767,
+      "preferred_adoption_threshold_mean": 0.5439882178287412,
+      "monitoring_detection_accuracy": 0.5498038879095226,
+      "sanction_cost_per_unit": 0.8981391353484862,
+      "membership_exit_cost": 2.822882227717644,
+      "amendment_propensity_mean": 0.07364602972360375,
+      "rule_mutation_std": 0.06610040171483178,
+      "monitoring_mode": "voluntary",
+      "sanction_mode": "voluntary"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 31,
+        "n_adoptions": 18,
+        "n_rejections": 13,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 0.5806451612903226
+      },
+      "persistence": {
+        "n_rule_instances": 3,
+        "mean_lifetime_steps": 228.0,
+        "median_lifetime_steps": 85.0,
+        "n_founder_independent": 2,
+        "founder_independence_rate": 0.6666666666666666,
+        "n_still_active_at_run_end": 2
+      },
+      "membership": {
+        "mean_peak_members": 1.588235294117647,
+        "n_joins": 507,
+        "n_exits": 517,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.5293743034548639,
+        "violation_rate": 0.47062569654513614,
+        "enforcement_altered_action_rate": 0.4314599586053176,
+        "monitoring_true_positive_rate": 0.5575783234546994,
+        "monitoring_false_positive_rate_observed": 0.05018181818181818,
+        "n_sanctions": 1316,
+        "false_sanction_rate": 0.0980243161094225,
+        "total_sanction_cost": 270.9828761977288,
+        "total_monitoring_cost": 511.20000000004774
+      },
+      "welfare": {
+        "mean_member_resources": -10.925421025974815,
+        "mean_nonmember_resources": -159.15554098027448,
+        "member_gini": 0.0,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.0
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.05194992085192114,
+        "nonmember_cooperation_rate": 0.0834631360332295
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "proto_institution",
+        "duration_steps": 85
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 595
+      },
+      {
+        "patch_id": 2,
+        "label": "short_lived_convention",
+        "duration_steps": 4
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -1404.3493801538937,
+      "cumulative_extraction": 11987.026000183489,
+      "cumulative_maintenance_invested": 23315.435795032306,
+      "cumulative_unmet_extraction_demand": 27163.207377021885,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 1,
+    "seed": 0,
+    "overrides": {
+      "proposal_probability_mean": 0.044193186680035815,
+      "preferred_adoption_threshold_mean": 0.3232980649029555,
+      "monitoring_detection_accuracy": 0.5797903218805489,
+      "sanction_cost_per_unit": 0.5539708990083603,
+      "membership_exit_cost": 2.342003955408503,
+      "amendment_propensity_mean": 0.057652299622976334,
+      "rule_mutation_std": 0.15438848915812944,
+      "monitoring_mode": "designated",
+      "sanction_mode": "voluntary"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 35,
+        "n_adoptions": 9,
+        "n_rejections": 28,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 0.2571428571428571
+      },
+      "persistence": {
+        "n_rule_instances": 2,
+        "mean_lifetime_steps": 319.0,
+        "median_lifetime_steps": 319.0,
+        "n_founder_independent": 0,
+        "founder_independence_rate": 0.0,
+        "n_still_active_at_run_end": 2
+      },
+      "membership": {
+        "mean_peak_members": 2.111111111111111,
+        "n_joins": 720,
+        "n_exits": 714,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.6019774369375079,
+        "violation_rate": 0.39802256306249206,
+        "enforcement_altered_action_rate": 0.4752186588921283,
+        "monitoring_true_positive_rate": 0.5939490445859873,
+        "monitoring_false_positive_rate_observed": 0.05222152032006738,
+        "n_sanctions": 2091,
+        "false_sanction_rate": 0.11812529890004782,
+        "total_sanction_cost": 315.5455177311995,
+        "total_monitoring_cost": 788.9000000001108
+      },
+      "welfare": {
+        "mean_member_resources": -2.5570089833182776,
+        "mean_nonmember_resources": -1.0905675241401855,
+        "member_gini": 0.9166666666666666,
+        "nonmember_gini": 0.875,
+        "overall_gini": 0.9496638880025552
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.0825920471281296,
+        "nonmember_cooperation_rate": 0.09876061286230116
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 591
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 47
+      },
+      {
+        "patch_id": 2,
+        "label": "proposal_rejected",
+        "duration_steps": null
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -39.40864799294082,
+      "cumulative_extraction": 26575.962977829036,
+      "cumulative_maintenance_invested": 50787.171896722066,
+      "cumulative_unmet_extraction_demand": 19184.71279831542,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 1,
+    "seed": 1,
+    "overrides": {
+      "proposal_probability_mean": 0.044193186680035815,
+      "preferred_adoption_threshold_mean": 0.3232980649029555,
+      "monitoring_detection_accuracy": 0.5797903218805489,
+      "sanction_cost_per_unit": 0.5539708990083603,
+      "membership_exit_cost": 2.342003955408503,
+      "amendment_propensity_mean": 0.057652299622976334,
+      "rule_mutation_std": 0.15438848915812944,
+      "monitoring_mode": "designated",
+      "sanction_mode": "voluntary"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 4,
+        "n_adoptions": 4,
+        "n_rejections": 2,
+        "n_reconstruction_attempts": 1,
+        "adoption_rate": 1.0
+      },
+      "persistence": {
+        "n_rule_instances": 4,
+        "mean_lifetime_steps": 443.5,
+        "median_lifetime_steps": 552.0,
+        "n_founder_independent": 1,
+        "founder_independence_rate": 0.25,
+        "n_still_active_at_run_end": 3
+      },
+      "membership": {
+        "mean_peak_members": 5.0,
+        "n_joins": 726,
+        "n_exits": 720,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.45285631852279284,
+        "violation_rate": 0.5471436814772072,
+        "enforcement_altered_action_rate": 0.3531448355452972,
+        "monitoring_true_positive_rate": 0.5762497363425437,
+        "monitoring_false_positive_rate_observed": 0.05581039755351682,
+        "n_sanctions": 2686,
+        "false_sanction_rate": 0.07408786299329859,
+        "total_sanction_cost": 322.3175592367888,
+        "total_monitoring_cost": 866.5000000001285
+      },
+      "welfare": {
+        "mean_member_resources": -2.2591489858295177,
+        "mean_nonmember_resources": -0.8814016840225014,
+        "member_gini": 0.0,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.0
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.6578036283063288,
+        "nonmember_cooperation_rate": 0.6564805057955743
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 594
+      },
+      {
+        "patch_id": 1,
+        "label": "reconstructed",
+        "duration_steps": 76
+      },
+      {
+        "patch_id": 2,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 586
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -43.80523241478335,
+      "cumulative_extraction": 11107.550787822442,
+      "cumulative_maintenance_invested": 21901.105650372992,
+      "cumulative_unmet_extraction_demand": 57115.52689948473,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 1,
+    "seed": 2,
+    "overrides": {
+      "proposal_probability_mean": 0.044193186680035815,
+      "preferred_adoption_threshold_mean": 0.3232980649029555,
+      "monitoring_detection_accuracy": 0.5797903218805489,
+      "sanction_cost_per_unit": 0.5539708990083603,
+      "membership_exit_cost": 2.342003955408503,
+      "amendment_propensity_mean": 0.057652299622976334,
+      "rule_mutation_std": 0.15438848915812944,
+      "monitoring_mode": "designated",
+      "sanction_mode": "voluntary"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 8,
+        "n_adoptions": 8,
+        "n_rejections": 0,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 1.0
+      },
+      "persistence": {
+        "n_rule_instances": 4,
+        "mean_lifetime_steps": 352.25,
+        "median_lifetime_steps": 374.0,
+        "n_founder_independent": 2,
+        "founder_independence_rate": 0.5,
+        "n_still_active_at_run_end": 3
+      },
+      "membership": {
+        "mean_peak_members": 2.5,
+        "n_joins": 614,
+        "n_exits": 612,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.4415282392026578,
+        "violation_rate": 0.5584717607973422,
+        "enforcement_altered_action_rate": 0.31871539313399777,
+        "monitoring_true_positive_rate": 0.5883402736466389,
+        "monitoring_false_positive_rate_observed": 0.04966139954853273,
+        "n_sanctions": 2824,
+        "false_sanction_rate": 0.06550991501416431,
+        "total_sanction_cost": 537.9728945571986,
+        "total_monitoring_cost": 903.0000000001368
+      },
+      "welfare": {
+        "mean_member_resources": -9.837570285208228,
+        "mean_nonmember_resources": -41.963967045571245,
+        "member_gini": 0.0,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.0
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.33386824324324327,
+        "nonmember_cooperation_rate": 0.30403726708074535
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "persistent_proto_institution",
+        "duration_steps": 597
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 64
+      },
+      {
+        "patch_id": 2,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 596
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -357.3833895059796,
+      "cumulative_extraction": 10060.97547321325,
+      "cumulative_maintenance_invested": 19257.669215403366,
+      "cumulative_unmet_extraction_demand": 20383.250384243616,
+      "n_patches_at_zero_resources": 2
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 2,
+    "seed": 0,
+    "overrides": {
+      "proposal_probability_mean": 0.02690695280277689,
+      "preferred_adoption_threshold_mean": 0.49301650730861263,
+      "monitoring_detection_accuracy": 0.6487294283771521,
+      "sanction_cost_per_unit": 0.44063070834637896,
+      "membership_exit_cost": 0.7428774243193029,
+      "amendment_propensity_mean": 0.018427312684174416,
+      "rule_mutation_std": 0.055023158781633164,
+      "monitoring_mode": "voluntary",
+      "sanction_mode": "collective_fund"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 9,
+        "n_adoptions": 8,
+        "n_rejections": 2,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 0.8888888888888888
+      },
+      "persistence": {
+        "n_rule_instances": 4,
+        "mean_lifetime_steps": 344.25,
+        "median_lifetime_steps": 383.5,
+        "n_founder_independent": 3,
+        "founder_independence_rate": 0.75,
+        "n_still_active_at_run_end": 3
+      },
+      "membership": {
+        "mean_peak_members": 2.125,
+        "n_joins": 762,
+        "n_exits": 776,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.6572507159593856,
+        "violation_rate": 0.34274928404061444,
+        "enforcement_altered_action_rate": 0.4243686539963551,
+        "monitoring_true_positive_rate": 0.643603133159269,
+        "monitoring_false_positive_rate_observed": 0.05186385737439222,
+        "n_sanctions": 0,
+        "false_sanction_rate": NaN,
+        "total_sanction_cost": 0,
+        "total_monitoring_cost": 661.7000000000819
+      },
+      "welfare": {
+        "mean_member_resources": -31.13564601884805,
+        "mean_nonmember_resources": -44.96675308396702,
+        "member_gini": 0.0,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.0
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.12385762385762386,
+        "nonmember_cooperation_rate": 0.10998877665544332
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "persistent_proto_institution",
+        "duration_steps": 590
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 285
+      },
+      {
+        "patch_id": 2,
+        "label": "persistent_proto_institution",
+        "duration_steps": 482
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -733.3617768979126,
+      "cumulative_extraction": 21350.187408894955,
+      "cumulative_maintenance_invested": 40498.15313449565,
+      "cumulative_unmet_extraction_demand": 19322.189510898228,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 2,
+    "seed": 1,
+    "overrides": {
+      "proposal_probability_mean": 0.02690695280277689,
+      "preferred_adoption_threshold_mean": 0.49301650730861263,
+      "monitoring_detection_accuracy": 0.6487294283771521,
+      "sanction_cost_per_unit": 0.44063070834637896,
+      "membership_exit_cost": 0.7428774243193029,
+      "amendment_propensity_mean": 0.018427312684174416,
+      "rule_mutation_std": 0.055023158781633164,
+      "monitoring_mode": "voluntary",
+      "sanction_mode": "collective_fund"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 9,
+        "n_adoptions": 4,
+        "n_rejections": 7,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 0.4444444444444444
+      },
+      "persistence": {
+        "n_rule_instances": 3,
+        "mean_lifetime_steps": 532.6666666666666,
+        "median_lifetime_steps": 563.0,
+        "n_founder_independent": 0,
+        "founder_independence_rate": 0.0,
+        "n_still_active_at_run_end": 3
+      },
+      "membership": {
+        "mean_peak_members": 3.25,
+        "n_joins": 724,
+        "n_exits": 723,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.4886230659212066,
+        "violation_rate": 0.5113769340787934,
+        "enforcement_altered_action_rate": 0.39864777012092056,
+        "monitoring_true_positive_rate": 0.6360436466033087,
+        "monitoring_false_positive_rate_observed": 0.04460269865067466,
+        "n_sanctions": 0,
+        "false_sanction_rate": NaN,
+        "total_sanction_cost": 0,
+        "total_monitoring_cost": 550.9000000000567
+      },
+      "welfare": {
+        "mean_member_resources": 21.150773471229577,
+        "mean_nonmember_resources": -113.32186850823065,
+        "member_gini": 0.9166666666666666,
+        "nonmember_gini": 0.875,
+        "overall_gini": 0.9498541479012161
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.7412488174077578,
+        "nonmember_cooperation_rate": 0.7501878287002254
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 458
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 563
+      },
+      {
+        "patch_id": 2,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 577
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -652.7656664110904,
+      "cumulative_extraction": 10823.76199875891,
+      "cumulative_maintenance_invested": 21522.457895396463,
+      "cumulative_unmet_extraction_demand": 30832.872159706472,
+      "n_patches_at_zero_resources": 1
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 2,
+    "seed": 2,
+    "overrides": {
+      "proposal_probability_mean": 0.02690695280277689,
+      "preferred_adoption_threshold_mean": 0.49301650730861263,
+      "monitoring_detection_accuracy": 0.6487294283771521,
+      "sanction_cost_per_unit": 0.44063070834637896,
+      "membership_exit_cost": 0.7428774243193029,
+      "amendment_propensity_mean": 0.018427312684174416,
+      "rule_mutation_std": 0.055023158781633164,
+      "monitoring_mode": "voluntary",
+      "sanction_mode": "collective_fund"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 6,
+        "n_adoptions": 3,
+        "n_rejections": 4,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 0.5
+      },
+      "persistence": {
+        "n_rule_instances": 3,
+        "mean_lifetime_steps": 577.0,
+        "median_lifetime_steps": 592.0,
+        "n_founder_independent": 0,
+        "founder_independence_rate": 0.0,
+        "n_still_active_at_run_end": 3
+      },
+      "membership": {
+        "mean_peak_members": 6.0,
+        "n_joins": 695,
+        "n_exits": 694,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.21063883299798794,
+        "violation_rate": 0.7893611670020121,
+        "enforcement_altered_action_rate": 0.14725855130784707,
+        "monitoring_true_positive_rate": 0.6561922365988909,
+        "monitoring_false_positive_rate_observed": 0.04224326292789512,
+        "n_sanctions": 14,
+        "false_sanction_rate": 0.07142857142857142,
+        "total_sanction_cost": 0.0,
+        "total_monitoring_cost": 678.3000000000857
+      },
+      "welfare": {
+        "mean_member_resources": -26.14887696879808,
+        "mean_nonmember_resources": -8.210102742176728,
+        "member_gini": 0.0,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.0
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.45185024886388225,
+        "nonmember_cooperation_rate": 0.4129763130792997
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 597
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 592
+      },
+      {
+        "patch_id": 2,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 542
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -487.0999909227189,
+      "cumulative_extraction": 9957.616294738247,
+      "cumulative_maintenance_invested": 18184.61448700403,
+      "cumulative_unmet_extraction_demand": 30715.35634934899,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 3,
+    "seed": 0,
+    "overrides": {
+      "proposal_probability_mean": 0.037471970419664824,
+      "preferred_adoption_threshold_mean": 0.2454837125676611,
+      "monitoring_detection_accuracy": 0.7866919638993852,
+      "sanction_cost_per_unit": 0.3088522215324708,
+      "membership_exit_cost": 1.8516993272664672,
+      "amendment_propensity_mean": 0.031122643820821264,
+      "rule_mutation_std": 0.18203561447775263,
+      "monitoring_mode": "voluntary",
+      "sanction_mode": "voluntary"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 5,
+        "n_adoptions": 5,
+        "n_rejections": 0,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 1.0
+      },
+      "persistence": {
+        "n_rule_instances": 3,
+        "mean_lifetime_steps": 465.6666666666667,
+        "median_lifetime_steps": 597.0,
+        "n_founder_independent": 0,
+        "founder_independence_rate": 0.0,
+        "n_still_active_at_run_end": 3
+      },
+      "membership": {
+        "mean_peak_members": 3.6,
+        "n_joins": 711,
+        "n_exits": 708,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.7734318858433425,
+        "violation_rate": 0.22656811415665742,
+        "enforcement_altered_action_rate": 0.25767375012832355,
+        "monitoring_true_positive_rate": 0.7868515665125835,
+        "monitoring_false_positive_rate_observed": 0.045026486168334316,
+        "n_sanctions": 1717,
+        "false_sanction_rate": 0.1648223645894001,
+        "total_sanction_cost": 241.5543222002292,
+        "total_monitoring_cost": 874.3000000001302
+      },
+      "welfare": {
+        "mean_member_resources": -17.216353282628326,
+        "mean_nonmember_resources": -18.570520743395278,
+        "member_gini": 0.0,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.0
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.07136135508155583,
+        "nonmember_cooperation_rate": 0.06916817359855335
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 597
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 598
+      },
+      {
+        "patch_id": 2,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 202
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -349.7437354956344,
+      "cumulative_extraction": 10731.980596584246,
+      "cumulative_maintenance_invested": 21137.59385470357,
+      "cumulative_unmet_extraction_demand": 14504.154638007327,
+      "n_patches_at_zero_resources": 1
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 3,
+    "seed": 1,
+    "overrides": {
+      "proposal_probability_mean": 0.037471970419664824,
+      "preferred_adoption_threshold_mean": 0.2454837125676611,
+      "monitoring_detection_accuracy": 0.7866919638993852,
+      "sanction_cost_per_unit": 0.3088522215324708,
+      "membership_exit_cost": 1.8516993272664672,
+      "amendment_propensity_mean": 0.031122643820821264,
+      "rule_mutation_std": 0.18203561447775263,
+      "monitoring_mode": "voluntary",
+      "sanction_mode": "voluntary"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 4,
+        "n_adoptions": 4,
+        "n_rejections": 1,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 1.0
+      },
+      "persistence": {
+        "n_rule_instances": 3,
+        "mean_lifetime_steps": 430.6666666666667,
+        "median_lifetime_steps": 593.0,
+        "n_founder_independent": 2,
+        "founder_independence_rate": 0.6666666666666666,
+        "n_still_active_at_run_end": 3
+      },
+      "membership": {
+        "mean_peak_members": 3.25,
+        "n_joins": 716,
+        "n_exits": 718,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.6162804804076186,
+        "violation_rate": 0.38371951959238143,
+        "enforcement_altered_action_rate": 0.5221399975736989,
+        "monitoring_true_positive_rate": 0.7925955414012739,
+        "monitoring_false_positive_rate_observed": 0.04695813092759658,
+        "n_sanctions": 1935,
+        "false_sanction_rate": 0.09457364341085271,
+        "total_sanction_cost": 212.7362506633044,
+        "total_monitoring_cost": 683.5000000000869
+      },
+      "welfare": {
+        "mean_member_resources": -1.8802105937769065,
+        "mean_nonmember_resources": -21.016899673681735,
+        "member_gini": 0.8915808514197817,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.9349485108518694
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.06624092161282244,
+        "nonmember_cooperation_rate": 0.06383384146341463
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "persistent_proto_institution",
+        "duration_steps": 597
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 593
+      },
+      {
+        "patch_id": 2,
+        "label": "persistent_proto_institution",
+        "duration_steps": 102
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -190.69772451477675,
+      "cumulative_extraction": 28523.421568667574,
+      "cumulative_maintenance_invested": 40328.86355606206,
+      "cumulative_unmet_extraction_demand": 2592.975546779032,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 3,
+    "seed": 2,
+    "overrides": {
+      "proposal_probability_mean": 0.037471970419664824,
+      "preferred_adoption_threshold_mean": 0.2454837125676611,
+      "monitoring_detection_accuracy": 0.7866919638993852,
+      "sanction_cost_per_unit": 0.3088522215324708,
+      "membership_exit_cost": 1.8516993272664672,
+      "amendment_propensity_mean": 0.031122643820821264,
+      "rule_mutation_std": 0.18203561447775263,
+      "monitoring_mode": "voluntary",
+      "sanction_mode": "voluntary"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 25,
+        "n_adoptions": 5,
+        "n_rejections": 20,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 0.2
+      },
+      "persistence": {
+        "n_rule_instances": 2,
+        "mean_lifetime_steps": 456.5,
+        "median_lifetime_steps": 456.5,
+        "n_founder_independent": 0,
+        "founder_independence_rate": 0.0,
+        "n_still_active_at_run_end": 2
+      },
+      "membership": {
+        "mean_peak_members": 3.2,
+        "n_joins": 850,
+        "n_exits": 845,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.8872640255251263,
+        "violation_rate": 0.1127359744748737,
+        "enforcement_altered_action_rate": 0.5622174953469822,
+        "monitoring_true_positive_rate": 0.8054187192118226,
+        "monitoring_false_positive_rate_observed": 0.05134588454955656,
+        "n_sanctions": 946,
+        "false_sanction_rate": 0.33509513742071884,
+        "total_sanction_cost": 158.65022298934784,
+        "total_monitoring_cost": 723.900000000096
+      },
+      "welfare": {
+        "mean_member_resources": -7.327678032716079,
+        "mean_nonmember_resources": -10.872413480534759,
+        "member_gini": 0.0,
+        "nonmember_gini": 0.8571428571428571,
+        "overall_gini": 0.9499999999999998
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.08419421487603305,
+        "nonmember_cooperation_rate": 0.10853816300129367
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 322
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 591
+      },
+      {
+        "patch_id": 2,
+        "label": "proposal_rejected",
+        "duration_steps": null
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -171.36670878905238,
+      "cumulative_extraction": 22180.123302973647,
+      "cumulative_maintenance_invested": 40627.462246035786,
+      "cumulative_unmet_extraction_demand": 18707.1324506225,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 4,
+    "seed": 0,
+    "overrides": {
+      "proposal_probability_mean": 0.02811761876817199,
+      "preferred_adoption_threshold_mean": 0.5782179754982655,
+      "monitoring_detection_accuracy": 0.742322348755752,
+      "sanction_cost_per_unit": 0.678808461393159,
+      "membership_exit_cost": 0.7809631340260685,
+      "amendment_propensity_mean": 0.009145188141338778,
+      "rule_mutation_std": 0.12425190305972203,
+      "monitoring_mode": "voluntary",
+      "sanction_mode": "collective_fund"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 8,
+        "n_adoptions": 4,
+        "n_rejections": 4,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 0.5
+      },
+      "persistence": {
+        "n_rule_instances": 3,
+        "mean_lifetime_steps": 534.0,
+        "median_lifetime_steps": 571.0,
+        "n_founder_independent": 1,
+        "founder_independence_rate": 0.3333333333333333,
+        "n_still_active_at_run_end": 3
+      },
+      "membership": {
+        "mean_peak_members": 3.5,
+        "n_joins": 758,
+        "n_exits": 760,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.4832680894052279,
+        "violation_rate": 0.5167319105947721,
+        "enforcement_altered_action_rate": 0.31064528349539083,
+        "monitoring_true_positive_rate": 0.751441753171857,
+        "monitoring_false_positive_rate_observed": 0.05364677516576251,
+        "n_sanctions": 25,
+        "false_sanction_rate": 0.0,
+        "total_sanction_cost": 0.0,
+        "total_monitoring_cost": 678.6000000000857
+      },
+      "welfare": {
+        "mean_member_resources": -8.181477107504692,
+        "mean_nonmember_resources": -24.104443341188553,
+        "member_gini": 0.9113343232568815,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.9423673101169731
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.557217261904762,
+        "nonmember_cooperation_rate": 0.5935196560196561
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "persistent_proto_institution",
+        "duration_steps": 585
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 446
+      },
+      {
+        "patch_id": 2,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 571
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -275.09030578588084,
+      "cumulative_extraction": 12150.080342514813,
+      "cumulative_maintenance_invested": 24215.241397657497,
+      "cumulative_unmet_extraction_demand": 32202.516382362814,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 4,
+    "seed": 1,
+    "overrides": {
+      "proposal_probability_mean": 0.02811761876817199,
+      "preferred_adoption_threshold_mean": 0.5782179754982655,
+      "monitoring_detection_accuracy": 0.742322348755752,
+      "sanction_cost_per_unit": 0.678808461393159,
+      "membership_exit_cost": 0.7809631340260685,
+      "amendment_propensity_mean": 0.009145188141338778,
+      "rule_mutation_std": 0.12425190305972203,
+      "monitoring_mode": "voluntary",
+      "sanction_mode": "collective_fund"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 32,
+        "n_adoptions": 6,
+        "n_rejections": 28,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 0.1875
+      },
+      "persistence": {
+        "n_rule_instances": 3,
+        "mean_lifetime_steps": 301.0,
+        "median_lifetime_steps": 295.0,
+        "n_founder_independent": 1,
+        "founder_independence_rate": 0.3333333333333333,
+        "n_still_active_at_run_end": 2
+      },
+      "membership": {
+        "mean_peak_members": 2.6666666666666665,
+        "n_joins": 589,
+        "n_exits": 599,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.6874355575195169,
+        "violation_rate": 0.31256444248048315,
+        "enforcement_altered_action_rate": 0.5090587715422006,
+        "monitoring_true_positive_rate": 0.7349585062240664,
+        "monitoring_false_positive_rate_observed": 0.04677623261694058,
+        "n_sanctions": 0,
+        "false_sanction_rate": NaN,
+        "total_sanction_cost": 0,
+        "total_monitoring_cost": 588.3000000000652
+      },
+      "welfare": {
+        "mean_member_resources": -12.465198246244261,
+        "mean_nonmember_resources": -231.40783544049597,
+        "member_gini": 0.9138894146357616,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.9483336487814571
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.49606571552096845,
+        "nonmember_cooperation_rate": 0.48193295602960384
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 569
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 39
+      },
+      {
+        "patch_id": 2,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 295
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -2000.845062478899,
+      "cumulative_extraction": 15729.142820109471,
+      "cumulative_maintenance_invested": 32741.100529687857,
+      "cumulative_unmet_extraction_demand": 19153.58813375699,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 4,
+    "seed": 2,
+    "overrides": {
+      "proposal_probability_mean": 0.02811761876817199,
+      "preferred_adoption_threshold_mean": 0.5782179754982655,
+      "monitoring_detection_accuracy": 0.742322348755752,
+      "sanction_cost_per_unit": 0.678808461393159,
+      "membership_exit_cost": 0.7809631340260685,
+      "amendment_propensity_mean": 0.009145188141338778,
+      "rule_mutation_std": 0.12425190305972203,
+      "monitoring_mode": "voluntary",
+      "sanction_mode": "collective_fund"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 5,
+        "n_adoptions": 4,
+        "n_rejections": 1,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 0.8
+      },
+      "persistence": {
+        "n_rule_instances": 3,
+        "mean_lifetime_steps": 545.3333333333334,
+        "median_lifetime_steps": 595.0,
+        "n_founder_independent": 2,
+        "founder_independence_rate": 0.6666666666666666,
+        "n_still_active_at_run_end": 3
+      },
+      "membership": {
+        "mean_peak_members": 4.75,
+        "n_joins": 655,
+        "n_exits": 655,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.3785548767642722,
+        "violation_rate": 0.6214451232357279,
+        "enforcement_altered_action_rate": 0.318938276806404,
+        "monitoring_true_positive_rate": 0.7441860465116279,
+        "monitoring_false_positive_rate_observed": 0.044533169533169534,
+        "n_sanctions": 0,
+        "false_sanction_rate": NaN,
+        "total_sanction_cost": 0,
+        "total_monitoring_cost": 876.0000000001306
+      },
+      "welfare": {
+        "mean_member_resources": -33.42199655429532,
+        "mean_nonmember_resources": -12.830032733488107,
+        "member_gini": 0.0,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.0
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.7225629791894852,
+        "nonmember_cooperation_rate": 0.7748618784530387
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "persistent_proto_institution",
+        "duration_steps": 444
+      },
+      {
+        "patch_id": 1,
+        "label": "persistent_proto_institution",
+        "duration_steps": 597
+      },
+      {
+        "patch_id": 2,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 595
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -627.2560034442919,
+      "cumulative_extraction": 11898.877792654548,
+      "cumulative_maintenance_invested": 23410.862851661303,
+      "cumulative_unmet_extraction_demand": 21845.53149300296,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 5,
+    "seed": 0,
+    "overrides": {
+      "proposal_probability_mean": 0.04927002500611095,
+      "preferred_adoption_threshold_mean": 0.3977516329821613,
+      "monitoring_detection_accuracy": 0.6990619259878434,
+      "sanction_cost_per_unit": 0.7817431045953123,
+      "membership_exit_cost": 0.035293497608411314,
+      "amendment_propensity_mean": 0.04531144656614477,
+      "rule_mutation_std": 0.09192736466643145,
+      "monitoring_mode": "designated",
+      "sanction_mode": "voluntary"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 35,
+        "n_adoptions": 7,
+        "n_rejections": 30,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 0.2
+      },
+      "persistence": {
+        "n_rule_instances": 2,
+        "mean_lifetime_steps": 476.0,
+        "median_lifetime_steps": 476.0,
+        "n_founder_independent": 0,
+        "founder_independence_rate": 0.0,
+        "n_still_active_at_run_end": 2
+      },
+      "membership": {
+        "mean_peak_members": 2.4285714285714284,
+        "n_joins": 754,
+        "n_exits": 753,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.9368589316637804,
+        "violation_rate": 0.06314106833621953,
+        "enforcement_altered_action_rate": 0.4070867190622086,
+        "monitoring_true_positive_rate": 0.6856540084388185,
+        "monitoring_false_positive_rate_observed": 0.051471633726716905,
+        "n_sanctions": 613,
+        "false_sanction_rate": 0.5530179445350734,
+        "total_sanction_cost": 158.1355231585638,
+        "total_monitoring_cost": 750.7000000001021
+      },
+      "welfare": {
+        "mean_member_resources": -22.611538972017765,
+        "mean_nonmember_resources": -51.3749787851033,
+        "member_gini": 0.0,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.0
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.13853273651468023,
+        "nonmember_cooperation_rate": 0.18102312207978916
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 357
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 595
+      },
+      {
+        "patch_id": 2,
+        "label": "proposal_rejected",
+        "duration_steps": null
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -682.3382979450396,
+      "cumulative_extraction": 26116.134059204327,
+      "cumulative_maintenance_invested": 42668.851711172334,
+      "cumulative_unmet_extraction_demand": 10220.243087575545,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 5,
+    "seed": 1,
+    "overrides": {
+      "proposal_probability_mean": 0.04927002500611095,
+      "preferred_adoption_threshold_mean": 0.3977516329821613,
+      "monitoring_detection_accuracy": 0.6990619259878434,
+      "sanction_cost_per_unit": 0.7817431045953123,
+      "membership_exit_cost": 0.035293497608411314,
+      "amendment_propensity_mean": 0.04531144656614477,
+      "rule_mutation_std": 0.09192736466643145,
+      "monitoring_mode": "designated",
+      "sanction_mode": "voluntary"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 31,
+        "n_adoptions": 16,
+        "n_rejections": 18,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 0.5161290322580645
+      },
+      "persistence": {
+        "n_rule_instances": 4,
+        "mean_lifetime_steps": 254.5,
+        "median_lifetime_steps": 204.5,
+        "n_founder_independent": 3,
+        "founder_independence_rate": 0.75,
+        "n_still_active_at_run_end": 3
+      },
+      "membership": {
+        "mean_peak_members": 1.6875,
+        "n_joins": 650,
+        "n_exits": 665,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.683835535104646,
+        "violation_rate": 0.316164464895354,
+        "enforcement_altered_action_rate": 0.5947751224580674,
+        "monitoring_true_positive_rate": 0.6957746478873239,
+        "monitoring_false_positive_rate_observed": 0.04992402865205123,
+        "n_sanctions": 1538,
+        "false_sanction_rate": 0.1378413524057217,
+        "total_sanction_cost": 588.1257438557379,
+        "total_monitoring_cost": 673.7000000000846
+      },
+      "welfare": {
+        "mean_member_resources": -6.126114866678442,
+        "mean_nonmember_resources": -66.57822632097536,
+        "member_gini": 0.0,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.0
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.5023622922572397,
+        "nonmember_cooperation_rate": 0.5210242979775935
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "persistent_proto_institution",
+        "duration_steps": 268
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 141
+      },
+      {
+        "patch_id": 2,
+        "label": "persistent_proto_institution",
+        "duration_steps": 585
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -485.2349660593504,
+      "cumulative_extraction": 16887.58623694089,
+      "cumulative_maintenance_invested": 34394.01549064793,
+      "cumulative_unmet_extraction_demand": 32832.85336857946,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 5,
+    "seed": 2,
+    "overrides": {
+      "proposal_probability_mean": 0.04927002500611095,
+      "preferred_adoption_threshold_mean": 0.3977516329821613,
+      "monitoring_detection_accuracy": 0.6990619259878434,
+      "sanction_cost_per_unit": 0.7817431045953123,
+      "membership_exit_cost": 0.035293497608411314,
+      "amendment_propensity_mean": 0.04531144656614477,
+      "rule_mutation_std": 0.09192736466643145,
+      "monitoring_mode": "designated",
+      "sanction_mode": "voluntary"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 25,
+        "n_adoptions": 25,
+        "n_rejections": 2,
+        "n_reconstruction_attempts": 1,
+        "adoption_rate": 1.0
+      },
+      "persistence": {
+        "n_rule_instances": 4,
+        "mean_lifetime_steps": 301.5,
+        "median_lifetime_steps": 302.0,
+        "n_founder_independent": 1,
+        "founder_independence_rate": 0.25,
+        "n_still_active_at_run_end": 3
+      },
+      "membership": {
+        "mean_peak_members": 1.5416666666666667,
+        "n_joins": 686,
+        "n_exits": 733,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.8104605415413099,
+        "violation_rate": 0.1895394584586901,
+        "enforcement_altered_action_rate": 0.5568155519555659,
+        "monitoring_true_positive_rate": 0.7051282051282052,
+        "monitoring_false_positive_rate_observed": 0.05168475157053112,
+        "n_sanctions": 1415,
+        "false_sanction_rate": 0.24522968197879857,
+        "total_sanction_cost": 672.1354546147569,
+        "total_monitoring_cost": 864.200000000128
+      },
+      "welfare": {
+        "mean_member_resources": -4.7299407739577175,
+        "mean_nonmember_resources": -31.763587764563525,
+        "member_gini": 0.9091634578532584,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.9273307662826067
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.4755356253114101,
+        "nonmember_cooperation_rate": 0.4677168416958382
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 592
+      },
+      {
+        "patch_id": 1,
+        "label": "short_lived_convention",
+        "duration_steps": 12
+      },
+      {
+        "patch_id": 2,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 595
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -202.73340344157754,
+      "cumulative_extraction": 13674.877437484149,
+      "cumulative_maintenance_invested": 27986.80194850838,
+      "cumulative_unmet_extraction_demand": 18723.505019186872,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 6,
+    "seed": 0,
+    "overrides": {
+      "proposal_probability_mean": 0.016593247766843698,
+      "preferred_adoption_threshold_mean": 0.6745698401753182,
+      "monitoring_detection_accuracy": 0.8559535756306267,
+      "sanction_cost_per_unit": 0.11698421178808971,
+      "membership_exit_cost": 1.355593416362553,
+      "amendment_propensity_mean": 0.0816393305723914,
+      "rule_mutation_std": 0.17130768986518846,
+      "monitoring_mode": "designated",
+      "sanction_mode": "collective_fund"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 21,
+        "n_adoptions": 10,
+        "n_rejections": 11,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 0.47619047619047616
+      },
+      "persistence": {
+        "n_rule_instances": 2,
+        "mean_lifetime_steps": 322.0,
+        "median_lifetime_steps": 322.0,
+        "n_founder_independent": 0,
+        "founder_independence_rate": 0.0,
+        "n_still_active_at_run_end": 2
+      },
+      "membership": {
+        "mean_peak_members": 2.3,
+        "n_joins": 647,
+        "n_exits": 659,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.3705538045925259,
+        "violation_rate": 0.6294461954074742,
+        "enforcement_altered_action_rate": 0.2185201861023563,
+        "monitoring_true_positive_rate": 0.8481163567000477,
+        "monitoring_false_positive_rate_observed": 0.04657756176589713,
+        "n_sanctions": 626,
+        "false_sanction_rate": 0.001597444089456869,
+        "total_sanction_cost": 0.0,
+        "total_monitoring_cost": 666.300000000083
+      },
+      "welfare": {
+        "mean_member_resources": -24.611154916590284,
+        "mean_nonmember_resources": 963.369552037501,
+        "member_gini": 0.0,
+        "nonmember_gini": 0.7999999999999999,
+        "overall_gini": 0.9499999999999998
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.6861914410265856,
+        "nonmember_cooperation_rate": 0.6957353222413464
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 560
+      },
+      {
+        "patch_id": 1,
+        "label": "proposal_rejected",
+        "duration_steps": null
+      },
+      {
+        "patch_id": 2,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 84
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": 4447.680436438651,
+      "cumulative_extraction": 14435.13689213872,
+      "cumulative_maintenance_invested": 15311.911323172491,
+      "cumulative_unmet_extraction_demand": 22829.45053796692,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 6,
+    "seed": 1,
+    "overrides": {
+      "proposal_probability_mean": 0.016593247766843698,
+      "preferred_adoption_threshold_mean": 0.6745698401753182,
+      "monitoring_detection_accuracy": 0.8559535756306267,
+      "sanction_cost_per_unit": 0.11698421178808971,
+      "membership_exit_cost": 1.355593416362553,
+      "amendment_propensity_mean": 0.0816393305723914,
+      "rule_mutation_std": 0.17130768986518846,
+      "monitoring_mode": "designated",
+      "sanction_mode": "collective_fund"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 24,
+        "n_adoptions": 9,
+        "n_rejections": 15,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 0.375
+      },
+      "persistence": {
+        "n_rule_instances": 4,
+        "mean_lifetime_steps": 228.75,
+        "median_lifetime_steps": 159.0,
+        "n_founder_independent": 2,
+        "founder_independence_rate": 0.5,
+        "n_still_active_at_run_end": 3
+      },
+      "membership": {
+        "mean_peak_members": 2.2222222222222223,
+        "n_joins": 556,
+        "n_exits": 575,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.5945524187828061,
+        "violation_rate": 0.40544758121719393,
+        "enforcement_altered_action_rate": 0.41424315505745496,
+        "monitoring_true_positive_rate": 0.8491952414275717,
+        "monitoring_false_positive_rate_observed": 0.049152946790742065,
+        "n_sanctions": 263,
+        "false_sanction_rate": 0.034220532319391636,
+        "total_sanction_cost": 0.0,
+        "total_monitoring_cost": 704.9000000000917
+      },
+      "welfare": {
+        "mean_member_resources": -10.249613029591918,
+        "mean_nonmember_resources": -59.58908048117894,
+        "member_gini": 0.0,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.0
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.07021244538194968,
+        "nonmember_cooperation_rate": 0.05626900980060831
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 210
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 588
+      },
+      {
+        "patch_id": 2,
+        "label": "persistent_proto_institution",
+        "duration_steps": 108
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -501.0290653013605,
+      "cumulative_extraction": 10729.703013304745,
+      "cumulative_maintenance_invested": 21122.04665283081,
+      "cumulative_unmet_extraction_demand": 16794.813739552974,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 6,
+    "seed": 2,
+    "overrides": {
+      "proposal_probability_mean": 0.016593247766843698,
+      "preferred_adoption_threshold_mean": 0.6745698401753182,
+      "monitoring_detection_accuracy": 0.8559535756306267,
+      "sanction_cost_per_unit": 0.11698421178808971,
+      "membership_exit_cost": 1.355593416362553,
+      "amendment_propensity_mean": 0.0816393305723914,
+      "rule_mutation_std": 0.17130768986518846,
+      "monitoring_mode": "designated",
+      "sanction_mode": "collective_fund"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 43,
+        "n_adoptions": 17,
+        "n_rejections": 28,
+        "n_reconstruction_attempts": 3,
+        "adoption_rate": 0.3953488372093023
+      },
+      "persistence": {
+        "n_rule_instances": 5,
+        "mean_lifetime_steps": 78.4,
+        "median_lifetime_steps": 22.0,
+        "n_founder_independent": 5,
+        "founder_independence_rate": 1.0,
+        "n_still_active_at_run_end": 2
+      },
+      "membership": {
+        "mean_peak_members": 1.411764705882353,
+        "n_joins": 546,
+        "n_exits": 571,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.7465533824943892,
+        "violation_rate": 0.25344661750561076,
+        "enforcement_altered_action_rate": 0.5583520359089452,
+        "monitoring_true_positive_rate": 0.8589500316255535,
+        "monitoring_false_positive_rate_observed": 0.052179514709040156,
+        "n_sanctions": 75,
+        "false_sanction_rate": 0.06666666666666667,
+        "total_sanction_cost": 0.0,
+        "total_monitoring_cost": 623.8000000000733
+      },
+      "welfare": {
+        "mean_member_resources": -18.894999237082498,
+        "mean_nonmember_resources": -30.46823488214427,
+        "member_gini": 0.8888888888888888,
+        "nonmember_gini": 0.830401208429131,
+        "overall_gini": 0.8869619273497936
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.48572628043660787,
+        "nonmember_cooperation_rate": 0.49278887923544745
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "proto_institution",
+        "duration_steps": 34
+      },
+      {
+        "patch_id": 1,
+        "label": "persistent_proto_institution",
+        "duration_steps": 328
+      },
+      {
+        "patch_id": 2,
+        "label": "reconstructed",
+        "duration_steps": 4
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -505.2055768373294,
+      "cumulative_extraction": 16008.04941015649,
+      "cumulative_maintenance_invested": 31298.18495702174,
+      "cumulative_unmet_extraction_demand": 21572.322051789695,
+      "n_patches_at_zero_resources": 1
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 7,
+    "seed": 0,
+    "overrides": {
+      "proposal_probability_mean": 0.0061378322576178986,
+      "preferred_adoption_threshold_mean": 0.3729691802734869,
+      "monitoring_detection_accuracy": 0.9394380991470987,
+      "sanction_cost_per_unit": 0.37300545949889985,
+      "membership_exit_cost": 2.1620841594780753,
+      "amendment_propensity_mean": 0.08875591812471298,
+      "rule_mutation_std": 0.033547465013986436,
+      "monitoring_mode": "designated",
+      "sanction_mode": "collective_fund"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 4,
+        "n_adoptions": 4,
+        "n_rejections": 0,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 1.0
+      },
+      "persistence": {
+        "n_rule_instances": 3,
+        "mean_lifetime_steps": 429.0,
+        "median_lifetime_steps": 519.0,
+        "n_founder_independent": 2,
+        "founder_independence_rate": 0.6666666666666666,
+        "n_still_active_at_run_end": 3
+      },
+      "membership": {
+        "mean_peak_members": 3.75,
+        "n_joins": 530,
+        "n_exits": 526,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.7776073619631901,
+        "violation_rate": 0.2223926380368098,
+        "enforcement_altered_action_rate": 0.6642382413087935,
+        "monitoring_true_positive_rate": 0.946551724137931,
+        "monitoring_false_positive_rate_observed": 0.04750164365548981,
+        "n_sanctions": 0,
+        "false_sanction_rate": NaN,
+        "total_sanction_cost": 0,
+        "total_monitoring_cost": 782.4000000001093
+      },
+      "welfare": {
+        "mean_member_resources": -14.150866931850304,
+        "mean_nonmember_resources": -81.3320030302668,
+        "member_gini": 0.0,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.0
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.47966482730431226,
+        "nonmember_cooperation_rate": 0.4496014171833481
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "persistent_proto_institution",
+        "duration_steps": 179
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 589
+      },
+      {
+        "patch_id": 2,
+        "label": "persistent_proto_institution",
+        "duration_steps": 519
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -686.1041552275051,
+      "cumulative_extraction": 15670.394736520055,
+      "cumulative_maintenance_invested": 32460.42018100144,
+      "cumulative_unmet_extraction_demand": 13694.017588734698,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 7,
+    "seed": 1,
+    "overrides": {
+      "proposal_probability_mean": 0.0061378322576178986,
+      "preferred_adoption_threshold_mean": 0.3729691802734869,
+      "monitoring_detection_accuracy": 0.9394380991470987,
+      "sanction_cost_per_unit": 0.37300545949889985,
+      "membership_exit_cost": 2.1620841594780753,
+      "amendment_propensity_mean": 0.08875591812471298,
+      "rule_mutation_std": 0.033547465013986436,
+      "monitoring_mode": "designated",
+      "sanction_mode": "collective_fund"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 11,
+        "n_adoptions": 9,
+        "n_rejections": 2,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 0.8181818181818182
+      },
+      "persistence": {
+        "n_rule_instances": 3,
+        "mean_lifetime_steps": 385.3333333333333,
+        "median_lifetime_steps": 573.0,
+        "n_founder_independent": 1,
+        "founder_independence_rate": 0.3333333333333333,
+        "n_still_active_at_run_end": 3
+      },
+      "membership": {
+        "mean_peak_members": 2.6666666666666665,
+        "n_joins": 678,
+        "n_exits": 669,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.8906078560456441,
+        "violation_rate": 0.10939214395435594,
+        "enforcement_altered_action_rate": 0.7321702874698266,
+        "monitoring_true_positive_rate": 0.9518555667001003,
+        "monitoring_false_positive_rate_observed": 0.050880867315510656,
+        "n_sanctions": 206,
+        "false_sanction_rate": 0.25728155339805825,
+        "total_sanction_cost": 0.0,
+        "total_monitoring_cost": 911.4000000001387
+      },
+      "welfare": {
+        "mean_member_resources": 61.41672569283825,
+        "mean_nonmember_resources": -3.9937810766071715,
+        "member_gini": 0.9370034222000764,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.9433030799800687
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.7088639579543158,
+        "nonmember_cooperation_rate": 0.7111013986013986
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 576
+      },
+      {
+        "patch_id": 1,
+        "label": "short_lived_convention",
+        "duration_steps": 7
+      },
+      {
+        "patch_id": 2,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 573
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": 1097.513500317874,
+      "cumulative_extraction": 24190.879277077704,
+      "cumulative_maintenance_invested": 52220.47197986407,
+      "cumulative_unmet_extraction_demand": 15171.500697236312,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  },
+  {
+    "candidate_key": "near_collapse",
+    "point_id": 7,
+    "seed": 2,
+    "overrides": {
+      "proposal_probability_mean": 0.0061378322576178986,
+      "preferred_adoption_threshold_mean": 0.3729691802734869,
+      "monitoring_detection_accuracy": 0.9394380991470987,
+      "sanction_cost_per_unit": 0.37300545949889985,
+      "membership_exit_cost": 2.1620841594780753,
+      "amendment_propensity_mean": 0.08875591812471298,
+      "rule_mutation_std": 0.033547465013986436,
+      "monitoring_mode": "designated",
+      "sanction_mode": "collective_fund"
+    },
+    "metrics": {
+      "formation": {
+        "n_proposals": 30,
+        "n_adoptions": 20,
+        "n_rejections": 10,
+        "n_reconstruction_attempts": 0,
+        "adoption_rate": 0.6666666666666666
+      },
+      "persistence": {
+        "n_rule_instances": 5,
+        "mean_lifetime_steps": 126.0,
+        "median_lifetime_steps": 11.0,
+        "n_founder_independent": 3,
+        "founder_independence_rate": 0.6,
+        "n_still_active_at_run_end": 2
+      },
+      "membership": {
+        "mean_peak_members": 1.411764705882353,
+        "n_joins": 412,
+        "n_exits": 423,
+        "n_exclusions": 0
+      },
+      "compliance_enforcement": {
+        "compliance_rate": 0.6422310756972112,
+        "violation_rate": 0.35776892430278884,
+        "enforcement_altered_action_rate": 0.5424302788844622,
+        "monitoring_true_positive_rate": 0.9320712694877505,
+        "monitoring_false_positive_rate_observed": 0.05272952853598015,
+        "n_sanctions": 90,
+        "false_sanction_rate": 0.044444444444444446,
+        "total_sanction_cost": 0.0,
+        "total_monitoring_cost": 502.00000000004565
+      },
+      "welfare": {
+        "mean_member_resources": -9.79525290574944,
+        "mean_nonmember_resources": -147.278100450606,
+        "member_gini": 0.0,
+        "nonmember_gini": 0.0,
+        "overall_gini": 0.0
+      },
+      "social_effects": {
+        "member_cooperation_rate": 0.06338862559241706,
+        "nonmember_cooperation_rate": 0.0659025787965616
+      }
+    },
+    "classifications": [
+      {
+        "patch_id": 0,
+        "label": "short_lived_convention",
+        "duration_steps": 5
+      },
+      {
+        "patch_id": 1,
+        "label": "founder_dependent_arrangement",
+        "duration_steps": 593
+      },
+      {
+        "patch_id": 2,
+        "label": "short_lived_convention",
+        "duration_steps": 12
+      }
+    ],
+    "ecological_outcomes": {
+      "final_occupancy": NaN,
+      "final_total_resources": -1708.2163811084106,
+      "cumulative_extraction": 48421.697571399345,
+      "cumulative_maintenance_invested": 64891.02245567219,
+      "cumulative_unmet_extraction_demand": 4788.334879573877,
+      "n_patches_at_zero_resources": 0
+    },
+    "n_alive_at_end": 20
+  }
+]

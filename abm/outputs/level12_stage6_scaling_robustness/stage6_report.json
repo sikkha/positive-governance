@@ -1,0 +1,118 @@
+{
+  "population_conditions": [
+    40,
+    80
+  ],
+  "n_patches_conditions": [
+    3,
+    6
+  ],
+  "n_seeds_per_condition": 2,
+  "n_steps": 300,
+  "per_condition": [
+    {
+      "condition_id": 0,
+      "population": 40,
+      "n_patches": 3,
+      "seed_results": [
+        {
+          "seed": 7000,
+          "all_outcome_label": "collapse",
+          "population_alive_fraction": 1.0,
+          "ecological_resource_fraction": 0.029100809788159276,
+          "n_institutions_ever_formed": 3,
+          "n_institutions_active_at_end": 2
+        },
+        {
+          "seed": 7001,
+          "all_outcome_label": "collapse",
+          "population_alive_fraction": 1.0,
+          "ecological_resource_fraction": 0.012848239002733396,
+          "n_institutions_ever_formed": 3,
+          "n_institutions_active_at_end": 2
+        }
+      ],
+      "outcome_label_counts": {
+        "collapse": 2
+      }
+    },
+    {
+      "condition_id": 1,
+      "population": 40,
+      "n_patches": 6,
+      "seed_results": [
+        {
+          "seed": 7100,
+          "all_outcome_label": "collapse",
+          "population_alive_fraction": 1.0,
+          "ecological_resource_fraction": 0.011290381851463185,
+          "n_institutions_ever_formed": 6,
+          "n_institutions_active_at_end": 5
+        },
+        {
+          "seed": 7101,
+          "all_outcome_label": "collapse",
+          "population_alive_fraction": 1.0,
+          "ecological_resource_fraction": 0.023616008915611286,
+          "n_institutions_ever_formed": 6,
+          "n_institutions_active_at_end": 2
+        }
+      ],
+      "outcome_label_counts": {
+        "collapse": 2
+      }
+    },
+    {
+      "condition_id": 2,
+      "population": 80,
+      "n_patches": 3,
+      "seed_results": [
+        {
+          "seed": 7200,
+          "all_outcome_label": "collapse",
+          "population_alive_fraction": 1.0,
+          "ecological_resource_fraction": 0.043528565186625214,
+          "n_institutions_ever_formed": 3,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "seed": 7201,
+          "all_outcome_label": "collapse",
+          "population_alive_fraction": 1.0,
+          "ecological_resource_fraction": 0.024684812695295117,
+          "n_institutions_ever_formed": 3,
+          "n_institutions_active_at_end": 3
+        }
+      ],
+      "outcome_label_counts": {
+        "collapse": 2
+      }
+    },
+    {
+      "condition_id": 3,
+      "population": 80,
+      "n_patches": 6,
+      "seed_results": [
+        {
+          "seed": 7300,
+          "all_outcome_label": "collapse",
+          "population_alive_fraction": 1.0,
+          "ecological_resource_fraction": 0.03240640697644497,
+          "n_institutions_ever_formed": 6,
+          "n_institutions_active_at_end": 5
+        },
+        {
+          "seed": 7301,
+          "all_outcome_label": "collapse",
+          "population_alive_fraction": 1.0,
+          "ecological_resource_fraction": 0.01879479750597751,
+          "n_institutions_ever_formed": 6,
+          "n_institutions_active_at_end": 5
+        }
+      ],
+      "outcome_label_counts": {
+        "collapse": 2
+      }
+    }
+  ]
+}

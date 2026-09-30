@@ -1,0 +1,36 @@
+{
+  "n_seeds": 20,
+  "accountable_delegation_fraction": {
+    "both_mechanisms_active": {
+      "point_estimate": 0.6499999999999999,
+      "ci_low": 0.5333333333333333,
+      "ci_high": 0.7499999999999999,
+      "n_seeds": 20,
+      "method": "seed_clustered"
+    },
+    "both_mechanisms_off": {
+      "point_estimate": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_seeds": 20,
+      "method": "seed_clustered"
+    }
+  },
+  "persistent_delegation_fraction": {
+    "both_mechanisms_active": {
+      "point_estimate": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_seeds": 20,
+      "method": "seed_clustered"
+    },
+    "both_mechanisms_off": {
+      "point_estimate": 0.9166666666666666,
+      "ci_low": 0.85,
+      "ci_high": 0.9666666666666668,
+      "n_seeds": 20,
+      "method": "seed_clustered"
+    }
+  },
+  "confirmed": true
+}

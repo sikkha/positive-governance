@@ -1,0 +1,172 @@
+{
+  "pooled_correlational_linkage_within_candidate": {
+    "interior_persistent": {
+      "extraction_propensity_after__vs__post_burn_in_mean_occupancy": {
+        "n": 24,
+        "correlation": 0.042187883534079686,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": false
+      },
+      "maintenance_propensity_after__vs__post_burn_in_mean_occupancy": {
+        "n": 24,
+        "correlation": 0.3454525597176351,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": true
+      },
+      "extraction_propensity_after__vs__patch_survival_fraction": {
+        "n": 24,
+        "correlation": 0.26834900013306856,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": false
+      },
+      "maintenance_propensity_after__vs__patch_survival_fraction": {
+        "n": 24,
+        "correlation": 0.7166397620900847,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": true
+      },
+      "extraction_propensity_after__vs__cumulative_unmet_demand": {
+        "n": 24,
+        "correlation": 0.28951849728530227,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": false
+      },
+      "maintenance_propensity_after__vs__cumulative_effective_maintenance": {
+        "n": 24,
+        "correlation": 0.7741792368895635,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": true
+      }
+    },
+    "near_collapse": {
+      "extraction_propensity_after__vs__post_burn_in_mean_occupancy": {
+        "n": 24,
+        "correlation": 0.26385601591704894,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": false
+      },
+      "maintenance_propensity_after__vs__post_burn_in_mean_occupancy": {
+        "n": 24,
+        "correlation": 0.20502824947035622,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": false
+      },
+      "extraction_propensity_after__vs__patch_survival_fraction": {
+        "n": 24,
+        "correlation": 0.2715606806620282,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": false
+      },
+      "maintenance_propensity_after__vs__patch_survival_fraction": {
+        "n": 24,
+        "correlation": 0.23035742663459624,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": false
+      },
+      "extraction_propensity_after__vs__cumulative_unmet_demand": {
+        "n": 24,
+        "correlation": 0.4861227596479592,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": true
+      },
+      "maintenance_propensity_after__vs__cumulative_effective_maintenance": {
+        "n": 24,
+        "correlation": 0.45115129989802955,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": true
+      }
+    },
+    "nonstationary": {
+      "extraction_propensity_after__vs__post_burn_in_mean_occupancy": {
+        "n": 24,
+        "correlation": 0.34978709013850595,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": true
+      },
+      "maintenance_propensity_after__vs__post_burn_in_mean_occupancy": {
+        "n": 24,
+        "correlation": 0.0034537126731201905,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": false
+      },
+      "extraction_propensity_after__vs__patch_survival_fraction": {
+        "n": 24,
+        "correlation": 0.13054595254925216,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": false
+      },
+      "maintenance_propensity_after__vs__patch_survival_fraction": {
+        "n": 24,
+        "correlation": 0.5531666123364147,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": true
+      },
+      "extraction_propensity_after__vs__cumulative_unmet_demand": {
+        "n": 24,
+        "correlation": -0.0368130962112721,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": false
+      },
+      "maintenance_propensity_after__vs__cumulative_effective_maintenance": {
+        "n": 24,
+        "correlation": 0.3892828915901573,
+        "min_abs_correlation_required": 0.3,
+        "criterion_met": true
+      }
+    }
+  },
+  "intervention_based_linkage": {
+    "interior_persistent": {
+      "frozen": {
+        "mean_diff_post_burn_in_mean_occupancy": -0.204004547473898,
+        "mean_diff_patch_survival_fraction": -0.2714285714285714,
+        "interpretation": "endogenous - frozen: a nonzero mean_diff here is intervention-based evidence that whether/how ecological-policy composition can change (imitation+mutation active vs. suppressed/randomized) causally affects the ecological outcome, not merely correlated with it"
+      },
+      "randomized": {
+        "mean_diff_post_burn_in_mean_occupancy": -0.2611124125907455,
+        "mean_diff_patch_survival_fraction": -0.4357142857142856,
+        "interpretation": "endogenous - randomized: a nonzero mean_diff here is intervention-based evidence that whether/how ecological-policy composition can change (imitation+mutation active vs. suppressed/randomized) causally affects the ecological outcome, not merely correlated with it"
+      },
+      "shuffled": {
+        "mean_diff_post_burn_in_mean_occupancy": -0.0313568817673,
+        "mean_diff_patch_survival_fraction": -0.0142857142857142,
+        "interpretation": "endogenous - shuffled: a nonzero mean_diff here is intervention-based evidence that whether/how ecological-policy composition can change (imitation+mutation active vs. suppressed/randomized) causally affects the ecological outcome, not merely correlated with it"
+      }
+    },
+    "near_collapse": {
+      "frozen": {
+        "mean_diff_post_burn_in_mean_occupancy": -0.1849542524969208,
+        "mean_diff_patch_survival_fraction": -0.3333333333333334,
+        "interpretation": "endogenous - frozen: a nonzero mean_diff here is intervention-based evidence that whether/how ecological-policy composition can change (imitation+mutation active vs. suppressed/randomized) causally affects the ecological outcome, not merely correlated with it"
+      },
+      "randomized": {
+        "mean_diff_post_burn_in_mean_occupancy": -0.3864786433592823,
+        "mean_diff_patch_survival_fraction": -0.5277777777777778,
+        "interpretation": "endogenous - randomized: a nonzero mean_diff here is intervention-based evidence that whether/how ecological-policy composition can change (imitation+mutation active vs. suppressed/randomized) causally affects the ecological outcome, not merely correlated with it"
+      },
+      "shuffled": {
+        "mean_diff_post_burn_in_mean_occupancy": 0.027496216544484,
+        "mean_diff_patch_survival_fraction": 0.0277777777777777,
+        "interpretation": "endogenous - shuffled: a nonzero mean_diff here is intervention-based evidence that whether/how ecological-policy composition can change (imitation+mutation active vs. suppressed/randomized) causally affects the ecological outcome, not merely correlated with it"
+      }
+    },
+    "nonstationary": {
+      "frozen": {
+        "mean_diff_post_burn_in_mean_occupancy": -0.6089880909466802,
+        "mean_diff_patch_survival_fraction": -0.75,
+        "interpretation": "endogenous - frozen: a nonzero mean_diff here is intervention-based evidence that whether/how ecological-policy composition can change (imitation+mutation active vs. suppressed/randomized) causally affects the ecological outcome, not merely correlated with it"
+      },
+      "randomized": {
+        "mean_diff_post_burn_in_mean_occupancy": -0.4021178846703275,
+        "mean_diff_patch_survival_fraction": -0.75,
+        "interpretation": "endogenous - randomized: a nonzero mean_diff here is intervention-based evidence that whether/how ecological-policy composition can change (imitation+mutation active vs. suppressed/randomized) causally affects the ecological outcome, not merely correlated with it"
+      },
+      "shuffled": {
+        "mean_diff_post_burn_in_mean_occupancy": 0.1212248256040906,
+        "mean_diff_patch_survival_fraction": 0.2083333333333333,
+        "interpretation": "endogenous - shuffled: a nonzero mean_diff here is intervention-based evidence that whether/how ecological-policy composition can change (imitation+mutation active vs. suppressed/randomized) causally affects the ecological outcome, not merely correlated with it"
+      }
+    }
+  },
+  "note": "The pooled correlational linkage (across the 24 confirmation seeds of a single fixed-parameter candidate) is reported as one input, not a stand-alone causal claim -- per docs/level0.2_scientific_note.md's established discipline for the analogous Level 0.2 analysis. The intervention-based linkage (frozen/randomized/shuffled vs. endogenous, same paired seeds Work Package F already ran) is the stronger evidence, since it manipulates whether policy composition can adapt at all rather than merely observing its variation."
+}

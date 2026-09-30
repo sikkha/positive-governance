@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "result": {
+    "S_obs": 0.5266666666666666,
+    "Z_obs": 0.24854031440620242,
+    "bargaining_participation_sustained_crossing_step": 20,
+    "cross_founder_reconstruction_count_final_step": 0.0,
+    "entrenchment_index_final_step": 1.0,
+    "entrenchment_name": "off",
+    "legitimacy_name": "neither",
+    "manipulation_check_passed": true,
+    "mean_resources_final_step": -299.19539245012254,
+    "n_active_rules_final_step": 3,
+    "n_contribution_events": 1410,
+    "ordering_name": "coevolution",
+    "realized_compliance_rate": 0.1453900709219858,
+    "seed": 8300000,
+    "seed_idx": 0,
+    "stratum": "low_feasibility"
+  }
+}

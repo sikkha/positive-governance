@@ -1,0 +1,1602 @@
+{
+  "mean_erased_vs_base_s_obs_abs_diff": 0.002701461450674625,
+  "mean_erased_vs_base_z_obs_abs_diff": 0.001922374411242555,
+  "mean_reversed_vs_base_s_obs_abs_diff": 0.011576234423270423,
+  "mean_reversed_vs_base_z_obs_abs_diff": 0.009224943464842504,
+  "milestone": "level1.3_stage5_causal_historical_counterfactuals_matched_seed",
+  "n_patches": 3,
+  "n_seeds": 16,
+  "n_seeds_erased_sequencing_identical_to_base": 15,
+  "n_seeds_reversed_sequencing_identical_to_base": 13,
+  "n_steps": 500,
+  "population_size": 40,
+  "pressure_onset_step": 150,
+  "pressure_state_key": "security_pressure_series",
+  "records": [
+    {
+      "base": {
+        "phenotype_vector": {
+          "S_obs": 0.5542879647535658,
+          "Z_obs": 0.4128093392727488,
+          "conversion_incidence": 0.0,
+          "entrenchment": 0.5366666666666667,
+          "performance_legitimacy": 0.7029687734406206,
+          "procedural_legitimacy": 0.5514544013488023,
+          "seq_accountability": 0.012,
+          "seq_administrative_function": 0.01,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.01,
+          "seq_generalized_rule": 0.012,
+          "seq_interpatch_coordination": NaN,
+          "seq_monitoring": 0.004
+        },
+        "s_obs": 0.5542879647535658,
+        "sequencing_vector": {
+          "accountability": 6,
+          "administrative_function": 5,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 5,
+          "generalized_rule": 6,
+          "interpatch_coordination": null,
+          "monitoring": 2
+        },
+        "z_obs": 0.4128093392727488
+      },
+      "erased": {
+        "phenotype_vector": {
+          "S_obs": 0.5639546314202323,
+          "Z_obs": 0.42103156149497106,
+          "conversion_incidence": 0.0,
+          "entrenchment": 0.5366666666666667,
+          "performance_legitimacy": 0.7029687734406206,
+          "procedural_legitimacy": 0.5514544013488023,
+          "seq_accountability": 0.012,
+          "seq_administrative_function": 0.01,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.01,
+          "seq_generalized_rule": 0.012,
+          "seq_interpatch_coordination": NaN,
+          "seq_monitoring": 0.004
+        },
+        "s_obs": 0.5639546314202323,
+        "sequencing_vector": {
+          "accountability": 6,
+          "administrative_function": 5,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 5,
+          "generalized_rule": 6,
+          "interpatch_coordination": null,
+          "monitoring": 2
+        },
+        "z_obs": 0.42103156149497106
+      },
+      "erased_vs_base_s_obs_abs_diff": 0.00966666666666649,
+      "erased_vs_base_z_obs_abs_diff": 0.008222222222222242,
+      "reversed": {
+        "phenotype_vector": {
+          "S_obs": 0.5545546314202324,
+          "Z_obs": 0.40769822816163775,
+          "conversion_incidence": 0.0,
+          "entrenchment": 0.5366666666666667,
+          "performance_legitimacy": 0.7029687734406206,
+          "procedural_legitimacy": 0.5514544013488023,
+          "seq_accountability": 0.012,
+          "seq_administrative_function": 0.01,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.01,
+          "seq_generalized_rule": 0.012,
+          "seq_interpatch_coordination": NaN,
+          "seq_monitoring": 0.004
+        },
+        "s_obs": 0.5545546314202324,
+        "sequencing_vector": {
+          "accountability": 6,
+          "administrative_function": 5,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 5,
+          "generalized_rule": 6,
+          "interpatch_coordination": null,
+          "monitoring": 2
+        },
+        "z_obs": 0.40769822816163775
+      },
+      "reversed_vs_base_s_obs_abs_diff": 0.0002666666666666373,
+      "reversed_vs_base_z_obs_abs_diff": 0.005111111111111066,
+      "seed": 7000000,
+      "sequencing_vector_identical_erased_vs_base": true,
+      "sequencing_vector_identical_reversed_vs_base": true
+    },
+    {
+      "base": {
+        "phenotype_vector": {
+          "S_obs": 0.6620770593209477,
+          "Z_obs": 0.4499974916370028,
+          "conversion_incidence": 1.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.7882626370678713,
+          "procedural_legitimacy": 0.8833143597414432,
+          "seq_accountability": 0.1,
+          "seq_administrative_function": 0.098,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.51,
+          "seq_generalized_rule": 0.016,
+          "seq_interpatch_coordination": 0.044,
+          "seq_monitoring": 0.01
+        },
+        "s_obs": 0.6620770593209477,
+        "sequencing_vector": {
+          "accountability": 50,
+          "administrative_function": 49,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 255,
+          "generalized_rule": 8,
+          "interpatch_coordination": 22,
+          "monitoring": 5
+        },
+        "z_obs": 0.4499974916370028
+      },
+      "erased": {
+        "phenotype_vector": {
+          "S_obs": 0.6620770593209477,
+          "Z_obs": 0.4499974916370028,
+          "conversion_incidence": 1.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.7882626370678713,
+          "procedural_legitimacy": 0.8833143597414432,
+          "seq_accountability": 0.1,
+          "seq_administrative_function": 0.098,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.51,
+          "seq_generalized_rule": 0.016,
+          "seq_interpatch_coordination": 0.044,
+          "seq_monitoring": 0.01
+        },
+        "s_obs": 0.6620770593209477,
+        "sequencing_vector": {
+          "accountability": 50,
+          "administrative_function": 49,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 255,
+          "generalized_rule": 8,
+          "interpatch_coordination": 22,
+          "monitoring": 5
+        },
+        "z_obs": 0.4499974916370028
+      },
+      "erased_vs_base_s_obs_abs_diff": 0.0,
+      "erased_vs_base_z_obs_abs_diff": 0.0,
+      "reversed": {
+        "phenotype_vector": {
+          "S_obs": 0.6729612724105766,
+          "Z_obs": 0.46042423471997984,
+          "conversion_incidence": 0.6666666666666666,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.753850292435862,
+          "procedural_legitimacy": 0.8004621440399102,
+          "seq_accountability": 0.1,
+          "seq_administrative_function": 0.098,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.376,
+          "seq_generalized_rule": 0.016,
+          "seq_interpatch_coordination": 0.044,
+          "seq_monitoring": 0.01
+        },
+        "s_obs": 0.6729612724105766,
+        "sequencing_vector": {
+          "accountability": 50,
+          "administrative_function": 49,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 188,
+          "generalized_rule": 8,
+          "interpatch_coordination": 22,
+          "monitoring": 5
+        },
+        "z_obs": 0.46042423471997984
+      },
+      "reversed_vs_base_s_obs_abs_diff": 0.010884213089628836,
+      "reversed_vs_base_z_obs_abs_diff": 0.01042674308297703,
+      "seed": 7000001,
+      "sequencing_vector_identical_erased_vs_base": true,
+      "sequencing_vector_identical_reversed_vs_base": false
+    },
+    {
+      "base": {
+        "phenotype_vector": {
+          "S_obs": 0.6450152870411656,
+          "Z_obs": 0.4281596020437097,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.1553861578982973,
+          "procedural_legitimacy": 0.46100436699358155,
+          "seq_accountability": 0.04,
+          "seq_administrative_function": 0.038,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.038,
+          "seq_generalized_rule": 0.022,
+          "seq_interpatch_coordination": 0.054,
+          "seq_monitoring": 0.01
+        },
+        "s_obs": 0.6450152870411656,
+        "sequencing_vector": {
+          "accountability": 20,
+          "administrative_function": 19,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 19,
+          "generalized_rule": 11,
+          "interpatch_coordination": 27,
+          "monitoring": 5
+        },
+        "z_obs": 0.4281596020437097
+      },
+      "erased": {
+        "phenotype_vector": {
+          "S_obs": 0.6450152870411656,
+          "Z_obs": 0.4281596020437097,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.1553861578982973,
+          "procedural_legitimacy": 0.46100436699358155,
+          "seq_accountability": 0.04,
+          "seq_administrative_function": 0.038,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.038,
+          "seq_generalized_rule": 0.022,
+          "seq_interpatch_coordination": 0.054,
+          "seq_monitoring": 0.01
+        },
+        "s_obs": 0.6450152870411656,
+        "sequencing_vector": {
+          "accountability": 20,
+          "administrative_function": 19,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 19,
+          "generalized_rule": 11,
+          "interpatch_coordination": 27,
+          "monitoring": 5
+        },
+        "z_obs": 0.4281596020437097
+      },
+      "erased_vs_base_s_obs_abs_diff": 0.0,
+      "erased_vs_base_z_obs_abs_diff": 0.0,
+      "reversed": {
+        "phenotype_vector": {
+          "S_obs": 0.6450152870411656,
+          "Z_obs": 0.4281596020437097,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.1553861578982973,
+          "procedural_legitimacy": 0.46100436699358155,
+          "seq_accountability": 0.04,
+          "seq_administrative_function": 0.038,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.038,
+          "seq_generalized_rule": 0.022,
+          "seq_interpatch_coordination": 0.054,
+          "seq_monitoring": 0.01
+        },
+        "s_obs": 0.6450152870411656,
+        "sequencing_vector": {
+          "accountability": 20,
+          "administrative_function": 19,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 19,
+          "generalized_rule": 11,
+          "interpatch_coordination": 27,
+          "monitoring": 5
+        },
+        "z_obs": 0.4281596020437097
+      },
+      "reversed_vs_base_s_obs_abs_diff": 0.0,
+      "reversed_vs_base_z_obs_abs_diff": 0.0,
+      "seed": 7000002,
+      "sequencing_vector_identical_erased_vs_base": true,
+      "sequencing_vector_identical_reversed_vs_base": true
+    },
+    {
+      "base": {
+        "phenotype_vector": {
+          "S_obs": 0.6296250674860805,
+          "Z_obs": 0.44236054015465787,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.8626934043434128,
+          "procedural_legitimacy": 0.836079756072588,
+          "seq_accountability": 0.144,
+          "seq_administrative_function": 0.142,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.528,
+          "seq_generalized_rule": 0.06,
+          "seq_interpatch_coordination": 0.106,
+          "seq_monitoring": 0.046
+        },
+        "s_obs": 0.6296250674860805,
+        "sequencing_vector": {
+          "accountability": 72,
+          "administrative_function": 71,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 264,
+          "generalized_rule": 30,
+          "interpatch_coordination": 53,
+          "monitoring": 23
+        },
+        "z_obs": 0.44236054015465787
+      },
+      "erased": {
+        "phenotype_vector": {
+          "S_obs": 0.6352250674860807,
+          "Z_obs": 0.4449160957102135,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.8626934043434128,
+          "procedural_legitimacy": 0.836079756072588,
+          "seq_accountability": 0.144,
+          "seq_administrative_function": 0.142,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.622,
+          "seq_generalized_rule": 0.06,
+          "seq_interpatch_coordination": 0.106,
+          "seq_monitoring": 0.046
+        },
+        "s_obs": 0.6352250674860807,
+        "sequencing_vector": {
+          "accountability": 72,
+          "administrative_function": 71,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 311,
+          "generalized_rule": 30,
+          "interpatch_coordination": 53,
+          "monitoring": 23
+        },
+        "z_obs": 0.4449160957102135
+      },
+      "erased_vs_base_s_obs_abs_diff": 0.00560000000000016,
+      "erased_vs_base_z_obs_abs_diff": 0.002555555555555644,
+      "reversed": {
+        "phenotype_vector": {
+          "S_obs": 0.6457798428958512,
+          "Z_obs": 0.4522804253161169,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.8974211602156138,
+          "procedural_legitimacy": 0.838447071230279,
+          "seq_accountability": 0.2,
+          "seq_administrative_function": 0.126,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.286,
+          "seq_generalized_rule": 0.06,
+          "seq_interpatch_coordination": 0.106,
+          "seq_monitoring": 0.046
+        },
+        "s_obs": 0.6457798428958512,
+        "sequencing_vector": {
+          "accountability": 100,
+          "administrative_function": 63,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 143,
+          "generalized_rule": 30,
+          "interpatch_coordination": 53,
+          "monitoring": 23
+        },
+        "z_obs": 0.4522804253161169
+      },
+      "reversed_vs_base_s_obs_abs_diff": 0.016154775409770727,
+      "reversed_vs_base_z_obs_abs_diff": 0.00991988516145903,
+      "seed": 7000003,
+      "sequencing_vector_identical_erased_vs_base": false,
+      "sequencing_vector_identical_reversed_vs_base": false
+    },
+    {
+      "base": {
+        "phenotype_vector": {
+          "S_obs": 0.7476066923459709,
+          "Z_obs": 0.5152225292400702,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.7413542479133035,
+          "procedural_legitimacy": 0.7583004465045761,
+          "seq_accountability": 0.068,
+          "seq_administrative_function": 0.066,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.124,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.058,
+          "seq_monitoring": 0.012
+        },
+        "s_obs": 0.7476066923459709,
+        "sequencing_vector": {
+          "accountability": 34,
+          "administrative_function": 33,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 62,
+          "generalized_rule": 10,
+          "interpatch_coordination": 29,
+          "monitoring": 6
+        },
+        "z_obs": 0.5152225292400702
+      },
+      "erased": {
+        "phenotype_vector": {
+          "S_obs": 0.7476066923459709,
+          "Z_obs": 0.5152225292400702,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.7413542479133035,
+          "procedural_legitimacy": 0.7583004465045761,
+          "seq_accountability": 0.068,
+          "seq_administrative_function": 0.066,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.124,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.058,
+          "seq_monitoring": 0.012
+        },
+        "s_obs": 0.7476066923459709,
+        "sequencing_vector": {
+          "accountability": 34,
+          "administrative_function": 33,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 62,
+          "generalized_rule": 10,
+          "interpatch_coordination": 29,
+          "monitoring": 6
+        },
+        "z_obs": 0.5152225292400702
+      },
+      "erased_vs_base_s_obs_abs_diff": 0.0,
+      "erased_vs_base_z_obs_abs_diff": 0.0,
+      "reversed": {
+        "phenotype_vector": {
+          "S_obs": 0.6941286724545895,
+          "Z_obs": 0.4627885550341275,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.7094054160955675,
+          "procedural_legitimacy": 0.7315360968965915,
+          "seq_accountability": 0.068,
+          "seq_administrative_function": 0.066,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.124,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.058,
+          "seq_monitoring": 0.012
+        },
+        "s_obs": 0.6941286724545895,
+        "sequencing_vector": {
+          "accountability": 34,
+          "administrative_function": 33,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 62,
+          "generalized_rule": 10,
+          "interpatch_coordination": 29,
+          "monitoring": 6
+        },
+        "z_obs": 0.4627885550341275
+      },
+      "reversed_vs_base_s_obs_abs_diff": 0.053478019891381345,
+      "reversed_vs_base_z_obs_abs_diff": 0.052433974205942646,
+      "seed": 7000004,
+      "sequencing_vector_identical_erased_vs_base": true,
+      "sequencing_vector_identical_reversed_vs_base": true
+    },
+    {
+      "base": {
+        "phenotype_vector": {
+          "S_obs": 0.6397018502639026,
+          "Z_obs": 0.44524675703384226,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.5441630870560452,
+          "procedural_legitimacy": 0.597599040896394,
+          "seq_accountability": 0.058,
+          "seq_administrative_function": 0.056,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.06,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.082,
+          "seq_monitoring": 0.004
+        },
+        "s_obs": 0.6397018502639026,
+        "sequencing_vector": {
+          "accountability": 29,
+          "administrative_function": 28,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 30,
+          "generalized_rule": 10,
+          "interpatch_coordination": 41,
+          "monitoring": 2
+        },
+        "z_obs": 0.44524675703384226
+      },
+      "erased": {
+        "phenotype_vector": {
+          "S_obs": 0.6387018502639026,
+          "Z_obs": 0.44624675703384226,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.5441630870560452,
+          "procedural_legitimacy": 0.597599040896394,
+          "seq_accountability": 0.058,
+          "seq_administrative_function": 0.056,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.06,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.082,
+          "seq_monitoring": 0.004
+        },
+        "s_obs": 0.6387018502639026,
+        "sequencing_vector": {
+          "accountability": 29,
+          "administrative_function": 28,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 30,
+          "generalized_rule": 10,
+          "interpatch_coordination": 41,
+          "monitoring": 2
+        },
+        "z_obs": 0.44624675703384226
+      },
+      "erased_vs_base_s_obs_abs_diff": 0.0010000000000000009,
+      "erased_vs_base_z_obs_abs_diff": 0.0010000000000000009,
+      "reversed": {
+        "phenotype_vector": {
+          "S_obs": 0.6387018502639026,
+          "Z_obs": 0.44624675703384226,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.5441630870560452,
+          "procedural_legitimacy": 0.597599040896394,
+          "seq_accountability": 0.058,
+          "seq_administrative_function": 0.056,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.06,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.082,
+          "seq_monitoring": 0.004
+        },
+        "s_obs": 0.6387018502639026,
+        "sequencing_vector": {
+          "accountability": 29,
+          "administrative_function": 28,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 30,
+          "generalized_rule": 10,
+          "interpatch_coordination": 41,
+          "monitoring": 2
+        },
+        "z_obs": 0.44624675703384226
+      },
+      "reversed_vs_base_s_obs_abs_diff": 0.0010000000000000009,
+      "reversed_vs_base_z_obs_abs_diff": 0.0010000000000000009,
+      "seed": 7000005,
+      "sequencing_vector_identical_erased_vs_base": true,
+      "sequencing_vector_identical_reversed_vs_base": true
+    },
+    {
+      "base": {
+        "phenotype_vector": {
+          "S_obs": 0.6856239187319955,
+          "Z_obs": 0.4493445766172998,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.31134803576565645,
+          "procedural_legitimacy": 0.6202546871138752,
+          "seq_accountability": 0.1,
+          "seq_administrative_function": 0.096,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.118,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.114,
+          "seq_monitoring": 0.012
+        },
+        "s_obs": 0.6856239187319955,
+        "sequencing_vector": {
+          "accountability": 50,
+          "administrative_function": 48,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 59,
+          "generalized_rule": 10,
+          "interpatch_coordination": 57,
+          "monitoring": 6
+        },
+        "z_obs": 0.4493445766172998
+      },
+      "erased": {
+        "phenotype_vector": {
+          "S_obs": 0.6856239187319955,
+          "Z_obs": 0.4493445766172998,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.31134803576565645,
+          "procedural_legitimacy": 0.6202546871138752,
+          "seq_accountability": 0.1,
+          "seq_administrative_function": 0.096,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.118,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.114,
+          "seq_monitoring": 0.012
+        },
+        "s_obs": 0.6856239187319955,
+        "sequencing_vector": {
+          "accountability": 50,
+          "administrative_function": 48,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 59,
+          "generalized_rule": 10,
+          "interpatch_coordination": 57,
+          "monitoring": 6
+        },
+        "z_obs": 0.4493445766172998
+      },
+      "erased_vs_base_s_obs_abs_diff": 0.0,
+      "erased_vs_base_z_obs_abs_diff": 0.0,
+      "reversed": {
+        "phenotype_vector": {
+          "S_obs": 0.6856239187319955,
+          "Z_obs": 0.4493445766172998,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.31134803576565645,
+          "procedural_legitimacy": 0.6202546871138752,
+          "seq_accountability": 0.1,
+          "seq_administrative_function": 0.096,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.118,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.114,
+          "seq_monitoring": 0.012
+        },
+        "s_obs": 0.6856239187319955,
+        "sequencing_vector": {
+          "accountability": 50,
+          "administrative_function": 48,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 59,
+          "generalized_rule": 10,
+          "interpatch_coordination": 57,
+          "monitoring": 6
+        },
+        "z_obs": 0.4493445766172998
+      },
+      "reversed_vs_base_s_obs_abs_diff": 0.0,
+      "reversed_vs_base_z_obs_abs_diff": 0.0,
+      "seed": 7000006,
+      "sequencing_vector_identical_erased_vs_base": true,
+      "sequencing_vector_identical_reversed_vs_base": true
+    },
+    {
+      "base": {
+        "phenotype_vector": {
+          "S_obs": 0.6783435826295567,
+          "Z_obs": 0.4551019601207987,
+          "conversion_incidence": 0.5,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.34162114928266485,
+          "procedural_legitimacy": 0.5952956375525279,
+          "seq_accountability": 0.038,
+          "seq_administrative_function": 0.036,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.048,
+          "seq_generalized_rule": 0.012,
+          "seq_interpatch_coordination": 0.072,
+          "seq_monitoring": 0.008
+        },
+        "s_obs": 0.6783435826295567,
+        "sequencing_vector": {
+          "accountability": 19,
+          "administrative_function": 18,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 24,
+          "generalized_rule": 6,
+          "interpatch_coordination": 36,
+          "monitoring": 4
+        },
+        "z_obs": 0.4551019601207987
+      },
+      "erased": {
+        "phenotype_vector": {
+          "S_obs": 0.6783435826295567,
+          "Z_obs": 0.4551019601207987,
+          "conversion_incidence": 0.5,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.34162114928266485,
+          "procedural_legitimacy": 0.5952956375525279,
+          "seq_accountability": 0.038,
+          "seq_administrative_function": 0.036,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.048,
+          "seq_generalized_rule": 0.012,
+          "seq_interpatch_coordination": 0.072,
+          "seq_monitoring": 0.008
+        },
+        "s_obs": 0.6783435826295567,
+        "sequencing_vector": {
+          "accountability": 19,
+          "administrative_function": 18,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 24,
+          "generalized_rule": 6,
+          "interpatch_coordination": 36,
+          "monitoring": 4
+        },
+        "z_obs": 0.4551019601207987
+      },
+      "erased_vs_base_s_obs_abs_diff": 0.0,
+      "erased_vs_base_z_obs_abs_diff": 0.0,
+      "reversed": {
+        "phenotype_vector": {
+          "S_obs": 0.6783435826295567,
+          "Z_obs": 0.4551019601207987,
+          "conversion_incidence": 0.5,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.34162114928266485,
+          "procedural_legitimacy": 0.5952956375525279,
+          "seq_accountability": 0.038,
+          "seq_administrative_function": 0.036,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.048,
+          "seq_generalized_rule": 0.012,
+          "seq_interpatch_coordination": 0.072,
+          "seq_monitoring": 0.008
+        },
+        "s_obs": 0.6783435826295567,
+        "sequencing_vector": {
+          "accountability": 19,
+          "administrative_function": 18,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 24,
+          "generalized_rule": 6,
+          "interpatch_coordination": 36,
+          "monitoring": 4
+        },
+        "z_obs": 0.4551019601207987
+      },
+      "reversed_vs_base_s_obs_abs_diff": 0.0,
+      "reversed_vs_base_z_obs_abs_diff": 0.0,
+      "seed": 7000007,
+      "sequencing_vector_identical_erased_vs_base": true,
+      "sequencing_vector_identical_reversed_vs_base": true
+    },
+    {
+      "base": {
+        "phenotype_vector": {
+          "S_obs": 0.6531928809682686,
+          "Z_obs": 0.4372064292540282,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.7036242840881092,
+          "procedural_legitimacy": 0.6047766735760449,
+          "seq_accountability": 0.196,
+          "seq_administrative_function": 0.182,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.218,
+          "seq_generalized_rule": 0.016,
+          "seq_interpatch_coordination": 0.15,
+          "seq_monitoring": 0.006
+        },
+        "s_obs": 0.6531928809682686,
+        "sequencing_vector": {
+          "accountability": 98,
+          "administrative_function": 91,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 109,
+          "generalized_rule": 8,
+          "interpatch_coordination": 75,
+          "monitoring": 3
+        },
+        "z_obs": 0.4372064292540282
+      },
+      "erased": {
+        "phenotype_vector": {
+          "S_obs": 0.6531928809682686,
+          "Z_obs": 0.4372064292540282,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.7036242840881092,
+          "procedural_legitimacy": 0.6047766735760449,
+          "seq_accountability": 0.196,
+          "seq_administrative_function": 0.182,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.218,
+          "seq_generalized_rule": 0.016,
+          "seq_interpatch_coordination": 0.15,
+          "seq_monitoring": 0.006
+        },
+        "s_obs": 0.6531928809682686,
+        "sequencing_vector": {
+          "accountability": 98,
+          "administrative_function": 91,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 109,
+          "generalized_rule": 8,
+          "interpatch_coordination": 75,
+          "monitoring": 3
+        },
+        "z_obs": 0.4372064292540282
+      },
+      "erased_vs_base_s_obs_abs_diff": 0.0,
+      "erased_vs_base_z_obs_abs_diff": 0.0,
+      "reversed": {
+        "phenotype_vector": {
+          "S_obs": 0.6944247961377221,
+          "Z_obs": 0.4500565275209983,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.7361938744688921,
+          "procedural_legitimacy": 0.6262040996375959,
+          "seq_accountability": 0.076,
+          "seq_administrative_function": 0.074,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.074,
+          "seq_generalized_rule": 0.016,
+          "seq_interpatch_coordination": 0.15,
+          "seq_monitoring": 0.006
+        },
+        "s_obs": 0.6944247961377221,
+        "sequencing_vector": {
+          "accountability": 38,
+          "administrative_function": 37,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 37,
+          "generalized_rule": 8,
+          "interpatch_coordination": 75,
+          "monitoring": 3
+        },
+        "z_obs": 0.4500565275209983
+      },
+      "reversed_vs_base_s_obs_abs_diff": 0.04123191516945357,
+      "reversed_vs_base_z_obs_abs_diff": 0.01285009826697009,
+      "seed": 7000008,
+      "sequencing_vector_identical_erased_vs_base": true,
+      "sequencing_vector_identical_reversed_vs_base": false
+    },
+    {
+      "base": {
+        "phenotype_vector": {
+          "S_obs": 0.6235020120533415,
+          "Z_obs": 0.40343347815245545,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.4272043234269592,
+          "procedural_legitimacy": 0.630577033436056,
+          "seq_accountability": 0.054,
+          "seq_administrative_function": 0.052,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.098,
+          "seq_generalized_rule": 0.014,
+          "seq_interpatch_coordination": 0.042,
+          "seq_monitoring": 0.006
+        },
+        "s_obs": 0.6235020120533415,
+        "sequencing_vector": {
+          "accountability": 27,
+          "administrative_function": 26,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 49,
+          "generalized_rule": 7,
+          "interpatch_coordination": 21,
+          "monitoring": 3
+        },
+        "z_obs": 0.40343347815245545
+      },
+      "erased": {
+        "phenotype_vector": {
+          "S_obs": 0.6235020120533415,
+          "Z_obs": 0.40343347815245545,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.4272043234269592,
+          "procedural_legitimacy": 0.630577033436056,
+          "seq_accountability": 0.054,
+          "seq_administrative_function": 0.052,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.098,
+          "seq_generalized_rule": 0.014,
+          "seq_interpatch_coordination": 0.042,
+          "seq_monitoring": 0.006
+        },
+        "s_obs": 0.6235020120533415,
+        "sequencing_vector": {
+          "accountability": 27,
+          "administrative_function": 26,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 49,
+          "generalized_rule": 7,
+          "interpatch_coordination": 21,
+          "monitoring": 3
+        },
+        "z_obs": 0.40343347815245545
+      },
+      "erased_vs_base_s_obs_abs_diff": 0.0,
+      "erased_vs_base_z_obs_abs_diff": 0.0,
+      "reversed": {
+        "phenotype_vector": {
+          "S_obs": 0.6174978515079159,
+          "Z_obs": 0.4129574284281424,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.3879016044629637,
+          "procedural_legitimacy": 0.5867042566981331,
+          "seq_accountability": 0.054,
+          "seq_administrative_function": 0.052,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.098,
+          "seq_generalized_rule": 0.014,
+          "seq_interpatch_coordination": 0.042,
+          "seq_monitoring": 0.006
+        },
+        "s_obs": 0.6174978515079159,
+        "sequencing_vector": {
+          "accountability": 27,
+          "administrative_function": 26,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 49,
+          "generalized_rule": 7,
+          "interpatch_coordination": 21,
+          "monitoring": 3
+        },
+        "z_obs": 0.4129574284281424
+      },
+      "reversed_vs_base_s_obs_abs_diff": 0.00600416054542563,
+      "reversed_vs_base_z_obs_abs_diff": 0.009523950275686976,
+      "seed": 7000009,
+      "sequencing_vector_identical_erased_vs_base": true,
+      "sequencing_vector_identical_reversed_vs_base": true
+    },
+    {
+      "base": {
+        "phenotype_vector": {
+          "S_obs": 0.6372138193388359,
+          "Z_obs": 0.42198302027670986,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.5235565828318202,
+          "procedural_legitimacy": 0.41147091738312946,
+          "seq_accountability": 0.038,
+          "seq_administrative_function": 0.036,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.172,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.03,
+          "seq_monitoring": 0.01
+        },
+        "s_obs": 0.6372138193388359,
+        "sequencing_vector": {
+          "accountability": 19,
+          "administrative_function": 18,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 86,
+          "generalized_rule": 10,
+          "interpatch_coordination": 15,
+          "monitoring": 5
+        },
+        "z_obs": 0.42198302027670986
+      },
+      "erased": {
+        "phenotype_vector": {
+          "S_obs": 0.6348804860055025,
+          "Z_obs": 0.4187607980544876,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.5235565828318202,
+          "procedural_legitimacy": 0.41147091738312946,
+          "seq_accountability": 0.038,
+          "seq_administrative_function": 0.036,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.172,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.03,
+          "seq_monitoring": 0.01
+        },
+        "s_obs": 0.6348804860055025,
+        "sequencing_vector": {
+          "accountability": 19,
+          "administrative_function": 18,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 86,
+          "generalized_rule": 10,
+          "interpatch_coordination": 15,
+          "monitoring": 5
+        },
+        "z_obs": 0.4187607980544876
+      },
+      "erased_vs_base_s_obs_abs_diff": 0.0023333333333334094,
+      "erased_vs_base_z_obs_abs_diff": 0.0032222222222222374,
+      "reversed": {
+        "phenotype_vector": {
+          "S_obs": 0.6372138193388359,
+          "Z_obs": 0.42198302027670986,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.5235565828318202,
+          "procedural_legitimacy": 0.41147091738312946,
+          "seq_accountability": 0.038,
+          "seq_administrative_function": 0.036,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.172,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.03,
+          "seq_monitoring": 0.01
+        },
+        "s_obs": 0.6372138193388359,
+        "sequencing_vector": {
+          "accountability": 19,
+          "administrative_function": 18,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 86,
+          "generalized_rule": 10,
+          "interpatch_coordination": 15,
+          "monitoring": 5
+        },
+        "z_obs": 0.42198302027670986
+      },
+      "reversed_vs_base_s_obs_abs_diff": 0.0,
+      "reversed_vs_base_z_obs_abs_diff": 0.0,
+      "seed": 7000010,
+      "sequencing_vector_identical_erased_vs_base": true,
+      "sequencing_vector_identical_reversed_vs_base": true
+    },
+    {
+      "base": {
+        "phenotype_vector": {
+          "S_obs": 0.6347285401596017,
+          "Z_obs": 0.42469227330394277,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.5709998353662918,
+          "procedural_legitimacy": 0.6010715124838572,
+          "seq_accountability": 0.018,
+          "seq_administrative_function": 0.016,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.016,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.058,
+          "seq_monitoring": 0.01
+        },
+        "s_obs": 0.6347285401596017,
+        "sequencing_vector": {
+          "accountability": 9,
+          "administrative_function": 8,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 8,
+          "generalized_rule": 10,
+          "interpatch_coordination": 29,
+          "monitoring": 5
+        },
+        "z_obs": 0.42469227330394277
+      },
+      "erased": {
+        "phenotype_vector": {
+          "S_obs": 0.6286092808873959,
+          "Z_obs": 0.419492262102691,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.5720444615615882,
+          "procedural_legitimacy": 0.6099379627491651,
+          "seq_accountability": 0.018,
+          "seq_administrative_function": 0.016,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.016,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.058,
+          "seq_monitoring": 0.01
+        },
+        "s_obs": 0.6286092808873959,
+        "sequencing_vector": {
+          "accountability": 9,
+          "administrative_function": 8,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 8,
+          "generalized_rule": 10,
+          "interpatch_coordination": 29,
+          "monitoring": 5
+        },
+        "z_obs": 0.419492262102691
+      },
+      "erased_vs_base_s_obs_abs_diff": 0.0061192592722058015,
+      "erased_vs_base_z_obs_abs_diff": 0.005200011201251742,
+      "reversed": {
+        "phenotype_vector": {
+          "S_obs": 0.6271952068262683,
+          "Z_obs": 0.4180256066372761,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.5709998353662918,
+          "procedural_legitimacy": 0.6010715124838572,
+          "seq_accountability": 0.018,
+          "seq_administrative_function": 0.016,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.016,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.058,
+          "seq_monitoring": 0.01
+        },
+        "s_obs": 0.6271952068262683,
+        "sequencing_vector": {
+          "accountability": 9,
+          "administrative_function": 8,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 8,
+          "generalized_rule": 10,
+          "interpatch_coordination": 29,
+          "monitoring": 5
+        },
+        "z_obs": 0.4180256066372761
+      },
+      "reversed_vs_base_s_obs_abs_diff": 0.007533333333333392,
+      "reversed_vs_base_z_obs_abs_diff": 0.006666666666666654,
+      "seed": 7000011,
+      "sequencing_vector_identical_erased_vs_base": true,
+      "sequencing_vector_identical_reversed_vs_base": true
+    },
+    {
+      "base": {
+        "phenotype_vector": {
+          "S_obs": 0.6578243644647177,
+          "Z_obs": 0.4275339972018887,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.48055521605448864,
+          "procedural_legitimacy": 0.47140633837506973,
+          "seq_accountability": 0.036,
+          "seq_administrative_function": 0.034,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.078,
+          "seq_generalized_rule": 0.028,
+          "seq_interpatch_coordination": 0.05,
+          "seq_monitoring": 0.018
+        },
+        "s_obs": 0.6578243644647177,
+        "sequencing_vector": {
+          "accountability": 18,
+          "administrative_function": 17,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 39,
+          "generalized_rule": 14,
+          "interpatch_coordination": 25,
+          "monitoring": 9
+        },
+        "z_obs": 0.4275339972018887
+      },
+      "erased": {
+        "phenotype_vector": {
+          "S_obs": 0.6578243644647177,
+          "Z_obs": 0.4275339972018887,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.48055521605448864,
+          "procedural_legitimacy": 0.47140633837506973,
+          "seq_accountability": 0.036,
+          "seq_administrative_function": 0.034,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.078,
+          "seq_generalized_rule": 0.028,
+          "seq_interpatch_coordination": 0.05,
+          "seq_monitoring": 0.018
+        },
+        "s_obs": 0.6578243644647177,
+        "sequencing_vector": {
+          "accountability": 18,
+          "administrative_function": 17,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 39,
+          "generalized_rule": 14,
+          "interpatch_coordination": 25,
+          "monitoring": 9
+        },
+        "z_obs": 0.4275339972018887
+      },
+      "erased_vs_base_s_obs_abs_diff": 0.0,
+      "erased_vs_base_z_obs_abs_diff": 0.0,
+      "reversed": {
+        "phenotype_vector": {
+          "S_obs": 0.6904910311313842,
+          "Z_obs": 0.4525339972018887,
+          "conversion_incidence": 0.3333333333333333,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.48055521605448864,
+          "procedural_legitimacy": 0.47140633837506973,
+          "seq_accountability": 0.036,
+          "seq_administrative_function": 0.034,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.078,
+          "seq_generalized_rule": 0.028,
+          "seq_interpatch_coordination": 0.05,
+          "seq_monitoring": 0.018
+        },
+        "s_obs": 0.6904910311313842,
+        "sequencing_vector": {
+          "accountability": 18,
+          "administrative_function": 17,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 39,
+          "generalized_rule": 14,
+          "interpatch_coordination": 25,
+          "monitoring": 9
+        },
+        "z_obs": 0.4525339972018887
+      },
+      "reversed_vs_base_s_obs_abs_diff": 0.03266666666666651,
+      "reversed_vs_base_z_obs_abs_diff": 0.024999999999999967,
+      "seed": 7000012,
+      "sequencing_vector_identical_erased_vs_base": true,
+      "sequencing_vector_identical_reversed_vs_base": true
+    },
+    {
+      "base": {
+        "phenotype_vector": {
+          "S_obs": 0.7245818990829347,
+          "Z_obs": 0.49853147221225164,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.7235430853783215,
+          "procedural_legitimacy": 0.7248169657938788,
+          "seq_accountability": 0.124,
+          "seq_administrative_function": 0.05,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.132,
+          "seq_generalized_rule": 0.016,
+          "seq_interpatch_coordination": 0.05,
+          "seq_monitoring": 0.004
+        },
+        "s_obs": 0.7245818990829347,
+        "sequencing_vector": {
+          "accountability": 62,
+          "administrative_function": 25,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 66,
+          "generalized_rule": 8,
+          "interpatch_coordination": 25,
+          "monitoring": 2
+        },
+        "z_obs": 0.49853147221225164
+      },
+      "erased": {
+        "phenotype_vector": {
+          "S_obs": 0.7245818990829347,
+          "Z_obs": 0.49853147221225164,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.7235430853783215,
+          "procedural_legitimacy": 0.7248169657938788,
+          "seq_accountability": 0.124,
+          "seq_administrative_function": 0.05,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.132,
+          "seq_generalized_rule": 0.016,
+          "seq_interpatch_coordination": 0.05,
+          "seq_monitoring": 0.004
+        },
+        "s_obs": 0.7245818990829347,
+        "sequencing_vector": {
+          "accountability": 62,
+          "administrative_function": 25,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 66,
+          "generalized_rule": 8,
+          "interpatch_coordination": 25,
+          "monitoring": 2
+        },
+        "z_obs": 0.49853147221225164
+      },
+      "erased_vs_base_s_obs_abs_diff": 0.0,
+      "erased_vs_base_z_obs_abs_diff": 0.0,
+      "reversed": {
+        "phenotype_vector": {
+          "S_obs": 0.7245818990829347,
+          "Z_obs": 0.49853147221225164,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.7235430853783215,
+          "procedural_legitimacy": 0.7248169657938788,
+          "seq_accountability": 0.124,
+          "seq_administrative_function": 0.05,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.132,
+          "seq_generalized_rule": 0.016,
+          "seq_interpatch_coordination": 0.05,
+          "seq_monitoring": 0.004
+        },
+        "s_obs": 0.7245818990829347,
+        "sequencing_vector": {
+          "accountability": 62,
+          "administrative_function": 25,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 66,
+          "generalized_rule": 8,
+          "interpatch_coordination": 25,
+          "monitoring": 2
+        },
+        "z_obs": 0.49853147221225164
+      },
+      "reversed_vs_base_s_obs_abs_diff": 0.0,
+      "reversed_vs_base_z_obs_abs_diff": 0.0,
+      "seed": 7000013,
+      "sequencing_vector_identical_erased_vs_base": true,
+      "sequencing_vector_identical_reversed_vs_base": true
+    },
+    {
+      "base": {
+        "phenotype_vector": {
+          "S_obs": 0.7726489196681066,
+          "Z_obs": 0.5000586147404632,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.8976804330729898,
+          "procedural_legitimacy": 0.7788593862600518,
+          "seq_accountability": 0.09,
+          "seq_administrative_function": 0.08,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.134,
+          "seq_generalized_rule": 0.012,
+          "seq_interpatch_coordination": 0.014,
+          "seq_monitoring": 0.006
+        },
+        "s_obs": 0.7726489196681066,
+        "sequencing_vector": {
+          "accountability": 45,
+          "administrative_function": 40,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 67,
+          "generalized_rule": 6,
+          "interpatch_coordination": 7,
+          "monitoring": 3
+        },
+        "z_obs": 0.5000586147404632
+      },
+      "erased": {
+        "phenotype_vector": {
+          "S_obs": 0.7568781290628518,
+          "Z_obs": 0.4930561909173897,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.9045981993846312,
+          "procedural_legitimacy": 0.7798643098221779,
+          "seq_accountability": 0.09,
+          "seq_administrative_function": 0.08,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.134,
+          "seq_generalized_rule": 0.012,
+          "seq_interpatch_coordination": 0.014,
+          "seq_monitoring": 0.006
+        },
+        "s_obs": 0.7568781290628518,
+        "sequencing_vector": {
+          "accountability": 45,
+          "administrative_function": 40,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 67,
+          "generalized_rule": 6,
+          "interpatch_coordination": 7,
+          "monitoring": 3
+        },
+        "z_obs": 0.4930561909173897
+      },
+      "erased_vs_base_s_obs_abs_diff": 0.01577079060525477,
+      "erased_vs_base_z_obs_abs_diff": 0.007002423823073478,
+      "reversed": {
+        "phenotype_vector": {
+          "S_obs": 0.7593822530014398,
+          "Z_obs": 0.48894750362935213,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.8976804330729898,
+          "procedural_legitimacy": 0.7788593862600518,
+          "seq_accountability": 0.09,
+          "seq_administrative_function": 0.08,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.134,
+          "seq_generalized_rule": 0.012,
+          "seq_interpatch_coordination": 0.014,
+          "seq_monitoring": 0.006
+        },
+        "s_obs": 0.7593822530014398,
+        "sequencing_vector": {
+          "accountability": 45,
+          "administrative_function": 40,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 67,
+          "generalized_rule": 6,
+          "interpatch_coordination": 7,
+          "monitoring": 3
+        },
+        "z_obs": 0.48894750362935213
+      },
+      "reversed_vs_base_s_obs_abs_diff": 0.01326666666666676,
+      "reversed_vs_base_z_obs_abs_diff": 0.011111111111111072,
+      "seed": 7000014,
+      "sequencing_vector_identical_erased_vs_base": true,
+      "sequencing_vector_identical_reversed_vs_base": true
+    },
+    {
+      "base": {
+        "phenotype_vector": {
+          "S_obs": 0.530690970213513,
+          "Z_obs": 0.3848700203710159,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.38455206036956563,
+          "procedural_legitimacy": 0.6267464582276201,
+          "seq_accountability": 0.094,
+          "seq_administrative_function": 0.092,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.092,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.428,
+          "seq_monitoring": 0.02
+        },
+        "s_obs": 0.530690970213513,
+        "sequencing_vector": {
+          "accountability": 47,
+          "administrative_function": 46,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 46,
+          "generalized_rule": 10,
+          "interpatch_coordination": 214,
+          "monitoring": 10
+        },
+        "z_obs": 0.3848700203710159
+      },
+      "erased": {
+        "phenotype_vector": {
+          "S_obs": 0.5279576368801796,
+          "Z_obs": 0.3813144648154604,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.38455206036956563,
+          "procedural_legitimacy": 0.6267464582276201,
+          "seq_accountability": 0.094,
+          "seq_administrative_function": 0.092,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.092,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.428,
+          "seq_monitoring": 0.02
+        },
+        "s_obs": 0.5279576368801796,
+        "sequencing_vector": {
+          "accountability": 47,
+          "administrative_function": 46,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 46,
+          "generalized_rule": 10,
+          "interpatch_coordination": 214,
+          "monitoring": 10
+        },
+        "z_obs": 0.3813144648154604
+      },
+      "erased_vs_base_s_obs_abs_diff": 0.0027333333333333654,
+      "erased_vs_base_z_obs_abs_diff": 0.003555555555555534,
+      "reversed": {
+        "phenotype_vector": {
+          "S_obs": 0.5279576368801796,
+          "Z_obs": 0.3813144648154604,
+          "conversion_incidence": 0.0,
+          "entrenchment": 1.0,
+          "performance_legitimacy": 0.38455206036956563,
+          "procedural_legitimacy": 0.6267464582276201,
+          "seq_accountability": 0.094,
+          "seq_administrative_function": 0.092,
+          "seq_bargaining_participation": NaN,
+          "seq_cross_founder_reconstruction": NaN,
+          "seq_delegation": 0.092,
+          "seq_generalized_rule": 0.02,
+          "seq_interpatch_coordination": 0.428,
+          "seq_monitoring": 0.02
+        },
+        "s_obs": 0.5279576368801796,
+        "sequencing_vector": {
+          "accountability": 47,
+          "administrative_function": 46,
+          "bargaining_participation": null,
+          "cross_founder_reconstruction": null,
+          "delegation": 46,
+          "generalized_rule": 10,
+          "interpatch_coordination": 214,
+          "monitoring": 10
+        },
+        "z_obs": 0.3813144648154604
+      },
+      "reversed_vs_base_s_obs_abs_diff": 0.0027333333333333654,
+      "reversed_vs_base_z_obs_abs_diff": 0.003555555555555534,
+      "seed": 7000015,
+      "sequencing_vector_identical_erased_vs_base": true,
+      "sequencing_vector_identical_reversed_vs_base": true
+    }
+  ],
+  "report_hash": "5d2586d5b817fc0bccd5482733217e66f65a47a5f80046fcbd7e6ea9a084126a"
+}

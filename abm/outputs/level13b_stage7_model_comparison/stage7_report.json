@@ -1,0 +1,459 @@
+{
+  "continuous_candidates": {
+    "low_dim_regression": {
+      "candidate": "low_dim_regression",
+      "cv_r2_mean": 0.1870911183102551,
+      "cv_r2_scores": [
+        0.1901560052345036,
+        0.1999290382153288,
+        0.275965547798655,
+        0.25100588732907836,
+        0.018399112973709664
+      ],
+      "predictors": [
+        "S_obs",
+        "conversion_incidence",
+        "entrenchment",
+        "performance_legitimacy",
+        "procedural_legitimacy"
+      ],
+      "target": "Z_obs"
+    },
+    "pca_factor_continuum": {
+      "candidate": "pca_factor_continuum",
+      "explained_variance_ratio": 0.4033799572501394,
+      "reconstruction_error": 0.5966200427498601
+    },
+    "principal_curve_manifold": {
+      "candidate": "principal_curve_manifold",
+      "n_neighbors": 10,
+      "reconstruction_error": 4.088823819325485
+    }
+  },
+  "cross_algorithm_stability": {
+    "gmm_k1_to_8_vs_hdbscan_multiple_min_cluster_size": {
+      "ari": 0.3571471534169713,
+      "vi": 1.5356850956944683
+    },
+    "gmm_k1_to_8_vs_hierarchical": {
+      "ari": 0.03244322185744553,
+      "vi": 1.924874585847488
+    },
+    "gmm_k1_to_8_vs_unequal_covariance_mixtures": {
+      "ari": 1.0,
+      "vi": 0.0
+    },
+    "hdbscan_multiple_min_cluster_size_vs_unequal_covariance_mixtures": {
+      "ari": 0.3571471534169713,
+      "vi": 1.5356850956944683
+    },
+    "hierarchical_vs_hdbscan_multiple_min_cluster_size": {
+      "ari": 0.0155408486733851,
+      "vi": 1.4006848040497921
+    },
+    "hierarchical_vs_unequal_covariance_mixtures": {
+      "ari": 0.03244322185744553,
+      "vi": 1.924874585847488
+    }
+  },
+  "cross_seed_and_cross_point_stability": {
+    "cross_point_stability_seed_clustered": {
+      "k": 8,
+      "mean_ari": 0.7922140492670671,
+      "method": "gmm",
+      "n_bootstrap": 30,
+      "n_clusters": 48,
+      "std_ari": 0.10864062286779741
+    },
+    "cross_seed_bootstrap_stability_flat": {
+      "k": 8,
+      "mean_ari": 0.7520302830967671,
+      "method": "gmm",
+      "n_bootstrap": 30,
+      "std_ari": 0.1338223279437139
+    }
+  },
+  "discrete_candidates": {
+    "gmm_k1_to_8": {
+      "all_k_fits": [
+        {
+          "aic": 3792.953465021742,
+          "bic": 3886.930715951976,
+          "k": 1,
+          "metrics": {
+            "aic": 3792.953465021742,
+            "bic": 3886.930715951976,
+            "calinski_harabasz": NaN,
+            "cluster_size_balance": 1.0,
+            "davies_bouldin": NaN,
+            "held_out_log_likelihood": null,
+            "n_clusters": 1,
+            "n_noise": 0,
+            "silhouette": NaN
+          }
+        },
+        {
+          "aic": 1901.808495257083,
+          "bic": 2093.2436360408924,
+          "k": 2,
+          "metrics": {
+            "aic": 1901.808495257083,
+            "bic": 2093.2436360408924,
+            "calinski_harabasz": 31.175558020344276,
+            "cluster_size_balance": 0.5894039735099338,
+            "davies_bouldin": 2.5679360630047934,
+            "held_out_log_likelihood": null,
+            "n_clusters": 2,
+            "n_noise": 0,
+            "silhouette": 0.14254784164345988
+          }
+        },
+        {
+          "aic": 1191.2541349749947,
+          "bic": 1480.14716561238,
+          "k": 3,
+          "metrics": {
+            "aic": 1191.2541349749947,
+            "bic": 1480.14716561238,
+            "calinski_harabasz": 23.602239384430426,
+            "cluster_size_balance": 0.23026315789473684,
+            "davies_bouldin": 2.618732228335246,
+            "held_out_log_likelihood": null,
+            "n_clusters": 3,
+            "n_noise": 0,
+            "silhouette": 0.13547166652911583
+          }
+        },
+        {
+          "aic": 1123.936570347359,
+          "bic": 1510.28749083832,
+          "k": 4,
+          "metrics": {
+            "aic": 1123.936570347359,
+            "bic": 1510.28749083832,
+            "calinski_harabasz": 21.970784809871446,
+            "cluster_size_balance": 0.1111111111111111,
+            "davies_bouldin": 1.923906000655243,
+            "held_out_log_likelihood": null,
+            "n_clusters": 4,
+            "n_noise": 0,
+            "silhouette": 0.10039075599982077
+          }
+        },
+        {
+          "aic": 925.9899612927115,
+          "bic": 1409.7987716372484,
+          "k": 5,
+          "metrics": {
+            "aic": 925.9899612927115,
+            "bic": 1409.7987716372484,
+            "calinski_harabasz": 17.94235086735196,
+            "cluster_size_balance": 0.0392156862745098,
+            "davies_bouldin": 1.8229965195282873,
+            "held_out_log_likelihood": null,
+            "n_clusters": 5,
+            "n_noise": 0,
+            "silhouette": 0.07000965500809757
+          }
+        },
+        {
+          "aic": 989.228952708685,
+          "bic": 1570.4956529067977,
+          "k": 6,
+          "metrics": {
+            "aic": 989.228952708685,
+            "bic": 1570.4956529067977,
+            "calinski_harabasz": 18.408332899347656,
+            "cluster_size_balance": 0.040268456375838924,
+            "davies_bouldin": 1.8163398296375899,
+            "held_out_log_likelihood": null,
+            "n_clusters": 6,
+            "n_noise": 0,
+            "silhouette": 0.07334428850378985
+          }
+        },
+        {
+          "aic": 535.5790018152157,
+          "bic": 1214.3035918669038,
+          "k": 7,
+          "metrics": {
+            "aic": 535.5790018152157,
+            "bic": 1214.3035918669038,
+            "calinski_harabasz": 24.907008610467155,
+            "cluster_size_balance": 0.0891089108910891,
+            "davies_bouldin": 1.7851490548171498,
+            "held_out_log_likelihood": null,
+            "n_clusters": 7,
+            "n_noise": 0,
+            "silhouette": 0.08801020296246519
+          }
+        },
+        {
+          "aic": -238.0108589582004,
+          "bic": 538.1716209470636,
+          "k": 8,
+          "metrics": {
+            "aic": -238.0108589582004,
+            "bic": 538.1716209470636,
+            "calinski_harabasz": 17.013577334846165,
+            "cluster_size_balance": 0.0594059405940594,
+            "davies_bouldin": 1.9454652563105475,
+            "held_out_log_likelihood": null,
+            "n_clusters": 8,
+            "n_noise": 0,
+            "silhouette": 0.05459513514136495
+          }
+        }
+      ],
+      "candidate": "gmm_k1_to_8",
+      "leading_bic": 538.1716209470636,
+      "leading_k": 8
+    },
+    "hdbscan_multiple_min_cluster_size": {
+      "all_settings": [
+        {
+          "min_cluster_size": 6,
+          "n_clusters": 2,
+          "n_noise": 99
+        },
+        {
+          "min_cluster_size": 12,
+          "n_clusters": 0,
+          "n_noise": 240
+        },
+        {
+          "min_cluster_size": 24,
+          "n_clusters": 0,
+          "n_noise": 240
+        },
+        {
+          "min_cluster_size": 48,
+          "n_clusters": 0,
+          "n_noise": 240
+        }
+      ],
+      "candidate": "hdbscan_multiple_min_cluster_size",
+      "leading_min_cluster_size": 6
+    },
+    "hierarchical": {
+      "all_k_fits": [
+        {
+          "k": 1,
+          "metrics": {
+            "calinski_harabasz": NaN,
+            "cluster_size_balance": 1.0,
+            "davies_bouldin": NaN,
+            "n_clusters": 1,
+            "n_noise": 0,
+            "silhouette": NaN
+          }
+        },
+        {
+          "k": 2,
+          "metrics": {
+            "calinski_harabasz": 64.2421941931051,
+            "cluster_size_balance": 0.3114754098360656,
+            "davies_bouldin": 1.5507630679146267,
+            "n_clusters": 2,
+            "n_noise": 0,
+            "silhouette": 0.2304685121068241
+          }
+        },
+        {
+          "k": 3,
+          "metrics": {
+            "calinski_harabasz": 54.44602107910857,
+            "cluster_size_balance": 0.19607843137254902,
+            "davies_bouldin": 1.5362610127921348,
+            "n_clusters": 3,
+            "n_noise": 0,
+            "silhouette": 0.19691336364102277
+          }
+        },
+        {
+          "k": 4,
+          "metrics": {
+            "calinski_harabasz": 49.049295275940715,
+            "cluster_size_balance": 0.30612244897959184,
+            "davies_bouldin": 1.7653595831855722,
+            "n_clusters": 4,
+            "n_noise": 0,
+            "silhouette": 0.16586478147117803
+          }
+        },
+        {
+          "k": 5,
+          "metrics": {
+            "calinski_harabasz": 46.69356448893274,
+            "cluster_size_balance": 0.4,
+            "davies_bouldin": 1.5948644702461419,
+            "n_clusters": 5,
+            "n_noise": 0,
+            "silhouette": 0.14769257859195056
+          }
+        },
+        {
+          "k": 6,
+          "metrics": {
+            "calinski_harabasz": 44.03595734181125,
+            "cluster_size_balance": 0.24285714285714285,
+            "davies_bouldin": 1.4131074576790548,
+            "n_clusters": 6,
+            "n_noise": 0,
+            "silhouette": 0.1632215007893501
+          }
+        },
+        {
+          "k": 7,
+          "metrics": {
+            "calinski_harabasz": 42.84495545436169,
+            "cluster_size_balance": 0.24285714285714285,
+            "davies_bouldin": 1.5367646345372037,
+            "n_clusters": 7,
+            "n_noise": 0,
+            "silhouette": 0.1571025319918314
+          }
+        },
+        {
+          "k": 8,
+          "metrics": {
+            "calinski_harabasz": 42.361050599517284,
+            "cluster_size_balance": 0.3953488372093023,
+            "davies_bouldin": 1.466862910793558,
+            "n_clusters": 8,
+            "n_noise": 0,
+            "silhouette": 0.1462358951675934
+          }
+        }
+      ],
+      "candidate": "hierarchical",
+      "leading_k": 2
+    },
+    "unequal_covariance_mixtures": {
+      "all_k_fits": [
+        {
+          "bic": 3886.930715951976,
+          "k": 1
+        },
+        {
+          "bic": 2093.2436360408924,
+          "k": 2
+        },
+        {
+          "bic": 1480.14716561238,
+          "k": 3
+        },
+        {
+          "bic": 1510.28749083832,
+          "k": 4
+        },
+        {
+          "bic": 1409.7987716372484,
+          "k": 5
+        },
+        {
+          "bic": 1570.4956529067977,
+          "k": 6
+        },
+        {
+          "bic": 1214.3035918669038,
+          "k": 7
+        },
+        {
+          "bic": 538.1716209470636,
+          "k": 8
+        }
+      ],
+      "candidate": "unequal_covariance_mixtures",
+      "leading_bic": 538.1716209470636,
+      "leading_k": 8
+    }
+  },
+  "ecological_stratum_stability": {
+    "n_strata_fit": 3,
+    "pairwise_agreement": {
+      "high_feasibility_vs_low_feasibility": {
+        "ari": -0.042873584754155404,
+        "vi": 2.8061951438634
+      },
+      "high_feasibility_vs_medium_feasibility": {
+        "ari": -0.01354438833495413,
+        "vi": 2.9752771192888505
+      },
+      "low_feasibility_vs_medium_feasibility": {
+        "ari": -0.015973549176632244,
+        "vi": 2.8269295913293235
+      }
+    }
+  },
+  "feature_dims": [
+    "S_obs",
+    "Z_obs",
+    "conversion_incidence",
+    "entrenchment",
+    "performance_legitimacy",
+    "procedural_legitimacy"
+  ],
+  "held_out_log_likelihood_leading_discrete": 60.44794490043644,
+  "leading_discrete_candidate": "gmm_k1_to_8",
+  "leading_discrete_k": 8,
+  "milestone": "level1.3b_work_package_h_stage7_model_comparison",
+  "missingness_strategy_stability": {
+    "pairwise_agreement": {
+      "complete_case_vs_mean_impute": {
+        "ari": 1.0,
+        "vi": 0.0
+      },
+      "complete_case_vs_missingness_indicator": {
+        "ari": 1.0,
+        "vi": 0.0
+      },
+      "missingness_indicator_vs_mean_impute": {
+        "ari": 1.0,
+        "vi": 0.0
+      }
+    },
+    "strategies_compared": [
+      "complete_case",
+      "missingness_indicator",
+      "mean_impute"
+    ]
+  },
+  "n_records": 240,
+  "note": "no k chosen from silhouette alone; no preferred k; a discrete result must beat every continuous alternative on FRESH (Stage 8) data to count as discrete -- this report picks ONE leading discrete candidate (lowest BIC among BIC-scored families) to compare against the leading continuous/path-dependent candidates on Stage 8's fresh confirmation data (task #121); no discrete-vs-continuous verdict is rendered here",
+  "path_dependent_candidates": {
+    "predict_late_phenotype_from_early_sequence_no_discrete_clustering": {
+      "candidate": "predict_late_phenotype_from_early_sequence_no_discrete_clustering",
+      "cv_r2_mean": -2.084424368239386,
+      "cv_r2_scores": [
+        -6.82508209140946,
+        -0.5190102009487405,
+        -2.3531307352307125,
+        0.6720493852111653,
+        -1.3969481988191834
+      ],
+      "n_complete_rows": 17,
+      "predictors": [
+        "seq_accountability",
+        "seq_administrative_function",
+        "seq_bargaining_participation",
+        "seq_cross_founder_reconstruction",
+        "seq_delegation",
+        "seq_generalized_rule",
+        "seq_interpatch_coordination",
+        "seq_monitoring"
+      ],
+      "target": "entrenchment"
+    }
+  },
+  "temporal_window_stability": {
+    "n_complete_rows": 17,
+    "note": "compares clustering fit on final-state vs. activation-timing features -- Stage 7's own disclosed proxy for Section 12's temporal_window_stability (Stage 4 records carry no full windowed series; see module docstring)",
+    "pairwise_agreement": {
+      "final_state_features_vs_activation_timing_features": {
+        "ari": 0.20243266724587317,
+        "vi": 1.0766766041477291
+      }
+    }
+  }
+}

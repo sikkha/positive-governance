@@ -1,0 +1,144 @@
+{
+  "migration_ablation": {
+    "pairs": [
+      {
+        "seed": 9000,
+        "migration_off_outcome_label": "collapse",
+        "migration_on_outcome_label": "collapse",
+        "migration_off_ecological_resource_fraction": 0.013114079070368231,
+        "migration_on_ecological_resource_fraction": 0.005506729539184662
+      },
+      {
+        "seed": 9001,
+        "migration_off_outcome_label": "fragmented",
+        "migration_on_outcome_label": "collapse",
+        "migration_off_ecological_resource_fraction": 0.22964226771496749,
+        "migration_on_ecological_resource_fraction": 0.011873550176728292
+      },
+      {
+        "seed": 9002,
+        "migration_off_outcome_label": "fragmented",
+        "migration_on_outcome_label": "collapse",
+        "migration_off_ecological_resource_fraction": 0.24054122848875942,
+        "migration_on_ecological_resource_fraction": 0.01859704292269025
+      },
+      {
+        "seed": 9003,
+        "migration_off_outcome_label": "collapse",
+        "migration_on_outcome_label": "collapse",
+        "migration_off_ecological_resource_fraction": 0.019810741789663768,
+        "migration_on_ecological_resource_fraction": 0.009359216317910899
+      },
+      {
+        "seed": 9004,
+        "migration_off_outcome_label": "collapse",
+        "migration_on_outcome_label": "collapse",
+        "migration_off_ecological_resource_fraction": 0.01163299545412044,
+        "migration_on_ecological_resource_fraction": 0.02208015998309909
+      },
+      {
+        "seed": 9005,
+        "migration_off_outcome_label": "collapse",
+        "migration_on_outcome_label": "fragmented",
+        "migration_off_ecological_resource_fraction": 0.013615214080971041,
+        "migration_on_ecological_resource_fraction": 0.050979900610519976
+      },
+      {
+        "seed": 9006,
+        "migration_off_outcome_label": "collapse",
+        "migration_on_outcome_label": "collapse",
+        "migration_off_ecological_resource_fraction": 0.011059438960342274,
+        "migration_on_ecological_resource_fraction": 0.012818411070438674
+      },
+      {
+        "seed": 9007,
+        "migration_off_outcome_label": "fragmented",
+        "migration_on_outcome_label": "collapse",
+        "migration_off_ecological_resource_fraction": 0.2249962361744451,
+        "migration_on_ecological_resource_fraction": 0.015000716434450513
+      }
+    ],
+    "n_pairs": 8,
+    "n_b_greater_ecological_fraction": 3,
+    "n_a_greater_ecological_fraction": 5,
+    "n_tied": 0,
+    "mean_paired_difference": -0.07727455933482692,
+    "n_outcome_label_transitions": 4,
+    "wilcoxon_signed_rank": {
+      "statistic": 9.0,
+      "p_value": 0.25,
+      "note": "n too small for a confident test; supplementary only"
+    }
+  },
+  "regen_rate_ablation": {
+    "pairs": [
+      {
+        "seed": 9100,
+        "regen_low_outcome_label": "collapse",
+        "regen_high_outcome_label": "collapse",
+        "regen_low_ecological_resource_fraction": 0.0050191576175121315,
+        "regen_high_ecological_resource_fraction": 0.006072251683953359
+      },
+      {
+        "seed": 9101,
+        "regen_low_outcome_label": "collapse",
+        "regen_high_outcome_label": "collapse",
+        "regen_low_ecological_resource_fraction": 0.00450934437646824,
+        "regen_high_ecological_resource_fraction": 0.01718853952391655
+      },
+      {
+        "seed": 9102,
+        "regen_low_outcome_label": "collapse",
+        "regen_high_outcome_label": "fragmented",
+        "regen_low_ecological_resource_fraction": 0.007601630155899544,
+        "regen_high_ecological_resource_fraction": 0.18563211798293994
+      },
+      {
+        "seed": 9103,
+        "regen_low_outcome_label": "collapse",
+        "regen_high_outcome_label": "collapse",
+        "regen_low_ecological_resource_fraction": 0.017210539832509784,
+        "regen_high_ecological_resource_fraction": 0.00887286939050892
+      },
+      {
+        "seed": 9104,
+        "regen_low_outcome_label": "collapse",
+        "regen_high_outcome_label": "fragmented",
+        "regen_low_ecological_resource_fraction": 0.003689114253800591,
+        "regen_high_ecological_resource_fraction": 0.05491693166594121
+      },
+      {
+        "seed": 9105,
+        "regen_low_outcome_label": "collapse",
+        "regen_high_outcome_label": "collapse",
+        "regen_low_ecological_resource_fraction": 0.02235852494567833,
+        "regen_high_ecological_resource_fraction": 0.027002583743477502
+      },
+      {
+        "seed": 9106,
+        "regen_low_outcome_label": "collapse",
+        "regen_high_outcome_label": "collapse",
+        "regen_low_ecological_resource_fraction": 0.00847752012346864,
+        "regen_high_ecological_resource_fraction": 0.017897774326904974
+      },
+      {
+        "seed": 9107,
+        "regen_low_outcome_label": "collapse",
+        "regen_high_outcome_label": "collapse",
+        "regen_low_ecological_resource_fraction": 0.008632671755419428,
+        "regen_high_ecological_resource_fraction": 0.02096893162883466
+      }
+    ],
+    "n_pairs": 8,
+    "n_b_greater_ecological_fraction": 7,
+    "n_a_greater_ecological_fraction": 1,
+    "n_tied": 0,
+    "mean_paired_difference": 0.03263168711071505,
+    "n_outcome_label_transitions": 2,
+    "wilcoxon_signed_rank": {
+      "statistic": 3.0,
+      "p_value": 0.0390625,
+      "note": "n too small for a confident test; supplementary only"
+    }
+  }
+}

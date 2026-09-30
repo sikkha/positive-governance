@@ -1,0 +1,327 @@
+{
+  "algorithm_agreement": {
+    "gmm_vs_hdbscan": {
+      "ari": 0.0,
+      "vi": 0.6365141682948128
+    },
+    "gmm_vs_hierarchical": {
+      "ari": 0.8730674817164632,
+      "vi": 0.239071324025256
+    },
+    "hierarchical_vs_hdbscan": {
+      "ari": 0.0,
+      "vi": 0.6566498559094066
+    }
+  },
+  "bootstrap_stability": {
+    "k": 2,
+    "mean_ari": 0.9171521136461028,
+    "method": "gmm",
+    "n_bootstrap": 30,
+    "std_ari": 0.21625989751450658
+  },
+  "candidate_independence_note": "candidate clusters from the same fit are not independent statistical tests -- this report's own metrics are descriptive of one fit's structure, never p-value-style per-cluster claims",
+  "cluster_vs_source_stage_ari": 0.553941908713693,
+  "collinearity": {
+    "feature_names": [
+      "seq_delegation",
+      "seq_administrative_function",
+      "seq_generalized_rule",
+      "seq_monitoring",
+      "seq_accountability",
+      "seq_bargaining_participation",
+      "seq_cross_founder_reconstruction",
+      "seq_interpatch_coordination",
+      "entrenchment",
+      "performance_legitimacy",
+      "procedural_legitimacy",
+      "conversion_incidence",
+      "S_obs",
+      "Z_obs"
+    ],
+    "n_complete_rows": 0
+  },
+  "decision_gate_note": "no six-way decision-gate verdict is rendered here -- Section 23's classification (task #108) synthesizes this stage alongside Stage 7-9's own evidence",
+  "feature_names": [
+    "seq_delegation",
+    "seq_administrative_function",
+    "seq_generalized_rule",
+    "seq_monitoring",
+    "seq_accountability",
+    "seq_bargaining_participation",
+    "seq_cross_founder_reconstruction",
+    "seq_interpatch_coordination",
+    "entrenchment",
+    "performance_legitimacy",
+    "procedural_legitimacy",
+    "conversion_incidence",
+    "S_obs",
+    "Z_obs"
+  ],
+  "hdbscan_result": {
+    "k": 0,
+    "metrics": {
+      "calinski_harabasz": NaN,
+      "cluster_size_balance": NaN,
+      "davies_bouldin": NaN,
+      "n_clusters": 0,
+      "n_noise": 216,
+      "silhouette": NaN
+    },
+    "n_noise": 216
+  },
+  "headline_k": 2,
+  "k_range_results": {
+    "gmm": [
+      {
+        "k": 1,
+        "metrics": {
+          "aic": 3453.6383586363554,
+          "bic": 3855.296489150771,
+          "calinski_harabasz": NaN,
+          "cluster_size_balance": 1.0,
+          "davies_bouldin": NaN,
+          "held_out_log_likelihood": null,
+          "n_clusters": 1,
+          "n_noise": 0,
+          "silhouette": NaN
+        }
+      },
+      {
+        "k": 2,
+        "metrics": {
+          "aic": 1035.6911509742226,
+          "bic": 1842.3826904107382,
+          "calinski_harabasz": 86.21487935058352,
+          "cluster_size_balance": 0.5,
+          "davies_bouldin": 1.386041209069619,
+          "held_out_log_likelihood": null,
+          "n_clusters": 2,
+          "n_noise": 0,
+          "silhouette": 0.33390581481621784
+        }
+      },
+      {
+        "k": 3,
+        "metrics": {
+          "aic": 706.989643907908,
+          "bic": 1918.7145922665234,
+          "calinski_harabasz": 56.78926637256837,
+          "cluster_size_balance": 0.3584905660377358,
+          "davies_bouldin": 2.0264531755747397,
+          "held_out_log_likelihood": null,
+          "n_clusters": 3,
+          "n_noise": 0,
+          "silhouette": 0.2561833946192018
+        }
+      },
+      {
+        "k": 4,
+        "metrics": {
+          "aic": -1642.8827414585103,
+          "bic": -26.124384177795037,
+          "calinski_harabasz": 53.639118533732145,
+          "cluster_size_balance": 0.22641509433962265,
+          "davies_bouldin": 1.7762121853216595,
+          "held_out_log_likelihood": null,
+          "n_clusters": 4,
+          "n_noise": 0,
+          "silhouette": 0.2847990533811157
+        }
+      },
+      {
+        "k": 5,
+        "metrics": {
+          "aic": -3339.568911569774,
+          "bic": -1317.7771453669593,
+          "calinski_harabasz": 42.460775902061805,
+          "cluster_size_balance": 0.13636363636363635,
+          "davies_bouldin": 1.9390090351781335,
+          "held_out_log_likelihood": null,
+          "n_clusters": 5,
+          "n_noise": 0,
+          "silhouette": 0.29673245665042053
+        }
+      },
+      {
+        "k": 6,
+        "metrics": {
+          "aic": -2422.529552952026,
+          "bic": 4.295622172889125,
+          "calinski_harabasz": 38.431123306130495,
+          "cluster_size_balance": 0.3103448275862069,
+          "davies_bouldin": 1.9032121260638268,
+          "held_out_log_likelihood": null,
+          "n_clusters": 6,
+          "n_noise": 0,
+          "silhouette": 0.1534576804786163
+        }
+      },
+      {
+        "k": 7,
+        "metrics": {
+          "aic": -2735.230612870936,
+          "bic": 96.62797117607897,
+          "calinski_harabasz": 38.7864321284766,
+          "cluster_size_balance": 0.057692307692307696,
+          "davies_bouldin": 1.5710772850009458,
+          "held_out_log_likelihood": null,
+          "n_clusters": 7,
+          "n_noise": 0,
+          "silhouette": 0.1959101704229935
+        }
+      },
+      {
+        "k": 8,
+        "metrics": {
+          "aic": -4749.631720288748,
+          "bic": -1512.739727319633,
+          "calinski_harabasz": 42.30349240823454,
+          "cluster_size_balance": 0.027522935779816515,
+          "davies_bouldin": 1.443131024340276,
+          "held_out_log_likelihood": null,
+          "n_clusters": 8,
+          "n_noise": 0,
+          "silhouette": 0.2971645395966135
+        }
+      }
+    ],
+    "hierarchical": [
+      {
+        "k": 1,
+        "metrics": {
+          "calinski_harabasz": NaN,
+          "cluster_size_balance": 1.0,
+          "davies_bouldin": NaN,
+          "n_clusters": 1,
+          "n_noise": 0,
+          "silhouette": NaN
+        }
+      },
+      {
+        "k": 2,
+        "metrics": {
+          "calinski_harabasz": 76.75481709082368,
+          "cluster_size_balance": 0.5766423357664233,
+          "davies_bouldin": 1.5132595463971217,
+          "n_clusters": 2,
+          "n_noise": 0,
+          "silhouette": 0.32507538231622735
+        }
+      },
+      {
+        "k": 3,
+        "metrics": {
+          "calinski_harabasz": 58.158004005073465,
+          "cluster_size_balance": 0.17518248175182483,
+          "davies_bouldin": 1.4148964363693575,
+          "n_clusters": 3,
+          "n_noise": 0,
+          "silhouette": 0.33380263907770064
+        }
+      },
+      {
+        "k": 4,
+        "metrics": {
+          "calinski_harabasz": 50.19247277622169,
+          "cluster_size_balance": 0.072992700729927,
+          "davies_bouldin": 1.2552598056625248,
+          "n_clusters": 4,
+          "n_noise": 0,
+          "silhouette": 0.3486834453803437
+        }
+      },
+      {
+        "k": 5,
+        "metrics": {
+          "calinski_harabasz": 47.871406406323416,
+          "cluster_size_balance": 0.08928571428571429,
+          "davies_bouldin": 1.5294723708382933,
+          "n_clusters": 5,
+          "n_noise": 0,
+          "silhouette": 0.3265354100463505
+        }
+      },
+      {
+        "k": 6,
+        "metrics": {
+          "calinski_harabasz": 47.358665852919025,
+          "cluster_size_balance": 0.026785714285714284,
+          "davies_bouldin": 1.399662950511625,
+          "n_clusters": 6,
+          "n_noise": 0,
+          "silhouette": 0.33747196093567416
+        }
+      },
+      {
+        "k": 7,
+        "metrics": {
+          "calinski_harabasz": 47.29531287660996,
+          "cluster_size_balance": 0.026785714285714284,
+          "davies_bouldin": 1.1712877359017446,
+          "n_clusters": 7,
+          "n_noise": 0,
+          "silhouette": 0.3399962257514624
+        }
+      },
+      {
+        "k": 8,
+        "metrics": {
+          "calinski_harabasz": 46.535293405715706,
+          "cluster_size_balance": 0.026785714285714284,
+          "davies_bouldin": 1.1231311759851386,
+          "n_clusters": 8,
+          "n_noise": 0,
+          "silhouette": 0.3480311784280226
+        }
+      }
+    ]
+  },
+  "mean_algorithm_agreement_ari": 0.29102249390548773,
+  "milestone": "level1.3_stage6_blind_phenotype_discovery",
+  "missingness_report": {
+    "S_obs": 0.0,
+    "Z_obs": 0.0,
+    "conversion_incidence": 0.0,
+    "entrenchment": 0.0,
+    "performance_legitimacy": 0.0,
+    "procedural_legitimacy": 0.0,
+    "seq_accountability": 0.0,
+    "seq_administrative_function": 0.0,
+    "seq_bargaining_participation": 1.0,
+    "seq_cross_founder_reconstruction": 0.9537037037037037,
+    "seq_delegation": 0.004629629629629629,
+    "seq_generalized_rule": 0.0,
+    "seq_interpatch_coordination": 0.013888888888888888,
+    "seq_monitoring": 0.0
+  },
+  "missingness_strategy_robustness_ari": {
+    "complete_case": NaN,
+    "missingness_indicator": 0.9812794906239508
+  },
+  "n_pooled_by_source": {
+    "stage3": 72,
+    "stage4": 96,
+    "stage5_base": 16,
+    "stage5_erased": 16,
+    "stage5_reversed": 16
+  },
+  "n_total": 216,
+  "primary_missingness_strategy": "mean_impute",
+  "report_hash": "3d3e8692bc09057a6d88225a00a7f647b08eca609f438a0ae1eb7b7548988f5b",
+  "silhouette_by_k": {
+    "1": NaN,
+    "2": 0.33390581481621784,
+    "3": 0.2561833946192018,
+    "4": 0.2847990533811157,
+    "5": 0.29673245665042053,
+    "6": 0.1534576804786163,
+    "7": 0.1959101704229935,
+    "8": 0.2971645395966135
+  },
+  "source_files": {
+    "stage3": "outputs/level13_stage3_sequencing_entrenchment_factorial/records.json",
+    "stage4": "outputs/level13_stage4_open_pressure_history_search/records.json",
+    "stage5": "outputs/level13_stage5_causal_counterfactuals/records.json"
+  }
+}

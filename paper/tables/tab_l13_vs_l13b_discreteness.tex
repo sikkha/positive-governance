@@ -1,0 +1,15 @@
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Metric} & \textbf{Level 1.3} & \textbf{Level 1.3b} & \textbf{Note} \\
+\midrule
+Design & pooled, post hoc (Stages 3--5) & purpose-designed (Stage 4) & 1.3b avoids 1.3's own confound \\
+$n$ discovery pool & 216 & 240 & \\
+Headline $k$ / selection rule & 2 (silhouette) & 8 (BIC) & different selection metrics led \\
+Best silhouette (any $k$) & 0.334 ($k$=2) & 0.143 ($k$=2) & 1.3b never clears 0.15 floor \\
+Bootstrap stability (mean ARI) & 0.917 & 0.752 & both clear 0.3 floor \\
+Cross-algorithm agreement (ARI) & 0.291 (mean) & 0.016--0.357 (range, excl.\ non-independent pair) & both weak \\
+Fresh-data reproduction & failed ($-1.29\to-6.05$ log-lik.) & mixed (+3.11 gap, but continuous candidate ties it) & \\
+Cross-stratum reproduction & not tested & $-0.043$ to $-0.014$ (ARI) & 1.3b only; near-zero/negative \\
+Formal verdict & \texttt{D\_continuum} & \texttt{D\_persistent\_continuum} & same top-level label, independent evidentiary path \\
+\bottomrule
+\end{tabular}

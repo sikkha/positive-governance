@@ -1,0 +1,7 @@
+# Normalise line endings for text sources (author works on macOS; CI may be Linux).
+* text=auto
+*.png binary
+*.pdf binary
+*.RData binary
+# Evidence notebooks contain large embedded outputs; keep them out of textual diffs.
+mcmea/notebooks/evidence/*.ipynb -diff

@@ -1,0 +1,36 @@
+{
+  "comparison_a_level12b_historical_off": {
+    "byte_for_byte_identical": true,
+    "mismatched_seeds": [],
+    "n_mismatches": 0,
+    "n_seeds": 20
+  },
+  "comparison_b_corrected_level13_reproduction_DESCRIPTIVE_ONLY": {
+    "field_change_counts_out_of_72": {
+      "S_obs": 47,
+      "Z_obs": 72,
+      "conversion_incidence": 3,
+      "entrenchment": 15,
+      "seq_accountability": 12,
+      "seq_administrative_function": 4,
+      "seq_bargaining_participation": 28,
+      "seq_cross_founder_reconstruction": 2,
+      "seq_delegation": 28
+    },
+    "mean_z_obs_delta": 0.02466977277207172,
+    "n_runs_reproduced": 72,
+    "note": "descriptive only, not a pass/fail gate -- see module docstring. Many fields beyond Z_obs/seq_bargaining_participation now differ from the archive because the TRANSMISSIBLE_COMPONENT_NAMES cross-process-determinism fix legitimately changes institution-transmission outcomes; the archive was never a canonical/reproducible reference to begin with."
+  },
+  "comparison_c_cross_process_determinism_post_fix": {
+    "all_launches_identical": true,
+    "distinct_outputs": [
+      "338 3 4 2998 39 214"
+    ],
+    "n_distinct_outputs": 1,
+    "n_launches": 15,
+    "seed": 777
+  },
+  "major_finding": "A genuine, previously-undisclosed cross-process reproducibility bug (rules/transmission.py TRANSMISSIBLE_COMPONENT_NAMES, introduced at Level 1.2) was found and fixed this stage. Comparison A and C are the frozen-compatibility gate; Comparison B is retained only as a descriptive record of the fix's magnitude against the (now non-canonical) Level 1.3 archive.",
+  "milestone": "level1.3b_stage0_frozen_compatibility",
+  "overall_pass": true
+}

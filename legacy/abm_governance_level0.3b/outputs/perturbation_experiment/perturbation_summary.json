@@ -1,0 +1,30 @@
+{
+  "shock_spec": {
+    "kind": "resource_depletion",
+    "start_step": 200,
+    "duration": 1,
+    "magnitude": 0.5
+  },
+  "n_seeds": 15,
+  "n_steps": 500,
+  "demo_environment_capacity": 20000.0,
+  "pre_shock_state_step": 199,
+  "pre_shock_state": {
+    "baseline": {
+      "environment_resources_mean": 19262.069999028285,
+      "environment_fraction_of_capacity_mean": 0.9631034999514142
+    },
+    "shocked": {
+      "environment_resources_mean": 19262.069999028285,
+      "environment_fraction_of_capacity_mean": 0.9631034999514142
+    }
+  },
+  "response_at_shock_step": {
+    "baseline": 19262.895211838746,
+    "shocked": 11465.894271415247
+  },
+  "response_pool_drop_fraction": 0.4047678635365028,
+  "recovery_step_within_5pct_for_3_consecutive_steps": 206,
+  "recovery_lag_steps": 6,
+  "note": "recovery_step is a plain descriptive threshold-crossing statistic, not a dynamical-systems classification (no 'attractor'/'fixed point' claim is made here or implied by this number)."
+}

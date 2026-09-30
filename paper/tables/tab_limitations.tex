@@ -1,0 +1,14 @@
+\begin{tabular}{@{}p{0.32\textwidth}p{0.63\textwidth}@{}}
+\toprule
+\textbf{Limitation} & \textbf{Scope / disclosed status} \\
+\midrule
+Parameter domain \& duration & Results conditional on tested mechanism set, parameter ranges, and run length ($\le$700 steps); not a claim about untested regions. \\
+Collapse still modal & 56.6\%--78.1\% collapse across L1.2b pooled samples even after stratification; non-collapse variation is the minority of the sampled space. \\
+\texttt{shared\_lineage\_persistence} unevaluated & Would require a 4th 576-run re-simulation with per-run lineage export; judged low-value given the continuum/null-replication result; disclosed, not filled here. \\
+Temporal-representation validation subset & 4 burn-in definitions validated on 12 of 576 discovery runs, for compute-budget reasons stated in advance. \\
+Supplementary significance tests & L1.2 Section 13 Wilcoxon tests ($n$=8 pairs) are supplementary; L1.2b's 13-factor decomposition reports effect sizes, not significance tests, by design. \\
+Reconstructed audit text & Verbatim governing-specification text for two completion-report sections was unrecoverable after a mid-milestone context compaction; this paper reports the reconstructed audit, disclosed as such. \\
+Single implementation & All results from one model lineage, one research team; independent re-implementation would strengthen confidence the continuum finding is not implementation-specific. \\
+No historical-sequencing test & $H$ in $M_{\text{historical}}=M_{\text{general}}+H$ is not implemented or tested anywhere in this paper; it is a motivated hypothesis for future work only. \\
+\bottomrule
+\end{tabular}

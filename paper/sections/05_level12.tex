@@ -1,0 +1,118 @@
+\section{Level 1.2: Initial Open Discovery}
+\label{sec:level12}
+
+\subsection{Experimental design}
+\label{sec:level12-design}
+
+Level 1.2's own Stage 0 preregistration manifest freezes the discovery
+pipeline's commitments (three candidate clustering methods, $k=1$--$8$,
+three missingness strategies), the twelve recurrence criteria as a
+conjunction, and a mandatory mechanism-substream random-number-generator
+mode for every causal run, all before any Stage 1--7 run executed
+(\cref{tab:l12-design}).
+
+\begin{table}[htbp]
+\centering
+\caption{Level 1.2 experimental design by stage.}
+\label{tab:l12-design}
+\adjustbox{max width=\textwidth}{\input{tables/tab_l12_design.tex}}
+\end{table}
+
+Seven stages followed: mechanism-activation
+calibration (Stage 1); a small, single-condition open pilot (Stage 2, $n=10$
+seeds); a main open evolutionary search over an eight-dimensional Latin
+Hypercube parameter space (Stage 3, 12 parameter draws $\times$ 2 seeds =
+24 runs); a blind discovery run over Stage 3's pooled output (Stage 4); an
+independent, fresh-seed prospective confirmation using the same 12
+parameter draws (Stage 5, $n=12$); a scaling-robustness grid (Stage 6,
+population $\in\{40,80\}\times$ patches $\in\{3,6\}$, 8 runs); and a
+perturbation/transition test (Stage 7, 6 shocked/unshocked pairs). Section
+13 added two matched-seed causal ablations on top of Stages 2--7's purely
+correlational findings.
+
+\subsection{Collapse-dominated search}
+\label{sec:level12-collapse}
+
+The dominant finding across every stage was near-universal ecological
+collapse. Stage 2's ten-seed pilot returned 7 collapse, 3 fragmented, 0
+viable. Stage 3's 24-run main search returned 22 collapse, 2 fragmented, 0
+viable --- collapse dominated across the swept parameter range, not one
+isolated setting (\cref{fig:l12-stage3-outcomes}). Stage 5's fresh-seed
+confirmation, reusing Stage 3's own 12 parameter draws, returned 11
+collapse and, for the first time in the milestone, 1 viable outcome (draw
+9, notably high patch regeneration rate). Stage 6's scaling-robustness
+grid returned 8 collapse out of 8 runs across population 40--80 and
+3--6 patches (\cref{fig:l12-scaling}) --- ruling out a small-population
+artifact as the explanation. Stage 7's perturbation/transition test was
+inconclusive by design: both shocked and unshocked baseline conditions had
+already collapsed, leaving no non-collapse state for a shock to transition
+away from, a disclosed floor effect rather than evidence that
+perturbations are inert.
+
+Section 13's two matched-seed causal ablations (\texttt{rng\_mode=%
+"mechanism\_substreams"}, 8 seed pairs each) tested the two candidate
+explanations Stages 2--7 had only observed correlationally. Toggling
+migration on versus off at matched seeds found 5 of 8 pairs favored
+migration off on ecological resource fraction (mean paired difference
+$-0.077$), with 4 of 8 pairs showing an outcome-label transition (3 of
+those 4 moving from \texttt{fragmented} to \texttt{collapse} when migration
+was turned on); a Wilcoxon signed-rank test on the paired differences gave
+$p=0.25$ \parencite{wilcoxon1945individual}, reported as supplementary
+only given the small sample. Toggling the patch regeneration rate between
+Stage 3's own sampled bounds (0.2 versus 1.0) found a more consistent
+signal: 7 of 8 pairs favored the higher regeneration rate (mean paired
+difference $+0.033$), 2 of 8 outcome-label transitions (both
+\texttt{collapse}$\to$\texttt{fragmented}), Wilcoxon $p=0.039$. Neither
+ablation overturned the headline collapse finding: 13 of 16
+migration-ablation runs and 14 of 16 regeneration-ablation runs still
+landed in \texttt{collapse}. Both factors are real, causally implicated
+contributors; neither is sufficient alone to make \texttt{viable} the
+typical outcome at the tested population and duration scale.
+
+\subsection{Null recurrence result}
+\label{sec:level12-null}
+
+Stage 4's blind discovery run pooled Stage 3's 24 seed-run phenotype
+vectors and evaluated 76 candidate clusters (two clustering methods across
+8 values of $k$, plus \texttt{HDBSCAN}'s own clusters) against all twelve
+recurrence criteria. Zero of 76 met all twelve
+(\cref{fig:l12-recurrence-criteria}); the thirteen best candidates, each
+passing eleven of twelve, were uniformly \texttt{hierarchical} $k=6$
+partitions dominated by collapse-labeled members, and uniformly failed
+\texttt{cross\_algorithm\_support} --- no other clustering method
+corroborated that specific partition. Stage 5's independent replication,
+on a genuinely fresh, disjoint 12-run pool using the identical, unmodified
+discovery pipeline, found the same result: zero of 72 candidates met all
+twelve criteria (\cref{fig:l12-discovery-replication}). Held-out
+log-likelihood, computed by fitting on Stage 3's own training data and
+scoring Stage 5's genuinely held-out fresh runs, degraded gradually from
+$k=1$ to $k=3$ and then collapsed catastrophically at $k\geq4$ --- the
+textbook signature of small-sample Gaussian-mixture overfitting, and
+independent evidence against trusting any higher-$k$ partition from a
+sample this size, consistent with the recurrence-criteria result.
+
+Per this milestone's own closing instruction, this is reported exactly as
+"the recurrent-phenotype hypothesis was not supported at this sample
+size" --- not as evidence against any particular count, not zero, not
+one, not three, and not as grounds to alter the model or widen the search
+now that the outcome was known.
+
+\subsection{Why ecological confounding required Level 1.2b}
+\label{sec:level12-why-1.2b}
+
+Level 1.2's own main pool put 22 to 24 of every 24 runs in
+\texttt{collapse}. This licenses a narrower conclusion than "no recurrent
+institutional configuration exists in this model": it licenses "within the
+sampled region, collapse was the dominant recurrent \textit{system}
+outcome, and no recurrent \textit{institutional} configuration was
+independently supported" --- because a sample this collapse-saturated
+gives a discovery pipeline very little non-collapse institutional
+variation to find structure in even if such structure exists. Level
+1.2's own completion report states this limitation explicitly: the
+eligible, non-collapse subset available to any future discovery attempt
+was 2 of 24 runs in Stage 3 and 1 of 12 in Stage 5. Level 1.2b
+(\cref{sec:level12b}) exists to close exactly this inferential gap ---
+not by re-running Level 1.2's search hoping for a different answer, but
+by building an ex-ante ecological feasibility measure, stratifying the
+design by it before any institutional variation is sampled, and sampling
+at roughly 24 times the scale.

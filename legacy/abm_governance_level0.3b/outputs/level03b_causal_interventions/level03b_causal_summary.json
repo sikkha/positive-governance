@@ -1,0 +1,139 @@
+{
+  "design": {
+    "n_steps": 600,
+    "conditions": [
+      "endogenous",
+      "frozen",
+      "randomized",
+      "shuffled",
+      "environment_only",
+      "maintenance_disabled",
+      "ecological_mutation_disabled",
+      "impact_disabled"
+    ],
+    "primary_candidate": "interior_persistent",
+    "candidates": {
+      "interior_persistent": {
+        "role": "primary",
+        "n_seeds": 20
+      },
+      "nonstationary": {
+        "role": "secondary",
+        "n_seeds": 12
+      },
+      "near_collapse": {
+        "role": "secondary",
+        "n_seeds": 12
+      }
+    },
+    "pairing_note": "seeds are paired by identical integer seed across conditions for the same candidate; 'randomized' necessarily produces a different per-step ecological-decision draw sequence by definition (fresh i.i.d. draw every step) even under the same seed -- see module docstring."
+  },
+  "binary_criteria_legacy_comparison": {
+    "interior_persistent": {
+      "endogenous_fraction_interior": 0.7825,
+      "counterfactual_fraction_interior": {
+        "frozen": 0.9574999999999999,
+        "randomized": 0.9978333333333333,
+        "shuffled": 0.8310000000000001,
+        "environment_only": 0.75,
+        "maintenance_disabled": 0.6,
+        "ecological_mutation_disabled": 0.8,
+        "impact_disabled": 0.85
+      },
+      "feedback_dependence": {
+        "candidate_stat": 0.7825,
+        "n_counterfactuals": 7,
+        "n_weaker": 1,
+        "fraction_weaker": 0.14285714285714285,
+        "per_condition_relative_reduction": {
+          "frozen": -0.2236421725239616,
+          "randomized": -0.27518636847710337,
+          "shuffled": -0.06198083067092665,
+          "environment_only": 0.041533546325878565,
+          "maintenance_disabled": 0.23322683706070288,
+          "ecological_mutation_disabled": -0.02236421725239626,
+          "impact_disabled": -0.08626198083067094
+        },
+        "criterion_met": false
+      },
+      "nontriviality": {
+        "candidate_stat": 0.7825,
+        "no_effect_stat": 0.85,
+        "relative_reduction": -0.08626198083067094,
+        "min_relative_reduction_required": 0.2,
+        "criterion_met": false
+      }
+    },
+    "nonstationary": {
+      "endogenous_fraction_interior": 0.26861111111111113,
+      "counterfactual_fraction_interior": {
+        "frozen": 0.7586111111111111,
+        "randomized": 0.8802777777777777,
+        "shuffled": 0.0813888888888889,
+        "environment_only": 0.16666666666666666,
+        "maintenance_disabled": 0.0,
+        "ecological_mutation_disabled": 0.4166666666666667,
+        "impact_disabled": 0.20722222222222222
+      },
+      "feedback_dependence": {
+        "candidate_stat": 0.26861111111111113,
+        "n_counterfactuals": 7,
+        "n_weaker": 4,
+        "fraction_weaker": 0.5714285714285714,
+        "per_condition_relative_reduction": {
+          "frozen": -1.824198552223371,
+          "randomized": -2.2771458117890377,
+          "shuffled": 0.6970010341261634,
+          "environment_only": 0.37952430196483977,
+          "maintenance_disabled": 1.0,
+          "ecological_mutation_disabled": -0.5511892450879007,
+          "impact_disabled": 0.22854188210961743
+        },
+        "criterion_met": true
+      },
+      "nontriviality": {
+        "candidate_stat": 0.26861111111111113,
+        "no_effect_stat": 0.20722222222222222,
+        "relative_reduction": 0.22854188210961743,
+        "min_relative_reduction_required": 0.2,
+        "criterion_met": true
+      }
+    },
+    "near_collapse": {
+      "endogenous_fraction_interior": 0.16666666666666666,
+      "counterfactual_fraction_interior": {
+        "frozen": 0.6525,
+        "randomized": 0.8144444444444444,
+        "shuffled": 0.08333333333333333,
+        "environment_only": 0.3333333333333333,
+        "maintenance_disabled": 0.08333333333333333,
+        "ecological_mutation_disabled": 0.25,
+        "impact_disabled": 0.5
+      },
+      "feedback_dependence": {
+        "candidate_stat": 0.16666666666666666,
+        "n_counterfactuals": 7,
+        "n_weaker": 2,
+        "fraction_weaker": 0.2857142857142857,
+        "per_condition_relative_reduction": {
+          "frozen": -2.915,
+          "randomized": -3.8866666666666667,
+          "shuffled": 0.5,
+          "environment_only": -1.0,
+          "maintenance_disabled": 0.5,
+          "ecological_mutation_disabled": -0.5000000000000001,
+          "impact_disabled": -2.0000000000000004
+        },
+        "criterion_met": false
+      },
+      "nontriviality": {
+        "candidate_stat": 0.16666666666666666,
+        "no_effect_stat": 0.5,
+        "relative_reduction": -2.0000000000000004,
+        "min_relative_reduction_required": 0.2,
+        "criterion_met": false
+      }
+    }
+  },
+  "n_paired_effect_rows": 227
+}

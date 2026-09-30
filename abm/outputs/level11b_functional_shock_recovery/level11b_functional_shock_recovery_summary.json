@@ -1,0 +1,311 @@
+{
+  "design": {
+    "n_seeds": 15,
+    "population_size": 40,
+    "n_patches": 3,
+    "n_steps": 400,
+    "reappointment_window_steps": 30,
+    "recovery_window_steps": 40,
+    "recovery_gap_thresholds": {
+      "full": 0.0,
+      "within_tolerance": -0.05
+    }
+  },
+  "per_seed": [
+    {
+      "seed": 0,
+      "n_shocks": 115,
+      "n_reappointed": 112,
+      "reappointment_rate": 0.9739130434782609,
+      "n_recovery_gap_defined": 112,
+      "n_gap_undefined_among_reappointed": 0,
+      "mean_recovery_gap": -0.10367405143308928,
+      "median_recovery_gap": -0.026568546651785707,
+      "full_recovery_rate_among_reappointed_with_defined_gap": 0.33035714285714285,
+      "within_tolerance_recovery_rate_among_reappointed_with_defined_gap": 0.5267857142857143,
+      "mean_pre_shock_completion_rate": 0.49881922425400693,
+      "mean_post_shock_completion_rate": 0.496763591373783
+    },
+    {
+      "seed": 1,
+      "n_shocks": 139,
+      "n_reappointed": 138,
+      "reappointment_rate": 0.9928057553956835,
+      "n_recovery_gap_defined": 138,
+      "n_gap_undefined_among_reappointed": 0,
+      "mean_recovery_gap": -0.10899327897529028,
+      "median_recovery_gap": -0.033446057692307685,
+      "full_recovery_rate_among_reappointed_with_defined_gap": 0.2826086956521739,
+      "within_tolerance_recovery_rate_among_reappointed_with_defined_gap": 0.5072463768115942,
+      "mean_pre_shock_completion_rate": 0.48092453703797433,
+      "mean_post_shock_completion_rate": 0.47044254799918983
+    },
+    {
+      "seed": 2,
+      "n_shocks": 123,
+      "n_reappointed": 122,
+      "reappointment_rate": 0.991869918699187,
+      "n_recovery_gap_defined": 122,
+      "n_gap_undefined_among_reappointed": 0,
+      "mean_recovery_gap": -0.09984645100523881,
+      "median_recovery_gap": -0.013588571428571445,
+      "full_recovery_rate_among_reappointed_with_defined_gap": 0.319672131147541,
+      "within_tolerance_recovery_rate_among_reappointed_with_defined_gap": 0.5327868852459017,
+      "mean_pre_shock_completion_rate": 0.524489553915542,
+      "mean_post_shock_completion_rate": 0.5241057612664004
+    },
+    {
+      "seed": 3,
+      "n_shocks": 83,
+      "n_reappointed": 81,
+      "reappointment_rate": 0.9759036144578314,
+      "n_recovery_gap_defined": 81,
+      "n_gap_undefined_among_reappointed": 0,
+      "mean_recovery_gap": -0.07676049485890593,
+      "median_recovery_gap": -0.008,
+      "full_recovery_rate_among_reappointed_with_defined_gap": 0.37037037037037035,
+      "within_tolerance_recovery_rate_among_reappointed_with_defined_gap": 0.5555555555555556,
+      "mean_pre_shock_completion_rate": 0.4641942099950604,
+      "mean_post_shock_completion_rate": 0.459274033174081
+    },
+    {
+      "seed": 4,
+      "n_shocks": 127,
+      "n_reappointed": 125,
+      "reappointment_rate": 0.984251968503937,
+      "n_recovery_gap_defined": 125,
+      "n_gap_undefined_among_reappointed": 0,
+      "mean_recovery_gap": -0.09548299170170611,
+      "median_recovery_gap": -0.012,
+      "full_recovery_rate_among_reappointed_with_defined_gap": 0.312,
+      "within_tolerance_recovery_rate_among_reappointed_with_defined_gap": 0.552,
+      "mean_pre_shock_completion_rate": 0.4903564406987892,
+      "mean_post_shock_completion_rate": 0.502333851067043
+    },
+    {
+      "seed": 5,
+      "n_shocks": 123,
+      "n_reappointed": 116,
+      "reappointment_rate": 0.943089430894309,
+      "n_recovery_gap_defined": 116,
+      "n_gap_undefined_among_reappointed": 0,
+      "mean_recovery_gap": -0.09593782641253963,
+      "median_recovery_gap": -0.020875000000000025,
+      "full_recovery_rate_among_reappointed_with_defined_gap": 0.3103448275862069,
+      "within_tolerance_recovery_rate_among_reappointed_with_defined_gap": 0.5172413793103449,
+      "mean_pre_shock_completion_rate": 0.5307926225429813,
+      "mean_post_shock_completion_rate": 0.5294898785010347
+    },
+    {
+      "seed": 6,
+      "n_shocks": 126,
+      "n_reappointed": 124,
+      "reappointment_rate": 0.9841269841269841,
+      "n_recovery_gap_defined": 124,
+      "n_gap_undefined_among_reappointed": 0,
+      "mean_recovery_gap": -0.08976350704520099,
+      "median_recovery_gap": -0.0076124999999999995,
+      "full_recovery_rate_among_reappointed_with_defined_gap": 0.3548387096774194,
+      "within_tolerance_recovery_rate_among_reappointed_with_defined_gap": 0.5564516129032258,
+      "mean_pre_shock_completion_rate": 0.4448903847584372,
+      "mean_post_shock_completion_rate": 0.4574333650004104
+    },
+    {
+      "seed": 7,
+      "n_shocks": 91,
+      "n_reappointed": 85,
+      "reappointment_rate": 0.9340659340659341,
+      "n_recovery_gap_defined": 85,
+      "n_gap_undefined_among_reappointed": 0,
+      "mean_recovery_gap": -0.09336351011162433,
+      "median_recovery_gap": -0.004,
+      "full_recovery_rate_among_reappointed_with_defined_gap": 0.29411764705882354,
+      "within_tolerance_recovery_rate_among_reappointed_with_defined_gap": 0.5764705882352941,
+      "mean_pre_shock_completion_rate": 0.4238890808439681,
+      "mean_post_shock_completion_rate": 0.41998024905447695
+    },
+    {
+      "seed": 8,
+      "n_shocks": 119,
+      "n_reappointed": 116,
+      "reappointment_rate": 0.9747899159663865,
+      "n_recovery_gap_defined": 116,
+      "n_gap_undefined_among_reappointed": 0,
+      "mean_recovery_gap": -0.08825108984312725,
+      "median_recovery_gap": -0.03772494078947364,
+      "full_recovery_rate_among_reappointed_with_defined_gap": 0.3103448275862069,
+      "within_tolerance_recovery_rate_among_reappointed_with_defined_gap": 0.5086206896551724,
+      "mean_pre_shock_completion_rate": 0.5219670343041055,
+      "mean_post_shock_completion_rate": 0.5102769470920376
+    },
+    {
+      "seed": 9,
+      "n_shocks": 102,
+      "n_reappointed": 100,
+      "reappointment_rate": 0.9803921568627451,
+      "n_recovery_gap_defined": 100,
+      "n_gap_undefined_among_reappointed": 0,
+      "mean_recovery_gap": -0.14947891651849107,
+      "median_recovery_gap": -0.14,
+      "full_recovery_rate_among_reappointed_with_defined_gap": 0.29,
+      "within_tolerance_recovery_rate_among_reappointed_with_defined_gap": 0.47,
+      "mean_pre_shock_completion_rate": 0.5701861004556376,
+      "mean_post_shock_completion_rate": 0.568647313753949
+    },
+    {
+      "seed": 10,
+      "n_shocks": 149,
+      "n_reappointed": 146,
+      "reappointment_rate": 0.9798657718120806,
+      "n_recovery_gap_defined": 146,
+      "n_gap_undefined_among_reappointed": 0,
+      "mean_recovery_gap": -0.10533836789623521,
+      "median_recovery_gap": -0.007049999999999997,
+      "full_recovery_rate_among_reappointed_with_defined_gap": 0.3150684931506849,
+      "within_tolerance_recovery_rate_among_reappointed_with_defined_gap": 0.541095890410959,
+      "mean_pre_shock_completion_rate": 0.4692018360198384,
+      "mean_post_shock_completion_rate": 0.4743268765305479
+    },
+    {
+      "seed": 11,
+      "n_shocks": 116,
+      "n_reappointed": 115,
+      "reappointment_rate": 0.9913793103448276,
+      "n_recovery_gap_defined": 115,
+      "n_gap_undefined_among_reappointed": 0,
+      "mean_recovery_gap": -0.11373470137954762,
+      "median_recovery_gap": -0.014283333333333315,
+      "full_recovery_rate_among_reappointed_with_defined_gap": 0.2956521739130435,
+      "within_tolerance_recovery_rate_among_reappointed_with_defined_gap": 0.5478260869565217,
+      "mean_pre_shock_completion_rate": 0.5420142892749517,
+      "mean_post_shock_completion_rate": 0.5447638656327332
+    },
+    {
+      "seed": 12,
+      "n_shocks": 98,
+      "n_reappointed": 93,
+      "reappointment_rate": 0.9489795918367347,
+      "n_recovery_gap_defined": 93,
+      "n_gap_undefined_among_reappointed": 0,
+      "mean_recovery_gap": -0.03776222926383228,
+      "median_recovery_gap": -0.004,
+      "full_recovery_rate_among_reappointed_with_defined_gap": 0.44086021505376344,
+      "within_tolerance_recovery_rate_among_reappointed_with_defined_gap": 0.6021505376344086,
+      "mean_pre_shock_completion_rate": 0.421068189180434,
+      "mean_post_shock_completion_rate": 0.423247744766234
+    },
+    {
+      "seed": 13,
+      "n_shocks": 111,
+      "n_reappointed": 107,
+      "reappointment_rate": 0.963963963963964,
+      "n_recovery_gap_defined": 107,
+      "n_gap_undefined_among_reappointed": 0,
+      "mean_recovery_gap": -0.11972044233239128,
+      "median_recovery_gap": -0.012,
+      "full_recovery_rate_among_reappointed_with_defined_gap": 0.27102803738317754,
+      "within_tolerance_recovery_rate_among_reappointed_with_defined_gap": 0.5233644859813084,
+      "mean_pre_shock_completion_rate": 0.5343279724084679,
+      "mean_post_shock_completion_rate": 0.5309383639003732
+    },
+    {
+      "seed": 14,
+      "n_shocks": 104,
+      "n_reappointed": 104,
+      "reappointment_rate": 1.0,
+      "n_recovery_gap_defined": 104,
+      "n_gap_undefined_among_reappointed": 0,
+      "mean_recovery_gap": -0.1175630639244584,
+      "median_recovery_gap": -0.021234375000000028,
+      "full_recovery_rate_among_reappointed_with_defined_gap": 0.33653846153846156,
+      "within_tolerance_recovery_rate_among_reappointed_with_defined_gap": 0.5192307692307693,
+      "mean_pre_shock_completion_rate": 0.4660371700667753,
+      "mean_post_shock_completion_rate": 0.46941428076095926
+    }
+  ],
+  "pooled_totals": {
+    "total_shocks": 1726,
+    "total_reappointed": 1684,
+    "pooled_reappointment_rate": 0.9756662804171495
+  },
+  "seed_clustered_bootstrap": {
+    "n_shocks": {
+      "point_estimate": 115.06666666666666,
+      "ci_low": 106.53333333333333,
+      "ci_high": 123.53499999999997,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "n_reappointed": {
+      "point_estimate": 112.26666666666667,
+      "ci_low": 103.53166666666667,
+      "ci_high": 121.06666666666666,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "reappointment_rate": {
+      "point_estimate": 0.9746264906939245,
+      "ci_low": 0.9644734074453173,
+      "ci_high": 0.9835692491000226,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "n_recovery_gap_defined": {
+      "point_estimate": 112.26666666666667,
+      "ci_low": 103.53166666666667,
+      "ci_high": 121.06666666666666,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "n_gap_undefined_among_reappointed": {
+      "point_estimate": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "mean_recovery_gap": {
+      "point_estimate": -0.09971139484677854,
+      "ci_low": -0.1112803637985707,
+      "ci_high": -0.08712121365526684,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "median_recovery_gap": {
+      "point_estimate": -0.024158888326364793,
+      "ci_low": -0.043233639835572005,
+      "ci_high": -0.012093351762820522,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "full_recovery_rate_among_reappointed_with_defined_gap": {
+      "point_estimate": 0.32225344886500107,
+      "ci_low": 0.3038088263840947,
+      "ci_high": 0.3454832752062024,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "within_tolerance_recovery_rate_among_reappointed_with_defined_gap": {
+      "point_estimate": 0.5357884381477847,
+      "ci_low": 0.5203770659244947,
+      "ci_high": 0.5518425225961732,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "mean_pre_shock_completion_rate": {
+      "point_estimate": 0.4922105763837979,
+      "ci_low": 0.4706501755518385,
+      "ci_high": 0.5135800443192745,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "mean_post_shock_completion_rate": {
+      "point_estimate": 0.4920959113248836,
+      "ci_low": 0.47115184041494906,
+      "ci_high": 0.5133090544746449,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    }
+  },
+  "interpretation": "Pooled across all seeds: 1684/1726 recall shocks were reappointed within 30 steps (pooled rate=0.9756662804171495). Seed-clustered (mean-of-per-seed-rate, n_seeds=15): reappointment_rate point=0.9746264906939245, CI=[0.9644734074453173, 0.9835692491000226]. THIS IS NOT THE SAME QUANTITY AS FUNCTIONAL RECOVERY. Among reappointed successors with a defined recovery_gap (n_seeds=15, n_gap_undefined_among_reappointed pooled=0): mean_recovery_gap (post_shock_capacity - pre_shock_capacity) point=-0.09971139484677854, CI=[-0.1112803637985707, -0.08712121365526684]. Full recovery (gap>=0, matched or exceeded pre-shock capacity) rate: point=0.32225344886500107, CI=[0.3038088263840947, 0.3454832752062024]. Within-tolerance recovery (gap>=-0.05) rate: point=0.5357884381477847, CI=[0.5203770659244947, 0.5518425225961732]. Completion-rate dimension: mean_pre_shock_completion_rate point=0.4922105763837979, mean_post_shock_completion_rate point=0.4920959113248836. If the reappointment-rate estimate above sits substantially higher than the full/within-tolerance recovery rates, that gap IS the concrete demonstration this work package was commissioned to produce: reappointment measures whether an office got refilled, not whether the office-holder's realized administrative capacity or task-completion performance actually returned to (or exceeded) its pre-shock level. Read the actual point estimates and CIs above -- including whether either interval crosses the other's -- before asserting the gap is large, small, or statistically distinguishable; this text does not assert a specific conclusion so it stays accurate regardless of which way the numbers land. See docs/level1.1b_validation_note.md for the confirmatory read."
+}

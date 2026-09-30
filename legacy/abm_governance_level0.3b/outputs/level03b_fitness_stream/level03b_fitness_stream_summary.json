@@ -1,0 +1,116 @@
+{
+  "design": {
+    "n_seeds": 12,
+    "n_steps": 600,
+    "primary_candidate": "interior_persistent"
+  },
+  "by_stream_and_condition": [
+    {
+      "fitness_stream": "ecological",
+      "condition": "endogenous",
+      "n_seeds": 12,
+      "mean_occupancy": 0.21624784232078786,
+      "mean_patch_survival_fraction": 0.30952380952380953,
+      "mean_extraction_propensity_change": 0.13160763198752304,
+      "mean_maintenance_propensity_change": -0.22623332251456332,
+      "label_distribution": {
+        "unclassified": 8,
+        "interior-persistent": 3,
+        "depleted": 1
+      }
+    },
+    {
+      "fitness_stream": "ecological",
+      "condition": "environment_only",
+      "n_seeds": 12,
+      "mean_occupancy": 0.204474305997252,
+      "mean_patch_survival_fraction": 0.21428571428571427,
+      "mean_extraction_propensity_change": 0.016650373976497726,
+      "mean_maintenance_propensity_change": 0.024671882808137004,
+      "label_distribution": {
+        "unclassified": 6,
+        "interior-persistent": 4,
+        "depleted": 2
+      }
+    },
+    {
+      "fitness_stream": "ecological",
+      "condition": "frozen",
+      "n_seeds": 12,
+      "mean_occupancy": 0.3846514961082193,
+      "mean_patch_survival_fraction": 0.4523809523809524,
+      "mean_extraction_propensity_change": 0.0,
+      "mean_maintenance_propensity_change": 0.0,
+      "label_distribution": {
+        "unclassified": 8,
+        "interior-persistent": 4
+      }
+    },
+    {
+      "fitness_stream": "ecological",
+      "condition": "randomized",
+      "n_seeds": 12,
+      "mean_occupancy": 0.43665132582422556,
+      "mean_patch_survival_fraction": 0.6071428571428571,
+      "mean_extraction_propensity_change": 0.0,
+      "mean_maintenance_propensity_change": 0.0,
+      "label_distribution": {
+        "unclassified": 9,
+        "interior-persistent": 3
+      }
+    },
+    {
+      "fitness_stream": "total",
+      "condition": "endogenous",
+      "n_seeds": 12,
+      "mean_occupancy": 0.5016470842727551,
+      "mean_patch_survival_fraction": 0.630952380952381,
+      "mean_extraction_propensity_change": -0.00467477376885711,
+      "mean_maintenance_propensity_change": -0.026531623770221096,
+      "label_distribution": {
+        "unclassified": 11,
+        "interior-persistent": 1
+      }
+    },
+    {
+      "fitness_stream": "total",
+      "condition": "environment_only",
+      "n_seeds": 12,
+      "mean_occupancy": 0.19534909692985392,
+      "mean_patch_survival_fraction": 0.20238095238095236,
+      "mean_extraction_propensity_change": -0.014931850890076459,
+      "mean_maintenance_propensity_change": -0.06776788781995303,
+      "label_distribution": {
+        "unclassified": 6,
+        "interior-persistent": 4,
+        "depleted": 2
+      }
+    },
+    {
+      "fitness_stream": "total",
+      "condition": "frozen",
+      "n_seeds": 12,
+      "mean_occupancy": 0.2554326916465472,
+      "mean_patch_survival_fraction": 0.3452380952380952,
+      "mean_extraction_propensity_change": 0.0,
+      "mean_maintenance_propensity_change": 0.0,
+      "label_distribution": {
+        "unclassified": 7,
+        "interior-persistent": 5
+      }
+    },
+    {
+      "fitness_stream": "total",
+      "condition": "randomized",
+      "n_seeds": 12,
+      "mean_occupancy": 0.48679831024448666,
+      "mean_patch_survival_fraction": 0.6785714285714285,
+      "mean_extraction_propensity_change": -0.07019904953789231,
+      "mean_maintenance_propensity_change": 0.01560508025305428,
+      "label_distribution": {
+        "unclassified": 12
+      }
+    }
+  ],
+  "note": "fitness_stream='ecological' == ecological_inheritance_mode='independent' (ecological-policy imitation selects on stream='ecological'); fitness_stream='total' == ecological_inheritance_mode='coupled_same_model' (one shared total-fitness decision drives both dimensions). Ecological fitness is not described as normatively superior anywhere in this output."
+}

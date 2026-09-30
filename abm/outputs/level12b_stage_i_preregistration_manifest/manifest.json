@@ -1,0 +1,523 @@
+{
+  "burn_in_windows": {
+    "longer": {
+      "burn_in_fraction": 0.35,
+      "windows_included": null
+    },
+    "primary": {
+      "burn_in_fraction": 0.2,
+      "windows_included": null
+    },
+    "shorter": {
+      "burn_in_fraction": 0.1,
+      "windows_included": null
+    },
+    "terminal_only": {
+      "burn_in_fraction": 0.2,
+      "windows_included": [
+        "terminal"
+      ]
+    }
+  },
+  "clustering_commitments": {
+    "candidate_independence_rule": "candidate clusters from the same fit are not independent statistical tests",
+    "candidate_methods": [
+      "gmm",
+      "hierarchical",
+      "hdbscan"
+    ],
+    "k_range": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "k_selection_rule": "k=1 is always a valid null; no k is privileged (never fixed toward any particular cluster count)",
+    "model_selection_metrics": [
+      "bic",
+      "aic",
+      "silhouette",
+      "davies_bouldin",
+      "calinski_harabasz",
+      "cluster_size_balance"
+    ],
+    "model_selection_rule": "no single metric decides -- every metric is computed and reported side by side",
+    "standardization_rule": "training-only standardization -- no test-fold statistic ever informs a fitted scaler"
+  },
+  "compute_budget_decisions": {
+    "standing_policy": "every future Work Package states its own scope decision (preferred vs. hard-minimum vs. a further disclosed reduction) in its own script/report at the time it runs, matched against this manifest's already-frozen preferred/hard-minimum arithmetic -- a reduction below hard minimum is a stop condition (see STOP_CONDITIONS), not a silent adjustment",
+    "work_package_e_joint_discovery": "ran the full PREFERRED design (576 runs), no reduction required",
+    "work_package_g_temporal_representation": "validated the full Section 12 feature pipeline on a disclosed 12-seed-run subset of Work Package E's own frozen design (3 points x 2 seeds x 2 IC families), rather than collecting per-step phenotype snapshots for the full 576-run pool -- recorded in that script's own report['scope'] field, not left implicit; see dev_mem/status_update.md's Work Package G entry for the full disclosure"
+  },
+  "confirmation_rules": {
+    "hard_minimum": {
+      "n_ic_families": 2,
+      "n_joint_points": 18,
+      "seeds_per_point": 6,
+      "total_runs": 216
+    },
+    "null_replication_rule": "if Section 16 discovery supports no candidates, confirmation replicates the null result rather than manufacturing a candidate to test",
+    "preferred": {
+      "n_ic_families": 2,
+      "n_joint_points": 24,
+      "seeds_per_point": 8,
+      "total_runs": 384
+    },
+    "seed_disjointness_rule": "every confirmation seed must be disjoint from every Work Package E discovery seed -- fresh seeds only, never reused",
+    "tests_applied_to_every_candidate": [
+      "recurrence_across_seeds_points_and_initial_condition_families",
+      "assignment_stability",
+      "feature_profile_stability",
+      "held_out_predictiveness",
+      "unclassified_outcome_rate",
+      "failure_transition_rate"
+    ]
+  },
+  "ecological_bounds": {
+    "n_patches": 4,
+    "parameter_space": [
+      [
+        "patch_regen_rate",
+        0.05,
+        1.2
+      ],
+      [
+        "patch_capacity",
+        80.0,
+        1500.0
+      ],
+      [
+        "patch_initial_fraction",
+        0.05,
+        0.95
+      ],
+      [
+        "subsistence_cost",
+        0.02,
+        0.9
+      ],
+      [
+        "ecological_harvest_unit",
+        0.5,
+        12.0
+      ],
+      [
+        "maintenance_efficiency",
+        0.05,
+        1.0
+      ],
+      [
+        "shock_interval_steps",
+        25.0,
+        400.0
+      ],
+      [
+        "shock_magnitude",
+        0.0,
+        0.6
+      ],
+      [
+        "population_patch_ratio_selector",
+        0.0,
+        1.0
+      ]
+    ],
+    "population_size": 32
+  },
+  "ecological_strata": {
+    "cut_points": {
+      "high_cut": 8.958199208282187,
+      "low_cut": 2.6036848462137536
+    },
+    "source_design_hash": "04e2987fe2710014da00c3d917541983e34a5fcd1cc1087b9cb1d271d4f4b89d",
+    "stratum_counts": {
+      "high_feasibility": 15,
+      "low_feasibility": 17,
+      "medium_feasibility": 16
+    }
+  },
+  "feasibility_ratio_definitions": {
+    "expected_pressure_ratio": "Section 6.2: ``\u03c1_expected = expected sustainable supply / expected aggregate requested demand``, using preregistered neutral expectations (never realized simulation outcomes, never any governance/cluster/SEM label).",
+    "monte_carlo_expected_h_m": "Section 6.2's dedicated observer-only Monte Carlo cross-check for :func:`_expected_h_m`'s closed-form approximation. Draws ``n_samples`` independent ``(extraction_propensity, maintenance_propensity, scarcity_sensitivity)`` triples from exactly the same clipped-Normal distributions ``sample_ecological_policy``/``decide_ecological_action`` use, via a RNG stream that is dedicated to this observer function and is never part of ``core/rng.py``'s ``STREAM_REGISTRY`` and never reused by, or reproduced from, the simulation itself.  Returns a dict with keys ``h_mean``, ``h_std``, ``m_mean``, ``m_std``, ``n_samples`` \u2014 for comparison against the closed-form :func:`_expected_h_m` values as part of Section 6.2's required sensitivity analysis (see ``level1.2b_feasibility_method.md``).",
+    "structural_feasibility_ratio": "Section 6.1: ``\u03c1_struct = max sustainable exogenous supply / minimum mandatory burden``."
+  },
+  "feature_dictionary": {
+    "C": {
+      "aggregation_path": "Delegate objects (event: appointment) -> single call-level mean",
+      "construct_type": "start_step_windowed_but_active_flag_is_current_state",
+      "denominator": "count of those same delegates",
+      "name": "realized_administrative_capacity",
+      "numerator": "sum of Delegate.capacity across delegates that are currently active AND whose start_step falls in window",
+      "structural_missingness": "NaN (not 0.0) when there are zero active delegates in range -- a real absence, not a computable zero",
+      "valid_window": "partial -- filters by delegate start_step (an appointment-event timestamp), but conjoined with the current-tense 'active' flag, not tenure-overlaps-window",
+      "window_applied": "partial"
+    },
+    "D": {
+      "aggregation_path": "Delegate.task_attempts (running per-delegate counter) grouped by coordination-jurisdiction root (internal only) -> single call-level mean share",
+      "construct_type": "snapshot_current_state_ratio",
+      "denominator": "count of jurisdictions with nonzero total activity",
+      "name": "concentration_of_delegated_authority",
+      "numerator": "sum, across coordination jurisdictions, of the most-active delegate's task-attempt share",
+      "structural_missingness": "NaN when every jurisdiction has zero total activity (no share is computable)",
+      "valid_window": "none -- window accepted for API uniformity only, has no effect (delegate.task_attempts is an unwindowed running counter)",
+      "window_applied": false
+    },
+    "E": {
+      "aggregation_path": "AuditEvent records (event-level) -> single call-level ratio",
+      "construct_type": "event_windowed_ratio",
+      "denominator": "n_true_positive_audits + n_false_negative_audits (within window)",
+      "name": "effective_constraint_dimension",
+      "numerator": "n_true_positive_audits (within window)",
+      "structural_missingness": "NaN when there is no actual-misconduct-audited denominator in window (detection rate undefined, not zero)",
+      "valid_window": "full -- delegates entirely to accountability_diagnostics.effective_constraint, which filters every underlying event list (audits/recalls/appeals/appropriations) by step_range",
+      "window_applied": true
+    },
+    "F": {
+      "aggregation_path": "SharedRule.amendment_count/founding_step (running scalars) -> single call-level ratio",
+      "construct_type": "snapshot_current_state_ratio_current_step_not_window",
+      "denominator": "sum of active rules' age, computed as current_step - founding_step (current_step is an explicit parameter, NOT derived from window)",
+      "known_limitation": "Section 6's 'functional recovery' half of F is intentionally NOT included here -- reported separately once Stage 7/Section 12's shock-timing context exists",
+      "name": "amendment_flexibility",
+      "numerator": "sum of active rules' amendment_count (lifetime running total, never reset)",
+      "structural_missingness": "NaN when there is no active rule (denominator zero)",
+      "valid_window": "none -- window accepted for API uniformity only, has no effect; age uses current_step even when window is also supplied and ends elsewhere",
+      "window_applied": false
+    },
+    "H": {
+      "aggregation_path": "InstitutionRecord.components (current, non-extinct only) -> pairwise distances -> single call-level mean",
+      "construct_type": "snapshot_current_state_ratio",
+      "denominator": "count of those pairs",
+      "name": "within_community_heterogeneity",
+      "numerator": "sum of pairwise structural_distance across currently-non-extinct institutions' component bundles",
+      "structural_missingness": "NaN when fewer than two non-extinct institutions exist (heterogeneity undefined for 0 or 1 institution, not zero)",
+      "valid_window": "none -- window accepted for API uniformity only, has no effect",
+      "window_applied": false
+    },
+    "L": {
+      "aggregation_path": "SharedRule + ResourcePatch objects (current state) -> single call-level ratio",
+      "construct_type": "snapshot_current_state_ratio",
+      "denominator": "sum of eligible patch population for those same rules' patches (current)",
+      "known_limitation": "institution_imposed_mode runs read as maximal support by construction (members never had a join decision) -- disclosed in institutional_phenotype.py, not treated as a bug",
+      "name": "legitimacy_voluntary_support",
+      "numerator": "sum of active rules' n_members (current)",
+      "structural_missingness": "0/0 -> NaN when there is no active rule and no eligible population at all",
+      "valid_window": "none -- window accepted for API uniformity only, has no effect",
+      "window_applied": false
+    },
+    "M": {
+      "aggregation_path": "SharedRule.institutional_memory (running scalar, no per-step record) -> single call-level mean",
+      "construct_type": "snapshot_current_state_ratio",
+      "denominator": "count of active rules",
+      "name": "institutional_memory_continuity",
+      "numerator": "sum of active rules' institutional_memory scalar (current)",
+      "structural_missingness": "NaN when there is no active rule",
+      "valid_window": "none -- window accepted for API uniformity only, has no effect",
+      "window_applied": false
+    },
+    "R": {
+      "aggregation_path": "AdministrativeSpendingEvent + AppropriationEvent (event-level, windowed) over PatchSystem.total_resources (current stock) -> single call-level ratio",
+      "construct_type": "windowed_flow_numerator_over_snapshot_stock_denominator",
+      "denominator": "patch_system.total_resources (current, NOT filtered by window)",
+      "known_limitation": "misuse risk if patch_system does not reflect window's end -- see institutional_phenotype.py docstring",
+      "name": "administrative_appropriation_burden",
+      "numerator": "administrative spending + appropriated funds, summed over events with step in window",
+      "structural_missingness": "NaN when patch_system is None or total_resources is exactly 0",
+      "valid_window": "partial -- numerator windowed, denominator is an unwindowed current-state stock",
+      "window_applied": "partial"
+    },
+    "S": {
+      "aggregation_path": "coordination_components (current network topology) -> single call-level ratio",
+      "construct_type": "snapshot_current_state_ratio",
+      "denominator": "n_patches (community total)",
+      "name": "institutional_scale_reach",
+      "numerator": "largest coordination-jurisdiction's patch count (current)",
+      "structural_missingness": "0.0 (not NaN) when there is no coordination network at all -- a well-defined absence, per Section 6",
+      "valid_window": "none -- window accepted for API uniformity only, has no effect",
+      "window_applied": false
+    },
+    "V": {
+      "aggregation_path": "InstitutionRecord.active_jurisdiction + ResourcePatch.fraction_of_capacity (current) and SharedRule.n_members (current) -> two call-level ratios averaged into one composite value",
+      "construct_type": "snapshot_current_state_ratio (both sub-parts)",
+      "name": "ecological_demographic_viability",
+      "structural_missingness": "each sub-part independently NaN under its own zero-denominator condition; the composite value is the mean of whichever sub-parts are defined (NaN only if both are)",
+      "sub_parts": {
+        "demographic": {
+          "denominator": "initial_population (fixed at run start, a parameter not a live read)",
+          "numerator": "sum of active rules' n_members (current)"
+        },
+        "ecological": {
+          "denominator": "count of those patch observations",
+          "numerator": "sum of fraction_of_capacity across patches occupied by surviving institutions' active jurisdictions (current)"
+        }
+      },
+      "valid_window": "none -- window accepted for API uniformity only, has no effect on either sub-part",
+      "window_applied": false
+    }
+  },
+  "firewall": "no SEM/dissertation data, labels, or trajectory counts are read anywhere in this milestone's generative, observer, or experimental code (Section 3/21)",
+  "initial_condition_families": [
+    "institution_free",
+    "heterogeneous_proto_institution"
+  ],
+  "institutional_bounds": {
+    "parameter_space": [
+      [
+        "proposal_probability_mean",
+        0.001,
+        0.15
+      ],
+      [
+        "preferred_adoption_threshold_mean",
+        0.1,
+        0.9
+      ],
+      [
+        "delegate_selection_support_threshold",
+        0.1,
+        0.9
+      ],
+      [
+        "appropriation_opportunity_scale",
+        0.0,
+        2.0
+      ],
+      [
+        "delegation_capacity_learning_weight",
+        0.0,
+        0.8
+      ],
+      [
+        "institutional_memory_retention",
+        0.0,
+        1.0
+      ],
+      [
+        "institutional_memory_transfer_to_new_delegate",
+        0.0,
+        1.0
+      ],
+      [
+        "willingness_to_monitor_mean",
+        0.02,
+        0.9
+      ],
+      [
+        "monitoring_detection_accuracy",
+        0.3,
+        1.0
+      ],
+      [
+        "appeal_probability",
+        0.0,
+        0.9
+      ],
+      [
+        "recall_support_threshold",
+        0.1,
+        0.9
+      ],
+      [
+        "contribution_proportional_rate",
+        0.0,
+        0.15
+      ],
+      [
+        "appropriation_fraction_of_fund",
+        0.0,
+        0.6
+      ],
+      [
+        "transmission_failure_probability",
+        0.0,
+        0.6
+      ],
+      [
+        "transmission_mutation_std",
+        0.0,
+        0.3
+      ],
+      [
+        "transmission_recombination_probability",
+        0.0,
+        0.6
+      ],
+      [
+        "migration_propensity_mean",
+        0.0,
+        0.6
+      ],
+      [
+        "coordination_proposal_probability",
+        0.0,
+        0.3
+      ],
+      [
+        "coordination_proposal_window_steps",
+        1.0,
+        15.0
+      ],
+      [
+        "scaling_admin_overhead_per_patch",
+        -0.2,
+        0.5
+      ],
+      [
+        "delegation_scale_coefficient",
+        -0.3,
+        0.3
+      ]
+    ]
+  },
+  "milestone": "level1.2b_ecological_feasibility_envelope_and_powered_blind_institutional_phenotype_rediscovery",
+  "missing_data_rules": {
+    "seed_run_level_missingness_strategies": [
+      "complete_case",
+      "missingness_indicator",
+      "mean_impute"
+    ],
+    "strategy_fitting_rule": "every strategy is fit-on-train-only, never leaking test-fold statistics into imputation",
+    "structural_nan_discipline": "every phenotype dimension preserves NaN for a genuine zero-denominator absence -- never zero-filled (see feature_dictionary's own structural_missingness field per dimension)"
+  },
+  "recurrence_criteria": {
+    "criteria_names": [
+      "minimum_cluster_size",
+      "cross_seed_recurrence",
+      "cross_algorithm_support",
+      "bootstrap_stability",
+      "co_assignment_internal_consistency",
+      "distinctness_from_noise",
+      "missingness_strategy_robustness",
+      "parameter_condition_diversity",
+      "temporal_persistence_of_members",
+      "non_degenerate_cluster_fraction",
+      "k_selection_non_privileged_support",
+      "independent_of_single_lineage"
+    ],
+    "default_thresholds": {
+      "bootstrap_stability": {
+        "min_mean_ari": 0.5
+      },
+      "co_assignment_internal_consistency": {
+        "min_mean_co_assignment": 0.5
+      },
+      "cross_algorithm_support": {
+        "min_ari": 0.3
+      },
+      "cross_seed_recurrence": {
+        "min_distinct_seeds": 2
+      },
+      "distinctness_from_noise": {
+        "min_margin": 0.0
+      },
+      "independent_of_single_lineage": {
+        "max_single_lineage_fraction": 0.7
+      },
+      "k_selection_non_privileged_support": {},
+      "minimum_cluster_size": {
+        "min_size": 5
+      },
+      "missingness_strategy_robustness": {
+        "min_ari": 0.3
+      },
+      "non_degenerate_cluster_fraction": {
+        "max_fraction": 0.95,
+        "min_fraction": 0.02
+      },
+      "parameter_condition_diversity": {
+        "min_distinct_conditions": 2
+      },
+      "temporal_persistence_of_members": {
+        "min_fraction_eligible": 0.5
+      }
+    },
+    "similarity_level_taxonomy": {
+      "component_homology_vs_analogy": {
+        "definition": "biology-inspired reframing of inherited/convergent: homology=shared-origin similarity (within-run lineage sharing OR cross-run direct transmission), analogy=independently-arisen similarity (the convergent label)",
+        "distinguishes_from": [
+          "no new computation -- an interpretation layer over the other three levels, recorded explicitly so it is never reinvented ad hoc"
+        ],
+        "operationalized_by": [
+          "convergence_tests.classify_convergence_or_inheritance (label='inherited'=homology, label='convergent'=analogy)"
+        ]
+      },
+      "cross_run_structural_similarity": {
+        "definition": "members from different seed-runs land in the same discovered cluster -- a purely descriptive, pre-causal observation",
+        "distinguishes_from": [
+          "independent_convergence: this level makes no claim about WHY members are similar, only that they are"
+        ],
+        "operationalized_by": [
+          "phenotype_discovery.fit_candidate",
+          "phenotype_discovery.co_assignment_matrix"
+        ]
+      },
+      "independent_convergence": {
+        "definition": "cross-run structural similarity that is ALSO lineage-diverse beyond chance, not majority transmission-linked, and recurs across more than one parameter condition",
+        "distinguishes_from": [
+          "within_run_lineage: requires cross-run evidence, never satisfied by one run alone"
+        ],
+        "operationalized_by": [
+          "convergence_tests.classify_convergence_or_inheritance (label='convergent')"
+        ]
+      },
+      "within_run_lineage": {
+        "definition": "shared ancestry between institutions in the SAME seed-run",
+        "distinguishes_from": [
+          "cross_run_structural_similarity: different seed-runs, so this level never applies across runs"
+        ],
+        "operationalized_by": [
+          "convergence_tests.within_run_lineage_relatedness"
+        ]
+      }
+    },
+    "source_spec_hash": "bee3d114a2079728ad37a4336400a9a9c9dcf086e35d7e599f0bf5bef0e35d04",
+    "spec_version": "level1.2b-recurrence-spec-v1"
+  },
+  "run_arithmetic": {
+    "hard_minimum": {
+      "n_ic_families": 2,
+      "n_joint_points": 36,
+      "n_steps": 700,
+      "seeds_per_point": 4,
+      "total_runs": 288
+    },
+    "preferred": {
+      "n_ic_families": 2,
+      "n_joint_points": 48,
+      "n_steps": 700,
+      "seeds_per_point": 6,
+      "total_runs": 576
+    }
+  },
+  "scale_robustness_grid": {
+    "measured": [
+      "ecological_state",
+      "phenotype_assignment",
+      "administrative_workload",
+      "scale",
+      "migration",
+      "fragmentation",
+      "functional_recovery",
+      "transition_to_failure"
+    ],
+    "network_modularity_levels": 2,
+    "note": "Section 18 explicitly does not require scale invariance -- a candidate whose behavior changes with scale is a reported finding, not a disqualification",
+    "patch_counts": 2,
+    "population_sizes": 2,
+    "runs_per_candidate_or_null_baseline": 32,
+    "scale_invariance_required": false,
+    "seeds": 4
+  },
+  "stop_conditions": [
+    "a frozen design/spec/manifest is never edited after its own hash was computed; every stage script that consumes one calls that artifact's own load_and_verify_* function, which raises rather than warns on mismatch",
+    "Section 5.7's ledger-closure gate: no feasibility mapping or discovery proceeds on any run whose ecological ledger residual is not within documented floating-point tolerance",
+    "a Work Package's hard-minimum sample size is a floor, not a target -- a run count below hard minimum is a hard stop for that Work Package's own completion claim, never silently accepted as 'close enough'",
+    "clustering results (Section 9.3/16) never determine burn-in fraction, missingness strategy, or feature selection after the fact -- those are fixed before any candidate cluster is examined",
+    "no generative object anywhere in 1.2b code is named after governance-phenotype/trajectory/SEM-adjacent terms (the SEM firewall, extended to every new module this milestone adds)",
+    "a disclosed scope reduction (e.g. Work Package G's 12-seed-run pipeline validation subset) is recorded in the reducing script's own output at the time of the reduction, never adjusted afterward to match results"
+  ],
+  "version": "level1.2b-preregistration-manifest-v1"
+}

@@ -1,0 +1,27 @@
+\begin{tabular}{@{}p{0.27\textwidth}p{0.36\textwidth}p{0.30\textwidth}@{}}
+\toprule
+\textbf{Parameter} & \textbf{Default} & \textbf{Role} \\
+\midrule
+\texttt{population\_size} & 60 (Level 0); 32--80 (L1.2/1.2b runs) & Agent count \\
+\texttt{n\_patches} & 4 (typ.); 3--6 in scaling grids & Independent resource patches \\
+\texttt{patch\_capacity} & 500.0 & Per-patch carrying capacity $K_j$ \\
+\texttt{patch\_regen\_rate} & 0.5 (default); 0.2--1.0 swept & Logistic regeneration rate $r_j$ \\
+\texttt{patch\_initial\_fraction} & 0.5 & Initial stock as fraction of $K_j$ \\
+\texttt{subsistence\_cost} & config-dependent; 0.1--0.6 swept (WP N) & Mandatory per-agent per-step cost \\
+\texttt{ecological\_harvest\_unit} & 5.0 & Extraction-propensity $\to$ resource-unit scale \\
+\texttt{ecological\_maintenance\_unit} & 5.0 & Maintenance-investment $\to$ resource-unit scale \\
+\texttt{maintenance\_efficiency} & 0.7 (default); 0.3--1.0 swept & Fraction of investment reaching the patch \\
+\texttt{migration\_enabled} & False (default) & Gate for agent relocation \\
+\texttt{migration\_capacity\_per\_patch} & config-dependent; 0.05--0.4 swept (rate), 0--4 (cost) & Migration mechanics \\
+\texttt{institutional\_transmission\_enabled} & False (default) & Gate for component-wise transmission \\
+\texttt{transmission\_base\_probability} & config-dependent; cost 0.01--0.2 swept & Per-attempt transmission probability \\
+\texttt{delegation\_enabled} & False (default) & Gate for delegation/administration \\
+\texttt{discretion\_enabled} & False (default) & Gate for appropriation/effort-withholding \\
+\texttt{accountability\_enabled} & False (default) & Gate for audit/recall/appeal \\
+\texttt{interpatch\_coordination\_enabled} & False (default) & Gate for bilateral coordination links \\
+\texttt{coordination\_cost\_per\_step} & config-dependent; 0.0--0.2 swept & Per-step per-link maintenance fee \\
+\texttt{scaling\_admin\_overhead\_per\_patch} & config-dependent; 0.0--0.2 swept & Jurisdiction-scale admin overhead \\
+\texttt{rng\_mode} & \texttt{"legacy\_single\_stream"} (default); \texttt{"mechanism\_substreams"} (mandatory for causal runs) & RNG discipline \\
+\texttt{n\_steps} & 500 (Level 0); 350--700 by stage & Run duration \\
+\bottomrule
+\end{tabular}

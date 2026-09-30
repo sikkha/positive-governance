@@ -1,0 +1,341 @@
+{
+  "bargaining_calibration": {
+    "activation_fraction_at_defaults": {
+      "high_feasibility": 0.5,
+      "low_feasibility": 0.5,
+      "medium_feasibility": 0.5
+    },
+    "audit_source": "docs/level1.3b_bargaining_activation_audit.md",
+    "contribution_amount": 0.2,
+    "contribution_period_steps": 10,
+    "evidence_source": "outputs/level13b_stage2_bargaining_calibration/calibration_report.json",
+    "note": "response_cost had zero measurable effect in [0.02, 0.2] (resources are already too deeply negative post-collapse for the ask size to matter); activation is driven by the interaction of contribution_period_steps and sequencing_min_duration_steps, not by response cost -- a disclosed null result on one of Section 7's licensed levers, not hidden.",
+    "sequencing_min_duration_steps": 10
+  },
+  "decision_gate_do_not_prefer": "F_three_families",
+  "decision_gate_note": "\"do not prefer F\" (the number three) governs the DISCOVERY PIPELINE'S OWN DEFAULT, exactly as Level 1.3's own DECISION_GATE_NOTE governed E there -- no Stage 3-10 script may special-case or bias toward three discrete families; every outcome, F included, remains legitimate if the data support it. Family-to-dissertation-trajectory mapping is explicitly deferred until AFTER blind discovery (Stage 4), fresh confirmation (Stage 8), and the S_obs-Z_obs audit (Stage 9) are all frozen, per this milestone's own Section 19 requirement.",
+  "decision_gate_outcomes": {
+    "A_no_effect": "no reproducible historical/sequencing effect detected at all",
+    "B_pressure_responsive_nonhistorical": "institutions respond to pressure MAGNITUDE but not to its temporal ORDER or history -- current-state-dependent, not path-dependent",
+    "C_transient": "differentiation appears but does not persist -- families/gradient reconverge given enough steps (Stage 5's own diagnostic)",
+    "D_persistent_continuum": "persistent path dependence on a CONTINUOUS gradient, not separable discrete families",
+    "E_two_families": "persistent path dependence into exactly two reproducible discrete families",
+    "F_three_families": "persistent path dependence into exactly three reproducible discrete families",
+    "G_four_or_more_families": "persistent path dependence into four or more reproducible discrete families",
+    "H_inconclusive": "evidence does not clearly support any of A-G (e.g. contradictory stage results, failed frozen-compatibility, disqualifying generalization gap with no clear discrete-vs-continuum resolution)"
+  },
+  "ecological_design_source": "outputs/level13_stage2_calibration/design.json",
+  "ecological_strata_point_ids": {
+    "high_feasibility": 1,
+    "low_feasibility": 0,
+    "medium_feasibility": 2
+  },
+  "firewall": "no SEM/dissertation data, labels, trajectory names, or country names read anywhere in Stage 0/3-10 (Section 3)",
+  "frozen_references": {
+    "corrected_level13": "SimulationConfig.level12b_frozen_reference() + Level 1.3's own corrected (post-task-#109-fix) transmission wiring, historical_module_enabled=True",
+    "level12b_historical_off": "SimulationConfig.level12b_frozen_reference() with every Level 1.3 historical_module_enabled=False (byte-identical to Level 1.2b)"
+  },
+  "hypotheses": {
+    "H1_bargaining_activation": "bargaining_participation activates (a sustained crossing is registered) in a nondegenerate share of eligible runs once the Work Package B construction fix is applied, without further generative calibration",
+    "H2_ordering_effect": "the temporal ORDER in which pressure channels activate produces measurable, reproducible variation in institutional response (S_obs, Z_obs, and/or the sequencing vector), holding total pressure exposure matched",
+    "H3_temporal_persistence": "differentiation observed mid-run persists (does not fully reconverge) through the final-sustained window, distinguishing genuine path dependence from transient response",
+    "H4_entrenchment_moderation": "entrenchment strength (off/moderate/strong) moderates how much differentiation persists once established -- stronger entrenchment predicts less late-run reconvergence",
+    "H5_history_matters_causally": "erasing or reversing pressure history (Stage 6, matched interventions, sham-controlled) produces trajectory divergence beyond what the sham (identical-state-copy) intervention alone produces",
+    "H6_legitimacy_channel_effect": "performance and/or procedural legitimacy channels measurably affect S_obs/Z_obs and/or persistence, independent of entrenchment",
+    "H7_fresh_replication": "whatever structure (discrete, continuous, or path-dependent) Stage 4's discovery finds, generalizes to Stage 8's disjoint fresh confirmation at better than Level 1.3's own -1.29-vs--6.05 generalization gap",
+    "H8_discreteness": "the discovered structure is genuinely discrete (beats every continuous alternative on fresh data per Stage 7's rule) -- explicitly allowed to fail even if H1-H7 all hold, since Level 1.3's own evidence already leans continuum"
+  },
+  "milestone": "level1.3b_validation_of_historical_path_dependence",
+  "rng_commitments": {
+    "note": "mandatory for every Stage 0/3-10 run this milestone; every new stochastic operation gets its own registered deterministic substream",
+    "rng_mode": "mechanism_substreams",
+    "rng_registry_version": "level13_v1"
+  },
+  "stage3_matched_factorial": {
+    "factors": {
+      "ecological_stratum": [
+        "low_feasibility",
+        "medium_feasibility",
+        "high_feasibility"
+      ],
+      "entrenchment": {
+        "moderate": {
+          "entrenchment_enabled": true,
+          "entrenchment_maturation_steps": 150
+        },
+        "off": {
+          "entrenchment_enabled": false
+        },
+        "strong": {
+          "entrenchment_enabled": true,
+          "entrenchment_maturation_steps": 50
+        }
+      },
+      "legitimacy": {
+        "dual": {
+          "performance_legitimacy_enabled": true,
+          "procedural_legitimacy_enabled": true
+        },
+        "neither": {
+          "performance_legitimacy_enabled": false,
+          "procedural_legitimacy_enabled": false
+        },
+        "performance_only": {
+          "performance_legitimacy_enabled": true,
+          "procedural_legitimacy_enabled": false
+        },
+        "procedural_only": {
+          "performance_legitimacy_enabled": false,
+          "procedural_legitimacy_enabled": true
+        }
+      },
+      "pressure_ordering": {
+        "bargaining_first": {
+          "bargaining_pressure": 0,
+          "coordination_complexity": 300,
+          "security_pressure": 150
+        },
+        "coevolution": {
+          "bargaining_pressure": 0,
+          "coordination_complexity": 0,
+          "security_pressure": 0
+        },
+        "security_first": {
+          "bargaining_pressure": 150,
+          "coordination_complexity": 300,
+          "security_pressure": 0
+        }
+      }
+    },
+    "matched_cumulative_pressure_exposure": "every cell shares the SAME total pressure-onset budget (onsets in {0,150,300} used exactly once each across the three channels for security_first/bargaining_first; coevolution uses onset 0 for all three, by construction an equal, not merely float-tolerant-equal, exposure case) -- required contrasts computed only WITHIN matched entrenchment/legitimacy/stratum cells across the three orderings, never pooled across cells that differ on those factors",
+    "n_cells": 108,
+    "n_patches": 3,
+    "n_runs_declared": 216,
+    "n_seeds_per_cell": 2,
+    "n_steps": 500,
+    "population_size": 40,
+    "primary_outcomes": [
+      "bargaining_participation_sustained_crossing_step",
+      "S_obs",
+      "Z_obs",
+      "realized_compliance_rate",
+      "mean_resources_final_third",
+      "n_active_rules_final_step",
+      "entrenchment_index_final_step",
+      "cross_founder_reconstruction_count"
+    ],
+    "seed_base": 8300000,
+    "uncertainty_method": "seed-clustered bootstrap CIs (resample whole seeds, not individual runs, within each matched cell) -- raw matched differences reported alongside, never pooled means alone"
+  },
+  "stage4_homogeneous_discovery": {
+    "counterfactual_dataset_is_separate": "stage6_history_erasure_validation (task #119)",
+    "design_type": "latin_hypercube_space_filling_single_design",
+    "dimensions": [
+      "security_pressure_onset_step",
+      "bargaining_pressure_onset_step",
+      "coordination_complexity_onset_step",
+      "pressure_magnitude_high_level",
+      "pressure_duration_steps",
+      "pressure_overlap_fraction",
+      "pressure_volatility_shock_interval",
+      "entrenchment_strength_maturation_steps",
+      "performance_legitimacy_sensitivity",
+      "procedural_legitimacy_sensitivity",
+      "ecological_feasibility_stratum"
+    ],
+    "identical_across_every_point": [
+      "run_length_n_steps=500",
+      "population_size=40",
+      "n_patches=4",
+      "init_conditions",
+      "observer_window_definition",
+      "eligibility_rule",
+      "phenotype_construction",
+      "missingness_treatment"
+    ],
+    "lhs_seed": 20260821001,
+    "multiprocessing": true,
+    "n_points": 48,
+    "n_runs_declared": 240,
+    "n_seeds_per_point": 5,
+    "no_counterfactual_reruns_in_pool": true,
+    "resumable_manifest": true,
+    "scale_disclosed_as": "Section 8's own stated MINIMUM (48 points x 5 seeds = 240 runs), not the preferred 72-96 x 6-8 -- disclosed here, before running, per this milestone's own session-budget-scaling discipline"
+  },
+  "stage5_temporal_persistence": {
+    "classification_categories": [
+      "pressure_dependent_response",
+      "historical_hysteresis",
+      "entrenched_path_dependence",
+      "transient_differentiation",
+      "no_detectable_differentiation"
+    ],
+    "diagnostics_required": [
+      "early_to_middle_displacement",
+      "middle_to_late_displacement",
+      "late_window_variance",
+      "convergence_divergence_slope",
+      "cluster_assignment_stability_across_windows",
+      "trajectory_distance",
+      "persistence_after_pressure_removal",
+      "persistence_after_pressure_reversal",
+      "persistence_after_pressure_equalization"
+    ],
+    "module": "observer/historical_persistence.py (to be created, task #118)",
+    "rule": "never classify from final-step values alone -- every category above requires the windowed trajectory, not a single snapshot",
+    "windows_as_fraction_of_run_length": {
+      "early": [
+        0.0,
+        0.2
+      ],
+      "final_sustained": [
+        0.9,
+        1.0
+      ],
+      "late": [
+        0.8,
+        1.0
+      ],
+      "middle": [
+        0.4,
+        0.6
+      ]
+    }
+  },
+  "stage6_history_erasure": {
+    "interventions": [
+      "pressure_memory_only",
+      "legitimacy_history_only",
+      "entrenchment_only",
+      "all_history",
+      "sham_identical_state_copy",
+      "no_intervention_control"
+    ],
+    "measures": [
+      "trajectory_divergence_across_all_windows",
+      "not_final_S_obs_Z_obs_alone"
+    ],
+    "n_runs_declared": 72,
+    "n_seeds": 12,
+    "preserves": [
+      "current_visible_structure",
+      "current_resources",
+      "current_ecology",
+      "current_network"
+    ],
+    "sham_purpose": "prove the serialization/copy machinery itself is a byte-identical no-op before trusting any of the other five interventions' divergence as historically meaningful"
+  },
+  "stage7_model_comparison": {
+    "comparison_metrics": [
+      "held_out_likelihood",
+      "reconstruction_error",
+      "predictive_performance",
+      "bootstrap_stability",
+      "cross_algorithm_stability",
+      "cross_point_stability",
+      "cross_seed_stability",
+      "temporal_window_stability",
+      "ecological_stratum_stability",
+      "missingness_strategy_stability"
+    ],
+    "continuous_candidates": [
+      "pca_factor_continuum",
+      "principal_curve_manifold",
+      "low_dim_regression"
+    ],
+    "discrete_candidates": [
+      "gmm_k1_to_8",
+      "hierarchical",
+      "hdbscan_multiple_min_cluster_size",
+      "unequal_covariance_mixtures"
+    ],
+    "path_dependent_candidates": [
+      "predict_late_phenotype_from_early_sequence_no_discrete_clustering"
+    ],
+    "rule": "no k chosen from silhouette alone; no preferred k; a discrete result must beat every continuous alternative on FRESH (Stage 8) data to count as discrete"
+  },
+  "stage8_fresh_confirmation": {
+    "disjoint_design_seed": true,
+    "disjoint_sim_seed": true,
+    "frozen_before_scoring": [
+      "preprocessing",
+      "phenotype_fields",
+      "observer_thresholds",
+      "clustering_or_manifold_model_from_stage7"
+    ],
+    "n_points": 24,
+    "n_runs_declared": 96,
+    "n_seeds_per_point": 4,
+    "no_post_hoc_parameter_selection": true,
+    "no_refitting_before_primary_scoring": true,
+    "scale_disclosed_as": "Section 13's own stated MINIMUM (24 x 4 = 96), not the preferred 36-48 x 4-6"
+  },
+  "stage9_measurement_audit": {
+    "calculations_required": [
+      "raw_correlation",
+      "partial_correlation_controlling_ecological_stratum",
+      "within_point_correlation",
+      "between_point_correlation",
+      "factor_structure_analysis",
+      "equal_weight_variant",
+      "leave_one_out_variant",
+      "non_normalized_variant",
+      "opportunity_denominated_variant"
+    ],
+    "candidate_explanations": [
+      "genuine_coupling",
+      "shared_construction",
+      "common_ecological_driver",
+      "common_normalization",
+      "activity_volume_confounding",
+      "presence_absence_confounding",
+      "measurement_overlap"
+    ],
+    "rule": "do not redefine S_obs/Z_obs to manufacture independence; if measurement-induced, correct transparently, version it, preserve both the original and corrected variant"
+  },
+  "stopping_rule": {
+    "do_not_begin_level_1_4": true,
+    "do_not_modify_paper_repository": true,
+    "do_not_silently_promote_level13_continuum_verdict": true,
+    "final_report_must_state": [
+      "bargaining_repair_status",
+      "sequence_effect_significance",
+      "equalization_survival",
+      "entrenchment_moderation",
+      "erasure_reduction",
+      "discrete_vs_continuous_generalization",
+      "fresh_confirmation_support",
+      "s_obs_z_obs_coupling_nature",
+      "exact_decision_gate_outcome",
+      "nulls",
+      "anomalies",
+      "limitations",
+      "exact_test_and_run_counts",
+      "next_recommended_decision"
+    ],
+    "succeeds_even_on": [
+      "null_finding",
+      "transient_finding",
+      "nonreplicating_finding",
+      "continuous_finding",
+      "inconclusive_finding"
+    ]
+  },
+  "work_package_k_accounting": {
+    "denominators_distinguished": [
+      "complete_outcome_ledger",
+      "institutionally_eligible_analysis_denominator"
+    ],
+    "every_run_reports": [
+      "full_outcome_ledger",
+      "collapse_runs_retained_not_discarded"
+    ],
+    "reporting_required": [
+      "pooled",
+      "by_stratum",
+      "eligible_only",
+      "collapse_as_outcome"
+    ],
+    "reused_from": "level1.2b (observer/feasibility_ratios.py, ecological ledger fields) -- no new machinery this milestone"
+  }
+}

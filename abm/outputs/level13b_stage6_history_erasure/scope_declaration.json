@@ -1,0 +1,25 @@
+{
+  "intervention_step": 250,
+  "interventions": [
+    "pressure_memory_only",
+    "legitimacy_history_only",
+    "entrenchment_only",
+    "all_history",
+    "sham_identical_state_copy",
+    "no_intervention_control"
+  ],
+  "milestone": "level1.3b_work_package_g_stage6_history_erasure",
+  "n_patches": 3,
+  "n_runs_declared": 72,
+  "n_seeds": 12,
+  "n_steps": 500,
+  "population_size": 40,
+  "representative_cell": {
+    "entrenchment": "moderate",
+    "legitimacy": "dual",
+    "ordering": "security_first",
+    "stratum": "medium_feasibility"
+  },
+  "seed_base": 9100000,
+  "what_each_intervention_resets": "see module docstring for the full, pre-run, per-intervention mutation disclosure"
+}

@@ -1,0 +1,62 @@
+# Level 0.1 default configuration (SimulationConfig() with no overrides,
+# serialized) — ecology and relationship dynamics both on. NOTE (see
+# dev_mem/status_update.md's newest entry, "Known limitations" #1): under
+# this exact ecological calibration the shared resource pool empties by
+# roughly step 25 of a 500-step run and stays empty — the mechanism works
+# as specified (resources stay bounded in [0, environment_capacity]) but
+# this calibration does not exercise a non-degenerate scarcity regime.
+# Recalibrate environment_capacity/environment_regen_rate before using
+# this file for any claim beyond "the closure mechanism functions."
+population_size: 60
+n_steps: 500
+policy_mix:
+  always_cooperate: 0.2
+  always_defect: 0.2
+  tit_for_tat: 0.3
+  generous_tit_for_tat: 0.15
+  grim: 0.1
+  random: 0.05
+observation_accuracy_mean: 0.9
+observation_accuracy_std: 0.05
+learning_rate_mean: 0.1
+learning_rate_std: 0.03
+forgiveness_mean: 0.1
+forgiveness_std: 0.05
+risk_sensitivity_mean: 0.5
+risk_sensitivity_std: 0.15
+initial_resources_mean: 10.0
+initial_resources_std: 2.0
+initial_coercive_capability_mean: 1.0
+initial_coercive_capability_std: 0.3
+memory_length: 10
+topology: watts_strogatz
+mean_degree: 4
+rewiring_prob: 0.1
+payoff_temptation: 5.0
+payoff_reward: 3.0
+payoff_punishment: 1.0
+payoff_sucker: 0.0
+punishment_enabled: true
+punishment_probability: 0.3
+punishment_cost: 1.0
+punishment_penalty: 3.0
+exit_cost: 1.0
+exit_resource_threshold: -2.0
+imitation_period: 10
+mutation_rate: 0.01
+rewiring_period: 5
+interactions_per_step: 1
+ecology_enabled: true
+environment_capacity: 2000.0
+environment_regen_rate: 0.5
+environment_initial_fraction: 0.5
+subsistence_cost: 0.3
+distress_threshold: 0.0
+distress_engagement_prob: 0.5
+relationship_dynamics_enabled: true
+search_cost: 0.2
+connection_accept_base_prob: 0.7
+relationship_exit_enabled: true
+imitation_enabled: true
+perturbations: []
+seed: 0

@@ -1,0 +1,145 @@
+\section{Limitations}
+\label{sec:limitations}
+
+\begin{table}[htbp]
+\centering
+\caption{Summary of model and evidentiary limitations.}
+\label{tab:limitations}
+\adjustbox{max width=\textwidth}{\input{tables/tab_limitations.tex}}
+\end{table}
+
+\textbf{Parameter domain and duration.} Every result in this paper is
+conditional on the tested mechanism set, the tested parameter domain, and
+the tested run durations (up to 700 steps at Level 1.2b's production
+scale). A \texttt{continuum} verdict is a statement about the outcome
+space actually sampled; it is not a proof that no parameter region or
+longer duration exists in which discrete institutional clustering would
+emerge. \cref{sec:appendix-tables} reports the full sampled ranges.
+
+\textbf{Collapse remains the modal outcome.} Even at Level 1.2b's much
+larger and ecologically stratified scale, collapse remained the single
+largest outcome class in every pooled sample (56.6\%--78.1\% depending on
+the sample). Non-collapse institutional variation, while far more
+plentiful than at Level 1.2 (161 viable and 89 fragmented runs out of 576
+at discovery, versus 2 non-collapse runs out of 24 at Level 1.2), is still
+a minority of the sampled space; a design deliberately oversampling the
+non-collapse region --- informed by, but going beyond, the causal
+ablation's own findings about subsistence cost and migration --- would
+give any future discovery attempt more institutional variation to work
+with, at the cost of no longer representing the model's own unconditional
+outcome distribution.
+
+\textbf{Evidence gaps disclosed, not filled.} \texttt{shared\_lineage\_%
+persistence}, one of six candidate explanations Work Package O considered
+for cross-run phenotype similarity, was never evaluated; doing so would
+require a fourth full 576-run re-simulation with per-run lineage
+identifiers exported, which the source project judged low-value given
+that the continuum and null-replication findings already independently
+established that no discrete candidate structure exists for shared
+ancestry to explain. We report this as an open evidence gap rather than
+filling it by rerunning simulations for this paper, per this paper's own
+task discipline of not rerunning expensive computation merely to
+strengthen a narrative.
+
+\textbf{Temporal-representation validation subset.} Level 1.2b's four
+burn-in-sensitivity definitions and window-bounds machinery were validated
+on a disclosed 12-seed-run subset of the main design, not the full 576-run
+pool, for compute-budget reasons stated at the time rather than after
+seeing results.
+
+\textbf{Supplementary statistical tests.} The causal-ablation Wilcoxon
+$p$-values reported in \cref{sec:level12-collapse} (Level 1.2, $n=8$
+matched pairs per test) are explicitly supplementary, not confirmatory ---
+too small a sample for a standalone significance claim on their own, and
+reported as such rather than overclaimed. Level 1.2b's 13-factor
+decomposition (\cref{sec:level12b-scale-causal}) reports effect sizes and
+outcome-label transition counts rather than significance tests, by design.
+
+\textbf{Reconstructed audit sections.} Two portions of Level 1.2b's own
+completion documentation --- the exact verbatim text of its governing
+specification's stop-condition and final-report sections --- were not
+recoverable from that project's own session context after a mid-milestone
+context compaction, and its own completion report discloses this
+explicitly rather than fabricating numbered items to match a remembered
+count. This paper reports the reconstructed audit the source project
+performed in its place, not a verbatim reproduction of text that no
+longer exists.
+
+\textbf{Single research team, single model lineage.} Every result in this
+paper comes from one model implementation, developed and audited by one
+project, however extensively internally cross-checked (structural
+firewalls, byte-for-byte no-op regression tests, independent ledger
+verification, disjoint confirmation samples). External replication in an
+independently implemented ABM sharing the same generative assumptions
+would strengthen confidence that the continuum finding reflects the
+mechanism set itself rather than an implementation-specific artifact, in
+the spirit of the broader empirical-validation standards recommended for
+agent-based modeling generally \parencite{windrum2007empirical}.
+
+\textbf{Historical-sequencing test now performed, with its own disclosed
+scope.} Unlike the Level 1.2/1.2b manuscript this paper revises, $H$ is now
+implemented and tested (\cref{sec:level13,sec:level13b}). Its own scope is
+bounded: Stage 5's persistence diagnostics and Stage 6's history-erasure
+interventions both operate at one representative cell
+(\texttt{entrenchment=moderate}, \texttt{legitimacy=dual},
+\texttt{stratum=medium\_feasibility}), not the full Stage 3 factorial;
+Stage 6's own causal design manipulates historical state (pressure memory,
+entrenchment age, legitimacy scores) rather than testing every conceivable
+historical intervention; and every Level 1.3b stage ran at a disclosed,
+session-budget-scaled \textit{minimum} sample size (Stage 4: 240 of a
+preferred 432--768; Stage 8: 96 of a preferred 144--288), not adjusted
+after seeing results.
+
+\textbf{Discrete-versus-continuous comparison uses non-commensurable
+metrics.} Level 1.3b's own Stage 8 compares the leading discrete candidate
+(log-likelihood) against the leading continuous candidate (reconstruction
+error) on fresh data --- two metrics not on a common scale
+(\cref{sec:level13b-h7h8}), one of the decision gate's own four concrete
+``what would change this verdict'' items (extending the tested $k$ range
+past 8; building a common discrete/continuous fresh-data metric; extending
+Stage 5/6 to the full Stage 3 factorial; building a genuine multi-condition
+cluster-assignment-stability diagnostic for H3).
+
+\textbf{$S_{\text{obs}}$/$Z_{\text{obs}}$ are not the dissertation's SEM
+latent factors.} Every claim in \cref{sec:disc-relationship-to-dissertation}
+treating the ABM's own observer-side composites as weak corroboration of
+the dissertation's $S$/$Z$ framework is explicitly bounded to that weak
+sense; $S_{\text{obs}}$/$Z_{\text{obs}}$ were never fit to, validated
+against, or constructed with reference to the dissertation's own survey
+data or SEM output, and the dissertation itself reports no single $S$--$Z$
+correlation coefficient for this paper to compare against in the first
+place (\cref{sec:appendix-ledger}).
+
+\textbf{Reconstructed governing specifications.} Both Level 1.3 and Level
+1.3b's own governing specifications were authored at length in an earlier
+working session whose exact verbatim text became unrecoverable after a
+later context compaction; every downstream document (preregistration
+modules, scientific notes, decision-gate reports) discloses this
+explicitly rather than presenting a reconstructed hypothesis list as a
+verbatim transcription, and this paper reports the reconstructed
+hypotheses and findings the source project itself worked from
+(\cref{sec:reproducibility}).
+
+\textbf{Real governance systems, not simulated ones, remain untested.}
+Every claim in this paper about historical path dependence, causal
+divergence, and continuous versus discrete structure is a claim about
+\textit{this generative model's own outcome space}, under the specific
+mechanism set, parameter domain, and duration tested. Whether real
+governance systems' own historical trajectories are governed by dynamics
+of the same qualitative shape --- and, in particular, why real systems
+appear to concentrate around a small number of recurring configurations,
+if the dissertation's own three-trajectory reading is correct --- is not
+addressed by any simulation result in this paper and is deferred to
+future, historically calibrated research (\cref{sec:disc-historical-sequencing}).
+
+\Cref{tab:conclusion-boundary} states, for every major claim in this
+paper, whether it is supported, partially supported, unsupported, or
+reserved for future work, as a single strict reference table.
+
+\begin{table}[htbp]
+\centering
+\caption{Strict conclusion-boundary table: every major claim in this
+paper, classified by evidentiary status.}
+\label{tab:conclusion-boundary}
+\adjustbox{max width=\textwidth}{\input{tables/tab_conclusion_boundary.tex}}
+\end{table}

@@ -1,0 +1,953 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "condition": "no_memory",
+      "retention": 0.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 85,
+      "n_successors_with_task_performance": 85,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0,
+      "mean_end_capacity": 0.17222417592546513
+    },
+    {
+      "seed": 0,
+      "condition": "default",
+      "retention": 0.3,
+      "transfer": 0.5,
+      "n_successor_appointments": 85,
+      "n_successors_with_task_performance": 85,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.003124363592302585,
+      "mean_end_capacity": 0.17260196250924315
+    },
+    {
+      "seed": 0,
+      "condition": "moderate",
+      "retention": 0.6,
+      "transfer": 0.5,
+      "n_successor_appointments": 85,
+      "n_successors_with_task_performance": 85,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.007308529914054159,
+      "mean_end_capacity": 0.17322257429120877
+    },
+    {
+      "seed": 0,
+      "condition": "high_retention",
+      "retention": 1.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 85,
+      "n_successors_with_task_performance": 85,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.016363999759449677,
+      "mean_end_capacity": 0.17468620707673185
+    },
+    {
+      "seed": 0,
+      "condition": "max_dose",
+      "retention": 1.0,
+      "transfer": 1.0,
+      "n_successor_appointments": 86,
+      "n_successors_with_task_performance": 86,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.2878488372093024,
+      "mean_end_capacity": 0.2275539351141867
+    },
+    {
+      "seed": 1,
+      "condition": "no_memory",
+      "retention": 0.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 101,
+      "n_successors_with_task_performance": 101,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0,
+      "mean_end_capacity": 0.16332264861824522
+    },
+    {
+      "seed": 1,
+      "condition": "default",
+      "retention": 0.3,
+      "transfer": 0.5,
+      "n_successor_appointments": 101,
+      "n_successors_with_task_performance": 101,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0025378914913366346,
+      "mean_end_capacity": 0.16350887139052248
+    },
+    {
+      "seed": 1,
+      "condition": "moderate",
+      "retention": 0.6,
+      "transfer": 0.5,
+      "n_successor_appointments": 101,
+      "n_successors_with_task_performance": 101,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.00574502192079208,
+      "mean_end_capacity": 0.16376807253408684
+    },
+    {
+      "seed": 1,
+      "condition": "high_retention",
+      "retention": 1.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 101,
+      "n_successors_with_task_performance": 101,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.012313700760945238,
+      "mean_end_capacity": 0.16447599733324372
+    },
+    {
+      "seed": 1,
+      "condition": "max_dose",
+      "retention": 1.0,
+      "transfer": 1.0,
+      "n_successor_appointments": 110,
+      "n_successors_with_task_performance": 110,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.21322727272727282,
+      "mean_end_capacity": 0.19087444230410744
+    },
+    {
+      "seed": 2,
+      "condition": "no_memory",
+      "retention": 0.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 92,
+      "n_successors_with_task_performance": 92,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0,
+      "mean_end_capacity": 0.17229018565975082
+    },
+    {
+      "seed": 2,
+      "condition": "default",
+      "retention": 0.3,
+      "transfer": 0.5,
+      "n_successor_appointments": 92,
+      "n_successors_with_task_performance": 92,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.003271368758279553,
+      "mean_end_capacity": 0.1727712295456204
+    },
+    {
+      "seed": 2,
+      "condition": "moderate",
+      "retention": 0.6,
+      "transfer": 0.5,
+      "n_successor_appointments": 92,
+      "n_successors_with_task_performance": 92,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.007469283457203263,
+      "mean_end_capacity": 0.1734876780284336
+    },
+    {
+      "seed": 2,
+      "condition": "high_retention",
+      "retention": 1.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 92,
+      "n_successors_with_task_performance": 92,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.015863435164741844,
+      "mean_end_capacity": 0.17618504862255654
+    },
+    {
+      "seed": 2,
+      "condition": "max_dose",
+      "retention": 1.0,
+      "transfer": 1.0,
+      "n_successor_appointments": 92,
+      "n_successors_with_task_performance": 92,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.28554347826086973,
+      "mean_end_capacity": 0.22253138648790818
+    },
+    {
+      "seed": 3,
+      "condition": "no_memory",
+      "retention": 0.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 69,
+      "n_successors_with_task_performance": 69,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0,
+      "mean_end_capacity": 0.18561460992249765
+    },
+    {
+      "seed": 3,
+      "condition": "default",
+      "retention": 0.3,
+      "transfer": 0.5,
+      "n_successor_appointments": 69,
+      "n_successors_with_task_performance": 69,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0034773924876903887,
+      "mean_end_capacity": 0.1861310848743224
+    },
+    {
+      "seed": 3,
+      "condition": "moderate",
+      "retention": 0.6,
+      "transfer": 0.5,
+      "n_successor_appointments": 69,
+      "n_successors_with_task_performance": 69,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.008060540059349945,
+      "mean_end_capacity": 0.18686764927900099
+    },
+    {
+      "seed": 3,
+      "condition": "high_retention",
+      "retention": 1.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 69,
+      "n_successors_with_task_performance": 69,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.017712326640924574,
+      "mean_end_capacity": 0.188482838116761
+    },
+    {
+      "seed": 3,
+      "condition": "max_dose",
+      "retention": 1.0,
+      "transfer": 1.0,
+      "n_successor_appointments": 69,
+      "n_successors_with_task_performance": 69,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.21355072463768124,
+      "mean_end_capacity": 0.2264864740831818
+    },
+    {
+      "seed": 4,
+      "condition": "no_memory",
+      "retention": 0.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 94,
+      "n_successors_with_task_performance": 94,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0,
+      "mean_end_capacity": 0.18128352675693096
+    },
+    {
+      "seed": 4,
+      "condition": "default",
+      "retention": 0.3,
+      "transfer": 0.5,
+      "n_successor_appointments": 94,
+      "n_successors_with_task_performance": 94,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.00219032927194149,
+      "mean_end_capacity": 0.18159958812661187
+    },
+    {
+      "seed": 4,
+      "condition": "moderate",
+      "retention": 0.6,
+      "transfer": 0.5,
+      "n_successor_appointments": 94,
+      "n_successors_with_task_performance": 94,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.005030551721904258,
+      "mean_end_capacity": 0.18206110178384596
+    },
+    {
+      "seed": 4,
+      "condition": "high_retention",
+      "retention": 1.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 94,
+      "n_successors_with_task_performance": 94,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.010919285226375499,
+      "mean_end_capacity": 0.18305808366766904
+    },
+    {
+      "seed": 4,
+      "condition": "max_dose",
+      "retention": 1.0,
+      "transfer": 1.0,
+      "n_successor_appointments": 95,
+      "n_successors_with_task_performance": 95,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.2244210526315791,
+      "mean_end_capacity": 0.23595918584339637
+    },
+    {
+      "seed": 5,
+      "condition": "no_memory",
+      "retention": 0.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 86,
+      "n_successors_with_task_performance": 86,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0,
+      "mean_end_capacity": 0.19877027862037966
+    },
+    {
+      "seed": 5,
+      "condition": "default",
+      "retention": 0.3,
+      "transfer": 0.5,
+      "n_successor_appointments": 86,
+      "n_successors_with_task_performance": 86,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.002427263384683867,
+      "mean_end_capacity": 0.1991243508282376
+    },
+    {
+      "seed": 5,
+      "condition": "moderate",
+      "retention": 0.6,
+      "transfer": 0.5,
+      "n_successor_appointments": 86,
+      "n_successors_with_task_performance": 86,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.005575938632930234,
+      "mean_end_capacity": 0.19967488840168202
+    },
+    {
+      "seed": 5,
+      "condition": "high_retention",
+      "retention": 1.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 86,
+      "n_successors_with_task_performance": 86,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.01210459154705668,
+      "mean_end_capacity": 0.20080930279597928
+    },
+    {
+      "seed": 5,
+      "condition": "max_dose",
+      "retention": 1.0,
+      "transfer": 1.0,
+      "n_successor_appointments": 81,
+      "n_successors_with_task_performance": 81,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.16462962962962968,
+      "mean_end_capacity": 0.2157353374990251
+    },
+    {
+      "seed": 6,
+      "condition": "no_memory",
+      "retention": 0.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 100,
+      "n_successors_with_task_performance": 100,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0,
+      "mean_end_capacity": 0.1472822878231752
+    },
+    {
+      "seed": 6,
+      "condition": "default",
+      "retention": 0.3,
+      "transfer": 0.5,
+      "n_successor_appointments": 100,
+      "n_successors_with_task_performance": 100,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.00212974066875,
+      "mean_end_capacity": 0.14742587378567523
+    },
+    {
+      "seed": 6,
+      "condition": "moderate",
+      "retention": 0.6,
+      "transfer": 0.5,
+      "n_successor_appointments": 100,
+      "n_successors_with_task_performance": 100,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.004825377643380001,
+      "mean_end_capacity": 0.14761639226777523
+    },
+    {
+      "seed": 6,
+      "condition": "high_retention",
+      "retention": 1.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 100,
+      "n_successors_with_task_performance": 100,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.010148742675781246,
+      "mean_end_capacity": 0.14806781760833146
+    },
+    {
+      "seed": 6,
+      "condition": "max_dose",
+      "retention": 1.0,
+      "transfer": 1.0,
+      "n_successor_appointments": 96,
+      "n_successors_with_task_performance": 96,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.18098958333333334,
+      "mean_end_capacity": 0.2050101197991823
+    },
+    {
+      "seed": 7,
+      "condition": "no_memory",
+      "retention": 0.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 67,
+      "n_successors_with_task_performance": 67,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0,
+      "mean_end_capacity": 0.15118313195925132
+    },
+    {
+      "seed": 7,
+      "condition": "default",
+      "retention": 0.3,
+      "transfer": 0.5,
+      "n_successor_appointments": 67,
+      "n_successors_with_task_performance": 67,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.003333511656438317,
+      "mean_end_capacity": 0.1513897861733605
+    },
+    {
+      "seed": 7,
+      "condition": "moderate",
+      "retention": 0.6,
+      "transfer": 0.5,
+      "n_successor_appointments": 67,
+      "n_successors_with_task_performance": 67,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0077469315008955215,
+      "mean_end_capacity": 0.15175022007417674
+    },
+    {
+      "seed": 7,
+      "condition": "high_retention",
+      "retention": 1.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 67,
+      "n_successors_with_task_performance": 67,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.01702312700784029,
+      "mean_end_capacity": 0.15280574694789148
+    },
+    {
+      "seed": 7,
+      "condition": "max_dose",
+      "retention": 1.0,
+      "transfer": 1.0,
+      "n_successor_appointments": 67,
+      "n_successors_with_task_performance": 67,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.19738805970149262,
+      "mean_end_capacity": 0.17263089315328126
+    },
+    {
+      "seed": 8,
+      "condition": "no_memory",
+      "retention": 0.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 83,
+      "n_successors_with_task_performance": 83,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0,
+      "mean_end_capacity": 0.19633161216293743
+    },
+    {
+      "seed": 8,
+      "condition": "default",
+      "retention": 0.3,
+      "transfer": 0.5,
+      "n_successor_appointments": 83,
+      "n_successors_with_task_performance": 83,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.003455076438253012,
+      "mean_end_capacity": 0.19694855448221443
+    },
+    {
+      "seed": 8,
+      "condition": "moderate",
+      "retention": 0.6,
+      "transfer": 0.5,
+      "n_successor_appointments": 83,
+      "n_successors_with_task_performance": 83,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.007919093808433735,
+      "mean_end_capacity": 0.197888747885829
+    },
+    {
+      "seed": 8,
+      "condition": "high_retention",
+      "retention": 1.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 83,
+      "n_successors_with_task_performance": 83,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.017027027176087173,
+      "mean_end_capacity": 0.19988848001520593
+    },
+    {
+      "seed": 8,
+      "condition": "max_dose",
+      "retention": 1.0,
+      "transfer": 1.0,
+      "n_successor_appointments": 83,
+      "n_successors_with_task_performance": 83,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.16090361445783133,
+      "mean_end_capacity": 0.2289179575444636
+    },
+    {
+      "seed": 9,
+      "condition": "no_memory",
+      "retention": 0.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 66,
+      "n_successors_with_task_performance": 66,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0,
+      "mean_end_capacity": 0.1776052178071782
+    },
+    {
+      "seed": 9,
+      "condition": "default",
+      "retention": 0.3,
+      "transfer": 0.5,
+      "n_successor_appointments": 66,
+      "n_successors_with_task_performance": 66,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.004663852926136366,
+      "mean_end_capacity": 0.1781723739435418
+    },
+    {
+      "seed": 9,
+      "condition": "moderate",
+      "retention": 0.6,
+      "transfer": 0.5,
+      "n_successor_appointments": 66,
+      "n_successors_with_task_performance": 66,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.01093855888331316,
+      "mean_end_capacity": 0.17898339410347147
+    },
+    {
+      "seed": 9,
+      "condition": "high_retention",
+      "retention": 1.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 66,
+      "n_successors_with_task_performance": 66,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.024968337434710882,
+      "mean_end_capacity": 0.18232191881933135
+    },
+    {
+      "seed": 9,
+      "condition": "max_dose",
+      "retention": 1.0,
+      "transfer": 1.0,
+      "n_successor_appointments": 69,
+      "n_successors_with_task_performance": 69,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.2552898550724639,
+      "mean_end_capacity": 0.2456102369036076
+    },
+    {
+      "seed": 10,
+      "condition": "no_memory",
+      "retention": 0.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 107,
+      "n_successors_with_task_performance": 107,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0,
+      "mean_end_capacity": 0.12940345302774436
+    },
+    {
+      "seed": 10,
+      "condition": "default",
+      "retention": 0.3,
+      "transfer": 0.5,
+      "n_successor_appointments": 107,
+      "n_successors_with_task_performance": 107,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0025341727639091706,
+      "mean_end_capacity": 0.12968713614634472
+    },
+    {
+      "seed": 10,
+      "condition": "moderate",
+      "retention": 0.6,
+      "transfer": 0.5,
+      "n_successor_appointments": 107,
+      "n_successors_with_task_performance": 107,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.005836981149392526,
+      "mean_end_capacity": 0.130148543307651
+    },
+    {
+      "seed": 10,
+      "condition": "high_retention",
+      "retention": 1.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 107,
+      "n_successors_with_task_performance": 107,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.012730267560370613,
+      "mean_end_capacity": 0.13104482803020437
+    },
+    {
+      "seed": 10,
+      "condition": "max_dose",
+      "retention": 1.0,
+      "transfer": 1.0,
+      "n_successor_appointments": 105,
+      "n_successors_with_task_performance": 105,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.2712857142857143,
+      "mean_end_capacity": 0.17045067445781728
+    },
+    {
+      "seed": 11,
+      "condition": "no_memory",
+      "retention": 0.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 83,
+      "n_successors_with_task_performance": 83,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0,
+      "mean_end_capacity": 0.19541505304454154
+    },
+    {
+      "seed": 11,
+      "condition": "default",
+      "retention": 0.3,
+      "transfer": 0.5,
+      "n_successor_appointments": 83,
+      "n_successors_with_task_performance": 83,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.004264762477409639,
+      "mean_end_capacity": 0.19617593508143907
+    },
+    {
+      "seed": 11,
+      "condition": "moderate",
+      "retention": 0.6,
+      "transfer": 0.5,
+      "n_successor_appointments": 83,
+      "n_successors_with_task_performance": 83,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.01006741054566281,
+      "mean_end_capacity": 0.19736458940943813
+    },
+    {
+      "seed": 11,
+      "condition": "high_retention",
+      "retention": 1.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 83,
+      "n_successors_with_task_performance": 83,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.02271948389260166,
+      "mean_end_capacity": 0.20007995272453138
+    },
+    {
+      "seed": 11,
+      "condition": "max_dose",
+      "retention": 1.0,
+      "transfer": 1.0,
+      "n_successor_appointments": 83,
+      "n_successors_with_task_performance": 83,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.29921686746987963,
+      "mean_end_capacity": 0.23891151202660396
+    },
+    {
+      "seed": 12,
+      "condition": "no_memory",
+      "retention": 0.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 70,
+      "n_successors_with_task_performance": 70,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0,
+      "mean_end_capacity": 0.19319235965796794
+    },
+    {
+      "seed": 12,
+      "condition": "default",
+      "retention": 0.3,
+      "transfer": 0.5,
+      "n_successor_appointments": 70,
+      "n_successors_with_task_performance": 70,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.002202349419642858,
+      "mean_end_capacity": 0.19349028577403934
+    },
+    {
+      "seed": 12,
+      "condition": "moderate",
+      "retention": 0.6,
+      "transfer": 0.5,
+      "n_successor_appointments": 70,
+      "n_successors_with_task_performance": 70,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.004969495645714287,
+      "mean_end_capacity": 0.19394523149453935
+    },
+    {
+      "seed": 12,
+      "condition": "high_retention",
+      "retention": 1.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 70,
+      "n_successors_with_task_performance": 70,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.010524544852120536,
+      "mean_end_capacity": 0.19486516675199697
+    },
+    {
+      "seed": 12,
+      "condition": "max_dose",
+      "retention": 1.0,
+      "transfer": 1.0,
+      "n_successor_appointments": 64,
+      "n_successors_with_task_performance": 64,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.15218749999999998,
+      "mean_end_capacity": 0.24362595080302693
+    },
+    {
+      "seed": 13,
+      "condition": "no_memory",
+      "retention": 0.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 84,
+      "n_successors_with_task_performance": 84,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0,
+      "mean_end_capacity": 0.1594882478632478
+    },
+    {
+      "seed": 13,
+      "condition": "default",
+      "retention": 0.3,
+      "transfer": 0.5,
+      "n_successor_appointments": 84,
+      "n_successors_with_task_performance": 84,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0029868396500279024,
+      "mean_end_capacity": 0.15977211314114964
+    },
+    {
+      "seed": 13,
+      "condition": "moderate",
+      "retention": 0.6,
+      "transfer": 0.5,
+      "n_successor_appointments": 84,
+      "n_successors_with_task_performance": 84,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0068943851357142856,
+      "mean_end_capacity": 0.16024413718181924
+    },
+    {
+      "seed": 13,
+      "condition": "high_retention",
+      "retention": 1.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 84,
+      "n_successors_with_task_performance": 84,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.015525806744893391,
+      "mean_end_capacity": 0.16443133426032805
+    },
+    {
+      "seed": 13,
+      "condition": "max_dose",
+      "retention": 1.0,
+      "transfer": 1.0,
+      "n_successor_appointments": 84,
+      "n_successors_with_task_performance": 84,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.28250000000000014,
+      "mean_end_capacity": 0.19980326617826627
+    },
+    {
+      "seed": 14,
+      "condition": "no_memory",
+      "retention": 0.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 79,
+      "n_successors_with_task_performance": 79,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.0,
+      "mean_end_capacity": 0.16500224807700326
+    },
+    {
+      "seed": 14,
+      "condition": "default",
+      "retention": 0.3,
+      "transfer": 0.5,
+      "n_successor_appointments": 79,
+      "n_successors_with_task_performance": 79,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.004671341538073574,
+      "mean_end_capacity": 0.1653165164353894
+    },
+    {
+      "seed": 14,
+      "condition": "moderate",
+      "retention": 0.6,
+      "transfer": 0.5,
+      "n_successor_appointments": 79,
+      "n_successors_with_task_performance": 79,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.01071895458094914,
+      "mean_end_capacity": 0.1659499549808584
+    },
+    {
+      "seed": 14,
+      "condition": "high_retention",
+      "retention": 1.0,
+      "transfer": 0.5,
+      "n_successor_appointments": 79,
+      "n_successors_with_task_performance": 79,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.02344127027294304,
+      "mean_end_capacity": 0.16771217192985133
+    },
+    {
+      "seed": 14,
+      "condition": "max_dose",
+      "retention": 1.0,
+      "transfer": 1.0,
+      "n_successor_appointments": 79,
+      "n_successors_with_task_performance": 79,
+      "n_successors_never_performed_a_task": 0,
+      "mean_dose_delivered": 0.28417721518987343,
+      "mean_end_capacity": 0.21196286692369803
+    }
+  ],
+  "design": {
+    "n_seeds": 15,
+    "population_size": 40,
+    "n_patches": 3,
+    "n_steps": 300,
+    "conditions": {
+      "no_memory": {
+        "retention": 0.0,
+        "transfer": 0.5
+      },
+      "default": {
+        "retention": 0.3,
+        "transfer": 0.5
+      },
+      "moderate": {
+        "retention": 0.6,
+        "transfer": 0.5
+      },
+      "high_retention": {
+        "retention": 1.0,
+        "transfer": 0.5
+      },
+      "max_dose": {
+        "retention": 1.0,
+        "transfer": 1.0
+      }
+    }
+  },
+  "mean_by_condition": {
+    "no_memory": {
+      "n_successor_appointments": 84.4,
+      "n_successors_with_task_performance": 84.4,
+      "n_successors_never_performed_a_task": 0.0,
+      "mean_dose_delivered": 0.0,
+      "mean_end_capacity": 0.17256060246175445
+    },
+    "default": {
+      "n_successor_appointments": 84.4,
+      "n_successors_with_task_performance": 84.4,
+      "n_successors_never_performed_a_task": 0.0,
+      "mean_dose_delivered": 0.003151350434991691,
+      "mean_end_capacity": 0.1729410441491808
+    },
+    "moderate": {
+      "n_successor_appointments": 84.4,
+      "n_successors_with_task_performance": 84.4,
+      "n_successors_never_performed_a_task": 0.0,
+      "mean_dose_delivered": 0.007273803639979295,
+      "mean_end_capacity": 0.1735315450015878
+    },
+    "high_retention": {
+      "n_successor_appointments": 84.4,
+      "n_successors_with_task_performance": 84.4,
+      "n_successors_never_performed_a_task": 0.0,
+      "mean_dose_delivered": 0.015959063114456155,
+      "mean_end_capacity": 0.17526099298004089
+    },
+    "max_dose": {
+      "n_successor_appointments": 84.2,
+      "n_successors_with_task_performance": 84.2,
+      "n_successors_never_performed_a_task": 0.0,
+      "mean_dose_delivered": 0.2315439603071283,
+      "mean_end_capacity": 0.21573761594145016
+    }
+  },
+  "seed_clustered_bootstrap_contrasts": {
+    "default_minus_no_memory__mean_dose_delivered": {
+      "point_estimate": 0.003151350434991691,
+      "ci_low": 0.0027605359475510165,
+      "ci_high": 0.003578505676294929,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "moderate_minus_no_memory__mean_dose_delivered": {
+      "point_estimate": 0.007273803639979295,
+      "ci_low": 0.006346776065202213,
+      "ci_high": 0.008292204139168148,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "high_retention_minus_no_memory__mean_dose_delivered": {
+      "point_estimate": 0.015959063114456155,
+      "ci_low": 0.013814374810017283,
+      "ci_high": 0.01833700481340189,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "max_dose_minus_no_memory__mean_dose_delivered": {
+      "point_estimate": 0.2315439603071283,
+      "ci_low": 0.2064436646628356,
+      "ci_high": 0.2573865994620514,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "default_minus_no_memory__mean_end_capacity": {
+      "point_estimate": 0.00038044168742636754,
+      "ci_low": 0.00030051343231212574,
+      "ci_high": 0.0004679652518529435,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "moderate_minus_no_memory__mean_end_capacity": {
+      "point_estimate": 0.000970942539833349,
+      "ci_low": 0.0007720738120389418,
+      "ci_high": 0.001187986281029699,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "high_retention_minus_no_memory__mean_end_capacity": {
+      "point_estimate": 0.002700390518286485,
+      "ci_low": 0.0020646476328890035,
+      "ci_high": 0.0033732632626371994,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    },
+    "max_dose_minus_no_memory__mean_end_capacity": {
+      "point_estimate": 0.04317701347969575,
+      "ci_low": 0.03622211625393796,
+      "ci_high": 0.04985308592982706,
+      "n_seeds": 15,
+      "n_seeds_skipped_undefined": 0
+    }
+  },
+  "interpretation": "Manipulation check (mean_dose_delivered, default - no_memory): point=0.00315, CI=[0.00276, 0.00358] over n_seeds=15 -- excludes zero, confirming the mechanism actually delivers a nonzero starting record_quality to successor delegates at default parameters, as designed. REFINED (not simply confirmed/refuted) finding on Level 1.1's 'negligible effect at default parameters' claim, mean_end_capacity (default - no_memory): point=0.00038, CI=[0.00030, 0.00047] over n_seeds=15 -- this seed-clustered paired design is powerful enough that even this tiny effect is STATISTICALLY DETECTABLE (the CI excludes zero, entirely on the positive side) -- so 'negligible' is not literally 'no effect'. But its PRACTICAL magnitude relative to the no_memory baseline capacity (0.1726) is 0.22% -- a real, monotonic, dose-scaling effect (moderate: point=0.00097; high_retention: point=0.00270; both also exclude zero) that is nonetheless practically trivial at the parameter values Level 1.1 actually used. The correct, precise restatement of Level 1.1's finding is therefore: institutional memory is NOT a broken/inert mechanism -- it is a real, working, monotonic dose-response -- but its default calibration places it at a practically negligible (not statistically zero) operating point. Ceiling check (mean_end_capacity, max_dose - no_memory, retention=1.0/transfer=1.0): point=0.04318, CI=[0.03622, 0.04985] over n_seeds=15 (25.0% relative to baseline) -- confirms the mechanism CAN produce a practically non-trivial effect at a large enough dose; the default's smallness is a calibration choice, not a structural ceiling the mechanism cannot exceed. A plausible (not confirmed by this script) contributing factor for why even max_dose's relative effect stays under 25% rather than larger: recall-triggered turnover disproportionately removes delegates who committed misconduct, whose own record_quality was often already low or decayed at removal -- so the 'memory' being passed down skews toward low-quality predecessors regardless of retention/transfer, independent of the multiplicative retention*transfer attenuation. See docs/level1.1b_validation_note.md for the confirmatory read and every intermediate condition's own numbers."
+}

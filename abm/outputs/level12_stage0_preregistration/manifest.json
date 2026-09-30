@@ -1,0 +1,116 @@
+{
+  "discovery_pipeline_commitments": {
+    "candidate_methods": [
+      "gmm",
+      "hierarchical",
+      "hdbscan"
+    ],
+    "k_range": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "missingness_strategies": [
+      "complete_case",
+      "missingness_indicator",
+      "mean_impute"
+    ],
+    "model_selection_rule": "no single metric decides -- see observer/phenotype_discovery.py:model_selection_metrics"
+  },
+  "firewall": "no SEM/dissertation data, labels, or trajectory counts are read anywhere in Stages 0-7 (Section 14)",
+  "mechanism_activation_flags": [
+    "institutional_observation_enabled",
+    "institutional_transmission_enabled",
+    "migration_enabled",
+    "membership_exit_enabled",
+    "institutional_scaling_enabled"
+  ],
+  "milestone": "level1.2_open_institutional_evolution_and_blind_phenotype_discovery",
+  "recurrence_and_convergence_commitments": {
+    "all_outcome_labels": [
+      "no_institution",
+      "collapse",
+      "viable",
+      "persistent_extractive",
+      "fragmented",
+      "transient",
+      "unclassified"
+    ],
+    "convergence_classification_labels": [
+      "insufficient_data",
+      "inherited",
+      "convergent",
+      "ambiguous"
+    ],
+    "recurrence_criteria": [
+      "minimum_cluster_size",
+      "cross_seed_recurrence",
+      "cross_algorithm_support",
+      "bootstrap_stability",
+      "co_assignment_internal_consistency",
+      "distinctness_from_noise",
+      "missingness_strategy_robustness",
+      "parameter_condition_diversity",
+      "temporal_persistence_of_members",
+      "non_degenerate_cluster_fraction",
+      "k_selection_non_privileged_support",
+      "independent_of_single_lineage"
+    ],
+    "recurrence_rule": "conjunction -- all 12 criteria must pass (see observer/recurrence_criteria.py)"
+  },
+  "rng_commitments": {
+    "note": "mandatory for every Stage 1-7 run; legacy_single_stream is never used this milestone",
+    "rng_mode": "mechanism_substreams"
+  },
+  "stage_sample_sizes": {
+    "stage1_mechanism_activation": {
+      "n_patches": 3,
+      "n_seeds": 8,
+      "n_steps": 350,
+      "population": 40
+    },
+    "stage2_small_open_pilot": {
+      "n_patches": 4,
+      "n_seeds": 10,
+      "n_steps": 400,
+      "population": 40
+    },
+    "stage3_main_open_search": {
+      "n_parameter_draws": 12,
+      "n_patches": 4,
+      "n_seeds": 24,
+      "n_steps": 500,
+      "population": 40
+    },
+    "stage4_blind_discovery_run": {
+      "note": "reuses Stage 3's pooled phenotype vectors; no new simulation runs"
+    },
+    "stage5_prospective_confirmation": {
+      "n_patches": 4,
+      "n_seeds": 12,
+      "n_steps": 500,
+      "note": "fresh seeds, never reused from Stage 3",
+      "population": 40
+    },
+    "stage6_scaling_robustness": {
+      "n_patches_conditions": [
+        3,
+        6
+      ],
+      "n_seeds": 6,
+      "population_conditions": [
+        40,
+        80
+      ]
+    },
+    "stage7_perturbation_transition": {
+      "n_perturbation_types": 2,
+      "n_seeds": 6
+    }
+  }
+}

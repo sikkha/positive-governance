@@ -1,0 +1,218 @@
+{
+  "audit_completeness": {
+    "all_criteria_audited": true,
+    "audited_criteria": [
+      "bootstrap_stability",
+      "co_assignment_internal_consistency",
+      "cross_algorithm_support",
+      "cross_seed_recurrence",
+      "distinctness_from_noise",
+      "independent_of_single_lineage",
+      "k_selection_non_privileged_support",
+      "minimum_cluster_size",
+      "missingness_strategy_robustness",
+      "non_degenerate_cluster_fraction",
+      "parameter_condition_diversity",
+      "temporal_persistence_of_members"
+    ],
+    "extra_in_audit": [],
+    "missing_from_audit": []
+  },
+  "criteria_audit": {
+    "bootstrap_stability": {
+      "construct": "mean ARI across bootstrap resamples of the whole fit (a global-fit stability score, not per-cluster)",
+      "feasibility_note": "requires Section 9.4's bootstrap_stability to have already run once on the full feature matrix",
+      "feasible_under_1_2b_design": true,
+      "min_sample_size": "governed by phenotype_discovery.bootstrap_stability's own n_bootstrap, not this criterion",
+      "redundant_with": [],
+      "unit_of_analysis": "the whole clustering fit (all clusters simultaneously), inherited by each candidate"
+    },
+    "co_assignment_internal_consistency": {
+      "construct": "mean pairwise co-assignment probability among the candidate's own members (Section 9.4 consensus matrix), off-diagonal only",
+      "feasibility_note": "requires Section 9.4's co_assignment_matrix, same prerequisite as bootstrap_stability",
+      "feasible_under_1_2b_design": true,
+      "min_sample_size": "undefined (NaN, not forced) below 2 members -- minimum_cluster_size is the floor-enforcing criterion",
+      "redundant_with": [
+        "cross_algorithm_support (both measure cross-fit agreement, but co-assignment is within-candidate consensus across bootstrap/algorithm resamples while cross_algorithm_support is a single primary-vs-alternative ARI comparison -- different statistical objects, not the same evidence twice)"
+      ],
+      "unit_of_analysis": "member pairs within the candidate cluster"
+    },
+    "cross_algorithm_support": {
+      "construct": "adjusted Rand index between the primary clustering method's labels and an alternative method's labels, restricted to this candidate's own member rows",
+      "feasibility_note": "requires Section 9's CANDIDATE_METHODS (gmm/hierarchical/hdbscan) to have all been fit on the same feature matrix -- a Section 15 discovery-pipeline prerequisite, not a 1.2b-specific gap",
+      "feasible_under_1_2b_design": true,
+      "min_sample_size": "no explicit floor beyond minimum_cluster_size; ARI itself is more reliable with more members",
+      "redundant_with": [],
+      "unit_of_analysis": "candidate cluster's member rows, compared across clustering methods"
+    },
+    "cross_seed_recurrence": {
+      "construct": "count of distinct seed-runs contributing to the cluster",
+      "feasibility_note": "WP E's design carries seed explicitly on every point (seeds_per_point=6 preferred); directly available",
+      "feasible_under_1_2b_design": true,
+      "min_sample_size": "default 2 distinct seeds",
+      "redundant_with": [
+        "parameter_condition_diversity (both require diversity across independent runs, but seed identity and parameter condition are logically distinct axes -- two runs can share a seed-adjacent condition yet differ in outcome, or share a condition under different seeds; kept separate deliberately, not true redundancy)"
+      ],
+      "unit_of_analysis": "seed-run (Section 15's primary independent observation)"
+    },
+    "distinctness_from_noise": {
+      "construct": "margin between mean within-cluster distance and mean cluster-to-noise distance in feature space",
+      "feasibility_note": "only meaningful for a clustering method that produces an explicit noise label (hdbscan); gmm/hierarchical assign every point to a cluster, so noise_indices is legitimately empty and this criterion is undefined (NaN) for those methods -- not a 1.2b-specific gap, a pre-existing property of which discovery method produced the candidate",
+      "feasible_under_1_2b_design": "conditional",
+      "min_sample_size": "undefined below 2 members or when no noise points exist",
+      "redundant_with": [],
+      "unit_of_analysis": "candidate cluster members vs. unclassified/noise points, in the discovery feature matrix"
+    },
+    "independent_of_single_lineage": {
+      "construct": "no single institutional lineage accounts for more than a bounded fraction of the candidate's members",
+      "feasibility_note": "was NOT safely feasible under the 1.2b joint design as originally documented: raw rule_lineage_id collides across the 576 separate seed-runs WP E produced (see convergence_tests.py's module docstring for the full finding). Fixed by requiring composed keys (convergence_tests.compose_global_lineage_id) for any cross-run pooling -- now feasible, and documented directly on the criterion's own docstring so a future caller cannot miss it.",
+      "feasible_under_1_2b_design": "conditional -- FIXED this Work Package",
+      "min_sample_size": "undefined (NaN) on an empty lineage-id list; default max fraction 0.7",
+      "redundant_with": [],
+      "unit_of_analysis": "institutional lineage identity across candidate members"
+    },
+    "k_selection_non_privileged_support": {
+      "construct": "the candidate's own k has a defined model-selection metric and is not uniquely the single worst-scoring silhouette among evaluated k's",
+      "feasibility_note": "DEFAULT_K_RANGE (1..8) is unchanged by 1.2b; no redesign needed",
+      "feasible_under_1_2b_design": true,
+      "min_sample_size": "not sample-size-based; structural (defined/undefined metric presence)",
+      "redundant_with": [],
+      "unit_of_analysis": "candidate's k value vs. the full evaluated k range (Section 9.3's DEFAULT_K_RANGE)"
+    },
+    "minimum_cluster_size": {
+      "construct": "raw member count -- a floor, not a strength-of-evidence measure",
+      "feasibility_note": "trivially available the moment a cluster exists; no dependency on WP E-specific data shape",
+      "feasible_under_1_2b_design": true,
+      "min_sample_size": "the threshold itself (default 5) IS the minimum sample size this criterion enforces on every other criterion",
+      "redundant_with": [],
+      "unit_of_analysis": "candidate cluster (post-clustering)"
+    },
+    "missingness_strategy_robustness": {
+      "construct": "ARI agreement between the primary missingness-handling strategy's labeling and an alternative strategy's labeling, restricted to candidate member rows",
+      "feasibility_note": "requires Section 9.1's three preprocess_features strategies to have all been fit-on-train and applied; directly available once the discovery pipeline runs",
+      "feasible_under_1_2b_design": true,
+      "min_sample_size": "no explicit floor beyond minimum_cluster_size",
+      "redundant_with": [],
+      "unit_of_analysis": "candidate cluster's member rows, compared across the three Section 9.1 missingness strategies"
+    },
+    "non_degenerate_cluster_fraction": {
+      "construct": "candidate size as a fraction of the total pooled sample, bounded away from both a vanishing minority and near-total-sample degeneracy",
+      "feasibility_note": "n_total for 1.2b is WP E's pooled seed-run count (up to 1152 = 576 runs x up to 2 rows/run if V's sub-parts are ever split into separate rows -- confirm the discovery pipeline's own row definition when Section 15 runs; not a criterion-level gap)",
+      "feasible_under_1_2b_design": true,
+      "min_sample_size": "default bounds [0.02, 0.95] of n_total, not a raw count",
+      "redundant_with": [
+        "minimum_cluster_size (different denominators -- criterion 1 is a raw floor independent of pool size, criterion 10 is scale-relative; both matter separately, e.g. a raw-adequate cluster could still be a vanishing fraction of a much larger 1.2b pool)"
+      ],
+      "unit_of_analysis": "candidate cluster size vs. n_total pooled observations"
+    },
+    "parameter_condition_diversity": {
+      "construct": "count of distinct generative parameter conditions represented among the candidate's members",
+      "feasibility_note": "WP E's design point + IC family together define 'condition' cleanly for 1.2b; no redefinition needed from Level 1.2's own usage",
+      "feasible_under_1_2b_design": true,
+      "min_sample_size": "default 2 distinct conditions",
+      "redundant_with": [
+        "cross_seed_recurrence (see that entry's note -- deliberately distinct axes)"
+      ],
+      "unit_of_analysis": "generative parameter condition (a joint ecological+institutional design point under WP E, or an initial-condition family)"
+    },
+    "temporal_persistence_of_members": {
+      "construct": "fraction of candidate members whose own seed-run was sustained_system_eligibility-eligible (Section 8B)",
+      "feasibility_note": "requires each WP E run's own eligibility flag; WP E's own ledger-closure gate (Section 5.7, now satisfied for all 576 runs) is a stricter, DIFFERENT bar than sustained_system_eligibility and does not substitute for it -- eligibility must still be computed per run before this criterion can be applied",
+      "feasible_under_1_2b_design": true,
+      "min_sample_size": "default 0.5 minimum eligible fraction; undefined (NaN) on an empty member-eligibility list",
+      "redundant_with": [],
+      "unit_of_analysis": "seed-run eligibility, one flag per member's originating run"
+    }
+  },
+  "default_thresholds": {
+    "bootstrap_stability": {
+      "min_mean_ari": 0.5
+    },
+    "co_assignment_internal_consistency": {
+      "min_mean_co_assignment": 0.5
+    },
+    "cross_algorithm_support": {
+      "min_ari": 0.3
+    },
+    "cross_seed_recurrence": {
+      "min_distinct_seeds": 2
+    },
+    "distinctness_from_noise": {
+      "min_margin": 0.0
+    },
+    "independent_of_single_lineage": {
+      "max_single_lineage_fraction": 0.7
+    },
+    "k_selection_non_privileged_support": {},
+    "minimum_cluster_size": {
+      "min_size": 5
+    },
+    "missingness_strategy_robustness": {
+      "min_ari": 0.3
+    },
+    "non_degenerate_cluster_fraction": {
+      "max_fraction": 0.95,
+      "min_fraction": 0.02
+    },
+    "parameter_condition_diversity": {
+      "min_distinct_conditions": 2
+    },
+    "temporal_persistence_of_members": {
+      "min_fraction_eligible": 0.5
+    }
+  },
+  "similarity_level_taxonomy": {
+    "component_homology_vs_analogy": {
+      "definition": "biology-inspired reframing of inherited/convergent: homology=shared-origin similarity (within-run lineage sharing OR cross-run direct transmission), analogy=independently-arisen similarity (the convergent label)",
+      "distinguishes_from": [
+        "no new computation -- an interpretation layer over the other three levels, recorded explicitly so it is never reinvented ad hoc"
+      ],
+      "operationalized_by": [
+        "convergence_tests.classify_convergence_or_inheritance (label='inherited'=homology, label='convergent'=analogy)"
+      ]
+    },
+    "cross_run_structural_similarity": {
+      "definition": "members from different seed-runs land in the same discovered cluster -- a purely descriptive, pre-causal observation",
+      "distinguishes_from": [
+        "independent_convergence: this level makes no claim about WHY members are similar, only that they are"
+      ],
+      "operationalized_by": [
+        "phenotype_discovery.fit_candidate",
+        "phenotype_discovery.co_assignment_matrix"
+      ]
+    },
+    "independent_convergence": {
+      "definition": "cross-run structural similarity that is ALSO lineage-diverse beyond chance, not majority transmission-linked, and recurs across more than one parameter condition",
+      "distinguishes_from": [
+        "within_run_lineage: requires cross-run evidence, never satisfied by one run alone"
+      ],
+      "operationalized_by": [
+        "convergence_tests.classify_convergence_or_inheritance (label='convergent')"
+      ]
+    },
+    "within_run_lineage": {
+      "definition": "shared ancestry between institutions in the SAME seed-run",
+      "distinguishes_from": [
+        "cross_run_structural_similarity: different seed-runs, so this level never applies across runs"
+      ],
+      "operationalized_by": [
+        "convergence_tests.within_run_lineage_relatedness"
+      ]
+    }
+  },
+  "source_criteria_names": [
+    "minimum_cluster_size",
+    "cross_seed_recurrence",
+    "cross_algorithm_support",
+    "bootstrap_stability",
+    "co_assignment_internal_consistency",
+    "distinctness_from_noise",
+    "missingness_strategy_robustness",
+    "parameter_condition_diversity",
+    "temporal_persistence_of_members",
+    "non_degenerate_cluster_fraction",
+    "k_selection_non_privileged_support",
+    "independent_of_single_lineage"
+  ],
+  "version": "level1.2b-recurrence-spec-v1"
+}

@@ -1,0 +1,88 @@
+\documentclass[11pt]{article}
+
+% ---------- Page geometry ----------
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\onehalfspacing
+\emergencystretch=3em
+
+% ---------- Math / symbols ----------
+\usepackage{amsmath,amssymb}
+
+% ---------- Graphics / tables ----------
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{caption}
+\captionsetup{font=small, labelfont=bf}
+\usepackage{float}
+\usepackage{adjustbox}
+\usepackage{xcolor}
+\usepackage[strings]{underscore}
+
+% ---------- Cross-references ----------
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!50!black,
+    citecolor=blue!40!black,
+    urlcolor=blue!50!black,
+    pdftitle={From Institutional Emergence to Historically Structured Continuity},
+    pdfauthor={Kan Yuenyong}
+}
+\usepackage[capitalize,noabbrev]{cleveref}
+
+% ---------- Bibliography ----------
+\usepackage[backend=biber, style=authoryear, maxcitenames=2, maxbibnames=99, doi=false, isbn=false, url=true]{biblatex}
+\addbibresource{references.bib}
+
+% ---------- Section numbering depth ----------
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+
+% ---------- Title ----------
+\title{\textbf{From Institutional Emergence to Historically Structured Continuity:\\
+An Outcome-Blind Agent-Based Search for Recurrent Governance Forms}}
+\author{Kan Yuenyong}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\input{sections/00_abstract.tex}
+\end{abstract}
+
+\clearpage
+\tableofcontents
+\clearpage
+
+\input{sections/01_introduction.tex}
+\input{sections/02_theoretical_motivation.tex}
+\input{sections/03_model_genealogy.tex}
+\input{sections/04_model_and_methods.tex}
+\input{sections/05_level12.tex}
+\input{sections/06_level12b.tex}
+\input{sections/07_level13.tex}
+\input{sections/08_level13b.tex}
+\input{sections/09_results.tex}
+\input{sections/10_discussion.tex}
+\input{sections/11_limitations.tex}
+\input{sections/12_conclusion.tex}
+\input{sections/13_reproducibility.tex}
+
+\clearpage
+\printbibliography[heading=bibintoc,title={References}]
+
+\clearpage
+\appendix
+\input{appendix/appendix.tex}
+
+\end{document}

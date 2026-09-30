@@ -1,0 +1,86 @@
+{
+  "default_voluntary": {
+    "n_proposals": 99,
+    "n_adoptions": 52,
+    "n_rejections": 45,
+    "n_compliant_events": 30470,
+    "n_violated_events": 6688,
+    "n_monitorings": 28670,
+    "n_sanctions": 4837,
+    "n_dissolutions": 26,
+    "n_joins": 3094,
+    "n_exits": 3125,
+    "seeds_run": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "mechanically_certain_compliance": false,
+    "permanently_inactive": false
+  },
+  "designated_collective_fund": {
+    "n_proposals": 96,
+    "n_adoptions": 59,
+    "n_rejections": 40,
+    "n_compliant_events": 30540,
+    "n_violated_events": 8760,
+    "n_monitorings": 39300,
+    "n_sanctions": 8189,
+    "n_dissolutions": 33,
+    "n_joins": 3360,
+    "n_exits": 3400,
+    "seeds_run": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "mechanically_certain_compliance": false,
+    "permanently_inactive": false
+  },
+  "perfect_imposed_sanction": {
+    "n_proposals": 110,
+    "n_adoptions": 56,
+    "n_rejections": 55,
+    "n_compliant_events": 30820,
+    "n_violated_events": 7184,
+    "n_monitorings": 38004,
+    "n_sanctions": 7184,
+    "n_dissolutions": 30,
+    "n_joins": 3139,
+    "n_exits": 3176,
+    "seeds_run": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "mechanically_certain_compliance": false,
+    "permanently_inactive": false
+  },
+  "sanction_without_reliable_monitoring": {
+    "n_proposals": 111,
+    "n_adoptions": 68,
+    "n_rejections": 42,
+    "n_compliant_events": 28657,
+    "n_violated_events": 9266,
+    "n_monitorings": 29799,
+    "n_sanctions": 12422,
+    "n_dissolutions": 43,
+    "n_joins": 3193,
+    "n_exits": 3262,
+    "seeds_run": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "mechanically_certain_compliance": false,
+    "permanently_inactive": false
+  }
+}

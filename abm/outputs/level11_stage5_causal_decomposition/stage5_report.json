@@ -1,0 +1,154 @@
+{
+  "n_seeds": 15,
+  "n_steps": 350,
+  "contrasts": {
+    "discretion_effect": {
+      "final_occupancy": {
+        "mean_delta_ablated_minus_full": 0.018469105198387323,
+        "ci_low": -0.00456902525778677,
+        "ci_high": 0.05797066903405438,
+        "n_seeds": 15,
+        "excludes_zero": false
+      },
+      "final_total_resources": {
+        "mean_delta_ablated_minus_full": 926.5004229272607,
+        "ci_low": -407.06731197595934,
+        "ci_high": 2390.538233625773,
+        "n_seeds": 15,
+        "excludes_zero": false
+      },
+      "total_appropriated_resources": {
+        "mean_delta_ablated_minus_full": -1.9948603520712929,
+        "ci_low": -2.678543195204853,
+        "ci_high": -1.4249963189602488,
+        "n_seeds": 15,
+        "excludes_zero": true
+      },
+      "mean_member_resources": {
+        "mean_delta_ablated_minus_full": 36.71889879837158,
+        "ci_low": -12.550698064035828,
+        "ci_high": 94.2696834367941,
+        "n_seeds": 15,
+        "excludes_zero": false
+      },
+      "population_weighted_overall_mean": {
+        "mean_delta_ablated_minus_full": 23.162510573181518,
+        "ci_low": -10.176682799398982,
+        "ci_high": 59.763455840644326,
+        "n_seeds": 15,
+        "excludes_zero": false
+      }
+    },
+    "accountability_effect": {
+      "final_occupancy": {
+        "mean_delta_ablated_minus_full": -0.0018890240155738207,
+        "ci_low": -0.008033309169115613,
+        "ci_high": 0.003535363589893136,
+        "n_seeds": 15,
+        "excludes_zero": false
+      },
+      "final_total_resources": {
+        "mean_delta_ablated_minus_full": 43.7933648149221,
+        "ci_low": -678.8183361956955,
+        "ci_high": 822.8206366829952,
+        "n_seeds": 15,
+        "excludes_zero": false
+      },
+      "total_appropriated_resources": {
+        "mean_delta_ablated_minus_full": 0.297030724229824,
+        "ci_low": -0.025439830857195145,
+        "ci_high": 0.6217629974510271,
+        "n_seeds": 15,
+        "excludes_zero": false
+      },
+      "mean_member_resources": {
+        "mean_delta_ablated_minus_full": 3.681771407812328,
+        "ci_low": -25.892492289665675,
+        "ci_high": 41.747553832164606,
+        "n_seeds": 15,
+        "excludes_zero": false
+      },
+      "population_weighted_overall_mean": {
+        "mean_delta_ablated_minus_full": 1.0948341203730554,
+        "ci_low": -16.97045840489239,
+        "ci_high": 20.570515917074875,
+        "n_seeds": 15,
+        "excludes_zero": false
+      }
+    },
+    "admin_cost_effect": {
+      "final_occupancy": {
+        "mean_delta_ablated_minus_full": 0.002509256673337563,
+        "ci_low": -0.0032335451281527883,
+        "ci_high": 0.008359095862253732,
+        "n_seeds": 15,
+        "excludes_zero": false
+      },
+      "final_total_resources": {
+        "mean_delta_ablated_minus_full": 663.3066633083812,
+        "ci_low": -542.4857613741592,
+        "ci_high": 2196.176359459191,
+        "n_seeds": 15,
+        "excludes_zero": false
+      },
+      "total_appropriated_resources": {
+        "mean_delta_ablated_minus_full": 15.100327941664311,
+        "ci_low": 12.523694922962942,
+        "ci_high": 17.780145079418926,
+        "n_seeds": 15,
+        "excludes_zero": true
+      },
+      "mean_member_resources": {
+        "mean_delta_ablated_minus_full": 19.12499687152632,
+        "ci_low": -12.78718406499934,
+        "ci_high": 64.80144817682594,
+        "n_seeds": 15,
+        "excludes_zero": false
+      },
+      "population_weighted_overall_mean": {
+        "mean_delta_ablated_minus_full": 16.582666582709525,
+        "ci_low": -13.562144034353977,
+        "ci_high": 54.90440898647977,
+        "n_seeds": 15,
+        "excludes_zero": false
+      }
+    },
+    "interpatch_coordination_effect": {
+      "final_occupancy": {
+        "mean_delta_ablated_minus_full": 0.038070569062862776,
+        "ci_low": -0.005191168491586255,
+        "ci_high": 0.10005969801176243,
+        "n_seeds": 15,
+        "excludes_zero": false
+      },
+      "final_total_resources": {
+        "mean_delta_ablated_minus_full": 599.882854709514,
+        "ci_low": -1081.349394525779,
+        "ci_high": 2476.1780077683725,
+        "n_seeds": 15,
+        "excludes_zero": false
+      },
+      "total_appropriated_resources": {
+        "mean_delta_ablated_minus_full": 4.103524694296698,
+        "ci_low": 2.0732046027004176,
+        "ci_high": 6.371425842728338,
+        "n_seeds": 15,
+        "excludes_zero": true
+      },
+      "mean_member_resources": {
+        "mean_delta_ablated_minus_full": 13.358208514386872,
+        "ci_low": -35.19094687238463,
+        "ci_high": 62.15737228233187,
+        "n_seeds": 15,
+        "excludes_zero": false
+      },
+      "population_weighted_overall_mean": {
+        "mean_delta_ablated_minus_full": 14.997071367737847,
+        "ci_low": -27.033734863144467,
+        "ci_high": 61.90445019420931,
+        "n_seeds": 15,
+        "excludes_zero": false
+      }
+    }
+  }
+}

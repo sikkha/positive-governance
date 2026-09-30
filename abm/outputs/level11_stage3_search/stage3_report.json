@@ -1,0 +1,194 @@
+{
+  "n_seeds": 6,
+  "n_steps": 350,
+  "conditions": {
+    "lottery|discretion=False|accountability=False": {
+      "n_rules_observed": 18,
+      "label_counts": {
+        "persistent_delegation": 17,
+        "unclassified": 1
+      },
+      "label_fractions": {
+        "persistent_delegation": 0.9444444444444444,
+        "unclassified": 0.05555555555555555
+      }
+    },
+    "lottery|discretion=False|accountability=True": {
+      "n_rules_observed": 18,
+      "label_counts": {
+        "persistent_delegation": 8,
+        "administratively_functional": 7,
+        "unstable_delegation": 2,
+        "delegate_selected": 1
+      },
+      "label_fractions": {
+        "persistent_delegation": 0.4444444444444444,
+        "administratively_functional": 0.3888888888888889,
+        "unstable_delegation": 0.1111111111111111,
+        "delegate_selected": 0.05555555555555555
+      }
+    },
+    "lottery|discretion=True|accountability=False": {
+      "n_rules_observed": 18,
+      "label_counts": {
+        "persistent_delegation": 16,
+        "unclassified": 2
+      },
+      "label_fractions": {
+        "persistent_delegation": 0.8888888888888888,
+        "unclassified": 0.1111111111111111
+      }
+    },
+    "lottery|discretion=True|accountability=True": {
+      "n_rules_observed": 18,
+      "label_counts": {
+        "accountable_delegation": 10,
+        "delegate_selected": 7,
+        "no_delegation": 1
+      },
+      "label_fractions": {
+        "accountable_delegation": 0.5555555555555556,
+        "delegate_selected": 0.3888888888888889,
+        "no_delegation": 0.05555555555555555
+      }
+    },
+    "plurality_support|discretion=False|accountability=False": {
+      "n_rules_observed": 18,
+      "label_counts": {
+        "persistent_delegation": 16,
+        "unclassified": 2
+      },
+      "label_fractions": {
+        "persistent_delegation": 0.8888888888888888,
+        "unclassified": 0.1111111111111111
+      }
+    },
+    "plurality_support|discretion=False|accountability=True": {
+      "n_rules_observed": 18,
+      "label_counts": {
+        "administratively_functional": 10,
+        "persistent_delegation": 7,
+        "delegate_selected": 1
+      },
+      "label_fractions": {
+        "administratively_functional": 0.5555555555555556,
+        "persistent_delegation": 0.3888888888888889,
+        "delegate_selected": 0.05555555555555555
+      }
+    },
+    "plurality_support|discretion=True|accountability=False": {
+      "n_rules_observed": 18,
+      "label_counts": {
+        "persistent_delegation": 15,
+        "unclassified": 3
+      },
+      "label_fractions": {
+        "persistent_delegation": 0.8333333333333334,
+        "unclassified": 0.16666666666666666
+      }
+    },
+    "plurality_support|discretion=True|accountability=True": {
+      "n_rules_observed": 18,
+      "label_counts": {
+        "delegate_selected": 6,
+        "accountable_delegation": 12
+      },
+      "label_fractions": {
+        "delegate_selected": 0.3333333333333333,
+        "accountable_delegation": 0.6666666666666666
+      }
+    },
+    "voluntary_approval|discretion=False|accountability=False": {
+      "n_rules_observed": 18,
+      "label_counts": {
+        "persistent_delegation": 16,
+        "unclassified": 2
+      },
+      "label_fractions": {
+        "persistent_delegation": 0.8888888888888888,
+        "unclassified": 0.1111111111111111
+      }
+    },
+    "voluntary_approval|discretion=False|accountability=True": {
+      "n_rules_observed": 18,
+      "label_counts": {
+        "administratively_functional": 10,
+        "persistent_delegation": 7,
+        "delegate_selected": 1
+      },
+      "label_fractions": {
+        "administratively_functional": 0.5555555555555556,
+        "persistent_delegation": 0.3888888888888889,
+        "delegate_selected": 0.05555555555555555
+      }
+    },
+    "voluntary_approval|discretion=True|accountability=False": {
+      "n_rules_observed": 18,
+      "label_counts": {
+        "persistent_delegation": 15,
+        "unclassified": 3
+      },
+      "label_fractions": {
+        "persistent_delegation": 0.8333333333333334,
+        "unclassified": 0.16666666666666666
+      }
+    },
+    "voluntary_approval|discretion=True|accountability=True": {
+      "n_rules_observed": 18,
+      "label_counts": {
+        "delegate_selected": 7,
+        "accountable_delegation": 11
+      },
+      "label_fractions": {
+        "delegate_selected": 0.3888888888888889,
+        "accountable_delegation": 0.6111111111111112
+      }
+    },
+    "threshold_acceptance|discretion=False|accountability=False": {
+      "n_rules_observed": 18,
+      "label_counts": {
+        "persistent_delegation": 16,
+        "unclassified": 2
+      },
+      "label_fractions": {
+        "persistent_delegation": 0.8888888888888888,
+        "unclassified": 0.1111111111111111
+      }
+    },
+    "threshold_acceptance|discretion=False|accountability=True": {
+      "n_rules_observed": 18,
+      "label_counts": {
+        "administratively_functional": 10,
+        "persistent_delegation": 7,
+        "delegate_selected": 1
+      },
+      "label_fractions": {
+        "administratively_functional": 0.5555555555555556,
+        "persistent_delegation": 0.3888888888888889,
+        "delegate_selected": 0.05555555555555555
+      }
+    },
+    "threshold_acceptance|discretion=True|accountability=False": {
+      "n_rules_observed": 18,
+      "label_counts": {
+        "persistent_delegation": 15,
+        "unclassified": 3
+      },
+      "label_fractions": {
+        "persistent_delegation": 0.8333333333333334,
+        "unclassified": 0.16666666666666666
+      }
+    },
+    "threshold_acceptance|discretion=True|accountability=True": {
+      "n_rules_observed": 18,
+      "label_counts": {
+        "delegate_selected": 7,
+        "accountable_delegation": 11
+      },
+      "label_fractions": {
+        "delegate_selected": 0.3888888888888889,
+        "accountable_delegation": 0.6111111111111112
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+dist/
+build/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+.obsidian/
+~$*
+.~lock.*
+*.swp
+
+# SEM: third-party survey data and private workspaces are never committed
+sem/data/
+*.RData
+*.rda
+*.rds
+.Rhistory
+.Rproj.user/
+
+# Paper build products (rebuild with `make pdf`; attach PDF to a release instead)
+paper/build/
+paper/manuscript.pdf
+paper/scripts/*.aux
+paper/scripts/*.log
+paper/scripts/conceptual_framework.pdf
+
+# ABM: new ad-hoc runs (archived evidence under abm/outputs/ IS tracked)
+abm/outputs/run_*/
+abm/outputs/batch_*/

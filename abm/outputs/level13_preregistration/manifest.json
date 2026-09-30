@@ -1,0 +1,199 @@
+{
+  "conversion_commitments": {
+    "default_min_persistence_steps": 20,
+    "default_min_window_activity": 3,
+    "default_window_steps": 50,
+    "function_families": [
+      "delegation",
+      "monitoring",
+      "sanctioning",
+      "accountability",
+      "contribution",
+      "coordination"
+    ],
+    "note": "at most one conversion recorded per rule -- the first sustained shift away from its founding dominant function"
+  },
+  "counterfactual_commitments": {
+    "exercised_at": "stage5_causal_historical_counterfactuals_matched_seed",
+    "mechanism": "Simulation(config, historical_pressure_series_override={...}) with identical seed -- see core/historical_counterfactuals.py",
+    "transforms": [
+      "erase_pressure_from",
+      "reverse_pressure_order"
+    ]
+  },
+  "decision_gate_do_not_prefer": "E_transient_differentiation",
+  "decision_gate_note": "\"do not prefer E\" governs the DISCOVERY PIPELINE'S OWN DEFAULT, not the data: nothing in observer/phenotype_discovery.py, observer/level13_phenotype.py, or any Stage 6-9 script may special-case or bias toward classifying a result as transient differentiation over the other five options -- every outcome, E included, remains a legitimate, unprivileged finding if the data support it.",
+  "decision_gate_outcomes": {
+    "A_one_family": "sequencing/pressure-history variation collapses to a single institutional family regardless of order",
+    "B_two_families": "sequencing/pressure-history variation produces exactly two reproducible institutional families",
+    "C_four_or_more_families": "sequencing/pressure-history variation produces four or more reproducible institutional families",
+    "D_continuum": "no discrete clustering at all -- discovery finds a continuous gradient, not separable families",
+    "E_transient_differentiation": "differentiation appears but does not persist/entrench -- families converge again given enough steps",
+    "F_no_detectable_effect": "no reproducible historical/sequencing effect is detected at all"
+  },
+  "discovery_pipeline_commitments": {
+    "candidate_methods": [
+      "gmm",
+      "hierarchical",
+      "hdbscan"
+    ],
+    "clustering_pipeline_version": "clustering_pipeline_v1",
+    "k_range": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "level13_dimension_keys": [
+      "seq_delegation",
+      "seq_administrative_function",
+      "seq_generalized_rule",
+      "seq_monitoring",
+      "seq_accountability",
+      "seq_bargaining_participation",
+      "seq_cross_founder_reconstruction",
+      "seq_interpatch_coordination",
+      "entrenchment",
+      "performance_legitimacy",
+      "procedural_legitimacy",
+      "conversion_incidence",
+      "S_obs",
+      "Z_obs"
+    ],
+    "missingness_strategies": [
+      "complete_case",
+      "missingness_indicator",
+      "mean_impute"
+    ],
+    "model_selection_rule": "no single metric decides -- see observer/phenotype_discovery.py:model_selection_metrics"
+  },
+  "ecological_feasibility_commitments": {
+    "cut_points_frozen_at": "stage2_calibration_without_phenotype_labels",
+    "lhs_seed": 20260820001,
+    "parameter_space_fields": [
+      "patch_regen_rate",
+      "patch_capacity",
+      "patch_initial_fraction",
+      "subsistence_cost",
+      "ecological_harvest_unit",
+      "maintenance_efficiency",
+      "shock_interval_steps",
+      "shock_magnitude"
+    ],
+    "stratification_basis": "ex_ante_expected_pressure_ratio_only_never_realized_outcomes"
+  },
+  "firewall": "no SEM/dissertation data, labels, trajectory names, or country names are read anywhere in Stages 0-9 (Section 2)",
+  "mechanism_activation_flags": [
+    "historical_module_enabled",
+    "security_pressure_enabled",
+    "bargaining_pressure_enabled",
+    "coordination_complexity_enabled",
+    "entrenchment_enabled",
+    "performance_legitimacy_enabled",
+    "procedural_legitimacy_enabled"
+  ],
+  "milestone": "level1.3_historical_sequencing_entrenchment_path_dependent_institutional_differentiation",
+  "rng_commitments": {
+    "note": "mandatory for every Stage 0-9 run; legacy_single_stream is never used this milestone",
+    "rng_mode": "mechanism_substreams",
+    "rng_registry_version": "level13_v1"
+  },
+  "sequencing_commitments": {
+    "institutional_response_dimensions": [
+      "delegation",
+      "administrative_function",
+      "generalized_rule",
+      "monitoring",
+      "accountability",
+      "bargaining_participation",
+      "cross_founder_reconstruction",
+      "interpatch_coordination"
+    ],
+    "note": "first-sustained-crossing per dimension (observer/sequencing_diagnostics.py); order is an empirical question, never assumed"
+  },
+  "stage_sample_sizes": {
+    "stage0_exact_compatibility": {
+      "n_patches": 3,
+      "n_seeds": 20,
+      "n_steps": 200,
+      "note": "matched seeds, historical_module_enabled True vs False, config otherwise identical",
+      "population": 30
+    },
+    "stage1_mechanism_activation": {
+      "n_patches": 3,
+      "n_seeds": 8,
+      "n_steps": 300,
+      "note": "one condition per Work Package A/C/D channel in isolation, plus all-on",
+      "population": 40
+    },
+    "stage2_calibration_without_phenotype_labels": {
+      "n_points": 30,
+      "note": "ecological feasibility LHS + cut-point freeze only -- see experiments/level13_common.py; no phenotype/discovery label read here"
+    },
+    "stage3_sequencing_x_entrenchment_factorial": {
+      "n_patches": 3,
+      "n_seeds_per_cell": 6,
+      "n_steps": 500,
+      "note": "crosses pressure-onset ORDER (security/bargaining/coordination) x entrenchment_enabled on/off",
+      "population": 40
+    },
+    "stage4_open_pressure_history_search_lhs": {
+      "n_patches": 4,
+      "n_points": 24,
+      "n_seeds_per_point": 4,
+      "n_steps": 500,
+      "population": 40
+    },
+    "stage5_causal_historical_counterfactuals_matched_seed": {
+      "n_patches": 3,
+      "n_seeds": 16,
+      "n_steps": 500,
+      "note": "matched pairs via core/historical_counterfactuals.py + Simulation's historical_pressure_series_override",
+      "population": 40
+    },
+    "stage6_blind_phenotype_discovery": {
+      "note": "pools Stage 3-5's phenotype vectors through observer/phenotype_discovery.py unmodified; no new simulation runs"
+    },
+    "stage7_fresh_confirmation": {
+      "n_patches": 4,
+      "n_seeds": 12,
+      "n_steps": 500,
+      "note": "fresh seeds, never reused from Stage 3-6",
+      "population": 40
+    },
+    "stage8_s_obs_z_obs_mapping": {
+      "note": "reuses Stage 3-7's own runs' event logs -- observer/sz_obs.py is purely post-hoc, no new simulation runs required"
+    },
+    "stage9_scale_and_shock_robustness": {
+      "n_patches_conditions": [
+        3,
+        6
+      ],
+      "n_seeds": 6,
+      "note": "population_patch_ratio_selector, excluded from Stage 2's ecological feasibility axis, is this stage's own question",
+      "population_conditions": [
+        40,
+        80
+      ]
+    }
+  },
+  "sz_obs_commitments": {
+    "s_obs_extra_component": "performance_legitimacy_series",
+    "s_obs_response_dimensions": [
+      "delegation",
+      "administrative_function",
+      "monitoring",
+      "interpatch_coordination"
+    ],
+    "weighting": "unweighted mean -- a legible, non-circular construct, never a fitted measurement model (observer/sz_obs.py)",
+    "z_obs_extra_component": "procedural_legitimacy_series",
+    "z_obs_response_dimensions": [
+      "accountability",
+      "bargaining_participation"
+    ]
+  }
+}

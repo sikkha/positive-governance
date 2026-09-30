@@ -1,0 +1,35 @@
+{
+  "accounting_scope_reduction": "ledger reporting applies to this stage's 24 new runs plus Stage 3's own 216 archived runs (both carry mean_resources_final_step/manipulation_check_passed) -- not a re-processing of every run from every stage, disclosed in full in the module docstring",
+  "collapse_criterion": "mean_resources_final_step < 0.0 -- see module docstring for why this exact threshold, chosen from Stage 3's own bimodal distribution",
+  "collapse_threshold": 0.0,
+  "milestone": "level1.3b_work_package_k_stage10_ecological_control_scale_shock",
+  "n_runs_declared": 24,
+  "n_seeds": 6,
+  "n_shocks_disclosed_override": 4,
+  "n_steps": 500,
+  "pressure_history_kind": "repeated_shocks",
+  "representative_cell": {
+    "entrenchment": "moderate",
+    "legitimacy": "dual",
+    "stratum": "medium_feasibility"
+  },
+  "scale_conditions": [
+    {
+      "n_patches": 3,
+      "population": 40
+    },
+    {
+      "n_patches": 6,
+      "population": 40
+    },
+    {
+      "n_patches": 3,
+      "population": 80
+    },
+    {
+      "n_patches": 6,
+      "population": 80
+    }
+  ],
+  "seed_base": 9300000
+}

@@ -1,0 +1,22 @@
+{
+  "classifier_version": "0.3b-v1",
+  "n_runs_reanalyzed": 48,
+  "n_points": 16,
+  "n_mismatches_vs_committed_level03_outcomes": 0,
+  "mismatches": [],
+  "n_labels_changed": 27,
+  "fraction_labels_changed": 0.5625,
+  "run_level_new_label_counts": {
+    "unclassified": 19,
+    "abundant": 13,
+    "depleted": 12,
+    "interior-persistent": 4
+  },
+  "point_level_plurality_label_counts_denominator_is_16_points_not_48_runs": {
+    "unclassified": 7,
+    "depleted": 5,
+    "abundant": 4
+  },
+  "n_points_robustly_classified_unanimous": 11,
+  "note": "point_level_plurality_label_counts is the scientifically meaningful denominator (16 parameter points); run_level_new_label_counts (48 point-seed runs) is reported for comparability with the original Level 0.3 summary but must not be read as a parameter-space proportion, since it triple-counts every point through its 3 seeds and gives no credit/penalty for within-point seed disagreement -- see Work Package B's explicit instruction."
+}

@@ -1,0 +1,22 @@
+{
+  "n_points_sampled": 10,
+  "n_seeds_per_point": 2,
+  "n_rules_classified": 60,
+  "historical_label_distribution": {
+    "delegate_selected": 43,
+    "no_delegation": 1,
+    "accountable_delegation": 14,
+    "fragmented_coordination": 1,
+    "interpatch_coordination": 1
+  },
+  "audited_label_distribution": {
+    "delegate_selected": 43,
+    "no_delegation": 1,
+    "accountable_delegation": 13,
+    "fragmented_coordination": 1,
+    "weakly_constrained_delegation": 1,
+    "interpatch_coordination": 1
+  },
+  "n_downgraded_historical_to_audited": 1,
+  "note": "diagnostic only -- never used to select, exclude, or reweight any design point"
+}

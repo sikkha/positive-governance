@@ -1,0 +1,2385 @@
+{
+  "n_parameter_draws": 12,
+  "n_seeds_per_draw": 2,
+  "n_total_runs": 24,
+  "n_completed": 24,
+  "n_failed": 0,
+  "parameter_space": [
+    {
+      "name": "patch_regen_rate",
+      "low": 0.2,
+      "high": 1.0
+    },
+    {
+      "name": "patch_quality_std",
+      "low": 0.0,
+      "high": 0.3
+    },
+    {
+      "name": "patch_quality_spatial_correlation",
+      "low": 0.0,
+      "high": 0.8
+    },
+    {
+      "name": "scaling_admin_overhead_per_patch",
+      "low": -0.2,
+      "high": 0.5
+    },
+    {
+      "name": "coordination_proposal_probability",
+      "low": 0.02,
+      "high": 0.5
+    },
+    {
+      "name": "migration_cost",
+      "low": 0.0,
+      "high": 3.0
+    },
+    {
+      "name": "observation_noise_std",
+      "low": 0.0,
+      "high": 0.4
+    },
+    {
+      "name": "transmission_base_probability",
+      "low": 0.0,
+      "high": 0.3
+    }
+  ],
+  "failures": [],
+  "outcome_label_distribution": {
+    "collapse": 22,
+    "fragmented": 2
+  },
+  "n_eligible": 24,
+  "records": [
+    {
+      "draw_id": 0,
+      "seed_idx": 0,
+      "seed": 4000,
+      "parameter_condition": "draw_0",
+      "parameters": {
+        "patch_regen_rate": 0.6399808849625674,
+        "patch_quality_std": 0.2136240849792422,
+        "patch_quality_spatial_correlation": 0.44521094353104607,
+        "scaling_admin_overhead_per_patch": 0.06791606420129087,
+        "coordination_proposal_probability": 0.45707797443944237,
+        "migration_cost": 2.4409998479903203,
+        "observation_noise_std": 0.04460064081575894,
+        "transmission_base_probability": 0.22525046426831985
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 3,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.001435396105743608,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 0.44952583333333335,
+          "denominator": 2,
+          "value": 0.22476291666666667,
+          "window": null
+        },
+        "E": {
+          "numerator": 157,
+          "denominator": 200,
+          "value": 0.785,
+          "window": null
+        },
+        "L": {
+          "numerator": 25,
+          "denominator": 40,
+          "value": 0.625,
+          "window": null
+        },
+        "D": {
+          "numerator": 2.0,
+          "denominator": 2,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.03777154554248688,
+          "denominator": 4,
+          "value": 0.00944288638562172,
+          "window": null
+        },
+        "R": {
+          "numerator": 18.039652452492113,
+          "denominator": 2.870792211487216,
+          "value": 6.283858643724917,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 210,
+          "denominator": 1789,
+          "value": 0.11738401341531582,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.0,
+            "denominator": 3,
+            "value": 0.0,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 25,
+            "denominator": 40,
+            "value": 0.625,
+            "window": null
+          },
+          "value": 0.3125,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.26408186749166823,
+          "denominator": 3,
+          "value": 0.08802728916388941,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 0,
+      "seed_idx": 1,
+      "seed": 4001,
+      "parameter_condition": "draw_0",
+      "parameters": {
+        "patch_regen_rate": 0.6399808849625674,
+        "patch_quality_std": 0.2136240849792422,
+        "patch_quality_spatial_correlation": 0.44521094353104607,
+        "scaling_admin_overhead_per_patch": 0.06791606420129087,
+        "coordination_proposal_probability": 0.45707797443944237,
+        "migration_cost": 2.4409998479903203,
+        "observation_noise_std": 0.04460064081575894,
+        "transmission_base_probability": 0.22525046426831985
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 2,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.009650386907959135,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 1.6145019841269843,
+          "denominator": 6,
+          "value": 0.26908366402116407,
+          "window": null
+        },
+        "E": {
+          "numerator": 145,
+          "denominator": 196,
+          "value": 0.7397959183673469,
+          "window": null
+        },
+        "L": {
+          "numerator": 19,
+          "denominator": 31,
+          "value": 0.6129032258064516,
+          "window": null
+        },
+        "D": {
+          "numerator": 1.0,
+          "denominator": 1,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.06299999999999999,
+          "denominator": 3,
+          "value": 0.020999999999999994,
+          "window": null
+        },
+        "R": {
+          "numerator": 25.551455789023905,
+          "denominator": 19.30077381591827,
+          "value": 1.3238565475520157,
+          "window": null
+        },
+        "S": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null
+        },
+        "F": {
+          "numerator": 155,
+          "denominator": 1002,
+          "value": 0.15469061876247506,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.03860154763183654,
+            "denominator": 2,
+            "value": 0.01930077381591827,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 19,
+            "denominator": 40,
+            "value": 0.475,
+            "window": null
+          },
+          "value": 0.24715038690795912,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.12036057930272133,
+          "denominator": 1,
+          "value": 0.12036057930272133,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 1,
+      "seed_idx": 0,
+      "seed": 4100,
+      "parameter_condition": "draw_1",
+      "parameters": {
+        "patch_regen_rate": 0.5021802241550499,
+        "patch_quality_std": 0.003423553200082158,
+        "patch_quality_spatial_correlation": 0.10881804145580871,
+        "scaling_admin_overhead_per_patch": 0.14755765931822884,
+        "coordination_proposal_probability": 0.3950838790297942,
+        "migration_cost": 1.490720103569025,
+        "observation_noise_std": 0.1933850671364816,
+        "transmission_base_probability": 0.04929219321041379
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 1,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.03367219616598542,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 1.5154601650943398,
+          "denominator": 3,
+          "value": 0.50515338836478,
+          "window": null
+        },
+        "E": {
+          "numerator": 170,
+          "denominator": 243,
+          "value": 0.6995884773662552,
+          "window": null
+        },
+        "L": {
+          "numerator": 27,
+          "denominator": 36,
+          "value": 0.75,
+          "window": null
+        },
+        "D": {
+          "numerator": 3.0,
+          "denominator": 3,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.022125,
+          "denominator": 3,
+          "value": 0.007375,
+          "window": null
+        },
+        "R": {
+          "numerator": 34.61620637877235,
+          "denominator": 67.34439233197084,
+          "value": 0.5140176513603906,
+          "window": null
+        },
+        "S": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null
+        },
+        "F": {
+          "numerator": 101,
+          "denominator": 724,
+          "value": 0.13950276243093923,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.07731511866537756,
+            "denominator": 1,
+            "value": 0.07731511866537756,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 27,
+            "denominator": 40,
+            "value": 0.675,
+            "window": null
+          },
+          "value": 0.3761575593326888,
+          "window": null
+        },
+        "H": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": NaN,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 1,
+      "seed_idx": 1,
+      "seed": 4101,
+      "parameter_condition": "draw_1",
+      "parameters": {
+        "patch_regen_rate": 0.5021802241550499,
+        "patch_quality_std": 0.003423553200082158,
+        "patch_quality_spatial_correlation": 0.10881804145580871,
+        "scaling_admin_overhead_per_patch": 0.14755765931822884,
+        "coordination_proposal_probability": 0.3950838790297942,
+        "migration_cost": 1.490720103569025,
+        "observation_noise_std": 0.1933850671364816,
+        "transmission_base_probability": 0.04929219321041379
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 3,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.026756221866738695,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 1.094484609985547,
+          "denominator": 3,
+          "value": 0.3648282033285157,
+          "window": null
+        },
+        "E": {
+          "numerator": 136,
+          "denominator": 187,
+          "value": 0.7272727272727273,
+          "window": null
+        },
+        "L": {
+          "numerator": 30,
+          "denominator": 40,
+          "value": 0.75,
+          "window": null
+        },
+        "D": {
+          "numerator": 1.5,
+          "denominator": 2,
+          "value": 0.75,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.052339908640457476,
+          "denominator": 4,
+          "value": 0.013084977160114369,
+          "window": null
+        },
+        "R": {
+          "numerator": 34.873744061763134,
+          "denominator": 53.51244373347739,
+          "value": 0.6516941038135793,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 273,
+          "denominator": 1768,
+          "value": 0.15441176470588236,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.09686485370323436,
+            "denominator": 3,
+            "value": 0.03228828456774479,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 30,
+            "denominator": 40,
+            "value": 0.75,
+            "window": null
+          },
+          "value": 0.3911441422838724,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.1437706860688664,
+          "denominator": 3,
+          "value": 0.04792356202295547,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 2,
+      "seed_idx": 0,
+      "seed": 4200,
+      "parameter_condition": "draw_2",
+      "parameters": {
+        "patch_regen_rate": 0.8912646456683351,
+        "patch_quality_std": 0.13304607651406472,
+        "patch_quality_spatial_correlation": 0.2487288923874413,
+        "scaling_admin_overhead_per_patch": 0.003381756677779596,
+        "coordination_proposal_probability": 0.15490687302485703,
+        "migration_cost": 1.8982647500510241,
+        "observation_noise_std": 0.3517163175567728,
+        "transmission_base_probability": 0.26906996430353686
+      },
+      "all_outcome_label": "fragmented",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 4,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.24617547675854862,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 0.11133333333333334,
+          "denominator": 2,
+          "value": 0.05566666666666667,
+          "window": null
+        },
+        "E": {
+          "numerator": 180,
+          "denominator": 250,
+          "value": 0.72,
+          "window": null
+        },
+        "L": {
+          "numerator": 33,
+          "denominator": 40,
+          "value": 0.825,
+          "window": null
+        },
+        "D": {
+          "numerator": 0.8571428571428571,
+          "denominator": 1,
+          "value": 0.8571428571428571,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.051985272205612054,
+          "denominator": 4,
+          "value": 0.012996318051403014,
+          "window": null
+        },
+        "R": {
+          "numerator": 27.69915723475569,
+          "denominator": 492.35095351709725,
+          "value": 0.056258969413763536,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 297,
+          "denominator": 1947,
+          "value": 0.15254237288135594,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.9847019070341945,
+            "denominator": 4,
+            "value": 0.24617547675854862,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 33,
+            "denominator": 40,
+            "value": 0.825,
+            "window": null
+          },
+          "value": 0.5355877383792743,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.8190631793983554,
+          "denominator": 6,
+          "value": 0.1365105298997259,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 2,
+      "seed_idx": 1,
+      "seed": 4201,
+      "parameter_condition": "draw_2",
+      "parameters": {
+        "patch_regen_rate": 0.8912646456683351,
+        "patch_quality_std": 0.13304607651406472,
+        "patch_quality_spatial_correlation": 0.2487288923874413,
+        "scaling_admin_overhead_per_patch": 0.003381756677779596,
+        "coordination_proposal_probability": 0.15490687302485703,
+        "migration_cost": 1.8982647500510241,
+        "observation_noise_std": 0.3517163175567728,
+        "transmission_base_probability": 0.26906996430353686
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 2,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.026571545657582355,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 2.129715327991662,
+          "denominator": 4,
+          "value": 0.5324288319979155,
+          "window": null
+        },
+        "E": {
+          "numerator": 146,
+          "denominator": 202,
+          "value": 0.7227722772277227,
+          "window": null
+        },
+        "L": {
+          "numerator": 30,
+          "denominator": 40,
+          "value": 0.75,
+          "window": null
+        },
+        "D": {
+          "numerator": 2.0,
+          "denominator": 2,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.01574618971809983,
+          "denominator": 4,
+          "value": 0.003936547429524958,
+          "window": null
+        },
+        "R": {
+          "numerator": 71.06189962575223,
+          "denominator": 53.14309131516471,
+          "value": 1.3371803910374758,
+          "window": null
+        },
+        "S": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null
+        },
+        "F": {
+          "numerator": 280,
+          "denominator": 1422,
+          "value": 0.19690576652601968,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.03531656570287904,
+            "denominator": 2,
+            "value": 0.01765828285143952,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 30,
+            "denominator": 40,
+            "value": 0.75,
+            "window": null
+          },
+          "value": 0.3838291414257198,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.17569830079580298,
+          "denominator": 1,
+          "value": 0.17569830079580298,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 3,
+      "seed_idx": 0,
+      "seed": 4300,
+      "parameter_condition": "draw_3",
+      "parameters": {
+        "patch_regen_rate": 0.5604262153377655,
+        "patch_quality_std": 0.11969296329699872,
+        "patch_quality_spatial_correlation": 0.6335856548150003,
+        "scaling_admin_overhead_per_patch": -0.11631127595735939,
+        "coordination_proposal_probability": 0.46080103769609887,
+        "migration_cost": 0.6592521498270534,
+        "observation_noise_std": 0.0022739880593395045,
+        "transmission_base_probability": 0.18832473838514405
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 2,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.03546113041499287,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 1.4901500812332082,
+          "denominator": 3,
+          "value": 0.49671669374440275,
+          "window": null
+        },
+        "E": {
+          "numerator": 158,
+          "denominator": 204,
+          "value": 0.7745098039215687,
+          "window": null
+        },
+        "L": {
+          "numerator": 23,
+          "denominator": 33,
+          "value": 0.696969696969697,
+          "window": null
+        },
+        "D": {
+          "numerator": 1.0,
+          "denominator": 1,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.052662336075628036,
+          "denominator": 3,
+          "value": 0.017554112025209345,
+          "window": null
+        },
+        "R": {
+          "numerator": 295.8889181035549,
+          "denominator": 70.92226082998573,
+          "value": 4.172017567415926,
+          "window": null
+        },
+        "S": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null
+        },
+        "F": {
+          "numerator": 83,
+          "denominator": 695,
+          "value": 0.11942446043165468,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.04319843610644222,
+            "denominator": 2,
+            "value": 0.02159921805322111,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 23,
+            "denominator": 40,
+            "value": 0.575,
+            "window": null
+          },
+          "value": 0.2982996090266105,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.12683828742856149,
+          "denominator": 1,
+          "value": 0.12683828742856149,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 3,
+      "seed_idx": 1,
+      "seed": 4301,
+      "parameter_condition": "draw_3",
+      "parameters": {
+        "patch_regen_rate": 0.5604262153377655,
+        "patch_quality_std": 0.11969296329699872,
+        "patch_quality_spatial_correlation": 0.6335856548150003,
+        "scaling_admin_overhead_per_patch": -0.11631127595735939,
+        "coordination_proposal_probability": 0.46080103769609887,
+        "migration_cost": 0.6592521498270534,
+        "observation_noise_std": 0.0022739880593395045,
+        "transmission_base_probability": 0.18832473838514405
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 3,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.00689034155937445,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 0.7402790351379673,
+          "denominator": 4,
+          "value": 0.18506975878449183,
+          "window": null
+        },
+        "E": {
+          "numerator": 139,
+          "denominator": 193,
+          "value": 0.7202072538860104,
+          "window": null
+        },
+        "L": {
+          "numerator": 29,
+          "denominator": 40,
+          "value": 0.725,
+          "window": null
+        },
+        "D": {
+          "numerator": 3.0,
+          "denominator": 3,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.03854442808842317,
+          "denominator": 4,
+          "value": 0.009636107022105793,
+          "window": null
+        },
+        "R": {
+          "numerator": 15.712179968571846,
+          "denominator": 13.7806831187489,
+          "value": 1.1401597317911696,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 120,
+          "denominator": 1592,
+          "value": 0.07537688442211055,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.012608022767259981,
+            "denominator": 3,
+            "value": 0.004202674255753327,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 29,
+            "denominator": 40,
+            "value": 0.725,
+            "window": null
+          },
+          "value": 0.3646013371278767,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.21638431608147424,
+          "denominator": 3,
+          "value": 0.07212810536049141,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 4,
+      "seed_idx": 0,
+      "seed": 4400,
+      "parameter_condition": "draw_4",
+      "parameters": {
+        "patch_regen_rate": 0.7918177347114821,
+        "patch_quality_std": 0.18624760064912205,
+        "patch_quality_spatial_correlation": 0.3746463421082049,
+        "scaling_admin_overhead_per_patch": 0.4798019442069346,
+        "coordination_proposal_probability": 0.23089911064859361,
+        "migration_cost": 0.22058401631604385,
+        "observation_noise_std": 0.22832659014759044,
+        "transmission_base_probability": 0.07312276566286971
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 4,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.03471256999121416,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 0.7071168697916668,
+          "denominator": 3,
+          "value": 0.2357056232638889,
+          "window": null
+        },
+        "E": {
+          "numerator": 148,
+          "denominator": 209,
+          "value": 0.7081339712918661,
+          "window": null
+        },
+        "L": {
+          "numerator": 33,
+          "denominator": 40,
+          "value": 0.825,
+          "window": null
+        },
+        "D": {
+          "numerator": 1.8571428571428572,
+          "denominator": 2,
+          "value": 0.9285714285714286,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.0393346875,
+          "denominator": 4,
+          "value": 0.009833671875,
+          "window": null
+        },
+        "R": {
+          "numerator": 32.39809077040073,
+          "denominator": 69.42513998242832,
+          "value": 0.46666223184570843,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 385,
+          "denominator": 1868,
+          "value": 0.20610278372591007,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.13885027996485663,
+            "denominator": 4,
+            "value": 0.03471256999121416,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 33,
+            "denominator": 40,
+            "value": 0.825,
+            "window": null
+          },
+          "value": 0.4298562849956071,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.571452476953383,
+          "denominator": 6,
+          "value": 0.0952420794922305,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 4,
+      "seed_idx": 1,
+      "seed": 4401,
+      "parameter_condition": "draw_4",
+      "parameters": {
+        "patch_regen_rate": 0.7918177347114821,
+        "patch_quality_std": 0.18624760064912205,
+        "patch_quality_spatial_correlation": 0.3746463421082049,
+        "scaling_admin_overhead_per_patch": 0.4798019442069346,
+        "coordination_proposal_probability": 0.23089911064859361,
+        "migration_cost": 0.22058401631604385,
+        "observation_noise_std": 0.22832659014759044,
+        "transmission_base_probability": 0.07312276566286971
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 2,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.027223329470561317,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 2.0514275724275723,
+          "denominator": 4,
+          "value": 0.5128568931068931,
+          "window": null
+        },
+        "E": {
+          "numerator": 172,
+          "denominator": 244,
+          "value": 0.7049180327868853,
+          "window": null
+        },
+        "L": {
+          "numerator": 28,
+          "denominator": 40,
+          "value": 0.7,
+          "window": null
+        },
+        "D": {
+          "numerator": 1.986206896551724,
+          "denominator": 2,
+          "value": 0.993103448275862,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.021,
+          "denominator": 4,
+          "value": 0.00525,
+          "window": null
+        },
+        "R": {
+          "numerator": 44.357624808880324,
+          "denominator": 54.446658941122635,
+          "value": 0.8146987468385827,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 186,
+          "denominator": 1054,
+          "value": 0.17647058823529413,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.08095257723336882,
+            "denominator": 2,
+            "value": 0.04047628861668441,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 28,
+            "denominator": 40,
+            "value": 0.7,
+            "window": null
+          },
+          "value": 0.3702381443083422,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.06783818634046843,
+          "denominator": 1,
+          "value": 0.06783818634046843,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 5,
+      "seed_idx": 0,
+      "seed": 4500,
+      "parameter_condition": "draw_5",
+      "parameters": {
+        "patch_regen_rate": 0.2669790385194578,
+        "patch_quality_std": 0.05442114120361357,
+        "patch_quality_spatial_correlation": 0.15671287902812492,
+        "scaling_admin_overhead_per_patch": 0.4217919017842287,
+        "coordination_proposal_probability": 0.1079580257310221,
+        "migration_cost": 2.8029751875736353,
+        "observation_noise_std": 0.15215422402668546,
+        "transmission_base_probability": 0.11977019542851144
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 3,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.01712792159032844,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 1.0491875894687501,
+          "denominator": 3,
+          "value": 0.3497291964895834,
+          "window": null
+        },
+        "E": {
+          "numerator": 148,
+          "denominator": 193,
+          "value": 0.7668393782383419,
+          "window": null
+        },
+        "L": {
+          "numerator": 27,
+          "denominator": 40,
+          "value": 0.675,
+          "window": null
+        },
+        "D": {
+          "numerator": 1.0,
+          "denominator": 1,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.045986624999999996,
+          "denominator": 4,
+          "value": 0.011496656249999999,
+          "window": null
+        },
+        "R": {
+          "numerator": 12.416615892323883,
+          "denominator": 34.25584318065688,
+          "value": 0.3624670928939541,
+          "window": null
+        },
+        "S": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null
+        },
+        "F": {
+          "numerator": 338,
+          "denominator": 1514,
+          "value": 0.22324966974900926,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.0433597607891764,
+            "denominator": 3,
+            "value": 0.014453253596392135,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 27,
+            "denominator": 40,
+            "value": 0.675,
+            "window": null
+          },
+          "value": 0.3447266267981961,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.21493117504410209,
+          "denominator": 3,
+          "value": 0.07164372501470069,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 5,
+      "seed_idx": 1,
+      "seed": 4501,
+      "parameter_condition": "draw_5",
+      "parameters": {
+        "patch_regen_rate": 0.2669790385194578,
+        "patch_quality_std": 0.05442114120361357,
+        "patch_quality_spatial_correlation": 0.15671287902812492,
+        "scaling_admin_overhead_per_patch": 0.4217919017842287,
+        "coordination_proposal_probability": 0.1079580257310221,
+        "migration_cost": 2.8029751875736353,
+        "observation_noise_std": 0.15215422402668546,
+        "transmission_base_probability": 0.11977019542851144
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 4,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.007256428096551554,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 0.5652432432432433,
+          "denominator": 2,
+          "value": 0.28262162162162163,
+          "window": null
+        },
+        "E": {
+          "numerator": 124,
+          "denominator": 171,
+          "value": 0.7251461988304093,
+          "window": null
+        },
+        "L": {
+          "numerator": 30,
+          "denominator": 40,
+          "value": 0.75,
+          "window": null
+        },
+        "D": {
+          "numerator": 2.0,
+          "denominator": 2,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.012,
+          "denominator": 4,
+          "value": 0.003,
+          "window": null
+        },
+        "R": {
+          "numerator": 19.913824476028573,
+          "denominator": 14.512856193103108,
+          "value": 1.372150609849779,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 377,
+          "denominator": 1931,
+          "value": 0.19523562920766444,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.029025712386206215,
+            "denominator": 4,
+            "value": 0.007256428096551554,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 30,
+            "denominator": 40,
+            "value": 0.75,
+            "window": null
+          },
+          "value": 0.3786282140482758,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.6821727997098701,
+          "denominator": 6,
+          "value": 0.11369546661831169,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 6,
+      "seed_idx": 0,
+      "seed": 4600,
+      "parameter_condition": "draw_6",
+      "parameters": {
+        "patch_regen_rate": 0.3959321395268929,
+        "patch_quality_std": 0.2438520382828261,
+        "patch_quality_spatial_correlation": 0.30140001429540714,
+        "scaling_admin_overhead_per_patch": 0.35626416538445466,
+        "coordination_proposal_probability": 0.20092184452721643,
+        "migration_cost": 2.6097981449640573,
+        "observation_noise_std": 0.2714697652663628,
+        "transmission_base_probability": 0.28331038237904965
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 0,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.01725263893361583,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 4.869258656865529,
+          "denominator": 12,
+          "value": 0.4057715547387941,
+          "window": null
+        },
+        "E": {
+          "numerator": 128,
+          "denominator": 168,
+          "value": 0.7619047619047619,
+          "window": null
+        },
+        "L": {
+          "numerator": 17,
+          "denominator": 32,
+          "value": 0.53125,
+          "window": null
+        },
+        "D": {
+          "numerator": 2.0,
+          "denominator": 2,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.027583312500000005,
+          "denominator": 3,
+          "value": 0.009194437500000001,
+          "window": null
+        },
+        "R": {
+          "numerator": 13.565004510831827,
+          "denominator": 34.50527786723166,
+          "value": 0.3931283951118096,
+          "window": null
+        },
+        "S": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null
+        },
+        "F": {
+          "numerator": 70,
+          "denominator": 673,
+          "value": 0.10401188707280833,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": NaN,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 17,
+            "denominator": 40,
+            "value": 0.425,
+            "window": null
+          },
+          "value": 0.425,
+          "window": null
+        },
+        "H": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": NaN,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 6,
+      "seed_idx": 1,
+      "seed": 4601,
+      "parameter_condition": "draw_6",
+      "parameters": {
+        "patch_regen_rate": 0.3959321395268929,
+        "patch_quality_std": 0.2438520382828261,
+        "patch_quality_spatial_correlation": 0.30140001429540714,
+        "scaling_admin_overhead_per_patch": 0.35626416538445466,
+        "coordination_proposal_probability": 0.20092184452721643,
+        "migration_cost": 2.6097981449640573,
+        "observation_noise_std": 0.2714697652663628,
+        "transmission_base_probability": 0.28331038237904965
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 3,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.0166538621223398,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 0.7572687968651827,
+          "denominator": 2,
+          "value": 0.37863439843259133,
+          "window": null
+        },
+        "E": {
+          "numerator": 129,
+          "denominator": 165,
+          "value": 0.7818181818181819,
+          "window": null
+        },
+        "L": {
+          "numerator": 30,
+          "denominator": 40,
+          "value": 0.75,
+          "window": null
+        },
+        "D": {
+          "numerator": 1.0,
+          "denominator": 1,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.019454153375987465,
+          "denominator": 4,
+          "value": 0.004863538343996866,
+          "window": null
+        },
+        "R": {
+          "numerator": 11.088581095813495,
+          "denominator": 33.3077242446796,
+          "value": 0.33291320098474536,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 292,
+          "denominator": 1580,
+          "value": 0.1848101265822785,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.05271987615131933,
+            "denominator": 3,
+            "value": 0.017573292050439778,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 30,
+            "denominator": 40,
+            "value": 0.75,
+            "window": null
+          },
+          "value": 0.3837866460252199,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.20355862274816416,
+          "denominator": 3,
+          "value": 0.06785287424938806,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 7,
+      "seed_idx": 0,
+      "seed": 4700,
+      "parameter_condition": "draw_7",
+      "parameters": {
+        "patch_regen_rate": 0.6979653316096475,
+        "patch_quality_std": 0.15943755984476718,
+        "patch_quality_spatial_correlation": 0.05930183555875386,
+        "scaling_admin_overhead_per_patch": 0.16202623277538641,
+        "coordination_proposal_probability": 0.29014894656339396,
+        "migration_cost": 2.235707996953646,
+        "observation_noise_std": 0.23780895157758178,
+        "transmission_base_probability": 0.20304114162538495
+      },
+      "all_outcome_label": "fragmented",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 3,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.25944873163270066,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 0.6921316427027775,
+          "denominator": 1,
+          "value": 0.6921316427027775,
+          "window": null
+        },
+        "E": {
+          "numerator": 163,
+          "denominator": 210,
+          "value": 0.7761904761904762,
+          "window": null
+        },
+        "L": {
+          "numerator": 25,
+          "denominator": 39,
+          "value": 0.6410256410256411,
+          "window": null
+        },
+        "D": {
+          "numerator": 1.0,
+          "denominator": 1,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.09745594297897027,
+          "denominator": 3,
+          "value": 0.03248531432632342,
+          "window": null
+        },
+        "R": {
+          "numerator": 41.277933669147515,
+          "denominator": 518.8974632654014,
+          "value": 0.07954930712011406,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 129,
+          "denominator": 1467,
+          "value": 0.08793456032719836,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.05206060654468135,
+            "denominator": 3,
+            "value": 0.017353535514893784,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 25,
+            "denominator": 40,
+            "value": 0.625,
+            "window": null
+          },
+          "value": 0.3211767677574469,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.31560225147868654,
+          "denominator": 3,
+          "value": 0.10520075049289551,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 7,
+      "seed_idx": 1,
+      "seed": 4701,
+      "parameter_condition": "draw_7",
+      "parameters": {
+        "patch_regen_rate": 0.6979653316096475,
+        "patch_quality_std": 0.15943755984476718,
+        "patch_quality_spatial_correlation": 0.05930183555875386,
+        "scaling_admin_overhead_per_patch": 0.16202623277538641,
+        "coordination_proposal_probability": 0.29014894656339396,
+        "migration_cost": 2.235707996953646,
+        "observation_noise_std": 0.23780895157758178,
+        "transmission_base_probability": 0.20304114162538495
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 1,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.013044045304176495,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 2.9416157605820104,
+          "denominator": 6,
+          "value": 0.49026929343033504,
+          "window": null
+        },
+        "E": {
+          "numerator": 119,
+          "denominator": 151,
+          "value": 0.7880794701986755,
+          "window": null
+        },
+        "L": {
+          "numerator": 28,
+          "denominator": 40,
+          "value": 0.7,
+          "window": null
+        },
+        "D": {
+          "numerator": 2.0,
+          "denominator": 2,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.006,
+          "denominator": 4,
+          "value": 0.0015,
+          "window": null
+        },
+        "R": {
+          "numerator": 25.739427935644805,
+          "denominator": 26.088090608352992,
+          "value": 0.986635178559348,
+          "window": null
+        },
+        "S": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null
+        },
+        "F": {
+          "numerator": 184,
+          "denominator": 985,
+          "value": 0.18680203045685279,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.024669536882332792,
+            "denominator": 1,
+            "value": 0.024669536882332792,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 28,
+            "denominator": 40,
+            "value": 0.7,
+            "window": null
+          },
+          "value": 0.36233476844116635,
+          "window": null
+        },
+        "H": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": NaN,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 8,
+      "seed_idx": 0,
+      "seed": 4800,
+      "parameter_condition": "draw_8",
+      "parameters": {
+        "patch_regen_rate": 0.42982053980601187,
+        "patch_quality_std": 0.08708614747001468,
+        "patch_quality_spatial_correlation": 0.5335816197899222,
+        "scaling_admin_overhead_per_patch": 0.2311472035398487,
+        "coordination_proposal_probability": 0.34051590325242753,
+        "migration_cost": 0.9291190320130661,
+        "observation_noise_std": 0.1147327319671304,
+        "transmission_base_probability": 0.14577081916275825
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 1,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.026466495871270423,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 0.4773388611111111,
+          "denominator": 2,
+          "value": 0.23866943055555556,
+          "window": null
+        },
+        "E": {
+          "numerator": 139,
+          "denominator": 175,
+          "value": 0.7942857142857143,
+          "window": null
+        },
+        "L": {
+          "numerator": 27,
+          "denominator": 40,
+          "value": 0.675,
+          "window": null
+        },
+        "D": {
+          "numerator": 1.0,
+          "denominator": 1,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.044810652132457024,
+          "denominator": 4,
+          "value": 0.011202663033114256,
+          "window": null
+        },
+        "R": {
+          "numerator": 24.682340731280075,
+          "denominator": 52.93299174254085,
+          "value": 0.46629408085097007,
+          "window": null
+        },
+        "S": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null
+        },
+        "F": {
+          "numerator": 154,
+          "denominator": 1070,
+          "value": 0.14392523364485982,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.0025911696660395915,
+            "denominator": 1,
+            "value": 0.0025911696660395915,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 27,
+            "denominator": 40,
+            "value": 0.675,
+            "window": null
+          },
+          "value": 0.3387955848330198,
+          "window": null
+        },
+        "H": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": NaN,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 8,
+      "seed_idx": 1,
+      "seed": 4801,
+      "parameter_condition": "draw_8",
+      "parameters": {
+        "patch_regen_rate": 0.42982053980601187,
+        "patch_quality_std": 0.08708614747001468,
+        "patch_quality_spatial_correlation": 0.5335816197899222,
+        "scaling_admin_overhead_per_patch": 0.2311472035398487,
+        "coordination_proposal_probability": 0.34051590325242753,
+        "migration_cost": 0.9291190320130661,
+        "observation_noise_std": 0.1147327319671304,
+        "transmission_base_probability": 0.14577081916275825
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 3,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.00976670432850093,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 2.032858875,
+          "denominator": 5,
+          "value": 0.406571775,
+          "window": null
+        },
+        "E": {
+          "numerator": 178,
+          "denominator": 240,
+          "value": 0.7416666666666667,
+          "window": null
+        },
+        "L": {
+          "numerator": 29,
+          "denominator": 40,
+          "value": 0.725,
+          "window": null
+        },
+        "D": {
+          "numerator": 3.0,
+          "denominator": 3,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.030892499999999996,
+          "denominator": 4,
+          "value": 0.007723124999999999,
+          "window": null
+        },
+        "R": {
+          "numerator": 17.60799072336326,
+          "denominator": 19.53340865700186,
+          "value": 0.9014294961290117,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 332,
+          "denominator": 1505,
+          "value": 0.22059800664451829,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.02934392749271019,
+            "denominator": 3,
+            "value": 0.00978130916423673,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 29,
+            "denominator": 40,
+            "value": 0.725,
+            "window": null
+          },
+          "value": 0.36739065458211834,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.2527275254945951,
+          "denominator": 3,
+          "value": 0.08424250849819837,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 9,
+      "seed_idx": 0,
+      "seed": 4900,
+      "parameter_condition": "draw_9",
+      "parameters": {
+        "patch_regen_rate": 0.9655849918061759,
+        "patch_quality_std": 0.027168158838226774,
+        "patch_quality_spatial_correlation": 0.5108089614999609,
+        "scaling_admin_overhead_per_patch": 0.29120322100863305,
+        "coordination_proposal_probability": 0.06075722775929472,
+        "migration_cost": 0.4530364784338996,
+        "observation_noise_std": 0.3885386000667932,
+        "transmission_base_probability": 0.0018272890801714875
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 1,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.005054833742898495,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 1.7032143462837837,
+          "denominator": 4,
+          "value": 0.4258035865709459,
+          "window": null
+        },
+        "E": {
+          "numerator": 186,
+          "denominator": 247,
+          "value": 0.7530364372469636,
+          "window": null
+        },
+        "L": {
+          "numerator": 32,
+          "denominator": 40,
+          "value": 0.8,
+          "window": null
+        },
+        "D": {
+          "numerator": 2.0,
+          "denominator": 2,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.11295000000000002,
+          "denominator": 4,
+          "value": 0.028237500000000006,
+          "window": null
+        },
+        "R": {
+          "numerator": 43.502699093315215,
+          "denominator": 10.10966748579699,
+          "value": 4.303079122476767,
+          "window": null
+        },
+        "S": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null
+        },
+        "F": {
+          "numerator": 213,
+          "denominator": 1019,
+          "value": 0.20902845927379785,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.0,
+            "denominator": 1,
+            "value": 0.0,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 32,
+            "denominator": 40,
+            "value": 0.8,
+            "window": null
+          },
+          "value": 0.4,
+          "window": null
+        },
+        "H": {
+          "numerator": 0,
+          "denominator": 0,
+          "value": NaN,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 9,
+      "seed_idx": 1,
+      "seed": 4901,
+      "parameter_condition": "draw_9",
+      "parameters": {
+        "patch_regen_rate": 0.9655849918061759,
+        "patch_quality_std": 0.027168158838226774,
+        "patch_quality_spatial_correlation": 0.5108089614999609,
+        "scaling_admin_overhead_per_patch": 0.29120322100863305,
+        "coordination_proposal_probability": 0.06075722775929472,
+        "migration_cost": 0.4530364784338996,
+        "observation_noise_std": 0.3885386000667932,
+        "transmission_base_probability": 0.0018272890801714875
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 2,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.02337212821658389,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 1.0451695430107526,
+          "denominator": 5,
+          "value": 0.20903390860215051,
+          "window": null
+        },
+        "E": {
+          "numerator": 132,
+          "denominator": 160,
+          "value": 0.825,
+          "window": null
+        },
+        "L": {
+          "numerator": 30,
+          "denominator": 40,
+          "value": 0.75,
+          "window": null
+        },
+        "D": {
+          "numerator": 2.0,
+          "denominator": 2,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.063505243125,
+          "denominator": 4,
+          "value": 0.01587631078125,
+          "window": null
+        },
+        "R": {
+          "numerator": 39.747089041253254,
+          "denominator": 46.74425643316778,
+          "value": 0.8503095797037938,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 154,
+          "denominator": 1065,
+          "value": 0.14460093896713616,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.0663084027486519,
+            "denominator": 2,
+            "value": 0.03315420137432595,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 30,
+            "denominator": 40,
+            "value": 0.75,
+            "window": null
+          },
+          "value": 0.391577100687163,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.08483658690831228,
+          "denominator": 1,
+          "value": 0.08483658690831228,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 10,
+      "seed_idx": 0,
+      "seed": 5000,
+      "parameter_condition": "draw_10",
+      "parameters": {
+        "patch_regen_rate": 0.8636802559811645,
+        "patch_quality_std": 0.2742098068263332,
+        "patch_quality_spatial_correlation": 0.7689966560851016,
+        "scaling_admin_overhead_per_patch": -0.18389184301602082,
+        "coordination_proposal_probability": 0.32403295106791513,
+        "migration_cost": 1.7200154087063502,
+        "observation_noise_std": 0.3048595444216945,
+        "transmission_base_probability": 0.0866195911542413
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 3,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.011175051250273,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 0.6663484296881999,
+          "denominator": 3,
+          "value": 0.22211614322939996,
+          "window": null
+        },
+        "E": {
+          "numerator": 201,
+          "denominator": 272,
+          "value": 0.7389705882352942,
+          "window": null
+        },
+        "L": {
+          "numerator": 32,
+          "denominator": 40,
+          "value": 0.8,
+          "window": null
+        },
+        "D": {
+          "numerator": 1.6,
+          "denominator": 2,
+          "value": 0.8,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.013338836810220809,
+          "denominator": 4,
+          "value": 0.003334709202555202,
+          "window": null
+        },
+        "R": {
+          "numerator": 44.492409127443736,
+          "denominator": 22.350102500546,
+          "value": 1.9907026881132563,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 247,
+          "denominator": 1508,
+          "value": 0.16379310344827586,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.044700205001091994,
+            "denominator": 3,
+            "value": 0.014900068333697331,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 32,
+            "denominator": 40,
+            "value": 0.8,
+            "window": null
+          },
+          "value": 0.40745003416684866,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.3029254659035766,
+          "denominator": 3,
+          "value": 0.10097515530119221,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 10,
+      "seed_idx": 1,
+      "seed": 5001,
+      "parameter_condition": "draw_10",
+      "parameters": {
+        "patch_regen_rate": 0.8636802559811645,
+        "patch_quality_std": 0.2742098068263332,
+        "patch_quality_spatial_correlation": 0.7689966560851016,
+        "scaling_admin_overhead_per_patch": -0.18389184301602082,
+        "coordination_proposal_probability": 0.32403295106791513,
+        "migration_cost": 1.7200154087063502,
+        "observation_noise_std": 0.3048595444216945,
+        "transmission_base_probability": 0.0866195911542413
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 3,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.028746314449251166,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 0.8673777171317708,
+          "denominator": 3,
+          "value": 0.28912590571059027,
+          "window": null
+        },
+        "E": {
+          "numerator": 188,
+          "denominator": 252,
+          "value": 0.746031746031746,
+          "window": null
+        },
+        "L": {
+          "numerator": 32,
+          "denominator": 40,
+          "value": 0.8,
+          "window": null
+        },
+        "D": {
+          "numerator": 1.0,
+          "denominator": 1,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.07566191000321193,
+          "denominator": 4,
+          "value": 0.018915477500802982,
+          "window": null
+        },
+        "R": {
+          "numerator": 23.121202069163996,
+          "denominator": 57.49262889850233,
+          "value": 0.4021594161224083,
+          "window": null
+        },
+        "S": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5,
+          "window": null
+        },
+        "F": {
+          "numerator": 200,
+          "denominator": 1633,
+          "value": 0.1224739742804654,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.04946896201559543,
+            "denominator": 3,
+            "value": 0.016489654005198476,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 32,
+            "denominator": 40,
+            "value": 0.8,
+            "window": null
+          },
+          "value": 0.4082448270025993,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.18638230245494064,
+          "denominator": 3,
+          "value": 0.06212743415164688,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 11,
+      "seed_idx": 0,
+      "seed": 5100,
+      "parameter_condition": "draw_11",
+      "parameters": {
+        "patch_regen_rate": 0.20958212360545894,
+        "patch_quality_std": 0.28404604844866616,
+        "patch_quality_spatial_correlation": 0.7082876380438488,
+        "scaling_admin_overhead_per_patch": -0.04695151630138614,
+        "coordination_proposal_probability": 0.0472118632925247,
+        "migration_cost": 1.1097568573713925,
+        "observation_noise_std": 0.0983365569974114,
+        "transmission_base_probability": 0.15923374940239968
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 2,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.0034276642288435227,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 1.8440804512831912,
+          "denominator": 4,
+          "value": 0.4610201128207978,
+          "window": null
+        },
+        "E": {
+          "numerator": 160,
+          "denominator": 205,
+          "value": 0.7804878048780488,
+          "window": null
+        },
+        "L": {
+          "numerator": 29,
+          "denominator": 40,
+          "value": 0.725,
+          "window": null
+        },
+        "D": {
+          "numerator": 2.0,
+          "denominator": 2,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.030556010625000005,
+          "denominator": 4,
+          "value": 0.007639002656250001,
+          "window": null
+        },
+        "R": {
+          "numerator": 19.75853639805927,
+          "denominator": 6.855328457687046,
+          "value": 2.8822158588044817,
+          "window": null
+        },
+        "S": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null
+        },
+        "F": {
+          "numerator": 258,
+          "denominator": 1277,
+          "value": 0.20203602192638997,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.007881178021604906,
+            "denominator": 2,
+            "value": 0.003940589010802453,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 29,
+            "denominator": 40,
+            "value": 0.725,
+            "window": null
+          },
+          "value": 0.3644702945054012,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.033558772119994515,
+          "denominator": 1,
+          "value": 0.033558772119994515,
+          "window": null
+        }
+      }
+    },
+    {
+      "draw_id": 11,
+      "seed_idx": 1,
+      "seed": 5101,
+      "parameter_condition": "draw_11",
+      "parameters": {
+        "patch_regen_rate": 0.20958212360545894,
+        "patch_quality_std": 0.28404604844866616,
+        "patch_quality_spatial_correlation": 0.7082876380438488,
+        "scaling_admin_overhead_per_patch": -0.04695151630138614,
+        "coordination_proposal_probability": 0.0472118632925247,
+        "migration_cost": 1.1097568573713925,
+        "observation_noise_std": 0.0983365569974114,
+        "transmission_base_probability": 0.15923374940239968
+      },
+      "all_outcome_label": "collapse",
+      "n_institutions_ever_formed": 4,
+      "n_institutions_active_at_end": 2,
+      "population_alive_fraction": 1.0,
+      "ecological_resource_fraction": 0.005428866546541135,
+      "eligibility": {
+        "eligible": true,
+        "reasons": []
+      },
+      "phenotype_vector": {
+        "C": {
+          "numerator": 2.0397230955208334,
+          "denominator": 4,
+          "value": 0.5099307738802084,
+          "window": null
+        },
+        "E": {
+          "numerator": 168,
+          "denominator": 220,
+          "value": 0.7636363636363637,
+          "window": null
+        },
+        "L": {
+          "numerator": 27,
+          "denominator": 40,
+          "value": 0.675,
+          "window": null
+        },
+        "D": {
+          "numerator": 2.0,
+          "denominator": 2,
+          "value": 1.0,
+          "window": null
+        },
+        "M": {
+          "numerator": 0.0184840558359375,
+          "denominator": 4,
+          "value": 0.004621013958984375,
+          "window": null
+        },
+        "R": {
+          "numerator": 23.660117259260854,
+          "denominator": 10.85773309308227,
+          "value": 2.179102862119101,
+          "window": null
+        },
+        "S": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0,
+          "window": null
+        },
+        "F": {
+          "numerator": 110,
+          "denominator": 1480,
+          "value": 0.07432432432432433,
+          "window": null
+        },
+        "V": {
+          "ecological": {
+            "numerator": 0.007096623033086932,
+            "denominator": 2,
+            "value": 0.003548311516543466,
+            "window": null
+          },
+          "demographic": {
+            "numerator": 27,
+            "denominator": 40,
+            "value": 0.675,
+            "window": null
+          },
+          "value": 0.33927415575827174,
+          "window": null
+        },
+        "H": {
+          "numerator": 0.05810332820333657,
+          "denominator": 1,
+          "value": 0.05810332820333657,
+          "window": null
+        }
+      }
+    }
+  ]
+}

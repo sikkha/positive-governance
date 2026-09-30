@@ -1,0 +1,141 @@
+{
+  "ledger_stage3_216_runs": {
+    "by_stratum": {
+      "high_feasibility": {
+        "collapse_rate": 0.0,
+        "n": 72,
+        "n_collapsed": 0
+      },
+      "low_feasibility": {
+        "collapse_rate": 1.0,
+        "n": 72,
+        "n_collapsed": 72
+      },
+      "medium_feasibility": {
+        "collapse_rate": 1.0,
+        "n": 72,
+        "n_collapsed": 72
+      }
+    },
+    "collapse_as_outcome": {
+      "collapse_rate_pooled": 0.6666666666666666,
+      "mean_S_obs_collapsed": 0.5858320668347543,
+      "mean_S_obs_sustained": 0.6065674360397063,
+      "note": "collapse itself treated as the outcome variable here -- rate and its association with S_obs, not filtered out of any other view above"
+    },
+    "eligible_only": {
+      "collapse_rate_within_eligible": 0.6666666666666666,
+      "mean_S_obs": 0.5927438565697385,
+      "mean_Z_obs": 0.36643391396890485,
+      "n": 216
+    },
+    "pooled": {
+      "collapse_rate": 0.6666666666666666,
+      "eligibility_rate": 1.0,
+      "n_collapsed": 144,
+      "n_complete_outcome_ledger": 216,
+      "n_institutionally_eligible_analysis_denominator": 216
+    }
+  },
+  "ledger_this_stage_24_runs": {
+    "by_stratum": null,
+    "collapse_as_outcome": {
+      "collapse_rate_pooled": 0.7916666666666666,
+      "mean_S_obs_collapsed": 0.6968902192462239,
+      "mean_S_obs_sustained": 0.6300856617789587,
+      "note": "collapse itself treated as the outcome variable here -- rate and its association with S_obs, not filtered out of any other view above"
+    },
+    "eligible_only": {
+      "collapse_rate_within_eligible": 0.7916666666666666,
+      "mean_S_obs": 0.6829726031072103,
+      "mean_Z_obs": 0.4964469400908758,
+      "n": 24
+    },
+    "pooled": {
+      "collapse_rate": 0.7916666666666666,
+      "eligibility_rate": 1.0,
+      "n_collapsed": 19,
+      "n_complete_outcome_ledger": 24,
+      "n_institutionally_eligible_analysis_denominator": 24
+    }
+  },
+  "scale_shock_robustness": {
+    "pop40_patches3": {
+      "mean_S_obs": 0.5676253347033802,
+      "mean_Z_obs": 0.44043933359208554,
+      "n": 6,
+      "n_manipulation_check_passed": 6
+    },
+    "pop40_patches6": {
+      "mean_S_obs": 0.6017057980522759,
+      "mean_Z_obs": 0.5644494550766662,
+      "n": 6,
+      "n_manipulation_check_passed": 6
+    },
+    "pop80_patches3": {
+      "mean_S_obs": 0.8355935233578808,
+      "mean_Z_obs": 0.4802643522935328,
+      "n": 6,
+      "n_manipulation_check_passed": 6
+    },
+    "pop80_patches6": {
+      "mean_S_obs": 0.7269657563153041,
+      "mean_Z_obs": 0.5006346194012187,
+      "n": 6,
+      "n_manipulation_check_passed": 6
+    }
+  },
+  "scope": {
+    "accounting_scope_reduction": "ledger reporting applies to this stage's 24 new runs plus Stage 3's own 216 archived runs (both carry mean_resources_final_step/manipulation_check_passed) -- not a re-processing of every run from every stage, disclosed in full in the module docstring",
+    "collapse_criterion": "mean_resources_final_step < 0.0 -- see module docstring for why this exact threshold, chosen from Stage 3's own bimodal distribution",
+    "collapse_threshold": 0.0,
+    "milestone": "level1.3b_work_package_k_stage10_ecological_control_scale_shock",
+    "n_runs_declared": 24,
+    "n_seeds": 6,
+    "n_shocks_disclosed_override": 4,
+    "n_steps": 500,
+    "pressure_history_kind": "repeated_shocks",
+    "representative_cell": {
+      "entrenchment": "moderate",
+      "legitimacy": "dual",
+      "stratum": "medium_feasibility"
+    },
+    "scale_conditions": [
+      {
+        "n_patches": 3,
+        "population": 40
+      },
+      {
+        "n_patches": 6,
+        "population": 40
+      },
+      {
+        "n_patches": 3,
+        "population": 80
+      },
+      {
+        "n_patches": 6,
+        "population": 80
+      }
+    ],
+    "seed_base": 9300000
+  },
+  "smoke_test_passed": true,
+  "work_package_k_accounting_commitment": {
+    "denominators_distinguished": [
+      "complete_outcome_ledger",
+      "institutionally_eligible_analysis_denominator"
+    ],
+    "every_run_reports": [
+      "full_outcome_ledger",
+      "collapse_runs_retained_not_discarded"
+    ],
+    "reporting_required": [
+      "pooled",
+      "by_stratum",
+      "eligible_only",
+      "collapse_as_outcome"
+    ],
+    "reused_from": "level1.2b (observer/feasibility_ratios.py, ecological ledger fields) -- no new machinery this milestone"
+  }
+}

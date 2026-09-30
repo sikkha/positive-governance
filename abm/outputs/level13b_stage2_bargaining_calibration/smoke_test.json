@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "result": {
+    "min_duration_steps_10": false,
+    "min_duration_steps_3": true,
+    "min_duration_steps_5": true,
+    "n_contribution_events": 2547,
+    "period": 5,
+    "realized_compliance_rate": 0.0812720848056537,
+    "response_cost": 0.02,
+    "seed": 8100000,
+    "stratum": "low_feasibility"
+  }
+}

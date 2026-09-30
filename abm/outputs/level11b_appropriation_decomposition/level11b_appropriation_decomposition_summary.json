@@ -1,0 +1,307 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "condition": "baseline_level11_complete",
+      "n_opportunities": 238,
+      "n_attempts": 27,
+      "attempt_propensity_given_opportunity": 0.1134453781512605,
+      "mean_conditional_intensity_given_attempt": 0.20000000000000007,
+      "total_realized_appropriation": 4.173052437040001,
+      "mean_fund_before_at_opportunity": 0.422807905851066
+    },
+    {
+      "seed": 0,
+      "condition": "no_admin_cost",
+      "n_opportunities": 391,
+      "n_attempts": 48,
+      "attempt_propensity_given_opportunity": 0.12276214833759591,
+      "mean_conditional_intensity_given_attempt": 0.19999999999999996,
+      "total_realized_appropriation": 19.64289372933071,
+      "mean_fund_before_at_opportunity": 2.110190878201301
+    },
+    {
+      "seed": 1,
+      "condition": "baseline_level11_complete",
+      "n_opportunities": 244,
+      "n_attempts": 28,
+      "attempt_propensity_given_opportunity": 0.11475409836065574,
+      "mean_conditional_intensity_given_attempt": 0.2000000000000001,
+      "total_realized_appropriation": 1.208418217175822,
+      "mean_fund_before_at_opportunity": 0.28606261552591716
+    },
+    {
+      "seed": 1,
+      "condition": "no_admin_cost",
+      "n_opportunities": 287,
+      "n_attempts": 35,
+      "attempt_propensity_given_opportunity": 0.12195121951219512,
+      "mean_conditional_intensity_given_attempt": 0.2000000000000001,
+      "total_realized_appropriation": 17.748508096669692,
+      "mean_fund_before_at_opportunity": 2.2918578497772115
+    },
+    {
+      "seed": 2,
+      "condition": "baseline_level11_complete",
+      "n_opportunities": 232,
+      "n_attempts": 31,
+      "attempt_propensity_given_opportunity": 0.1336206896551724,
+      "mean_conditional_intensity_given_attempt": 0.2000000000000001,
+      "total_realized_appropriation": 1.4501606407999996,
+      "mean_fund_before_at_opportunity": 0.27021022711103443
+    },
+    {
+      "seed": 2,
+      "condition": "no_admin_cost",
+      "n_opportunities": 353,
+      "n_attempts": 53,
+      "attempt_propensity_given_opportunity": 0.1501416430594901,
+      "mean_conditional_intensity_given_attempt": 0.1999999999999999,
+      "total_realized_appropriation": 14.600082224601012,
+      "mean_fund_before_at_opportunity": 1.3714138247573544
+    },
+    {
+      "seed": 3,
+      "condition": "baseline_level11_complete",
+      "n_opportunities": 292,
+      "n_attempts": 19,
+      "attempt_propensity_given_opportunity": 0.06506849315068493,
+      "mean_conditional_intensity_given_attempt": 0.20000000000000007,
+      "total_realized_appropriation": 0.5945584000000002,
+      "mean_fund_before_at_opportunity": 0.15159107123287663
+    },
+    {
+      "seed": 3,
+      "condition": "no_admin_cost",
+      "n_opportunities": 422,
+      "n_attempts": 47,
+      "attempt_propensity_given_opportunity": 0.11137440758293839,
+      "mean_conditional_intensity_given_attempt": 0.19999999999999998,
+      "total_realized_appropriation": 15.299748185348566,
+      "mean_fund_before_at_opportunity": 1.6381281138668888
+    },
+    {
+      "seed": 4,
+      "condition": "baseline_level11_complete",
+      "n_opportunities": 257,
+      "n_attempts": 26,
+      "attempt_propensity_given_opportunity": 0.10116731517509728,
+      "mean_conditional_intensity_given_attempt": 0.20000000000000007,
+      "total_realized_appropriation": 0.9151286942483502,
+      "mean_fund_before_at_opportunity": 0.17050470093176429
+    },
+    {
+      "seed": 4,
+      "condition": "no_admin_cost",
+      "n_opportunities": 315,
+      "n_attempts": 51,
+      "attempt_propensity_given_opportunity": 0.1619047619047619,
+      "mean_conditional_intensity_given_attempt": 0.19999999999999993,
+      "total_realized_appropriation": 9.972136884046288,
+      "mean_fund_before_at_opportunity": 1.0878793249477865
+    },
+    {
+      "seed": 5,
+      "condition": "baseline_level11_complete",
+      "n_opportunities": 231,
+      "n_attempts": 34,
+      "attempt_propensity_given_opportunity": 0.1471861471861472,
+      "mean_conditional_intensity_given_attempt": 0.2000000000000001,
+      "total_realized_appropriation": 6.5064298840400046,
+      "mean_fund_before_at_opportunity": 0.7257669632797407
+    },
+    {
+      "seed": 5,
+      "condition": "no_admin_cost",
+      "n_opportunities": 290,
+      "n_attempts": 53,
+      "attempt_propensity_given_opportunity": 0.18275862068965518,
+      "mean_conditional_intensity_given_attempt": 0.19999999999999993,
+      "total_realized_appropriation": 28.678489887052066,
+      "mean_fund_before_at_opportunity": 2.5382617914635213
+    },
+    {
+      "seed": 6,
+      "condition": "baseline_level11_complete",
+      "n_opportunities": 195,
+      "n_attempts": 31,
+      "attempt_propensity_given_opportunity": 0.15897435897435896,
+      "mean_conditional_intensity_given_attempt": 0.2000000000000001,
+      "total_realized_appropriation": 4.0755355280764824,
+      "mean_fund_before_at_opportunity": 0.7189099922133375
+    },
+    {
+      "seed": 6,
+      "condition": "no_admin_cost",
+      "n_opportunities": 461,
+      "n_attempts": 41,
+      "attempt_propensity_given_opportunity": 0.08893709327548807,
+      "mean_conditional_intensity_given_attempt": 0.20000000000000007,
+      "total_realized_appropriation": 19.108557236845165,
+      "mean_fund_before_at_opportunity": 2.2891699899900204
+    },
+    {
+      "seed": 7,
+      "condition": "baseline_level11_complete",
+      "n_opportunities": 261,
+      "n_attempts": 22,
+      "attempt_propensity_given_opportunity": 0.0842911877394636,
+      "mean_conditional_intensity_given_attempt": 0.20000000000000007,
+      "total_realized_appropriation": 1.3160006659999997,
+      "mean_fund_before_at_opportunity": 0.21439831076245217
+    },
+    {
+      "seed": 7,
+      "condition": "no_admin_cost",
+      "n_opportunities": 261,
+      "n_attempts": 22,
+      "attempt_propensity_given_opportunity": 0.0842911877394636,
+      "mean_conditional_intensity_given_attempt": 0.2000000000000001,
+      "total_realized_appropriation": 5.1847020640000006,
+      "mean_fund_before_at_opportunity": 1.2819931913256688
+    },
+    {
+      "seed": 8,
+      "condition": "baseline_level11_complete",
+      "n_opportunities": 192,
+      "n_attempts": 28,
+      "attempt_propensity_given_opportunity": 0.14583333333333334,
+      "mean_conditional_intensity_given_attempt": 0.20000000000000012,
+      "total_realized_appropriation": 2.1853948556184934,
+      "mean_fund_before_at_opportunity": 0.33334588885556077
+    },
+    {
+      "seed": 8,
+      "condition": "no_admin_cost",
+      "n_opportunities": 261,
+      "n_attempts": 60,
+      "attempt_propensity_given_opportunity": 0.22988505747126436,
+      "mean_conditional_intensity_given_attempt": 0.19999999999999982,
+      "total_realized_appropriation": 17.355034843300956,
+      "mean_fund_before_at_opportunity": 1.5396568241528563
+    },
+    {
+      "seed": 9,
+      "condition": "baseline_level11_complete",
+      "n_opportunities": 183,
+      "n_attempts": 22,
+      "attempt_propensity_given_opportunity": 0.12021857923497267,
+      "mean_conditional_intensity_given_attempt": 0.20000000000000007,
+      "total_realized_appropriation": 1.1193430000000002,
+      "mean_fund_before_at_opportunity": 0.20155423606557363
+    },
+    {
+      "seed": 9,
+      "condition": "no_admin_cost",
+      "n_opportunities": 354,
+      "n_attempts": 54,
+      "attempt_propensity_given_opportunity": 0.15254237288135594,
+      "mean_conditional_intensity_given_attempt": 0.19999999999999987,
+      "total_realized_appropriation": 13.333277659210989,
+      "mean_fund_before_at_opportunity": 1.145872677182418
+    },
+    {
+      "seed": 10,
+      "condition": "baseline_level11_complete",
+      "n_opportunities": 320,
+      "n_attempts": 57,
+      "attempt_propensity_given_opportunity": 0.178125,
+      "mean_conditional_intensity_given_attempt": 0.19999999999999984,
+      "total_realized_appropriation": 6.234021492143462,
+      "mean_fund_before_at_opportunity": 0.4936783122465478
+    },
+    {
+      "seed": 10,
+      "condition": "no_admin_cost",
+      "n_opportunities": 345,
+      "n_attempts": 48,
+      "attempt_propensity_given_opportunity": 0.1391304347826087,
+      "mean_conditional_intensity_given_attempt": 0.19999999999999996,
+      "total_realized_appropriation": 20.123956253598372,
+      "mean_fund_before_at_opportunity": 2.3585201879041944
+    },
+    {
+      "seed": 11,
+      "condition": "baseline_level11_complete",
+      "n_opportunities": 221,
+      "n_attempts": 36,
+      "attempt_propensity_given_opportunity": 0.16289592760180996,
+      "mean_conditional_intensity_given_attempt": 0.2000000000000001,
+      "total_realized_appropriation": 1.0359373920000003,
+      "mean_fund_before_at_opportunity": 0.20165018418099542
+    },
+    {
+      "seed": 11,
+      "condition": "no_admin_cost",
+      "n_opportunities": 290,
+      "n_attempts": 45,
+      "attempt_propensity_given_opportunity": 0.15517241379310345,
+      "mean_conditional_intensity_given_attempt": 0.2,
+      "total_realized_appropriation": 11.047329511293988,
+      "mean_fund_before_at_opportunity": 1.30383582249793
+    }
+  ],
+  "design": {
+    "n_seeds": 12,
+    "population_size": 40,
+    "n_patches": 3,
+    "n_steps": 300
+  },
+  "mean_by_condition": {
+    "baseline_level11_complete": {
+      "n_opportunities": 238.83333333333334,
+      "n_attempts": 30.083333333333332,
+      "attempt_propensity_given_opportunity": 0.12713170904691307,
+      "mean_conditional_intensity_given_attempt": 0.2000000000000001,
+      "total_realized_appropriation": 2.567831767261885,
+      "mean_fund_before_at_opportunity": 0.3492067006880722
+    },
+    "no_admin_cost": {
+      "n_opportunities": 335.8333333333333,
+      "n_attempts": 46.416666666666664,
+      "attempt_propensity_given_opportunity": 0.14173761341916005,
+      "mean_conditional_intensity_given_attempt": 0.19999999999999998,
+      "total_realized_appropriation": 16.007893047941483,
+      "mean_fund_before_at_opportunity": 1.7463983730055956
+    }
+  },
+  "paired_seed_clustered_bootstrap_no_admin_cost_minus_baseline": {
+    "n_opportunities": {
+      "point_estimate": 97.0,
+      "ci_low": 59.916666666666664,
+      "ci_high": 139.83333333333334,
+      "n_seeds": 12
+    },
+    "n_attempts": {
+      "point_estimate": 16.333333333333332,
+      "ci_low": 8.916666666666666,
+      "ci_high": 22.916666666666668,
+      "n_seeds": 12
+    },
+    "attempt_propensity_given_opportunity": {
+      "point_estimate": 0.014605904372247012,
+      "ci_low": -0.00958162606449314,
+      "ci_high": 0.03678279299737512,
+      "n_seeds": 12
+    },
+    "mean_conditional_intensity_given_attempt": {
+      "point_estimate": -9.71445146547012e-17,
+      "ci_low": -1.5959455978986625e-16,
+      "ci_high": -3.469446951953614e-17,
+      "n_seeds": 12
+    },
+    "total_realized_appropriation": {
+      "point_estimate": 13.4400612806796,
+      "ci_low": 10.924571246911064,
+      "ci_high": 15.767823265631318,
+      "n_seeds": 12
+    },
+    "mean_fund_before_at_opportunity": {
+      "point_estimate": 1.3971916723175237,
+      "ci_low": 1.187703796380386,
+      "ci_high": 1.6023119461019497,
+      "n_seeds": 12
+    }
+  },
+  "interpretation": "opportunity (mean n_opportunities/seed): baseline=238.83 vs. no_admin_cost=335.83. conduct/attempt-propensity: baseline=0.12713170904691307, no_admin_cost=0.14173761341916005. conduct/conditional-intensity: baseline=0.2000000000000001, no_admin_cost=0.19999999999999998. net realized appropriation/seed: baseline=2.568, no_admin_cost=16.008. See docs/level1.1b_validation_note.md for the seed-clustered-bootstrap confirmatory read of these point estimates and the explicit opportunity-vs-conduct verdict."
+}

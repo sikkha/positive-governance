@@ -1,0 +1,646 @@
+{
+  "milestone": "level1.3_test_requirements_sweep",
+  "n_categories": 27,
+  "all_categories_covered": true,
+  "missing_categories": [],
+  "findings": {
+    "pressure_signal_generation": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_pressure_signals.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestConstantKinds",
+              "present": true
+            },
+            {
+              "name": "TestPulseKinds",
+              "present": true
+            },
+            {
+              "name": "TestRepeatedShocks",
+              "present": true
+            },
+            {
+              "name": "TestStochasticReproducible",
+              "present": true
+            },
+            {
+              "name": "TestValidation",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "pressure_transmission_channels": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_pressure_transmission.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestSecurityPressureReturnsToDelegation",
+              "present": true
+            },
+            {
+              "name": "TestSecurityPressureAdminCapacityDemand",
+              "present": true
+            },
+            {
+              "name": "TestBargainingPressureAppealRecall",
+              "present": true
+            },
+            {
+              "name": "TestCoordinationComplexityInteroperableDemand",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "sequencing_measurement": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_sequencing_diagnostics.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestDelegationAndAdministrativeFunctionSeries",
+              "present": true
+            },
+            {
+              "name": "TestMonitoringSeries",
+              "present": true
+            },
+            {
+              "name": "TestAccountabilitySeries",
+              "present": true
+            },
+            {
+              "name": "TestBargainingParticipationSeries",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "institutional_entrenchment": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_entrenchment.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestEntrenchmentLevel",
+              "present": true
+            },
+            {
+              "name": "TestAmendmentRoundThresholdEffect",
+              "present": true
+            },
+            {
+              "name": "TestDissolutionRoundEntrenchmentSurvival",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "dual_legitimacy": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_legitimacy.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestPerformanceLegitimacyTarget",
+              "present": true
+            },
+            {
+              "name": "TestProceduralLegitimacyTarget",
+              "present": true
+            },
+            {
+              "name": "TestLegitimacyRound",
+              "present": true
+            },
+            {
+              "name": "TestEndToEndOnARealRun",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "historical_counterfactuals": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_history_counterfactuals.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestErasePressureFrom",
+              "present": true
+            },
+            {
+              "name": "TestReversePressureOrder",
+              "present": true
+            },
+            {
+              "name": "TestSimulationOverrideMechanism",
+              "present": true
+            },
+            {
+              "name": "TestMatchedPairCounterfactuals",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "institutional_conversion_detection": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_institutional_conversion.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestDetectConversions",
+              "present": true
+            },
+            {
+              "name": "TestConversionIncidenceSeries",
+              "present": true
+            },
+            {
+              "name": "TestDominantFamilySeries",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "s_obs_z_obs_measurement": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_sz_obs.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestSObsSeries",
+              "present": true
+            },
+            {
+              "name": "TestZObsSeries",
+              "present": true
+            },
+            {
+              "name": "TestSObsZObsSummary",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "phenotype_vector": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_phenotype.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestLevel13PhenotypeVector",
+              "present": true
+            },
+            {
+              "name": "TestEndToEndOnARealRun",
+              "present": true
+            },
+            {
+              "name": "TestDimensionKeys",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "ecological_feasibility_integration": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_feasibility_integration.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestBuildEcologicalFeasibilityDesign",
+              "present": true
+            },
+            {
+              "name": "TestLevel13FieldsNeverMoveTheRatio",
+              "present": true
+            },
+            {
+              "name": "TestTransmissionOverridesForChannel",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "preregistration_manifest_hashing": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_preregistration.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestManifestHash",
+              "present": true
+            },
+            {
+              "name": "TestWriteAndVerifyManifest",
+              "present": true
+            },
+            {
+              "name": "TestDecisionGateOutcomes",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "exact_backward_compatibility": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_compatibility.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestExactCompatibilityWhenHistoricalModuleDisabled",
+              "present": true
+            },
+            {
+              "name": "TestFrozenReferencePreset",
+              "present": true
+            },
+            {
+              "name": "TestStructuralGuardAgainstHistoricalVariablesEnteringBasePath",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "rng_registry_append_only": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_compatibility.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestRngRegistryPurelyAppended",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "rng_mode_mechanism_substreams_compliance": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_rng_mode_compliance.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestStage1RngModeCompliance",
+              "present": true
+            },
+            {
+              "name": "TestStage3RngModeCompliance",
+              "present": true
+            },
+            {
+              "name": "TestStage4RngModeCompliance",
+              "present": true
+            },
+            {
+              "name": "TestStage5RngModeCompliance",
+              "present": true
+            },
+            {
+              "name": "TestStage9RngModeCompliance",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "sem_terminology_firewall": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_sem_firewall_extension.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestLevel13StructuralTerminologyGuard",
+              "present": true
+            },
+            {
+              "name": "TestForbiddenTermListIsGenuinelyExtended",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "structural_guard_whole_package_scan": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12_structural_guards.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_every_source_module_free_of_forbidden_terms",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "stage0_exact_compatibility_experiment": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_stage0_exact_compatibility.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestMetricsIdentical",
+              "present": true
+            },
+            {
+              "name": "TestRunStage0AtSmallScale",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "stage1_mechanism_activation_experiment": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_stage1_activation.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestConditions",
+              "present": true
+            },
+            {
+              "name": "TestRunAtSmallScale",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "stage2_ecological_calibration_experiment": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_stage2_calibration.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestBuildDesign",
+              "present": true
+            },
+            {
+              "name": "TestStage2NeverImportsAnyPhenotypeOrDiscoveryModule",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "stage3_sequencing_entrenchment_factorial_experiment": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_stage3_sequencing_entrenchment_factorial.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestOrderings",
+              "present": true
+            },
+            {
+              "name": "TestManipulationCheckAndRunOne",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "stage4_open_pressure_history_search_experiment": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_stage4_open_pressure_history_search.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestParameterSpace",
+              "present": true
+            },
+            {
+              "name": "TestLhsDraws",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "stage5_causal_counterfactuals_experiment": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_stage5_causal_counterfactuals.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestBaseConfig",
+              "present": true
+            },
+            {
+              "name": "TestRunMatchedTriple",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "stage6_blind_phenotype_discovery_experiment": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_stage6_blind_phenotype_discovery.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestLoadAndVerify",
+              "present": true
+            },
+            {
+              "name": "TestPoolRecords",
+              "present": true
+            },
+            {
+              "name": "TestRunOnRealData",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "stage7_fresh_confirmation_experiment": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_stage7_fresh_confirmation.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestSeedDisjointness",
+              "present": true
+            },
+            {
+              "name": "TestStage6Fit",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "stage8_s_obs_z_obs_mapping_experiment": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_stage8_s_obs_z_obs_mapping.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestPoolSObsZObs",
+              "present": true
+            },
+            {
+              "name": "TestCorrelation",
+              "present": true
+            },
+            {
+              "name": "TestRunOnRealData",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "stage9_scale_and_shock_robustness_experiment": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_stage9_scale_and_shock_robustness.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestScaleConditions",
+              "present": true
+            },
+            {
+              "name": "TestManipulationCheckAndRunOne",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "freeze_then_hash_tamper_detection": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level13_preregistration.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "tamper",
+              "present": true
+            },
+            {
+              "name": "TestWriteAndVerifyDesign",
+              "present": false
+            },
+            {
+              "name": "TestLoadAndVerify",
+              "present": false
+            }
+          ]
+        },
+        {
+          "file": "tests/test_level13_stage2_calibration.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "tamper",
+              "present": true
+            },
+            {
+              "name": "TestWriteAndVerifyDesign",
+              "present": true
+            },
+            {
+              "name": "TestLoadAndVerify",
+              "present": false
+            }
+          ]
+        },
+        {
+          "file": "tests/test_level13_stage6_blind_phenotype_discovery.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "tamper",
+              "present": true
+            },
+            {
+              "name": "TestWriteAndVerifyDesign",
+              "present": false
+            },
+            {
+              "name": "TestLoadAndVerify",
+              "present": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "scope_note": "Section 18's exact category list is not verbatim-recoverable this session (context compacted); this matrix was constructed from what Level 1.3 actually built, not transcribed from spec text -- see this module's own docstring"
+}

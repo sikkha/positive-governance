@@ -1,0 +1,16 @@
+\begin{tabular}{@{}lp{0.75\textwidth}@{}}
+\toprule
+\textbf{Component} & \textbf{Disclosed reduction} \\
+\midrule
+L1.2 discovery pipeline & 3 candidate clustering methods (of a fuller suggested menu); $k=1$--8 only. \\
+L1.2 Stage 1 & 8 seeds/condition, population 40, 350 steps. \\
+L1.2 Stage 2 & 10 seeds, population 40, 400 steps. \\
+L1.2 Stage 3 & 12 parameter draws $\times$ 2 seeds = 24 total runs (of a larger publication-scale sweep). \\
+L1.2 Stage 5 & 12 fresh runs (reusing Stage 3's own 12 parameter draws, fresh seeds). \\
+L1.2 Stage 6 & 4 scale conditions $\times$ 2 seeds = 8 total. \\
+L1.2 Stage 7 & 2 perturbation types $\times$ 3 seeds = 6 shocked/unshocked pairs. \\
+L1.2 Section 13 & 2 ablations $\times$ 8 matched-seed pairs each. \\
+L1.2b Work Package G & 4 burn-in-sensitivity definitions validated on a 12-seed-run subset (3 points $\times$ 2 seeds $\times$ 2 IC families) of the full 576-run pool. \\
+L1.2b Work Package O & \texttt{shared\_lineage\_persistence} not evaluated (would require a 4th 576-run re-simulation with per-run lineage export); disclosed as an evidence gap, not filled. \\
+\bottomrule
+\end{tabular}

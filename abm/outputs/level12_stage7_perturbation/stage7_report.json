@@ -1,0 +1,96 @@
+{
+  "perturbation_types": [
+    "observation_noise_increase",
+    "subsistence_increase"
+  ],
+  "n_seeds_per_type": 3,
+  "shock_start_step": 200,
+  "shock_duration": 40,
+  "shock_magnitude": 0.6,
+  "n_total_pairs": 6,
+  "n_transitioned": 0,
+  "transition_rate_by_perturbation_type": {
+    "observation_noise_increase": {
+      "n_transitioned": 0,
+      "n_total": 3
+    },
+    "subsistence_increase": {
+      "n_transitioned": 0,
+      "n_total": 3
+    }
+  },
+  "results": [
+    {
+      "perturbation_kind": "observation_noise_increase",
+      "seed_idx": 0,
+      "seed": 8000,
+      "shocked_outcome_label": "collapse",
+      "unshocked_outcome_label": "collapse",
+      "transitioned": false,
+      "shocked_ecological_resource_fraction": 0.022392564579095726,
+      "unshocked_ecological_resource_fraction": 0.013894653786820805,
+      "shocked_population_alive_fraction": 1.0,
+      "unshocked_population_alive_fraction": 1.0
+    },
+    {
+      "perturbation_kind": "observation_noise_increase",
+      "seed_idx": 1,
+      "seed": 8001,
+      "shocked_outcome_label": "collapse",
+      "unshocked_outcome_label": "collapse",
+      "transitioned": false,
+      "shocked_ecological_resource_fraction": 0.0170767146583229,
+      "unshocked_ecological_resource_fraction": 0.017035751989257948,
+      "shocked_population_alive_fraction": 1.0,
+      "unshocked_population_alive_fraction": 1.0
+    },
+    {
+      "perturbation_kind": "observation_noise_increase",
+      "seed_idx": 2,
+      "seed": 8002,
+      "shocked_outcome_label": "collapse",
+      "unshocked_outcome_label": "collapse",
+      "transitioned": false,
+      "shocked_ecological_resource_fraction": 0.016543390564930534,
+      "unshocked_ecological_resource_fraction": 0.011797086501942573,
+      "shocked_population_alive_fraction": 1.0,
+      "unshocked_population_alive_fraction": 1.0
+    },
+    {
+      "perturbation_kind": "subsistence_increase",
+      "seed_idx": 0,
+      "seed": 8100,
+      "shocked_outcome_label": "collapse",
+      "unshocked_outcome_label": "collapse",
+      "transitioned": false,
+      "shocked_ecological_resource_fraction": 0.004677763521866225,
+      "unshocked_ecological_resource_fraction": 0.011246172966898135,
+      "shocked_population_alive_fraction": 1.0,
+      "unshocked_population_alive_fraction": 1.0
+    },
+    {
+      "perturbation_kind": "subsistence_increase",
+      "seed_idx": 1,
+      "seed": 8101,
+      "shocked_outcome_label": "collapse",
+      "unshocked_outcome_label": "collapse",
+      "transitioned": false,
+      "shocked_ecological_resource_fraction": 0.004780392615645355,
+      "unshocked_ecological_resource_fraction": 0.009552703539396929,
+      "shocked_population_alive_fraction": 1.0,
+      "unshocked_population_alive_fraction": 1.0
+    },
+    {
+      "perturbation_kind": "subsistence_increase",
+      "seed_idx": 2,
+      "seed": 8102,
+      "shocked_outcome_label": "collapse",
+      "unshocked_outcome_label": "collapse",
+      "transitioned": false,
+      "shocked_ecological_resource_fraction": 0.017419024902407813,
+      "unshocked_ecological_resource_fraction": 0.010921041009601668,
+      "shocked_population_alive_fraction": 1.0,
+      "unshocked_population_alive_fraction": 1.0
+    }
+  ]
+}

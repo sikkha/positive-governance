@@ -1,0 +1,19 @@
+{
+  "bare_level1_preset_module_gate_noop": {
+    "byte_for_byte_identical": true,
+    "mismatched_seeds": [],
+    "n_mismatches": 0
+  },
+  "frozen_reference_preset_module_gate_noop": {
+    "byte_for_byte_identical": true,
+    "mismatched_seeds": [],
+    "n_mismatches": 0
+  },
+  "milestone": "level1.3_stage0_exact_compatibility",
+  "n_patches": 3,
+  "n_seeds": 20,
+  "n_steps": 200,
+  "overall_pass": true,
+  "population_size": 30,
+  "preregistration_manifest_hash": "f0e92598ec063997b8674b0a000f618f1009b1c1e28c707ccad31332512c749b"
+}

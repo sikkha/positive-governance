@@ -1,0 +1,370 @@
+{
+  "per_condition_single_seed": {
+    "original_compat": {
+      "cooperation_rate": {
+        "n": 500,
+        "rolling_window": 25,
+        "final_rolling_mean": 0.7796825396825396,
+        "final_rolling_variance": 0.0012699924414210132,
+        "acf_lag1": 0.9537865485824253,
+        "acf_lag_max": 0.17318544562081095,
+        "detrended_acf_lag1": -0.09421591059145672,
+        "periodogram_dominant_frequency": 0.004,
+        "stationarity_heuristic": {
+          "chunk_mean_cv": 0.11249132285413128,
+          "chunk_var_cv": 0.42167386697820336,
+          "n_windows": 10
+        },
+        "change_point_candidate_count": 0,
+        "change_point_candidates": [],
+        "regime_time_fraction": {
+          "bin_edges": [
+            0.4325396825396825,
+            0.5230158730158729,
+            0.6134920634920634,
+            0.7039682539682539,
+            0.7944444444444444,
+            0.8849206349206349
+          ],
+          "fractions": [
+            0.09,
+            0.288,
+            0.294,
+            0.252,
+            0.076
+          ]
+        }
+      },
+      "environment_resources": {
+        "note": "series is entirely NaN (no environment pool in this mode)"
+      },
+      "mean_resources": {
+        "n": 500,
+        "rolling_window": 25,
+        "final_rolling_mean": 4086.115326599077,
+        "final_rolling_variance": 5183.421357333354,
+        "acf_lag1": 0.9939653160465867,
+        "acf_lag_max": 0.6980848345761624,
+        "detrended_acf_lag1": 0.8854890893170853,
+        "periodogram_dominant_frequency": 0.002,
+        "stationarity_heuristic": {
+          "chunk_mean_cv": 0.5844912338422972,
+          "chunk_var_cv": 0.20471994634646154,
+          "n_windows": 10
+        },
+        "change_point_candidate_count": 0,
+        "change_point_candidates": [],
+        "regime_time_fraction": {
+          "bin_edges": [
+            19.25799326574396,
+            856.5313265990773,
+            1693.8046599324107,
+            2531.0779932657438,
+            3368.3513265990773,
+            4205.62465993241
+          ],
+          "fractions": [
+            0.218,
+            0.192,
+            0.204,
+            0.208,
+            0.178
+          ]
+        }
+      }
+    },
+    "ecologically_closed": {
+      "cooperation_rate": {
+        "n": 500,
+        "rolling_window": 25,
+        "final_rolling_mean": 0.9785098099303979,
+        "final_rolling_variance": 0.00034463426820440586,
+        "acf_lag1": 0.9347840149252077,
+        "acf_lag_max": 0.054504590731840406,
+        "detrended_acf_lag1": -0.3494141034461351,
+        "periodogram_dominant_frequency": 0.002,
+        "stationarity_heuristic": {
+          "chunk_mean_cv": 0.053304675901982575,
+          "chunk_var_cv": 2.623808724764968,
+          "n_windows": 10
+        },
+        "change_point_candidate_count": 3,
+        "change_point_candidates": [
+          25,
+          26,
+          27
+        ],
+        "regime_time_fraction": {
+          "bin_edges": [
+            0.5473684210526316,
+            0.6378947368421053,
+            0.728421052631579,
+            0.8189473684210526,
+            0.9094736842105263,
+            1.0
+          ],
+          "fractions": [
+            0.02,
+            0.004,
+            0.022,
+            0.028,
+            0.926
+          ]
+        }
+      },
+      "environment_resources": {
+        "n": 500,
+        "rolling_window": 25,
+        "final_rolling_mean": 0.0,
+        "final_rolling_variance": 0.0,
+        "acf_lag1": -4.008016032063004e-06,
+        "acf_lag_max": -0.00020040080160320533,
+        "detrended_acf_lag1": -4.024112481991656e-06,
+        "periodogram_dominant_frequency": 0.002,
+        "stationarity_heuristic": {
+          "chunk_mean_cv": 2.999999999999999,
+          "chunk_var_cv": 3.0,
+          "n_windows": 10
+        },
+        "change_point_candidate_count": 0,
+        "change_point_candidates": [],
+        "regime_time_fraction": {
+          "bin_edges": [
+            0.0,
+            98.34480000000002,
+            196.68960000000004,
+            295.03440000000006,
+            393.3792000000001,
+            491.7240000000001
+          ],
+          "fractions": [
+            0.998,
+            0.0,
+            0.0,
+            0.0,
+            0.002
+          ]
+        }
+      },
+      "mean_resources": {
+        "n": 500,
+        "rolling_window": 25,
+        "final_rolling_mean": -224.7786067342578,
+        "final_rolling_variance": 9.739953777778256,
+        "acf_lag1": 0.9931099512016454,
+        "acf_lag_max": 0.6931760079284562,
+        "detrended_acf_lag1": 0.24493863604516083,
+        "periodogram_dominant_frequency": 0.002,
+        "stationarity_heuristic": {
+          "chunk_mean_cv": 0.585968347692052,
+          "chunk_var_cv": 0.6800434960325458,
+          "n_windows": 10
+        },
+        "change_point_candidate_count": 0,
+        "change_point_candidates": [],
+        "regime_time_fraction": {
+          "bin_edges": [
+            -229.8799400675913,
+            -178.91994006759091,
+            -127.95994006759052,
+            -76.99994006759013,
+            -26.039940067589754,
+            24.92005993241063
+          ],
+          "fractions": [
+            0.22,
+            0.224,
+            0.216,
+            0.226,
+            0.114
+          ]
+        }
+      }
+    },
+    "closed_ecology_turnover": {
+      "cooperation_rate": {
+        "n": 500,
+        "rolling_window": 25,
+        "final_rolling_mean": 1.0,
+        "final_rolling_variance": 0.0,
+        "acf_lag1": 0.9506690125574635,
+        "acf_lag_max": 0.09088003385535556,
+        "detrended_acf_lag1": -0.4933147191332085,
+        "periodogram_dominant_frequency": 0.002,
+        "stationarity_heuristic": {
+          "chunk_mean_cv": 0.07198590846835504,
+          "chunk_var_cv": 2.6798742366404262,
+          "n_windows": 10
+        },
+        "change_point_candidate_count": 0,
+        "change_point_candidates": [],
+        "regime_time_fraction": {
+          "bin_edges": [
+            0.5411764705882353,
+            0.6329411764705882,
+            0.7247058823529411,
+            0.8164705882352941,
+            0.908235294117647,
+            1.0
+          ],
+          "fractions": [
+            0.022,
+            0.014,
+            0.024,
+            0.032,
+            0.908
+          ]
+        }
+      },
+      "environment_resources": {
+        "n": 500,
+        "rolling_window": 25,
+        "final_rolling_mean": 0.0,
+        "final_rolling_variance": 0.0,
+        "acf_lag1": -4.008016032063004e-06,
+        "acf_lag_max": -0.00020040080160320533,
+        "detrended_acf_lag1": -4.024112481991656e-06,
+        "periodogram_dominant_frequency": 0.002,
+        "stationarity_heuristic": {
+          "chunk_mean_cv": 2.999999999999999,
+          "chunk_var_cv": 3.0,
+          "n_windows": 10
+        },
+        "change_point_candidate_count": 0,
+        "change_point_candidates": [],
+        "regime_time_fraction": {
+          "bin_edges": [
+            0.0,
+            98.34480000000002,
+            196.68960000000004,
+            295.03440000000006,
+            393.3792000000001,
+            491.7240000000001
+          ],
+          "fractions": [
+            0.998,
+            0.0,
+            0.0,
+            0.0,
+            0.002
+          ]
+        }
+      },
+      "mean_resources": {
+        "n": 500,
+        "rolling_window": 25,
+        "final_rolling_mean": -226.63194006759136,
+        "final_rolling_variance": 10.055047111111628,
+        "acf_lag1": 0.992931219754236,
+        "acf_lag_max": 0.6890016181174698,
+        "detrended_acf_lag1": 0.26781419473024404,
+        "periodogram_dominant_frequency": 0.002,
+        "stationarity_heuristic": {
+          "chunk_mean_cv": 0.5636791301066608,
+          "chunk_var_cv": 0.7989262181020914,
+          "n_windows": 10
+        },
+        "change_point_candidate_count": 0,
+        "change_point_candidates": [],
+        "regime_time_fraction": {
+          "bin_edges": [
+            -232.1732734009248,
+            -180.75460673425772,
+            -129.33594006759063,
+            -77.91727340092353,
+            -26.49860673425644,
+            24.92005993241063
+          ],
+          "fractions": [
+            0.23,
+            0.234,
+            0.218,
+            0.218,
+            0.1
+          ]
+        }
+      }
+    }
+  },
+  "endpoint_dispersion_across_seeds": {
+    "original_compat": {
+      "cooperation_rate": {
+        "n": 30,
+        "mean": 0.5917856681702995,
+        "std": 0.2894729890452273,
+        "iqr": 0.37815765066626283,
+        "min": 0.022900763358778626,
+        "max": 0.9922480620155039
+      },
+      "environment_resources": {
+        "n": 0,
+        "mean": null,
+        "std": null,
+        "iqr": null,
+        "min": null,
+        "max": null
+      },
+      "mean_resources": {
+        "n": 30,
+        "mean": 4175.800519199845,
+        "std": 1217.5611129385366,
+        "iqr": 1140.7150296281425,
+        "min": 967.6876338439927,
+        "max": 5631.9424377336345
+      }
+    },
+    "ecologically_closed": {
+      "cooperation_rate": {
+        "n": 30,
+        "mean": 0.9662024500920112,
+        "std": 0.047445796202332684,
+        "iqr": 0.04273200757575757,
+        "min": 0.8194444444444444,
+        "max": 1.0
+      },
+      "environment_resources": {
+        "n": 30,
+        "mean": 0.0,
+        "std": 0.0,
+        "iqr": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "mean_resources": {
+        "n": 30,
+        "mean": -232.55931857793365,
+        "std": 8.284538511597287,
+        "iqr": 10.738944926585447,
+        "min": -251.40522568152906,
+        "max": -215.40536886048093
+      }
+    },
+    "closed_ecology_turnover": {
+      "cooperation_rate": {
+        "n": 30,
+        "mean": 0.9842082980109941,
+        "std": 0.02254326701501557,
+        "iqr": 0.02564102564102566,
+        "min": 0.9107142857142857,
+        "max": 1.0
+      },
+      "environment_resources": {
+        "n": 30,
+        "mean": 0.0,
+        "std": 0.0,
+        "iqr": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "mean_resources": {
+        "n": 30,
+        "mean": -234.0479852446004,
+        "std": 6.67573672025259,
+        "iqr": 9.478771049937563,
+        "min": -247.565808581296,
+        "max": -219.0233178326463
+      }
+    }
+  },
+  "disclaimer": "These are descriptive diagnostics only (rolling statistics, autocorrelation, periodogram, a stationarity heuristic, change-point candidates, regime time-fraction, cross-seed endpoint dispersion). None of them, singly or combined, constitute a 'fixed point' / 'limit cycle' / 'metastable regime' / 'collapse' / 'recovery' classification \u2014 see observer/dynamics.py's module docstring for the operational criteria this project requires before that vocabulary is used, none of which one script run against one representative seed satisfies."
+}

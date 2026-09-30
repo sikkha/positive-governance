@@ -1,0 +1,70 @@
+{
+  "confirmation_registry_hash": "da4777d80b0cd538f9e774fcbe083cc56b9193309418c031916be346dd88ec75",
+  "confirmation_design_hash": "5bd2a91ec7ad5b3d886558f92246a3112eaa7db23583d0faf7c960e52acf7bc3",
+  "source_design_hash": "04e2987fe2710014da00c3d917541983e34a5fcd1cc1087b9cb1d271d4f4b89d",
+  "preregistration_manifest_hash": "f5bd19df912c0653b97d83f98a4685bb6020fc18b33092e2b2e1ecf11c319b77",
+  "n_confirmation_runs": 384,
+  "n_discovery_runs_refit": 576,
+  "headline_k": 4,
+  "recurrence_across_seeds_points_and_ic_families": {
+    "n_total": 384,
+    "headline_k": 2,
+    "silhouette_by_k": {
+      "1": NaN,
+      "2": 0.1529450761327301,
+      "3": 0.134138876623805,
+      "4": 0.08441148147485145,
+      "5": 0.03235823778987238,
+      "6": 0.07288111070461369,
+      "7": 0.08848552434507016,
+      "8": 0.07973544048677572
+    },
+    "mean_algorithm_agreement_ari": 0.27608715488106556,
+    "bootstrap_mean_ari": 0.18177961153856895,
+    "cluster_vs_ic_family_ari": -0.0006381070003490135,
+    "cluster_vs_failure_proxy_ari": 0.0,
+    "failure_proxy_fraction": 0.0,
+    "verdict": {
+      "verdict": "unstable",
+      "reasons": [
+        "neither_bootstrap_nor_algorithm_agreement_clears_0.3_ari"
+      ]
+    }
+  },
+  "assignment_stability_ari": 0.5268188352771932,
+  "feature_profile_stability": {
+    "per_cluster_cosine_similarity": {
+      "0": 0.9998763516660031,
+      "1": 0.992049106291369,
+      "2": 0.8523025986333604,
+      "3": NaN
+    },
+    "mean_cosine_similarity": 0.9480760188635776
+  },
+  "held_out_predictiveness_log_likelihood": -3267.1512856080444,
+  "unclassified_outcome_rate": 0.0,
+  "failure_transition_rate": 0.7421875,
+  "all_outcome_summary": {
+    "no_institution": 0,
+    "collapse": 245,
+    "viable": 86,
+    "persistent_extractive": 0,
+    "fragmented": 53,
+    "transient": 0,
+    "unclassified": 0
+  },
+  "failure_trajectory_summary": {
+    "no_collapse_observed": 99,
+    "transient_dip_recovered": 40,
+    "collapse_onset_after_last_snapshot": 0,
+    "late_onset_collapse": 14,
+    "sustained_collapse": 231
+  },
+  "candidate_status": "no_independent_well_separated_candidates -- Section 16 verdict is 'continuum', not 'multi_config'. Per this milestone's own preregistered null_replication_rule ('if Section 16 discovery supports no candidates, confirmation replicates the null result rather than manufacturing a candidate to test'), a continuum finding is treated the same way a no-candidate finding would be: this Work Package does not name, number, or assign an expected direction to any discrete institutional-phenotype class.",
+  "confirmation_verdict": {
+    "verdict": "null_replicated",
+    "reasons": [
+      "independent_replication_verdict=unstable (not multi_config)"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "design": {
+    "n_seeds": 12,
+    "population_size": 24,
+    "n_steps": 300,
+    "n_patches": 4,
+    "persistence_window_steps": 150,
+    "scale_reduction_note": "milestone brief asks for >=20 matched seeds; this run used 12, documented as a deliberate compute-budget reduction (see module docstring)."
+  },
+  "n_failures": 0,
+  "failures": [],
+  "persistence_statistic": "fraction_interior (interior_persistence over the final window)",
+  "mean_by_condition": {
+    "endogenous": 0.9166666666666666,
+    "no_effect": 1.0,
+    "frozen": 1.0,
+    "randomized": 0.9166666666666666,
+    "shuffled": 0.9166666666666666
+  },
+  "paired_difference_bootstrap": {
+    "no_effect": {
+      "n": 12,
+      "mean": -0.08333333333333333,
+      "ci_low": -0.25,
+      "ci_high": 0.0
+    },
+    "frozen": {
+      "n": 12,
+      "mean": -0.08333333333333333,
+      "ci_low": -0.25,
+      "ci_high": 0.0
+    },
+    "randomized": {
+      "n": 12,
+      "mean": 0.0,
+      "ci_low": -0.25,
+      "ci_high": 0.25
+    },
+    "shuffled": {
+      "n": 12,
+      "mean": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0
+    }
+  },
+  "feedback_dependence": {
+    "candidate_stat": 0.9166666666666666,
+    "n_counterfactuals": 4,
+    "n_weaker": 0,
+    "fraction_weaker": 0.0,
+    "per_condition_relative_reduction": {
+      "no_effect": -0.09090909090909095,
+      "frozen": -0.09090909090909095,
+      "randomized": 0.0,
+      "shuffled": 0.0
+    },
+    "criterion_met": false
+  },
+  "nontriviality": {
+    "candidate_stat": 0.9166666666666666,
+    "no_effect_stat": 1.0,
+    "relative_reduction": -0.09090909090909095,
+    "min_relative_reduction_required": 0.2,
+    "criterion_met": false
+  }
+}

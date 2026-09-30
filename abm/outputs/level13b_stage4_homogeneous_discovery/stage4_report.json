@@ -1,0 +1,89 @@
+{
+  "S_obs_final_mean": 0.6617113837204598,
+  "S_obs_final_std": 0.13082979443398185,
+  "Z_obs_final_mean": 0.5086090296755839,
+  "Z_obs_final_std": 0.14238721014161398,
+  "fraction_bargaining_participation_activated": 0.6916666666666667,
+  "n_bargaining_participation_activated": 166,
+  "n_points_covered": 48,
+  "n_records": 240,
+  "note": "descriptive pool statistics only -- no clustering/discovery model is fit here; that is Stage 7's own job (task #120), which reuses this pool as ONE of its candidate-model inputs",
+  "records_by_stratum": {
+    "high_feasibility": 80,
+    "low_feasibility": 80,
+    "medium_feasibility": 80
+  },
+  "report_hash": "0134c32297bf2d2b7f8b7edde06c5d09926748960b0e1870e1d0a7ea7d4d1cf9",
+  "scope": {
+    "lhs_seed": 20260821001,
+    "milestone": "level1.3b_work_package_d_stage4_homogeneous_discovery",
+    "n_patches": 4,
+    "n_points": 48,
+    "n_runs_declared": 240,
+    "n_seeds_per_point": 5,
+    "n_steps": 500,
+    "no_counterfactual_reruns_in_pool": true,
+    "operationalization_note": "see module docstring for the full, pre-run dimension-name-to-config-field mapping disclosure",
+    "parameter_space": [
+      {
+        "field": "security_pressure_onset_step",
+        "high": 300.0,
+        "low": 0.0
+      },
+      {
+        "field": "bargaining_pressure_onset_step",
+        "high": 300.0,
+        "low": 0.0
+      },
+      {
+        "field": "coordination_complexity_onset_step",
+        "high": 300.0,
+        "low": 0.0
+      },
+      {
+        "field": "pressure_magnitude_high_level",
+        "high": 0.9,
+        "low": 0.3
+      },
+      {
+        "field": "pressure_duration_steps",
+        "high": 400.0,
+        "low": 60.0
+      },
+      {
+        "field": "pressure_overlap_fraction",
+        "high": 1.0,
+        "low": 0.0
+      },
+      {
+        "field": "pressure_volatility_shock_interval",
+        "high": 100.0,
+        "low": 10.0
+      },
+      {
+        "field": "entrenchment_strength_maturation_steps",
+        "high": 300.0,
+        "low": 20.0
+      },
+      {
+        "field": "performance_legitimacy_sensitivity",
+        "high": 0.3,
+        "low": 0.01
+      },
+      {
+        "field": "procedural_legitimacy_sensitivity",
+        "high": 0.3,
+        "low": 0.01
+      },
+      {
+        "field": "ecological_feasibility_stratum",
+        "high": 1.0,
+        "low": 0.0
+      }
+    ],
+    "population_size": 40,
+    "scale_disclosed_as": "Section 8's own stated MINIMUM (48 points x 5 seeds = 240 runs), not the preferred 72-96 x 6-8 -- disclosed here, before running, per this milestone's own session-budget-scaling discipline",
+    "seed_base": 8700000
+  },
+  "smoke_test_passed": true
+}

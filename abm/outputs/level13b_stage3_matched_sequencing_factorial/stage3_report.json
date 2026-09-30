@@ -1,0 +1,1869 @@
+{
+  "all_manipulation_checks_passed": true,
+  "contrasts": [
+    {
+      "S_obs_diff_ci95": [
+        -0.031133333333333346,
+        0.0480666666666667
+      ],
+      "Z_obs_diff_ci95": [
+        -0.02783364506506769,
+        0.04311776775227458
+      ],
+      "entrenchment": "off",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.008466666666666622,
+      "raw_Z_obs_diff": 0.007642061343603429,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.03179999999999994,
+        0.027666666666666617
+      ],
+      "Z_obs_diff_ci95": [
+        -0.04178295491569148,
+        0.01472136153428158
+      ],
+      "entrenchment": "off",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.002066666666666661,
+      "raw_Z_obs_diff": -0.01353079669070495,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.0252,
+        0.004133333333333322
+      ],
+      "Z_obs_diff_ci95": [
+        -0.03782467912420859,
+        -0.004521036944408197
+      ],
+      "entrenchment": "off",
+      "legitimacy": "neither",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.010533333333333283,
+      "raw_Z_obs_diff": -0.02117285803430838,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.011600000000000055,
+        0.027866666666666595
+      ],
+      "Z_obs_diff_ci95": [
+        -0.0020229158064016817,
+        0.005967807492638394
+      ],
+      "entrenchment": "off",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.01973333333333338,
+      "raw_Z_obs_diff": 0.0019724458431183423,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.047799999999999954,
+        0.050266666666666626
+      ],
+      "Z_obs_diff_ci95": [
+        0.018967952007228284,
+        0.04945930170160798
+      ],
+      "entrenchment": "off",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.04903333333333337,
+      "raw_Z_obs_diff": 0.034213626854418144,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.020333333333333203,
+        0.03826666666666673
+      ],
+      "Z_obs_diff_ci95": [
+        0.016903328353151253,
+        0.047579033669448295
+      ],
+      "entrenchment": "off",
+      "legitimacy": "neither",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.029299999999999993,
+      "raw_Z_obs_diff": 0.0322411810112998,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.06713333333333327,
+        0.02073333333333338
+      ],
+      "Z_obs_diff_ci95": [
+        -0.016597426174764562,
+        0.020205931532384952
+      ],
+      "entrenchment": "off",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": -0.0232,
+      "raw_Z_obs_diff": 0.001804252678810181,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.07706666666666673,
+        0.00986666666666658
+      ],
+      "Z_obs_diff_ci95": [
+        -0.04240535580562149,
+        0.01310850784472728
+      ],
+      "entrenchment": "off",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.033600000000000074,
+      "raw_Z_obs_diff": -0.014648423980447134,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.031200000000000117,
+        0.010399999999999854
+      ],
+      "Z_obs_diff_ci95": [
+        -0.034580335521754296,
+        0.0016749822032396944
+      ],
+      "entrenchment": "off",
+      "legitimacy": "neither",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.010400000000000076,
+      "raw_Z_obs_diff": -0.016452676659257315,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.021936917197681316,
+        0.050322747579493066
+      ],
+      "Z_obs_diff_ci95": [
+        -0.02783364506506769,
+        0.04311776775227458
+      ],
+      "entrenchment": "off",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.01419291519090582,
+      "raw_Z_obs_diff": 0.007642061343603429,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.027997737797820443,
+        0.04263738543487994
+      ],
+      "Z_obs_diff_ci95": [
+        -0.04178295491569148,
+        0.01472136153428158
+      ],
+      "entrenchment": "off",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.0073198238185296916,
+      "raw_Z_obs_diff": -0.01353079669070495,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.0204911276008104,
+        0.006744944856058144
+      ],
+      "Z_obs_diff_ci95": [
+        -0.03782467912420859,
+        -0.004521036944408197
+      ],
+      "entrenchment": "off",
+      "legitimacy": "performance_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.006873091372376128,
+      "raw_Z_obs_diff": -0.02117285803430838,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.00900075461582639,
+        0.05400536741602413
+      ],
+      "Z_obs_diff_ci95": [
+        -0.0020229158064016817,
+        0.005967807492638394
+      ],
+      "entrenchment": "off",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.02250230640009887,
+      "raw_Z_obs_diff": 0.0019724458431183423,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.00364258534228179,
+        0.10137821722440299
+      ],
+      "Z_obs_diff_ci95": [
+        0.018967952007228284,
+        0.04945930170160798
+      ],
+      "entrenchment": "off",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.04886781594106049,
+      "raw_Z_obs_diff": 0.034213626854418144,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.01219325877156141,
+        0.06492427785348487
+      ],
+      "Z_obs_diff_ci95": [
+        0.016903328353151253,
+        0.047579033669448295
+      ],
+      "entrenchment": "off",
+      "legitimacy": "performance_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.026365509540961618,
+      "raw_Z_obs_diff": 0.0322411810112998,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.06402286522862721,
+        0.005756732473578885
+      ],
+      "Z_obs_diff_ci95": [
+        -0.016597426174764562,
+        0.020205931532384952
+      ],
+      "entrenchment": "off",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": -0.02913306637752422,
+      "raw_Z_obs_diff": 0.001804252678810181,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.08181472483177232,
+        0.004525327387484235
+      ],
+      "Z_obs_diff_ci95": [
+        -0.04240535580562149,
+        0.01310850784472728
+      ],
+      "entrenchment": "off",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.038644698722144044,
+      "raw_Z_obs_diff": -0.014648423980447134,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.028663260227624665,
+        0.009639995538384905
+      ],
+      "Z_obs_diff_ci95": [
+        -0.034580335521754296,
+        -0.0026015656685727333
+      ],
+      "entrenchment": "off",
+      "legitimacy": "performance_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.009511632344619825,
+      "raw_Z_obs_diff": -0.016452676659257315,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.031133333333333346,
+        0.0480666666666667
+      ],
+      "Z_obs_diff_ci95": [
+        -0.01428902647679925,
+        0.04564729080260288
+      ],
+      "entrenchment": "off",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.008466666666666622,
+      "raw_Z_obs_diff": 0.015679132162901843,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.03179999999999994,
+        0.027666666666666617
+      ],
+      "Z_obs_diff_ci95": [
+        -0.031144247702264205,
+        0.023607212095430263
+      ],
+      "entrenchment": "off",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.002066666666666661,
+      "raw_Z_obs_diff": -0.0037685178034169153,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.0252,
+        0.004133333333333322
+      ],
+      "Z_obs_diff_ci95": [
+        -0.026360706487815355,
+        -0.012534593444822217
+      ],
+      "entrenchment": "off",
+      "legitimacy": "procedural_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.010533333333333283,
+      "raw_Z_obs_diff": -0.01944764996631876,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.011600000000000055,
+        0.027866666666666595
+      ],
+      "Z_obs_diff_ci95": [
+        -0.044127906681106444,
+        0.030316266952474264
+      ],
+      "entrenchment": "off",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.01973333333333338,
+      "raw_Z_obs_diff": 0.004303085986847199,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.047799999999999954,
+        0.050266666666666626
+      ],
+      "Z_obs_diff_ci95": [
+        -0.043412391357858904,
+        0.10812487105663676
+      ],
+      "entrenchment": "off",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.04903333333333337,
+      "raw_Z_obs_diff": 0.03235623984938896,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.020333333333333203,
+        0.03826666666666673
+      ],
+      "Z_obs_diff_ci95": [
+        -0.045269739450755964,
+        0.10137604717583942
+      ],
+      "entrenchment": "off",
+      "legitimacy": "procedural_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.029299999999999993,
+      "raw_Z_obs_diff": 0.028053153862541758,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.06713333333333327,
+        0.02073333333333338
+      ],
+      "Z_obs_diff_ci95": [
+        -0.012874671421590378,
+        0.004160666949154734
+      ],
+      "entrenchment": "off",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": -0.0232,
+      "raw_Z_obs_diff": -0.004357002236217822,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.07706666666666673,
+        0.00986666666666658
+      ],
+      "Z_obs_diff_ci95": [
+        -0.03885955623638493,
+        -0.003971433200797625
+      ],
+      "entrenchment": "off",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.033600000000000074,
+      "raw_Z_obs_diff": -0.021415494718591277,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.031200000000000117,
+        0.010399999999999854
+      ],
+      "Z_obs_diff_ci95": [
+        -0.033562491998178956,
+        -0.0005544929665679543
+      ],
+      "entrenchment": "off",
+      "legitimacy": "procedural_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.010400000000000076,
+      "raw_Z_obs_diff": -0.017058492482373455,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.02503710022468597,
+        0.0539957210103692
+      ],
+      "Z_obs_diff_ci95": [
+        -0.004184559071047589,
+        0.037316544880175107
+      ],
+      "entrenchment": "off",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.01447931039284156,
+      "raw_Z_obs_diff": 0.016565992904563787,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.02939208151407613,
+        0.046257382753275844
+      ],
+      "Z_obs_diff_ci95": [
+        -0.02676760934351441,
+        0.02528373708882975
+      ],
+      "entrenchment": "off",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.008432650619599746,
+      "raw_Z_obs_diff": -0.0007419361273423575,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.02246284051901104,
+        0.010369520972527524
+      ],
+      "Z_obs_diff_ci95": [
+        -0.02290058332181888,
+        -0.011715274741993298
+      ],
+      "entrenchment": "off",
+      "legitimacy": "dual",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.006046659773241814,
+      "raw_Z_obs_diff": -0.017307929031906144,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.006820480186699007,
+        0.05131451895148764
+      ],
+      "Z_obs_diff_ci95": [
+        -0.04952852248241513,
+        0.05818675032639248
+      ],
+      "entrenchment": "off",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.022247019382394262,
+      "raw_Z_obs_diff": 0.004329113921988648,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.001321417191328389,
+        0.09949415696096753
+      ],
+      "Z_obs_diff_ci95": [
+        -0.04968396905703315,
+        0.11465448679579732
+      ],
+      "entrenchment": "off",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.049086369884819625,
+      "raw_Z_obs_diff": 0.03248525886938203,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.009502562011661664,
+        0.06318126301651217
+      ],
+      "Z_obs_diff_ci95": [
+        -0.0517208025523242,
+        0.10803309244711101
+      ],
+      "entrenchment": "off",
+      "legitimacy": "dual",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.026839350502425363,
+      "raw_Z_obs_diff": 0.02815614494739338,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.06565818326181416,
+        0.007407973905864229
+      ],
+      "Z_obs_diff_ci95": [
+        -0.013765227210072672,
+        0.0020558181689813715
+      ],
+      "entrenchment": "off",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": -0.02912510467797491,
+      "raw_Z_obs_diff": -0.005854704520545706,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.08450165827031342,
+        0.0054499552066586965
+      ],
+      "Z_obs_diff_ci95": [
+        -0.03974455891683237,
+        -0.006295197818748766
+      ],
+      "entrenchment": "off",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.039525851531827305,
+      "raw_Z_obs_diff": -0.023019878367790625,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.031000660708170424,
+        0.010199167000465637
+      ],
+      "Z_obs_diff_ci95": [
+        -0.04122607958312863,
+        0.00689573188863879
+      ],
+      "entrenchment": "off",
+      "legitimacy": "dual",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.010400746853852394,
+      "raw_Z_obs_diff": -0.01716517384724492,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.0006000000000000449,
+        0.050399999999999945
+      ],
+      "Z_obs_diff_ci95": [
+        0.004072323042518755,
+        0.04207596833112198
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.025499999999999967,
+      "raw_Z_obs_diff": 0.023074145686820313,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.002466666666666617,
+        0.04393333333333327
+      ],
+      "Z_obs_diff_ci95": [
+        0.00041265009383023576,
+        0.061723881195520997
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.0232,
+      "raw_Z_obs_diff": 0.031068265644675574,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.03966666666666668,
+        0.03506666666666658
+      ],
+      "Z_obs_diff_ci95": [
+        -0.023221752629436765,
+        0.03920999254514726
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "neither",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.0022999999999999687,
+      "raw_Z_obs_diff": 0.007994119957855261,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.03439999999999993,
+        0.031133333333333346
+      ],
+      "Z_obs_diff_ci95": [
+        -0.026727390863624023,
+        -0.0017065017645552238
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": -0.0016333333333332645,
+      "raw_Z_obs_diff": -0.014216946314089596,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.04453333333333315,
+        0.059733333333333416
+      ],
+      "Z_obs_diff_ci95": [
+        -0.035634827784990275,
+        -0.004440422152943546
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.007600000000000162,
+      "raw_Z_obs_diff": -0.020037624968966883,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.025199999999999778,
+        0.04366666666666663
+      ],
+      "Z_obs_diff_ci95": [
+        -0.011608935767537937,
+        -3.24215422166374e-05
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "neither",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.009233333333333427,
+      "raw_Z_obs_diff": -0.005820678654877287,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.004666666666666819,
+        0.016866666666666696
+      ],
+      "Z_obs_diff_ci95": [
+        -0.018094557035194636,
+        0.021501333587748417
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.010766666666666813,
+      "raw_Z_obs_diff": 0.0017033882762769181,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.0052000000000000934,
+        0.025399999999999978
+      ],
+      "Z_obs_diff_ci95": [
+        -0.017510421662262132,
+        0.029400915214686074
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.015300000000000091,
+      "raw_Z_obs_diff": 0.005945246776211999,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.0023333333333332984,
+        0.011399999999999855
+      ],
+      "Z_obs_diff_ci95": [
+        -0.01292075513912333,
+        0.02140447213899349
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "neither",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.004533333333333278,
+      "raw_Z_obs_diff": 0.004241858499935081,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.0027014442725951104,
+        0.05772981725600079
+      ],
+      "Z_obs_diff_ci95": [
+        0.004072323042518755,
+        0.04207596833112198
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.030215630764297896,
+      "raw_Z_obs_diff": 0.023074145686820313,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.00452110420104701,
+        0.032171007976727894
+      ],
+      "Z_obs_diff_ci95": [
+        0.00041265009383023576,
+        0.061723881195520997
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.018346056088887397,
+      "raw_Z_obs_diff": 0.031068265644675574,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.044642153362767334,
+        0.020903004011946336
+      ],
+      "Z_obs_diff_ci95": [
+        -0.023221752629436765,
+        0.03920999254514726
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "performance_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.0118695746754105,
+      "raw_Z_obs_diff": 0.007994119957855261,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.08072211732727175,
+        0.0879826716299763
+      ],
+      "Z_obs_diff_ci95": [
+        -0.026727390863624023,
+        -0.0017065017645552238
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.0036302771513522236,
+      "raw_Z_obs_diff": -0.014216946314089596,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.060223305807150074,
+        0.05666390434144826
+      ],
+      "Z_obs_diff_ci95": [
+        -0.035634827784990275,
+        -0.004440422152943546
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.0003638329016066866,
+      "raw_Z_obs_diff": -0.020037624968966883,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.03429572016447757,
+        0.02630750005855964
+      ],
+      "Z_obs_diff_ci95": [
+        -0.011608935767537937,
+        -3.24215422166374e-05
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "performance_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.00399411005295891,
+      "raw_Z_obs_diff": -0.005820678654877287,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.021624428850487987,
+        0.04596594123631215
+      ],
+      "Z_obs_diff_ci95": [
+        -0.018094557035194636,
+        0.021501333587748417
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.01217075619291208,
+      "raw_Z_obs_diff": 0.0017033882762769181,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.0034910835290029585,
+        0.04962623678112532
+      ],
+      "Z_obs_diff_ci95": [
+        -0.017510421662262132,
+        0.029400915214686074
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.02306757662606107,
+      "raw_Z_obs_diff": 0.005945246776211999,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.007966149342397921,
+        0.029759790208696124
+      ],
+      "Z_obs_diff_ci95": [
+        -0.01292075513912333,
+        0.02140447213899349
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "performance_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.01089682043314899,
+      "raw_Z_obs_diff": 0.004241858499935081,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.0006000000000000449,
+        0.050399999999999945
+      ],
+      "Z_obs_diff_ci95": [
+        0.007289400689464376,
+        0.04936170666817863
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.025499999999999967,
+      "raw_Z_obs_diff": 0.028325553678821447,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.002466666666666617,
+        0.04393333333333327
+      ],
+      "Z_obs_diff_ci95": [
+        0.003592614524534743,
+        0.04107501583758122
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.0232,
+      "raw_Z_obs_diff": 0.022333815181057926,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.03966666666666668,
+        0.03506666666666658
+      ],
+      "Z_obs_diff_ci95": [
+        -0.0280382382456259,
+        0.01605476125009886
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "procedural_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.0022999999999999687,
+      "raw_Z_obs_diff": -0.005991738497763521,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.03439999999999993,
+        0.031133333333333346
+      ],
+      "Z_obs_diff_ci95": [
+        -0.10073847040839079,
+        0.0842723498793479
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": -0.0016333333333332645,
+      "raw_Z_obs_diff": -0.008233060264521475,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.04453333333333315,
+        0.059733333333333416
+      ],
+      "Z_obs_diff_ci95": [
+        -0.10418841782069388,
+        0.04481537596030677
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.007600000000000162,
+      "raw_Z_obs_diff": -0.029686520930193583,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.025199999999999778,
+        0.04366666666666663
+      ],
+      "Z_obs_diff_ci95": [
+        -0.0893121152248551,
+        0.04640519389351089
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "procedural_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.009233333333333427,
+      "raw_Z_obs_diff": -0.02145346066567211,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.004666666666666819,
+        0.016866666666666696
+      ],
+      "Z_obs_diff_ci95": [
+        -0.05657587214521098,
+        0.06360250870043327
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.010766666666666813,
+      "raw_Z_obs_diff": 0.003513318277611255,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.0052000000000000934,
+        0.025399999999999978
+      ],
+      "Z_obs_diff_ci95": [
+        -0.031166179743778222,
+        0.05991433590073103
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.015300000000000091,
+      "raw_Z_obs_diff": 0.01437407807847646,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.0023333333333332984,
+        0.011399999999999855
+      ],
+      "Z_obs_diff_ci95": [
+        -0.027164418593319528,
+        0.04888593819505005
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "procedural_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.004533333333333278,
+      "raw_Z_obs_diff": 0.010860759800865205,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.0005490123104325839,
+        0.059679291071734974
+      ],
+      "Z_obs_diff_ci95": [
+        0.007993125722312033,
+        0.04900330246138285
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.029565139380651306,
+      "raw_Z_obs_diff": 0.028498214091847496,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.0012726828386205868,
+        0.03622877991956763
+      ],
+      "Z_obs_diff_ci95": [
+        0.004287590636164185,
+        0.04318940951753991
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.01875073137909422,
+      "raw_Z_obs_diff": 0.023738500076852076,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.04686965660374698,
+        0.025240840600632808
+      ],
+      "Z_obs_diff_ci95": [
+        -0.01995771798099044,
+        0.010438289950999657
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "dual",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.010814408001557085,
+      "raw_Z_obs_diff": -0.00475971401499542,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.07949660530464053,
+        0.0866205725651531
+      ],
+      "Z_obs_diff_ci95": [
+        -0.10805760966697053,
+        0.09214195756473803
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.0035619836302562824,
+      "raw_Z_obs_diff": -0.007957826051116279,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.06106770827866326,
+        0.06011953972294781
+      ],
+      "Z_obs_diff_ci95": [
+        -0.1115327284311024,
+        0.05303463262014568
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.00047408427785766705,
+      "raw_Z_obs_diff": -0.029249047905478387,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.03523317626401112,
+        0.027161040447783114
+      ],
+      "Z_obs_diff_ci95": [
+        -0.09677890926070931,
+        0.054196465551985096
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "dual",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.0040360679081139494,
+      "raw_Z_obs_diff": -0.021291221854362108,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.020984556720610947,
+        0.04416151527469825
+      ],
+      "Z_obs_diff_ci95": [
+        -0.06302376630380274,
+        0.06886831837460722
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.01158847927704354,
+      "raw_Z_obs_diff": 0.0029222760354022936,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.003864728865563216,
+        0.049797161961235625
+      ],
+      "Z_obs_diff_ci95": [
+        -0.03696178764912622,
+        0.06499924867384593
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.02296621654783615,
+      "raw_Z_obs_diff": 0.014018730512359912,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.007941240083794043,
+        0.03069671462537915
+      ],
+      "Z_obs_diff_ci95": [
+        -0.032402348009504534,
+        0.05459525696341977
+      ],
+      "entrenchment": "moderate",
+      "legitimacy": "dual",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.01137773727079261,
+      "raw_Z_obs_diff": 0.011096454476957618,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.010533333333333394,
+        0.009333333333333305
+      ],
+      "Z_obs_diff_ci95": [
+        -0.009263894288409352,
+        0.025699945683548664
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": -0.0006000000000000449,
+      "raw_Z_obs_diff": 0.006640789630083438,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.024333333333333318,
+        -0.0023333333333334094
+      ],
+      "Z_obs_diff_ci95": [
+        -0.02285293105675995,
+        0.024686050220532996
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.013333333333333308,
+      "raw_Z_obs_diff": 0.0009165595818865224,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.029866666666666597,
+        0.0043999999999999595
+      ],
+      "Z_obs_diff_ci95": [
+        -0.01690527670511649,
+        0.005456816608722659
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "neither",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.012733333333333263,
+      "raw_Z_obs_diff": -0.0057242300481969155,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.01093333333333324,
+        0.031266666666666554
+      ],
+      "Z_obs_diff_ci95": [
+        0.001448127565470414,
+        0.012063739881553348
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.010166666666666657,
+      "raw_Z_obs_diff": 0.006755933723511853,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.010133333333333217,
+        0.0713333333333333
+      ],
+      "Z_obs_diff_ci95": [
+        0.004397158956727043,
+        0.01979404654262326
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.03060000000000007,
+      "raw_Z_obs_diff": 0.012095602749675138,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.021533333333333182,
+        0.062399999999999956
+      ],
+      "Z_obs_diff_ci95": [
+        0.0007859033486484479,
+        0.009893434703678095
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "neither",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.020433333333333414,
+      "raw_Z_obs_diff": 0.005339669026163285,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.010466666666666735,
+        0.01100000000000001
+      ],
+      "Z_obs_diff_ci95": [
+        -0.028112978722583865,
+        0.03230931390792763
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.0002666666666666373,
+      "raw_Z_obs_diff": 0.0020981675926718957,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.04266666666666663,
+        0.0021333333333335425
+      ],
+      "Z_obs_diff_ci95": [
+        -0.034825753473589044,
+        0.04276298597371064
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "neither",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.020266666666666544,
+      "raw_Z_obs_diff": 0.003968616250060786,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.04713333333333314,
+        0.006066666666666776
+      ],
+      "Z_obs_diff_ci95": [
+        -0.017098391202054586,
+        0.02083928851683242
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "neither",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.02053333333333318,
+      "raw_Z_obs_diff": 0.00187044865738889,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.016884589579123643,
+        0.016259686446185362
+      ],
+      "Z_obs_diff_ci95": [
+        -0.012418366423381788,
+        0.025699945683548664
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": -0.00031245156646908523,
+      "raw_Z_obs_diff": 0.006640789630083438,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.029343089725167637,
+        -0.013941386783286047
+      ],
+      "Z_obs_diff_ci95": [
+        -0.02285293105675995,
+        0.024686050220532996
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.021642238254226842,
+      "raw_Z_obs_diff": 0.0009165595818865224,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.03564930508537245,
+        -0.007010268290142951
+      ],
+      "Z_obs_diff_ci95": [
+        -0.01690527670511649,
+        0.005456816608722659
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "performance_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.021329786687757757,
+      "raw_Z_obs_diff": -0.0057242300481969155,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.019295522470286208,
+        0.0337684671060805
+      ],
+      "Z_obs_diff_ci95": [
+        0.001448127565470414,
+        0.012063739881553348
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.007236472317897258,
+      "raw_Z_obs_diff": 0.006755933723511853,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.006517968167479071,
+        0.0521847843003892
+      ],
+      "Z_obs_diff_ci95": [
+        0.004397158956727043,
+        0.01979404654262326
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.029351376233934134,
+      "raw_Z_obs_diff": 0.012095602749675138,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.008702843515961067,
+        0.05293265134803504
+      ],
+      "Z_obs_diff_ci95": [
+        0.0007859033486484479,
+        0.009893434703678095
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "performance_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.022114903916036877,
+      "raw_Z_obs_diff": 0.005339669026163285,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.012915186731559669,
+        0.02271820670978819
+      ],
+      "Z_obs_diff_ci95": [
+        -0.028112978722583865,
+        0.03230931390792763
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.0049015099891142055,
+      "raw_Z_obs_diff": 0.0020981675926718957,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.06372594118366626,
+        0.011287932761638975
+      ],
+      "Z_obs_diff_ci95": [
+        -0.034825753473589044,
+        0.04276298597371064
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "performance_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.02621900421101364,
+      "raw_Z_obs_diff": 0.003968616250060786,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.06252932652641918,
+        0.0002882981261633777
+      ],
+      "Z_obs_diff_ci95": [
+        -0.017098391202054586,
+        0.02083928851683242
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "performance_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.031120514200127847,
+      "raw_Z_obs_diff": 0.00187044865738889,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.010533333333333394,
+        0.009333333333333305
+      ],
+      "Z_obs_diff_ci95": [
+        -0.008013749151866145,
+        0.019438433781330144
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": -0.0006000000000000449,
+      "raw_Z_obs_diff": 0.005712342314732,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.024333333333333318,
+        -0.0023333333333334094
+      ],
+      "Z_obs_diff_ci95": [
+        -0.019875461727327237,
+        -0.003257125143289741
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.013333333333333308,
+      "raw_Z_obs_diff": -0.011566293435308461,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.029866666666666597,
+        0.0043999999999999595
+      ],
+      "Z_obs_diff_ci95": [
+        -0.025961381468028066,
+        -0.00859589003205291
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "procedural_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.012733333333333263,
+      "raw_Z_obs_diff": -0.01727863575004046,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.01093333333333324,
+        0.031266666666666554
+      ],
+      "Z_obs_diff_ci95": [
+        -0.059686264436979386,
+        0.06505534416211889
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.010166666666666657,
+      "raw_Z_obs_diff": 0.002684539862569779,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.010133333333333217,
+        0.0713333333333333
+      ],
+      "Z_obs_diff_ci95": [
+        -0.04793867134702379,
+        0.06318503984345841
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.03060000000000007,
+      "raw_Z_obs_diff": 0.007623184248217285,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.021533333333333182,
+        0.062399999999999956
+      ],
+      "Z_obs_diff_ci95": [
+        -0.0579238200712352,
+        0.06780110884253032
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "procedural_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.020433333333333414,
+      "raw_Z_obs_diff": 0.004938644385647506,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.010466666666666735,
+        0.01100000000000001
+      ],
+      "Z_obs_diff_ci95": [
+        -0.05225155466009046,
+        0.06817023422751123
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.0002666666666666373,
+      "raw_Z_obs_diff": 0.00795933978371044,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.04266666666666663,
+        0.0021333333333335425
+      ],
+      "Z_obs_diff_ci95": [
+        -0.0631597130074727,
+        0.05694243265964227
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "procedural_only",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.020266666666666544,
+      "raw_Z_obs_diff": -0.0031086401739151004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.04713333333333314,
+        0.006066666666666776
+      ],
+      "Z_obs_diff_ci95": [
+        -0.057148834619331845,
+        0.035012874704080654
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "procedural_only",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.02053333333333318,
+      "raw_Z_obs_diff": -0.01106797995762554,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.019504500169551187,
+        0.019869542261640838
+      ],
+      "Z_obs_diff_ci95": [
+        -0.007680262934912974,
+        0.02224403430165839
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.00018252104604488117,
+      "raw_Z_obs_diff": 0.007281885683372735,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.03153191286261148,
+        -0.011809946914085545
+      ],
+      "Z_obs_diff_ci95": [
+        -0.026540115517823648,
+        0.006156883146647696
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.02167092988834851,
+      "raw_Z_obs_diff": -0.010191616185587948,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.03921197642960439,
+        -0.004494925439182285
+      ],
+      "Z_obs_diff_ci95": [
+        -0.02627065366162251,
+        -0.008676350076298855
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "dual",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.021853450934393392,
+      "raw_Z_obs_diff": -0.017473501868960684,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.0163967062891045,
+        0.031007367865860336
+      ],
+      "Z_obs_diff_ci95": [
+        -0.06567591767264164,
+        0.07036093931722309
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.007305330788377917,
+      "raw_Z_obs_diff": 0.0023425108222907,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        0.006821219765636655,
+        0.0508048964121659
+      ],
+      "Z_obs_diff_ci95": [
+        -0.05465105737639775,
+        0.068752576818146
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.028813058088901222,
+      "raw_Z_obs_diff": 0.007050759720874156,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.008534710389209055,
+        0.051550164990255776
+      ],
+      "Z_obs_diff_ci95": [
+        -0.06444761134315258,
+        0.07386410914031938
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "dual",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": 0.021507727300523305,
+      "raw_Z_obs_diff": 0.004708248898583456,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.012062547845660743,
+        0.021954943158154272
+      ],
+      "Z_obs_diff_ci95": [
+        -0.05739779314680521,
+        0.07284919476712193
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "bargaining_first",
+      "raw_S_obs_diff": 0.004946197656246709,
+      "raw_Z_obs_diff": 0.007725700810158331,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.06311660837952493,
+        0.010489628373903437
+      ],
+      "Z_obs_diff_ci95": [
+        -0.06878135824814585,
+        0.062095832044567034
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "dual",
+      "ordering_a": "security_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.02631349000281069,
+      "raw_Z_obs_diff": -0.003342763101789381,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_diff_ci95": [
+        -0.062009137650765656,
+        -0.0005102376673493669
+      ],
+      "Z_obs_diff_ci95": [
+        -0.062306940262249366,
+        0.04017001243835383
+      ],
+      "entrenchment": "strong",
+      "legitimacy": "dual",
+      "ordering_a": "bargaining_first",
+      "ordering_b": "coevolution",
+      "raw_S_obs_diff": -0.0312596876590574,
+      "raw_Z_obs_diff": -0.011068463911947712,
+      "stratum": "high_feasibility"
+    }
+  ],
+  "n_manipulation_check_failures": 0,
+  "n_matched_cells_with_all_three_orderings": 36,
+  "n_pairwise_contrasts": 108,
+  "n_records": 216,
+  "scope": {
+    "disclosed_limitation": "n_seeds_per_cell=2 gives a coarse (3-resample) seed-clustered bootstrap; reported honestly, not smoothed over.",
+    "disclosed_simplification": "mean_resources_final_step is a final-STEP snapshot, not a true final-third windowed average (Simulation does not retain per-step per-agent resource history) -- the windowed version is Stage 5/Work Package F's own job (task #118).",
+    "milestone": "level1.3b_work_package_e_stage3_matched_sequencing_factorial",
+    "n_cells": 108,
+    "n_patches": 3,
+    "n_runs_declared": 216,
+    "n_seeds_per_cell": 2,
+    "n_steps": 500,
+    "population_size": 40,
+    "primary_outcomes": [
+      "bargaining_participation_sustained_crossing_step",
+      "S_obs",
+      "Z_obs",
+      "realized_compliance_rate",
+      "mean_resources_final_third",
+      "n_active_rules_final_step",
+      "entrenchment_index_final_step",
+      "cross_founder_reconstruction_count"
+    ],
+    "seed_base": 8300000,
+    "uncertainty_method": "seed-clustered bootstrap CIs (resample whole seeds, not individual runs, within each matched cell) -- raw matched differences reported alongside, never pooled means alone"
+  },
+  "smoke_test_passed": true
+}

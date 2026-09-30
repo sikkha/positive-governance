@@ -1,0 +1,32 @@
+{
+  "classifier_version": "0.3b-v1",
+  "design": {
+    "n_points": 32,
+    "seeds_per_point": 3,
+    "n_steps": 250,
+    "design_seed": 20260817201,
+    "param_ranges_source": "experiments.niche_phase_search.PARAM_LOWS/PARAM_HIGHS (unchanged)",
+    "batches_run": 1,
+    "prespecification_note": "This is the single prespecified supplemental batch (milestone spec section 8); the design, ranges, and seed were fixed and recorded in dev_mem/status_update.md before this script was executed. No second batch will be run regardless of outcome."
+  },
+  "n_runs": 96,
+  "n_failures": 0,
+  "failures": [],
+  "run_level_new_label_counts": {
+    "unclassified": 42,
+    "depleted": 25,
+    "abundant": 17,
+    "interior-persistent": 10,
+    "intermittent": 2
+  },
+  "point_level_plurality_label_counts": {
+    "unclassified": 14,
+    "depleted": 8,
+    "abundant": 6,
+    "interior-persistent": 3,
+    "intermittent": 1
+  },
+  "n_points_interior_eligible_at_least_2_of_3_seeds": 2,
+  "n_points_with_any_oscillatory_seed": 0,
+  "n_points_with_any_intermittent_seed": 2
+}

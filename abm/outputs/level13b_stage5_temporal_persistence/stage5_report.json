@@ -1,0 +1,295 @@
+{
+  "classification_counts_across_16_seeds": {
+    "historical_hysteresis": 4,
+    "pressure_dependent_response": 3,
+    "transient_differentiation": 9
+  },
+  "condition_rank_stability": {
+    "early_to_middle": -0.9999999999999999,
+    "middle_to_late": 0.9999999999999999
+  },
+  "condition_window_means": {
+    "coevolution": {
+      "early": 0.6223247020551756,
+      "late": 0.6537658580023681,
+      "middle": 0.6693210780923573
+    },
+    "security_first": {
+      "early": 0.6284847850388833,
+      "late": 0.6535856942382361,
+      "middle": 0.6651364702376787
+    }
+  },
+  "counterfactual_persistence_by_variant": {
+    "equalized": {
+      "mean_gap_at_early": 0.02693513991761326,
+      "mean_gap_at_final_sustained": 0.07733611950363999,
+      "mean_gap_at_late": 0.06447071962386672,
+      "mean_gap_at_middle": 0.056217527892074626,
+      "n_seeds": 16,
+      "note": "gap between base security_first and this counterfactual, by window -- a nonzero, non-decaying late-window gap is evidence history/order/shape causally matters beyond the intervention step"
+    },
+    "removed": {
+      "mean_gap_at_early": 0.0,
+      "mean_gap_at_final_sustained": 0.08004007243293385,
+      "mean_gap_at_late": 0.06250638099122949,
+      "mean_gap_at_middle": 0.022083333333333323,
+      "n_seeds": 16,
+      "note": "gap between base security_first and this counterfactual, by window -- a nonzero, non-decaying late-window gap is evidence history/order/shape causally matters beyond the intervention step"
+    },
+    "reversed": {
+      "mean_gap_at_early": 0.028983577850998754,
+      "mean_gap_at_final_sustained": 0.08059121608792481,
+      "mean_gap_at_late": 0.07049904217537051,
+      "mean_gap_at_middle": 0.04556882879963777,
+      "n_seeds": 16,
+      "note": "gap between base security_first and this counterfactual, by window -- a nonzero, non-decaying late-window gap is evidence history/order/shape causally matters beyond the intervention step"
+    }
+  },
+  "n_part_a_runs": 32,
+  "n_part_b_runs": 48,
+  "per_seed_ordering_persistence": [
+    {
+      "classification": "transient_differentiation",
+      "convergence_divergence_slope": -0.028948424149137467,
+      "early_to_middle_gap_displacement": 0.07413257605090584,
+      "gap_at_early": 0.055343998257485705,
+      "gap_at_final_sustained": 0.14490782563519833,
+      "gap_at_late": 0.11324084655576061,
+      "gap_at_middle": 0.018788577793420247,
+      "late_window_gap_variance": 0.02906809632338785,
+      "middle_to_late_gap_displacement": -0.13202942434918075,
+      "seed": 8900000,
+      "summary_euclidean_distance": 0.19297081659569756
+    },
+    {
+      "classification": "transient_differentiation",
+      "convergence_divergence_slope": -0.03889047757397264,
+      "early_to_middle_gap_displacement": -0.10222462574676701,
+      "gap_at_early": 0.03948619723633173,
+      "gap_at_final_sustained": 0.019654052663710786,
+      "gap_at_late": 0.03829475791161352,
+      "gap_at_middle": 0.06273842851043543,
+      "late_window_gap_variance": 0.03785743880474679,
+      "middle_to_late_gap_displacement": 0.02444367059882173,
+      "seed": 8900001,
+      "summary_euclidean_distance": 0.08572071192986273
+    },
+    {
+      "classification": "pressure_dependent_response",
+      "convergence_divergence_slope": 0.09903961167171778,
+      "early_to_middle_gap_displacement": 0.15429199543797648,
+      "gap_at_early": 0.016696105929051575,
+      "gap_at_final_sustained": 0.1990516577796415,
+      "gap_at_late": 0.18138311741438395,
+      "gap_at_middle": 0.1375958895089252,
+      "late_window_gap_variance": 0.025948323523343423,
+      "middle_to_late_gap_displacement": 0.04378722790545905,
+      "seed": 8900002,
+      "summary_euclidean_distance": 0.3028742090550633
+    },
+    {
+      "classification": "historical_hysteresis",
+      "convergence_divergence_slope": 0.005454594584940977,
+      "early_to_middle_gap_displacement": 0.022028533165446236,
+      "gap_at_early": 0.0017254061721315717,
+      "gap_at_final_sustained": 0.07673552845797194,
+      "gap_at_late": 0.01263459534201361,
+      "gap_at_middle": 0.023753939337577856,
+      "late_window_gap_variance": 0.03161020192842873,
+      "middle_to_late_gap_displacement": -0.011119343995564284,
+      "seed": 8900003,
+      "summary_euclidean_distance": 0.0813338858514261
+    },
+    {
+      "classification": "historical_hysteresis",
+      "convergence_divergence_slope": -0.03019285612913071,
+      "early_to_middle_gap_displacement": -0.051051984735612,
+      "gap_at_early": 0.023333333333333317,
+      "gap_at_final_sustained": 0.08277809871377673,
+      "gap_at_late": 0.037052378924928075,
+      "gap_at_middle": 0.027718651402278804,
+      "late_window_gap_variance": 0.045420884547916415,
+      "middle_to_late_gap_displacement": -0.009333727522649417,
+      "seed": 8900004,
+      "summary_euclidean_distance": 0.09766197054467883
+    },
+    {
+      "classification": "pressure_dependent_response",
+      "convergence_divergence_slope": -0.049763025129056754,
+      "early_to_middle_gap_displacement": -0.011966393206156887,
+      "gap_at_early": 0.00016989442371773134,
+      "gap_at_final_sustained": 0.10150510285416503,
+      "gap_at_late": 0.09935615583439561,
+      "gap_at_middle": 0.011796498782439158,
+      "late_window_gap_variance": 0.011336887298710957,
+      "middle_to_late_gap_displacement": -0.08755965705195659,
+      "seed": 8900005,
+      "summary_euclidean_distance": 0.14252760383610827
+    },
+    {
+      "classification": "historical_hysteresis",
+      "convergence_divergence_slope": -0.020968851728984224,
+      "early_to_middle_gap_displacement": -0.05732786586044252,
+      "gap_at_early": 0.05681266419536668,
+      "gap_at_final_sustained": 0.07783443371386722,
+      "gap_at_late": 0.014874960737398357,
+      "gap_at_middle": 0.0005152016650759039,
+      "late_window_gap_variance": 0.042908130276004604,
+      "middle_to_late_gap_displacement": 0.01539016240247407,
+      "seed": 8900006,
+      "summary_euclidean_distance": 0.09750593712297077
+    },
+    {
+      "classification": "historical_hysteresis",
+      "convergence_divergence_slope": 0.02396648313012959,
+      "early_to_middle_gap_displacement": 0.05889844403835222,
+      "gap_at_early": 0.01745661106556673,
+      "gap_at_final_sustained": 0.0577878186136469,
+      "gap_at_late": 0.030476355194692606,
+      "gap_at_middle": 0.04144183297278581,
+      "late_window_gap_variance": 0.01873437381662533,
+      "middle_to_late_gap_displacement": -0.010965477778093046,
+      "seed": 8900007,
+      "summary_euclidean_distance": 0.07931203563215085
+    },
+    {
+      "classification": "transient_differentiation",
+      "convergence_divergence_slope": 0.002622453066784382,
+      "early_to_middle_gap_displacement": 0.10264220518354339,
+      "gap_at_early": 0.024000000000000132,
+      "gap_at_final_sustained": 0.026787065678898325,
+      "gap_at_late": 0.01875509386643115,
+      "gap_at_middle": 0.07864220518354359,
+      "late_window_gap_variance": 0.03825966588207334,
+      "middle_to_late_gap_displacement": -0.09739729904997464,
+      "seed": 8900008,
+      "summary_euclidean_distance": 0.0884867044801355
+    },
+    {
+      "classification": "transient_differentiation",
+      "convergence_divergence_slope": 0.02429200205363099,
+      "early_to_middle_gap_displacement": -0.023213334501457517,
+      "gap_at_early": 0.017797341896501728,
+      "gap_at_final_sustained": 0.10162753887063702,
+      "gap_at_late": 0.06638134600376377,
+      "gap_at_middle": 0.005415992604955511,
+      "late_window_gap_variance": 0.03250968915126913,
+      "middle_to_late_gap_displacement": 0.07179733860871947,
+      "seed": 8900009,
+      "summary_euclidean_distance": 0.12280357530891417
+    },
+    {
+      "classification": "pressure_dependent_response",
+      "convergence_divergence_slope": -0.07061577818781822,
+      "early_to_middle_gap_displacement": -0.07925705168424274,
+      "gap_at_early": 0.015173892868949213,
+      "gap_at_final_sustained": 0.16039731266023394,
+      "gap_at_late": 0.15640544924458566,
+      "gap_at_middle": 0.09443094455319223,
+      "late_window_gap_variance": 0.030433376289319924,
+      "middle_to_late_gap_displacement": -0.06197450469139365,
+      "seed": 8900010,
+      "summary_euclidean_distance": 0.2435927190538172
+    },
+    {
+      "classification": "transient_differentiation",
+      "convergence_divergence_slope": 0.013894523329217461,
+      "early_to_middle_gap_displacement": -0.052530788682873704,
+      "gap_at_early": 0.03302129418895017,
+      "gap_at_final_sustained": 0.015559292666094682,
+      "gap_at_late": 0.005232247530515544,
+      "gap_at_middle": 0.08555208287182381,
+      "late_window_gap_variance": 0.029631145445429427,
+      "middle_to_late_gap_displacement": 0.08031983534130863,
+      "seed": 8900011,
+      "summary_euclidean_distance": 0.09316132650467347
+    },
+    {
+      "classification": "transient_differentiation",
+      "convergence_divergence_slope": -0.02385372790429776,
+      "early_to_middle_gap_displacement": -0.08271960272789575,
+      "gap_at_early": 0.01262259260418419,
+      "gap_at_final_sustained": 0.008705668131466449,
+      "gap_at_late": 0.06033004841277978,
+      "gap_at_middle": 0.09534219533207988,
+      "late_window_gap_variance": 0.030914424552757377,
+      "middle_to_late_gap_displacement": 0.03501214691930024,
+      "seed": 8900012,
+      "summary_euclidean_distance": 0.11386381099320039
+    },
+    {
+      "classification": "transient_differentiation",
+      "convergence_divergence_slope": 0.055404918096946816,
+      "early_to_middle_gap_displacement": -0.08156735990069179,
+      "gap_at_early": 0.09583371361475768,
+      "gap_at_final_sustained": 0.22424976081044623,
+      "gap_at_late": 0.20664354980865107,
+      "gap_at_middle": 0.014266353714065705,
+      "late_window_gap_variance": 0.032124796355121575,
+      "middle_to_late_gap_displacement": 0.19237719609458537,
+      "seed": 8900013,
+      "summary_euclidean_distance": 0.3199642814667803
+    },
+    {
+      "classification": "transient_differentiation",
+      "convergence_divergence_slope": -0.008874150632866333,
+      "early_to_middle_gap_displacement": -0.05794247586123769,
+      "gap_at_early": 0.00827346402414042,
+      "gap_at_final_sustained": 0.014967937636287787,
+      "gap_at_late": 0.0260217652898731,
+      "gap_at_middle": 0.066215939885378,
+      "late_window_gap_variance": 0.029664067221270546,
+      "middle_to_late_gap_displacement": 0.04019417459550503,
+      "seed": 8900014,
+      "summary_euclidean_distance": 0.07317221007833359
+    },
+    {
+      "classification": "transient_differentiation",
+      "convergence_divergence_slope": -0.003289268480822614,
+      "early_to_middle_gap_displacement": 0.022292675616971576,
+      "gap_at_early": 0.045990735805511496,
+      "gap_at_final_sustained": 0.035467123954737945,
+      "gap_at_late": 0.03941219884386604,
+      "gap_at_middle": 0.06828341142248295,
+      "late_window_gap_variance": 0.03177885493894176,
+      "middle_to_late_gap_displacement": -0.028871212578616808,
+      "seed": 8900015,
+      "summary_euclidean_distance": 0.09792349235374326
+    }
+  ],
+  "scope": {
+    "disclosed_scope_reduction": "single representative cell (not the full Stage 3 factorial) -- Stage 3 already covered the factorial at final-step resolution; this stage's job is windowed trajectories at that one cell, not a full factorial re-run",
+    "intervention_step": 250,
+    "milestone": "level1.3b_work_package_f_stage5_temporal_persistence",
+    "n_patches": 3,
+    "n_runs_total_unique": 80,
+    "n_steps": 500,
+    "part_a": {
+      "n_runs": 32,
+      "n_seeds": 16,
+      "orderings": [
+        "security_first",
+        "coevolution"
+      ]
+    },
+    "part_b": {
+      "base_ordering": "security_first",
+      "n_runs": 48,
+      "n_seeds": 16,
+      "variants": [
+        "removed",
+        "reversed",
+        "equalized"
+      ]
+    },
+    "population_size": 40,
+    "representative_cell": {
+      "entrenchment": "moderate",
+      "legitimacy": "dual",
+      "stratum": "medium_feasibility"
+    },
+    "seed_base": 8900000
+  },
+  "smoke_test_passed": true
+}

@@ -1,0 +1,14 @@
+\begin{tabular}{@{}lrrl@{}}
+\toprule
+\textbf{Stage} & \textbf{Seeds/draws} & \textbf{Total runs} & \textbf{Purpose} \\
+\midrule
+1: mechanism activation & 8 seeds $\times$ 7 conditions & 56 & Confirm every mechanism reachable \\
+2: small open pilot      & 10 seeds, 1 condition        & 10 & First open-ended exploratory look \\
+3: main open search       & 12 draws $\times$ 2 seeds     & 24 & 8-dim Latin Hypercube parameter sweep \\
+4: blind discovery        & pools Stage 3               & (24 pooled) & Clustering + 12 recurrence criteria \\
+5: prospective confirmation & 12 draws (fresh seeds)     & 12 & Independent replication of Stage 4 \\
+6: scaling robustness      & 4 conditions $\times$ 2 seeds & 8 & Population/patch-count scale grid \\
+7: perturbation/transition & 2 types $\times$ 3 seeds      & 6 pairs & Shock recovery/transition test \\
+13: causal ablations       & 2 factors $\times$ 8 matched pairs & 32 & Matched-seed causal test \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,70 @@
+{
+  "candidate_key": "interior_persistent",
+  "selection": {
+    "persistent_proto_institution": {
+      "point_id": 2,
+      "overrides": {
+        "proposal_probability_mean": 0.03328442621617886,
+        "preferred_adoption_threshold_mean": 0.5082178703666723,
+        "monitoring_detection_accuracy": 0.8988510270977972,
+        "sanction_cost_per_unit": 0.29953478383712157,
+        "membership_exit_cost": 0.8049099713788366,
+        "amendment_propensity_mean": 0.03367030343666658,
+        "rule_mutation_std": 0.0656606046357957,
+        "monitoring_mode": "designated",
+        "sanction_mode": "voluntary"
+      },
+      "label_counts": {
+        "persistent_proto_institution": 6,
+        "founder_dependent_arrangement": 17,
+        "short_lived_convention": 6,
+        "proposal_rejected": 3,
+        "dissolved": 1,
+        "proto_institution": 2
+      }
+    },
+    "founder_dependent_or_short_lived": {
+      "point_id": 5,
+      "overrides": {
+        "proposal_probability_mean": 0.03736146144460766,
+        "preferred_adoption_threshold_mean": 0.3408470079004775,
+        "monitoring_detection_accuracy": 0.7416366444597715,
+        "sanction_cost_per_unit": 0.21349272475209008,
+        "membership_exit_cost": 1.0283023290387336,
+        "amendment_propensity_mean": 0.04375708989786829,
+        "rule_mutation_std": 0.03798184116660786,
+        "monitoring_mode": "voluntary",
+        "sanction_mode": "voluntary"
+      },
+      "label_counts": {
+        "founder_dependent_arrangement": 23,
+        "unclassified": 2,
+        "short_lived_convention": 4,
+        "persistent_proto_institution": 5,
+        "dissolved": 1
+      }
+    },
+    "no_institution_or_failed_adoption": {
+      "point_id": 13,
+      "overrides": {
+        "proposal_probability_mean": 0.010476738200694223,
+        "preferred_adoption_threshold_mean": 0.6416468742586079,
+        "monitoring_detection_accuracy": 0.7751812109678886,
+        "sanction_cost_per_unit": 0.8300983662277652,
+        "membership_exit_cost": 1.7181756125425083,
+        "amendment_propensity_mean": 0.08110031501944104,
+        "rule_mutation_std": 0.15527262336519268,
+        "monitoring_mode": "designated",
+        "sanction_mode": "voluntary"
+      },
+      "label_counts": {
+        "founder_dependent_arrangement": 15,
+        "proto_institution": 1,
+        "proposal_rejected": 9,
+        "short_lived_convention": 8,
+        "persistent_proto_institution": 1,
+        "reconstructed": 1
+      }
+    }
+  }
+}

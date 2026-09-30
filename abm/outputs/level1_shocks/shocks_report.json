@@ -1,0 +1,2186 @@
+{
+  "n_seeds": 15,
+  "n_steps": 600,
+  "shock_step": 300,
+  "overrides": {
+    "proposal_probability_mean": 0.03328442621617886,
+    "preferred_adoption_threshold_mean": 0.5082178703666723,
+    "monitoring_detection_accuracy": 0.8988510270977972,
+    "sanction_cost_per_unit": 0.29953478383712157,
+    "membership_exit_cost": 0.8049099713788366,
+    "amendment_propensity_mean": 0.03367030343666658,
+    "rule_mutation_std": 0.0656606046357957,
+    "monitoring_mode": "designated",
+    "sanction_mode": "voluntary"
+  },
+  "shocks": {
+    "founder_removal": [
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 2,
+        "n_post_shock_dissolutions": 16,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 5,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 4,
+        "n_post_shock_dissolutions": 7,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 1,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "unclassified"
+          },
+          {
+            "patch_id": 4,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 5,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 2,
+        "n_post_shock_dissolutions": 14,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 6,
+            "label": "persistent_proto_institution"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 4,
+        "n_post_shock_dissolutions": 9,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 1,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 5,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 6,
+            "label": "unclassified"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 4,
+        "n_post_shock_dissolutions": 8,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 5,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 6,
+            "label": "short_lived_convention"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 1,
+        "n_post_shock_dissolutions": 16,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "unclassified"
+          },
+          {
+            "patch_id": 4,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 5,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 3,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 5,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 5,
+            "label": "proposal_rejected"
+          },
+          {
+            "patch_id": 6,
+            "label": "proposal_rejected"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 4,
+        "n_post_shock_dissolutions": 7,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 2,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 5,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 6,
+            "label": "persistent_proto_institution"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 1,
+        "n_post_shock_dissolutions": 16,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 3,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 4,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 5,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 5,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 15,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 3,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 5,
+        "n_survived_post_shock": 2,
+        "n_post_shock_dissolutions": 6,
+        "n_reconstructions_post_shock": 3,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "reconstructed"
+          },
+          {
+            "patch_id": 4,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 5,
+            "label": "proposal_rejected"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 5,
+        "n_survived_post_shock": 2,
+        "n_post_shock_dissolutions": 7,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "proposal_rejected"
+          },
+          {
+            "patch_id": 6,
+            "label": "proposal_rejected"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 5,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 15,
+        "n_reconstructions_post_shock": 2,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 5,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 6,
+            "label": "persistent_proto_institution"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 5,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 3,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "unclassified"
+          },
+          {
+            "patch_id": 5,
+            "label": "proposal_rejected"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 11,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 3,
+            "label": "unclassified"
+          },
+          {
+            "patch_id": 4,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 5,
+            "label": "dissolved"
+          },
+          {
+            "patch_id": 6,
+            "label": "persistent_proto_institution"
+          }
+        ]
+      }
+    ],
+    "high_resource_member_removal": [
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 1,
+        "n_post_shock_dissolutions": 16,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "unclassified"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "unclassified"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "short_lived_convention"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 2,
+        "n_post_shock_dissolutions": 13,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 2,
+            "label": "reconstructed"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 6,
+            "label": "unclassified"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 6,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 1,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 2,
+            "label": "dissolved"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 4,
+        "n_post_shock_dissolutions": 14,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 6,
+            "label": "unclassified"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 4,
+        "n_post_shock_dissolutions": 10,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 2,
+        "n_post_shock_dissolutions": 18,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 4,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 5,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 3,
+        "n_survived_post_shock": 2,
+        "n_post_shock_dissolutions": 6,
+        "n_reconstructions_post_shock": 2,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "proto_institution"
+          },
+          {
+            "patch_id": 1,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "proposal_rejected"
+          },
+          {
+            "patch_id": 6,
+            "label": "proposal_rejected"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 10,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "dissolved"
+          },
+          {
+            "patch_id": 1,
+            "label": "reconstructed"
+          },
+          {
+            "patch_id": 2,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 2,
+        "n_post_shock_dissolutions": 15,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 3,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 5,
+        "n_survived_post_shock": 2,
+        "n_post_shock_dissolutions": 17,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 5,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 6,
+            "label": "short_lived_convention"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 5,
+        "n_survived_post_shock": 1,
+        "n_post_shock_dissolutions": 8,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 1,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "proposal_rejected"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 5,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 5,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 2,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 3,
+            "label": "proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 5,
+            "label": "proposal_rejected"
+          },
+          {
+            "patch_id": 6,
+            "label": "proposal_rejected"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 5,
+        "n_survived_post_shock": 2,
+        "n_post_shock_dissolutions": 23,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "unclassified"
+          },
+          {
+            "patch_id": 4,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 2,
+        "n_post_shock_dissolutions": 5,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 1,
+            "label": "dissolved"
+          },
+          {
+            "patch_id": 2,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 3,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "proposal_rejected"
+          },
+          {
+            "patch_id": 6,
+            "label": "unclassified"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 16,
+        "n_reconstructions_post_shock": 3,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 1,
+            "label": "reconstructed"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "unclassified"
+          },
+          {
+            "patch_id": 4,
+            "label": "proto_institution"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "persistent_proto_institution"
+          }
+        ]
+      }
+    ],
+    "temporary_monitoring_failure": [
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 1,
+        "n_post_shock_dissolutions": 20,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "unclassified"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 5,
+        "n_post_shock_dissolutions": 3,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 6,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "dissolved"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "dissolved"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "persistent_proto_institution"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 6,
+        "n_post_shock_dissolutions": 6,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 4,
+        "n_post_shock_dissolutions": 9,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 4,
+        "n_post_shock_dissolutions": 9,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "reconstructed"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 3,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 3,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "proposal_rejected"
+          },
+          {
+            "patch_id": 6,
+            "label": "proposal_rejected"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 2,
+        "n_post_shock_dissolutions": 11,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 2,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 20,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 4,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 5,
+            "label": "dissolved"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 5,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 16,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 5,
+            "label": "dissolved"
+          },
+          {
+            "patch_id": 6,
+            "label": "short_lived_convention"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 5,
+        "n_survived_post_shock": 2,
+        "n_post_shock_dissolutions": 10,
+        "n_reconstructions_post_shock": 3,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 1,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 4,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 5,
+            "label": "proposal_rejected"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 5,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 11,
+        "n_reconstructions_post_shock": 2,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 4,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 5,
+            "label": "proposal_rejected"
+          },
+          {
+            "patch_id": 6,
+            "label": "proposal_rejected"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 5,
+        "n_survived_post_shock": 2,
+        "n_post_shock_dissolutions": 18,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 4,
+        "n_post_shock_dissolutions": 3,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "proposal_rejected"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 21,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 1,
+            "label": "unclassified"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 5,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      }
+    ],
+    "sudden_membership_influx": [
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 21,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "persistent_proto_institution"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 5,
+        "n_post_shock_dissolutions": 5,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "proto_institution"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 4,
+        "n_post_shock_dissolutions": 9,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 1,
+            "label": "proto_institution"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "dissolved"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "persistent_proto_institution"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 5,
+        "n_post_shock_dissolutions": 9,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 5,
+        "n_post_shock_dissolutions": 7,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "dissolved"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 9,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 3,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 3,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 2,
+            "label": "reconstructed"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "proposal_rejected"
+          },
+          {
+            "patch_id": 6,
+            "label": "proposal_rejected"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 4,
+        "n_post_shock_dissolutions": 7,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 2,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "persistent_proto_institution"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 7,
+        "n_survived_post_shock": 2,
+        "n_post_shock_dissolutions": 22,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "reconstructed"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 3,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 4,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 5,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 6,
+            "label": "unclassified"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 5,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 15,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "short_lived_convention"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 5,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 7,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 5,
+            "label": "proposal_rejected"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 5,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 10,
+        "n_reconstructions_post_shock": 1,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 5,
+            "label": "proposal_rejected"
+          },
+          {
+            "patch_id": 6,
+            "label": "proposal_rejected"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 5,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 18,
+        "n_reconstructions_post_shock": 3,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "unclassified"
+          },
+          {
+            "patch_id": 3,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 4,
+            "label": "reconstructed"
+          },
+          {
+            "patch_id": 5,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 4,
+        "n_post_shock_dissolutions": 2,
+        "n_reconstructions_post_shock": 0,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 1,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 2,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 3,
+            "label": "persistent_proto_institution"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "proposal_rejected"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      },
+      {
+        "n_active_pre_shock": 6,
+        "n_survived_post_shock": 3,
+        "n_post_shock_dissolutions": 20,
+        "n_reconstructions_post_shock": 3,
+        "classifications_at_end": [
+          {
+            "patch_id": 0,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 1,
+            "label": "short_lived_convention"
+          },
+          {
+            "patch_id": 2,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 3,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 4,
+            "label": "founder_dependent_arrangement"
+          },
+          {
+            "patch_id": 5,
+            "label": "reconstructed"
+          },
+          {
+            "patch_id": 6,
+            "label": "founder_dependent_arrangement"
+          }
+        ]
+      }
+    ]
+  }
+}

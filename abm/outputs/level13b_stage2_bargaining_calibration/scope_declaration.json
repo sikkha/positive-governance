@@ -1,0 +1,44 @@
+{
+  "ecological_design_source": "outputs/level13_stage2_calibration/design.json",
+  "ecological_strata": [
+    "low_feasibility",
+    "medium_feasibility",
+    "high_feasibility"
+  ],
+  "levers_held_fixed": [
+    "pressure_onset_order (security, bargaining, coordination_complexity)",
+    "pressure_magnitude_and_kind (early_pulse, level12b_frozen_reference defaults)",
+    "transmission_sensitivity (bargaining_pressure_conditional_contribution_sensitivity, config default)",
+    "entrenchment_enabled=True, entrenchment_maturation_steps=100"
+  ],
+  "levers_swept": {
+    "participation_frequency_contribution_period_steps": [
+      10,
+      5
+    ],
+    "response_cost_contribution_amount": [
+      0.2,
+      0.1,
+      0.05,
+      0.02
+    ],
+    "sustained_crossing_duration_min_duration_steps_post_hoc": [
+      10,
+      5,
+      3
+    ]
+  },
+  "milestone": "level1.3b_work_package_c_stage2_bargaining_calibration",
+  "n_cells": 24,
+  "n_patches": 3,
+  "n_runs_declared": 96,
+  "n_seeds_per_cell": 4,
+  "n_steps": 500,
+  "population_size": 40,
+  "seed_base": 8100000,
+  "selection_rule_disclosed": "region frozen for downstream use = cells where activation_fraction at min_duration_steps=10 falls in [0.2, 0.8], selected using ONLY bargaining_participation activation counts -- never S_obs, Z_obs, clustering, or dissertation resemblance",
+  "target_activation_fraction_range": [
+    0.2,
+    0.8
+  ]
+}

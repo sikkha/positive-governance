@@ -1,0 +1,638 @@
+{
+  "n_categories": 25,
+  "all_categories_covered": true,
+  "missing_categories": [],
+  "findings": {
+    "ledger_identities": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12b_ecological_ledger.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestFullSimulationResidualIsZero",
+              "present": true
+            },
+            {
+              "name": "TestProductionScaleResidualIsZero",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "ratios": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12b_feasibility_ratios.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestStructuralFeasibilityRatio",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "strata": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12b_joint_discovery.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "stratum",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "run_count_arithmetic": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12b_preregistration_manifest.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_confirmation_rules",
+              "present": false
+            },
+            {
+              "name": "total_runs",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "hashing_versioning": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12b_joint_discovery.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "hash",
+              "present": true
+            },
+            {
+              "name": "load_and_verify",
+              "present": false
+            },
+            {
+              "name": "tamper",
+              "present": false
+            }
+          ]
+        },
+        {
+          "file": "tests/test_level12b_recurrence_criteria_audit.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "hash",
+              "present": true
+            },
+            {
+              "name": "load_and_verify",
+              "present": true
+            },
+            {
+              "name": "tamper",
+              "present": true
+            }
+          ]
+        },
+        {
+          "file": "tests/test_level12b_prospective_confirmation.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "hash",
+              "present": true
+            },
+            {
+              "name": "load_and_verify",
+              "present": true
+            },
+            {
+              "name": "tamper",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "feature_numerators_denominators": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12b_phenotype_feature_audit.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "numerator",
+              "present": true
+            },
+            {
+              "name": "denominator",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "missingness": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12_phenotype_discovery.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_mean_impute_never_leaves_nan",
+              "present": true
+            },
+            {
+              "name": "test_missingness_indicator_doubles_column_count",
+              "present": true
+            },
+            {
+              "name": "TestPrimaryMissingnessStrategyPreregistered",
+              "present": false
+            }
+          ]
+        },
+        {
+          "file": "tests/test_level12b_clustering_discovery.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_mean_impute_never_leaves_nan",
+              "present": false
+            },
+            {
+              "name": "test_missingness_indicator_doubles_column_count",
+              "present": false
+            },
+            {
+              "name": "TestPrimaryMissingnessStrategyPreregistered",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "temporal_windows": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12_temporal_features.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "window",
+              "present": true
+            }
+          ]
+        },
+        {
+          "file": "tests/test_level12b_temporal_representation.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "window",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "aggregation": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12b_main_discovery_pipeline.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestAggregateAllOutcomeSummary",
+              "present": true
+            },
+            {
+              "name": "TestAggregateFailureTrajectorySummary",
+              "present": true
+            },
+            {
+              "name": "TestAggregateSustainedSystemSummary",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "recurrence_audit": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12b_recurrence_criteria_audit.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "audit_completeness_check",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "lineage": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12_convergence_tests.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "lineage",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "k_equals_1": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12_phenotype_discovery.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_k1_always_valid_for_gmm_and_hierarchical",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_cluster_ground_truth": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12b_discovery_synthetic_ground_truth.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "TestOneClusterGroundTruth",
+              "present": true
+            },
+            {
+              "name": "TestTwoClusterGroundTruth",
+              "present": true
+            },
+            {
+              "name": "TestThreeClusterGroundTruth",
+              "present": true
+            },
+            {
+              "name": "TestManyClusterGroundTruth",
+              "present": true
+            },
+            {
+              "name": "TestContinuumGroundTruth",
+              "present": true
+            },
+            {
+              "name": "TestCollapseDominatedGroundTruth",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "permutation_invariance": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12_convergence_tests.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "permutation",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "bootstrap_matching": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12_phenotype_discovery.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_bootstrap_stability_high_for_well_separated_clusters",
+              "present": true
+            },
+            {
+              "name": "TestSeedClusteredBootstrapStability",
+              "present": false
+            }
+          ]
+        },
+        {
+          "file": "tests/test_level12b_statistical_requirements_audit.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_bootstrap_stability_high_for_well_separated_clusters",
+              "present": false
+            },
+            {
+              "name": "TestSeedClusteredBootstrapStability",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "consensus_co_assignment": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12_phenotype_discovery.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_co_assignment_matrix_diagonal_is_one",
+              "present": true
+            },
+            {
+              "name": "test_noise_points_never_co_assigned",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "training_only_preprocessing": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12_phenotype_discovery.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_standardization_fit_on_train_only",
+              "present": true
+            },
+            {
+              "name": "TestTrainingOnlyPreprocessingCheck",
+              "present": false
+            }
+          ]
+        },
+        {
+          "file": "tests/test_level12b_statistical_requirements_audit.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_standardization_fit_on_train_only",
+              "present": false
+            },
+            {
+              "name": "TestTrainingOnlyPreprocessingCheck",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "discovery_confirmation_separation": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12b_prospective_confirmation.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_design_seeds_disjoint_from_discovery_seeds",
+              "present": true
+            },
+            {
+              "name": "test_results_meet_section_22_structural_requirements",
+              "present": false
+            }
+          ]
+        },
+        {
+          "file": "tests/test_level12b_statistical_requirements_audit.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_design_seeds_disjoint_from_discovery_seeds",
+              "present": false
+            },
+            {
+              "name": "test_results_meet_section_22_structural_requirements",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "ic_pairing": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12b_joint_discovery.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "ic_famil",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "population_resource_conservation": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12b_ecological_ledger.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "residual",
+              "present": true
+            },
+            {
+              "name": "test_resource_accounting_identity_holds_exactly",
+              "present": false
+            },
+            {
+              "name": "test_population_size_is_constant_across_the_run",
+              "present": false
+            },
+            {
+              "name": "test_ecological_resource_accounting_identity_holds_exactly",
+              "present": false
+            }
+          ]
+        },
+        {
+          "file": "tests/test_invariants.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "residual",
+              "present": false
+            },
+            {
+              "name": "test_resource_accounting_identity_holds_exactly",
+              "present": true
+            },
+            {
+              "name": "test_population_size_is_constant_across_the_run",
+              "present": true
+            },
+            {
+              "name": "test_ecological_resource_accounting_identity_holds_exactly",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "mechanism_substream_isolation": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level11b_rng_substreams.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_substream_mode_every_name_is_a_distinct_object",
+              "present": true
+            },
+            {
+              "name": "test_ablation_leaves_social_and_ecological_streams_untouched_after_step_0",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "serial_parallel_equivalence": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_ensemble.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_serial_and_parallel_execution_agree",
+              "present": true
+            },
+            {
+              "name": "test_run_specs_serial_and_parallel_agree",
+              "present": false
+            }
+          ]
+        },
+        {
+          "file": "tests/test_phase_sweep.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_serial_and_parallel_execution_agree",
+              "present": false
+            },
+            {
+              "name": "test_run_specs_serial_and_parallel_agree",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "cross_process_reproducibility": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level11b_rng_substreams.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_build_stream_registry_stable_across_subprocess_with_different_hashseed",
+              "present": true
+            },
+            {
+              "name": "test_repeat_run_byte_equality_of_raw_stream_draws",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "sem_firewall": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12_sem_firewall.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_every_level12_experiment_script_is_covered",
+              "present": true
+            },
+            {
+              "name": "TestWorkPackageFThroughOScriptsAreDiscovered",
+              "present": false
+            }
+          ]
+        },
+        {
+          "file": "tests/test_level12b_sem_firewall_extension.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_every_level12_experiment_script_is_covered",
+              "present": false
+            },
+            {
+              "name": "TestWorkPackageFThroughOScriptsAreDiscovered",
+              "present": true
+            }
+          ]
+        }
+      ]
+    },
+    "terminology_guard": {
+      "status": "pass",
+      "file_findings": [
+        {
+          "file": "tests/test_level12_structural_guards.py",
+          "exists": true,
+          "functions": [
+            {
+              "name": "test_every_source_module_free_of_forbidden_terms",
+              "present": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

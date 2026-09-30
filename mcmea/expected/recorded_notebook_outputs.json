@@ -1,0 +1,18 @@
+{
+  "_provenance": "Values transcribed from the stream outputs stored in notebooks/evidence/*.ipynb (v2 cells 30, 32; v3 cells 34, 36). The v3 cell-34 matrix was produced by an earlier east-profile execution (see mcmea/README.md, 'Hidden notebook state').",
+  "state_order": ["A_Strong_S", "B_Strong_SZ", "C_Strong_Z", "Hybrid"],
+  "v2": {
+    "example_seed7": {"pop_size": 90, "generations": 60, "m_eval": 5, "lambda_robust": 1.0, "seed": 7,
+                      "transition_counts": [[0,0,0,0],[0,58,0,0],[0,0,0,0],[0,1,0,0]]},
+    "multirun_seeds20_59": {"generations": 50, "winner_entropy_H": 1.946, "effective_winners": 7.00, "unique_winner_bins": 13}
+  },
+  "v3": {
+    "example_seed7_east": {"profile": "east", "pop_size": 90, "generations": 60, "seed": 7,
+                           "transition_counts": [[0,0,0,0],[0,0,0,0],[0,0,53,2],[0,0,3,1]]},
+    "multirun_seeds20_59": {
+      "east":   {"H": 2.367, "eff": 10.66, "macro_counts": {"A_Strong_S": 34, "C_Strong_Z": 6}},
+      "anglo":  {"H": 2.554, "eff": 12.86, "macro_counts": {"A_Strong_S": 23, "C_Strong_Z": 17}},
+      "europe": {"H": 2.460, "eff": 11.71, "macro_counts": {"A_Strong_S": 29, "C_Strong_Z": 11}}
+    }
+  }
+}

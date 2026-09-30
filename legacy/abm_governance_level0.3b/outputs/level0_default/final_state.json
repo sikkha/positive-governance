@@ -1,0 +1,1172 @@
+{
+  "initial_total_resources": 579.4795959446377,
+  "final_total_resources": 252337.4795959447,
+  "agents": [
+    {
+      "agent_id": 0,
+      "resources": 5248.859727389645,
+      "coercive_capability": 1.2088128171888606,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8997772933439958,
+      "learning_rate": 0.11969424805229008,
+      "forgiveness": 0.035581926812522285,
+      "risk_sensitivity": 0.5592683090273012,
+      "degree": 5
+    },
+    {
+      "agent_id": 1,
+      "resources": 4080.47873575426,
+      "coercive_capability": 0.8512267814673544,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8407941016621405,
+      "learning_rate": 0.08014892283882896,
+      "forgiveness": 0.07817823764283895,
+      "risk_sensitivity": 0.32452971383407037,
+      "degree": 4
+    },
+    {
+      "agent_id": 2,
+      "resources": 5051.26670524565,
+      "coercive_capability": 0.3389470358060048,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.9164484814730102,
+      "learning_rate": 0.09224282363578229,
+      "forgiveness": 0.17917364394010613,
+      "risk_sensitivity": 0.6980541480622758,
+      "degree": 5
+    },
+    {
+      "agent_id": 3,
+      "resources": 4195.644022726657,
+      "coercive_capability": 0.603870708996012,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.9026014487129943,
+      "learning_rate": 0.12051058572329604,
+      "forgiveness": 0.1501980787921085,
+      "risk_sensitivity": 0.4073139432938599,
+      "degree": 4
+    },
+    {
+      "agent_id": 4,
+      "resources": 3900.377038385025,
+      "coercive_capability": 0.8100417729423319,
+      "policy": "always_defect",
+      "observation_accuracy": 0.8669235989092391,
+      "learning_rate": 0.12805149964342066,
+      "forgiveness": 0.10245273069126559,
+      "risk_sensitivity": 0.8003588875467882,
+      "degree": 4
+    },
+    {
+      "agent_id": 5,
+      "resources": 3638.1623316248256,
+      "coercive_capability": 1.388367645832335,
+      "policy": "grim",
+      "observation_accuracy": 0.8811218247383596,
+      "learning_rate": 0.06726561647142415,
+      "forgiveness": 0.036115991680669604,
+      "risk_sensitivity": 0.5945617236152347,
+      "degree": 4
+    },
+    {
+      "agent_id": 6,
+      "resources": 3777.134428305635,
+      "coercive_capability": 0.7793550122973175,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8622697104370035,
+      "learning_rate": 0.1506732235733102,
+      "forgiveness": 0.0856306146095667,
+      "risk_sensitivity": 0.7361612418266881,
+      "degree": 4
+    },
+    {
+      "agent_id": 7,
+      "resources": 3653.3175605718466,
+      "coercive_capability": 0.5795439355247716,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.9124892685779333,
+      "learning_rate": 0.13094359254608418,
+      "forgiveness": 0.10805047883576724,
+      "risk_sensitivity": 0.4121706763814995,
+      "degree": 4
+    },
+    {
+      "agent_id": 8,
+      "resources": 4115.746084305243,
+      "coercive_capability": 0.6158818165856281,
+      "policy": "random",
+      "observation_accuracy": 0.9251341424937433,
+      "learning_rate": 0.12969139099857416,
+      "forgiveness": 0.09178527036873547,
+      "risk_sensitivity": 0.3388452712657348,
+      "degree": 4
+    },
+    {
+      "agent_id": 9,
+      "resources": 4246.836718327181,
+      "coercive_capability": 1.0327839092433442,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8643465952470364,
+      "learning_rate": 0.11863053560620296,
+      "forgiveness": 0.0,
+      "risk_sensitivity": 0.5579554396349459,
+      "degree": 4
+    },
+    {
+      "agent_id": 10,
+      "resources": 3506.8419640446236,
+      "coercive_capability": 1.2178281366843295,
+      "policy": "grim",
+      "observation_accuracy": 0.8962149236889588,
+      "learning_rate": 0.1060634318513188,
+      "forgiveness": 0.1347085968353504,
+      "risk_sensitivity": 0.3862445373652386,
+      "degree": 5
+    },
+    {
+      "agent_id": 11,
+      "resources": 3943.151187221486,
+      "coercive_capability": 0.5719678447030803,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.9421866331151634,
+      "learning_rate": 0.13494591943333084,
+      "forgiveness": 0.13937941108529348,
+      "risk_sensitivity": 0.6266118020867888,
+      "degree": 4
+    },
+    {
+      "agent_id": 12,
+      "resources": 3800.8629010917048,
+      "coercive_capability": 0.691058668596561,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.8932477449981493,
+      "learning_rate": 0.07691456079469883,
+      "forgiveness": 0.028862911574229322,
+      "risk_sensitivity": 0.5387679186369482,
+      "degree": 4
+    },
+    {
+      "agent_id": 13,
+      "resources": 5120.972170662952,
+      "coercive_capability": 1.3125519277638467,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.8478499459964217,
+      "learning_rate": 0.10805251239126745,
+      "forgiveness": 0.11793359745851723,
+      "risk_sensitivity": 0.698368620465025,
+      "degree": 5
+    },
+    {
+      "agent_id": 14,
+      "resources": 4158.679240016498,
+      "coercive_capability": 1.1271314058560042,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.9701132413386262,
+      "learning_rate": 0.13450496908449078,
+      "forgiveness": 0.0,
+      "risk_sensitivity": 0.6843025578805131,
+      "degree": 4
+    },
+    {
+      "agent_id": 15,
+      "resources": 4136.196729403247,
+      "coercive_capability": 0.967325581627773,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.918561370886813,
+      "learning_rate": 0.11148271480812283,
+      "forgiveness": 0.11597071101261905,
+      "risk_sensitivity": 0.4461630037192069,
+      "degree": 4
+    },
+    {
+      "agent_id": 16,
+      "resources": 4665.30078808878,
+      "coercive_capability": 0.846813259630562,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.8598134075739662,
+      "learning_rate": 0.13240490237613656,
+      "forgiveness": 0.08556167470023113,
+      "risk_sensitivity": 0.5125213034160515,
+      "degree": 4
+    },
+    {
+      "agent_id": 17,
+      "resources": 4359.62856038999,
+      "coercive_capability": 0.2805301403806686,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.8994233469156707,
+      "learning_rate": 0.055438744472093654,
+      "forgiveness": 0.1150342557147303,
+      "risk_sensitivity": 0.48408916198283736,
+      "degree": 4
+    },
+    {
+      "agent_id": 18,
+      "resources": 4476.632951881762,
+      "coercive_capability": 0.9850597092821071,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.9256526066940153,
+      "learning_rate": 0.0910724788317001,
+      "forgiveness": 0.07349957933909208,
+      "risk_sensitivity": 0.4645768055220587,
+      "degree": 4
+    },
+    {
+      "agent_id": 19,
+      "resources": 4170.133869734011,
+      "coercive_capability": 1.0143018193635038,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.9043309631494272,
+      "learning_rate": 0.055387813909738064,
+      "forgiveness": 0.182366953317805,
+      "risk_sensitivity": 0.6376231975166442,
+      "degree": 4
+    },
+    {
+      "agent_id": 20,
+      "resources": 3925.052224103916,
+      "coercive_capability": 1.308656304340955,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.9458327394412298,
+      "learning_rate": 0.11112840505283231,
+      "forgiveness": 0.1306594538929503,
+      "risk_sensitivity": 0.47717105623875644,
+      "degree": 4
+    },
+    {
+      "agent_id": 21,
+      "resources": 4219.226246272673,
+      "coercive_capability": 0.9399010895771295,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.8032520181695146,
+      "learning_rate": 0.09280189986225892,
+      "forgiveness": 0.08977387558001697,
+      "risk_sensitivity": 0.34357097885232435,
+      "degree": 4
+    },
+    {
+      "agent_id": 22,
+      "resources": 3566.702910152375,
+      "coercive_capability": 0.8577001039496682,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8781565837201359,
+      "learning_rate": 0.11559525192932923,
+      "forgiveness": 0.07617104797207931,
+      "risk_sensitivity": 0.7083469962257463,
+      "degree": 4
+    },
+    {
+      "agent_id": 23,
+      "resources": 3594.433749868641,
+      "coercive_capability": 1.4929754842728091,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8027867512007228,
+      "learning_rate": 0.060767404092965584,
+      "forgiveness": 0.15434153923841817,
+      "risk_sensitivity": 0.49240939053329863,
+      "degree": 4
+    },
+    {
+      "agent_id": 24,
+      "resources": 3305.672929603392,
+      "coercive_capability": 0.8159746454157916,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.8358675377963051,
+      "learning_rate": 0.08243026600475922,
+      "forgiveness": 0.0763706161620758,
+      "risk_sensitivity": 0.587950592229695,
+      "degree": 4
+    },
+    {
+      "agent_id": 25,
+      "resources": 3505.3266798910827,
+      "coercive_capability": 0.6122061631721976,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8197425301557444,
+      "learning_rate": 0.1218804821205357,
+      "forgiveness": 0.1403069679257511,
+      "risk_sensitivity": 0.4285434878898257,
+      "degree": 4
+    },
+    {
+      "agent_id": 26,
+      "resources": 3966.4256145156855,
+      "coercive_capability": 1.1740853250172922,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.8764093422629549,
+      "learning_rate": 0.14133852858167564,
+      "forgiveness": 0.10678653670335672,
+      "risk_sensitivity": 0.8465545230193832,
+      "degree": 4
+    },
+    {
+      "agent_id": 27,
+      "resources": 4574.264766471357,
+      "coercive_capability": 1.9198110217146689,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8902247086083449,
+      "learning_rate": 0.1169745354048428,
+      "forgiveness": 0.09963943201706218,
+      "risk_sensitivity": 0.41582028343862615,
+      "degree": 4
+    },
+    {
+      "agent_id": 28,
+      "resources": 4512.99998313363,
+      "coercive_capability": 1.4081338607455773,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8961327470137892,
+      "learning_rate": 0.03950017929300265,
+      "forgiveness": 0.06756996960483327,
+      "risk_sensitivity": 0.6017059590685996,
+      "degree": 4
+    },
+    {
+      "agent_id": 29,
+      "resources": 4210.600066915374,
+      "coercive_capability": 0.5580570776003124,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.9501199136421979,
+      "learning_rate": 0.09542984092527293,
+      "forgiveness": 0.07638920286119784,
+      "risk_sensitivity": 0.3492798489458455,
+      "degree": 4
+    },
+    {
+      "agent_id": 30,
+      "resources": 4527.462976285826,
+      "coercive_capability": 0.7108437307803478,
+      "policy": "grim",
+      "observation_accuracy": 0.9602198145766543,
+      "learning_rate": 0.14772102361378187,
+      "forgiveness": 0.037193096513613355,
+      "risk_sensitivity": 0.3227475536470305,
+      "degree": 4
+    },
+    {
+      "agent_id": 31,
+      "resources": 4827.709168469707,
+      "coercive_capability": 0.8533092808473866,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.7446831599358354,
+      "learning_rate": 0.06573163130104243,
+      "forgiveness": 0.1648457699900262,
+      "risk_sensitivity": 0.44814912058033024,
+      "degree": 4
+    },
+    {
+      "agent_id": 32,
+      "resources": 4753.351056287429,
+      "coercive_capability": 0.6336329950821591,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.9880333648496562,
+      "learning_rate": 0.10597653949041572,
+      "forgiveness": 0.08089988539282597,
+      "risk_sensitivity": 0.8828636038056621,
+      "degree": 4
+    },
+    {
+      "agent_id": 33,
+      "resources": 7022.609433862959,
+      "coercive_capability": 1.2558245411722875,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.9100955000980055,
+      "learning_rate": 0.09883494884325761,
+      "forgiveness": 0.15331622765831288,
+      "risk_sensitivity": 0.36175491132532833,
+      "degree": 6
+    },
+    {
+      "agent_id": 34,
+      "resources": 4817.59172087544,
+      "coercive_capability": 0.8640776668993857,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8666156354032465,
+      "learning_rate": 0.10489732017168034,
+      "forgiveness": 0.05846240215728313,
+      "risk_sensitivity": 0.8518712110761002,
+      "degree": 4
+    },
+    {
+      "agent_id": 35,
+      "resources": 6210.779026707869,
+      "coercive_capability": 0.9442678123985243,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8467080989018313,
+      "learning_rate": 0.0896163617448048,
+      "forgiveness": 0.09970619866515479,
+      "risk_sensitivity": 0.615168370301703,
+      "degree": 6
+    },
+    {
+      "agent_id": 36,
+      "resources": 4384.437151916645,
+      "coercive_capability": 0.5987808275415126,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8291755316792979,
+      "learning_rate": 0.07517793319701535,
+      "forgiveness": 0.23779037791379756,
+      "risk_sensitivity": 0.6561864787542193,
+      "degree": 4
+    },
+    {
+      "agent_id": 37,
+      "resources": 4438.426851066524,
+      "coercive_capability": 1.426713551574534,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.8512208584700172,
+      "learning_rate": 0.09934927421458795,
+      "forgiveness": 0.10173638941795952,
+      "risk_sensitivity": 0.3883459098603716,
+      "degree": 5
+    },
+    {
+      "agent_id": 38,
+      "resources": 3208.127909107966,
+      "coercive_capability": 1.0346985481277877,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.9225842725647548,
+      "learning_rate": 0.08876295941296194,
+      "forgiveness": 0.08896693960919567,
+      "risk_sensitivity": 0.42057043113114967,
+      "degree": 4
+    },
+    {
+      "agent_id": 39,
+      "resources": 5158.658938383185,
+      "coercive_capability": 0.5697155620977634,
+      "policy": "grim",
+      "observation_accuracy": 0.8464727795152117,
+      "learning_rate": 0.06991947102901543,
+      "forgiveness": 0.06798687973048131,
+      "risk_sensitivity": 0.6098452572066946,
+      "degree": 5
+    },
+    {
+      "agent_id": 40,
+      "resources": 3139.4167351391707,
+      "coercive_capability": 1.090387652966068,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.9319926037586189,
+      "learning_rate": 0.12263106713918653,
+      "forgiveness": 0.0520533146102889,
+      "risk_sensitivity": 0.5843596515939439,
+      "degree": 4
+    },
+    {
+      "agent_id": 41,
+      "resources": 4260.116679923391,
+      "coercive_capability": 0.0,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.8369519859967233,
+      "learning_rate": 0.12498683348082507,
+      "forgiveness": 0.1601629477058249,
+      "risk_sensitivity": 0.5955609853439275,
+      "degree": 4
+    },
+    {
+      "agent_id": 42,
+      "resources": 4185.110729949827,
+      "coercive_capability": 1.1236352215385002,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.9130314874533471,
+      "learning_rate": 0.0992366404992237,
+      "forgiveness": 0.09264772465768335,
+      "risk_sensitivity": 0.405413301504347,
+      "degree": 4
+    },
+    {
+      "agent_id": 43,
+      "resources": 3741.060310395648,
+      "coercive_capability": 1.0530437391191574,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8868105919729687,
+      "learning_rate": 0.08610027580870389,
+      "forgiveness": 0.16148769054696357,
+      "risk_sensitivity": 0.3341949339096312,
+      "degree": 4
+    },
+    {
+      "agent_id": 44,
+      "resources": 3899.695803523941,
+      "coercive_capability": 0.8329611474540456,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8597847177358786,
+      "learning_rate": 0.09130054311792059,
+      "forgiveness": 0.05400031985939016,
+      "risk_sensitivity": 0.6012596777614159,
+      "degree": 4
+    },
+    {
+      "agent_id": 45,
+      "resources": 4012.8367050017787,
+      "coercive_capability": 0.8871918548350772,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8448890850472889,
+      "learning_rate": 0.10905148280503212,
+      "forgiveness": 0.1478692803420966,
+      "risk_sensitivity": 0.4829245475927178,
+      "degree": 4
+    },
+    {
+      "agent_id": 46,
+      "resources": 3480.2883810463795,
+      "coercive_capability": 0.9310202555190056,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.9033784603004714,
+      "learning_rate": 0.09126151265818935,
+      "forgiveness": 0.11470210714874901,
+      "risk_sensitivity": 0.273534123044641,
+      "degree": 4
+    },
+    {
+      "agent_id": 47,
+      "resources": 3912.378308824977,
+      "coercive_capability": 0.48893662370881064,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.9179304033824692,
+      "learning_rate": 0.08979069617601373,
+      "forgiveness": 0.11601805946870518,
+      "risk_sensitivity": 0.3391155793806618,
+      "degree": 5
+    },
+    {
+      "agent_id": 48,
+      "resources": 4195.5041830894415,
+      "coercive_capability": 0.5724729570270207,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.8480380592610407,
+      "learning_rate": 0.10706998208618904,
+      "forgiveness": 0.17314211425922887,
+      "risk_sensitivity": 0.5417189452712046,
+      "degree": 4
+    },
+    {
+      "agent_id": 49,
+      "resources": 4032.941814250143,
+      "coercive_capability": 1.6080337285729578,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8904361667784935,
+      "learning_rate": 0.0994036896687372,
+      "forgiveness": 0.18452843226696986,
+      "risk_sensitivity": 0.5933187832408673,
+      "degree": 4
+    },
+    {
+      "agent_id": 50,
+      "resources": 4319.2651948012435,
+      "coercive_capability": 1.0656357966805694,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8802495062250604,
+      "learning_rate": 0.07361620855887051,
+      "forgiveness": 0.17374113260434548,
+      "risk_sensitivity": 0.49253663595545477,
+      "degree": 4
+    },
+    {
+      "agent_id": 51,
+      "resources": 4566.893723175991,
+      "coercive_capability": 0.8862396813960547,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.9422444390187859,
+      "learning_rate": 0.1298000861334895,
+      "forgiveness": 0.031239879997362982,
+      "risk_sensitivity": 0.7997722205407594,
+      "degree": 4
+    },
+    {
+      "agent_id": 52,
+      "resources": 3080.4702520694273,
+      "coercive_capability": 1.2433763214824907,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8590670074239293,
+      "learning_rate": 0.07092962707725381,
+      "forgiveness": 0.10616892187880914,
+      "risk_sensitivity": 0.40279755587155597,
+      "degree": 4
+    },
+    {
+      "agent_id": 53,
+      "resources": 4503.811007374741,
+      "coercive_capability": 0.8190124347573258,
+      "policy": "grim",
+      "observation_accuracy": 0.9182283671913162,
+      "learning_rate": 0.08816286224728867,
+      "forgiveness": 0.13671237980926865,
+      "risk_sensitivity": 0.7051067939458506,
+      "degree": 5
+    },
+    {
+      "agent_id": 54,
+      "resources": 4045.8235765417617,
+      "coercive_capability": 0.5562586498686688,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.9471310920109939,
+      "learning_rate": 0.12156821697445164,
+      "forgiveness": 0.11133494282189962,
+      "risk_sensitivity": 0.6743631781337686,
+      "degree": 4
+    },
+    {
+      "agent_id": 55,
+      "resources": 3789.0499997617994,
+      "coercive_capability": 0.8138712566215291,
+      "policy": "grim",
+      "observation_accuracy": 0.8566746321361551,
+      "learning_rate": 0.10367632286608121,
+      "forgiveness": 0.06019566124524481,
+      "risk_sensitivity": 0.42691727653629624,
+      "degree": 4
+    },
+    {
+      "agent_id": 56,
+      "resources": 3933.5854684090586,
+      "coercive_capability": 0.8256902282464254,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.8497606390503503,
+      "learning_rate": 0.11102398617236839,
+      "forgiveness": 0.13974455339916098,
+      "risk_sensitivity": 0.42793310907226834,
+      "degree": 4
+    },
+    {
+      "agent_id": 57,
+      "resources": 4113.725004998382,
+      "coercive_capability": 1.1331974198940007,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.9265625607818094,
+      "learning_rate": 0.1026716811621766,
+      "forgiveness": 0.17970784501691073,
+      "risk_sensitivity": 0.33567919450436995,
+      "degree": 4
+    },
+    {
+      "agent_id": 58,
+      "resources": 3822.315911093427,
+      "coercive_capability": 1.2759421781694964,
+      "policy": "always_cooperate",
+      "observation_accuracy": 0.8819779914504551,
+      "learning_rate": 0.11750602382148231,
+      "forgiveness": 0.028073867550478082,
+      "risk_sensitivity": 0.8178204546093981,
+      "degree": 4
+    },
+    {
+      "agent_id": 59,
+      "resources": 4327.106687511414,
+      "coercive_capability": 1.3302202285074385,
+      "policy": "generous_tit_for_tat",
+      "observation_accuracy": 0.8439438660530388,
+      "learning_rate": 0.13452649093695257,
+      "forgiveness": 0.0807612986695499,
+      "risk_sensitivity": 0.5237634360743317,
+      "degree": 4
+    }
+  ],
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      58
+    ],
+    [
+      0,
+      59
+    ],
+    [
+      0,
+      28
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      59
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      22
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      10,
+      39
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      13
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      12,
+      14
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      15
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      14,
+      16
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      15,
+      17
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      16,
+      18
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      17,
+      19
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      18,
+      20
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      19,
+      21
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      21,
+      23
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      22,
+      24
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      25
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      24,
+      26
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      25,
+      35
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      26,
+      35
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      27,
+      29
+    ],
+    [
+      27,
+      33
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      28,
+      30
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      29,
+      31
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      30,
+      32
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      31,
+      33
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      32,
+      34
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      33,
+      35
+    ],
+    [
+      33,
+      50
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      34,
+      36
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      35,
+      37
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      36,
+      38
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      37,
+      39
+    ],
+    [
+      37,
+      42
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      38,
+      40
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      39,
+      52
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      40,
+      42
+    ],
+    [
+      41,
+      43
+    ],
+    [
+      41,
+      53
+    ],
+    [
+      41,
+      47
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      42,
+      44
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      43,
+      45
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      44,
+      46
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      45,
+      47
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      46,
+      48
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      47,
+      49
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      48,
+      50
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      49,
+      51
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      51,
+      53
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      52,
+      54
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      53,
+      55
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      54,
+      56
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      55,
+      57
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      56,
+      58
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      57,
+      59
+    ],
+    [
+      58,
+      59
+    ]
+  ]
+}

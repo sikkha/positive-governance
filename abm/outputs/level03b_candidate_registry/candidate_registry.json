@@ -1,0 +1,110 @@
+{
+  "classifier_version": "0.3b-v1",
+  "source_experiments": [
+    "experiments/level03b_phase_search_reanalysis.py (original 16-point Level 0.3 search, reanalyzed)",
+    "experiments/level03b_supplemental_search.py (prespecified 32-point supplemental search)"
+  ],
+  "selection_criteria": {
+    "interior_persistent": ">= 2 of 3 exploratory seeds individually satisfy classify_regime's interior-persistent criterion; ties broken by more passing seeds, then lowest (source, point_id) -- never by outcome preference",
+    "oscillatory_or_intermittent": ">= 1 exploratory seed satisfies the oscillatory criterion; if none exists across both batches, fall back to intermittent under the same rule; if neither exists, record that no nonstationary candidate qualified",
+    "near_collapse": "smallest |mean_occupancy - depletion_threshold| among non-collapsed points, excluding points already selected above -- ecological proximity to transition, not a preferred behavioral outcome"
+  },
+  "exclusion_rules": [
+    "selection never reads social co-operation, sanctioning, or any social-game statistic",
+    "selection never compares a point to the dissertation's three governance trajectories",
+    "selection never reads any causal-intervention or perturbation-recovery result (none exist yet at this point in the milestone's work-package order)",
+    "once selected and written to this file, a candidate is not replaced because its later causal/confirmation results are disappointing"
+  ],
+  "n_points_searched_total": 48,
+  "n_points_searched_original": 16,
+  "n_points_searched_supplemental": 32,
+  "selected": {
+    "interior_persistent": {
+      "source": "supplemental_32pt_search",
+      "point_id": 15,
+      "n_interior_persistent_seeds_of_3": 2,
+      "agreement_fraction": 0.6666666666666666,
+      "mean_occupancy_exploratory": 0.2834790303068442,
+      "eligibility_rule": ">= 2 of 3 exploratory seeds satisfy classify_regime's interior-persistent criterion",
+      "parameters": {
+        "patch_regen_rate": 0.2011463927846142,
+        "patch_capacity": 505.8164761191306,
+        "n_patches": 7,
+        "population_size": 33,
+        "ecological_harvest_unit": 9.37573476761745,
+        "ecological_search_cost": 1.755231469556919,
+        "ecological_maintenance_unit": 4.885587071520591,
+        "maintenance_efficiency": 0.9600179454673012,
+        "ecological_mutation_rate": 0.0127484577968196,
+        "scarcity_sensitivity_mean": 0.7125896621474824,
+        "fitness_mode": "recent_payoff"
+      }
+    },
+    "nonstationary": {
+      "type": "intermittent",
+      "source": "supplemental_32pt_search",
+      "point_id": 23,
+      "n_intermittent_seeds_of_3": 1,
+      "eligibility_rule": "no point satisfied the oscillatory criterion (0 of 48 points searched across both batches had any oscillatory seed); falling back to intermittent per the milestone's explicit instruction not to manufacture an oscillatory candidate -- >= 1 of 3 exploratory seeds satisfy classify_regime's intermittent criterion",
+      "parameters": {
+        "patch_regen_rate": 0.8243336460624594,
+        "patch_capacity": 419.0682062722842,
+        "n_patches": 2,
+        "population_size": 20,
+        "ecological_harvest_unit": 8.814590857425639,
+        "ecological_search_cost": 0.9650716352318622,
+        "ecological_maintenance_unit": 8.07269459977772,
+        "maintenance_efficiency": 0.7493519109074969,
+        "ecological_mutation_rate": 0.0539260791172072,
+        "scarcity_sensitivity_mean": 0.7804329788196562,
+        "fitness_mode": "resource_delta"
+      }
+    },
+    "near_collapse": {
+      "source": "original_16pt_reanalysis",
+      "point_id": 8,
+      "mean_occupancy_exploratory": 0.0654596640432039,
+      "distance_to_depletion_threshold": 0.015459664043203897,
+      "eligibility_rule": "smallest |mean_occupancy - depletion_threshold(0.05)| among points with mean_occupancy > depletion_threshold, i.e. ecologically closest to the collapse boundary without having already collapsed -- selected by proximity to transition, not by any behavioral or social co-operation outcome",
+      "parameters": {
+        "patch_regen_rate": 0.1805281113043289,
+        "patch_capacity": 738.5600063054911,
+        "n_patches": 3,
+        "population_size": 20,
+        "ecological_harvest_unit": 9.028700596157591,
+        "ecological_search_cost": 1.264327433043949,
+        "ecological_maintenance_unit": 13.608842131477518,
+        "maintenance_efficiency": 0.366205780098225,
+        "ecological_mutation_rate": 0.0361973623080379,
+        "scarcity_sensitivity_mean": 0.5955922468615816,
+        "fitness_mode": "viability_adjusted"
+      }
+    }
+  },
+  "rejected_candidates": [
+    {
+      "candidate_type": "interior_persistent",
+      "source": "supplemental_32pt_search",
+      "point_id": 18,
+      "reason": "eligible but not selected -- lower n_interior_persistent_seeds or tie-broken by (source, point_id) order, not by outcome preference"
+    }
+  ],
+  "confirmation_plan": {
+    "seeds_per_candidate": {
+      "primary_interior_persistent": 24,
+      "secondary_nonstationary": 24,
+      "secondary_near_collapse": 24
+    },
+    "n_steps": 600,
+    "burn_in_fraction": 0.2,
+    "primary_and_secondary_outcomes": [
+      "seed-level label distribution and agreement (Work Package D)",
+      "post-burn-in mean/minimum/terminal occupancy, trend, depletion/abundance duration (Work Package D)",
+      "parameter-neighborhood robustness (Work Package E)",
+      "causal-intervention continuous paired effects vs. 7 counterfactual conditions (Work Packages F/G)",
+      "fitness-stream sensitivity at the primary candidate (Work Package H)",
+      "micro-macro linkage (Work Package I)",
+      "perturbation-recovery eligibility and recovery quality (Work Packages J/K)"
+    ]
+  }
+}

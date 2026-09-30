@@ -1,0 +1,5 @@
+"negative_codes","model","n","chisq","chisq.scaled","df","cfi","tli","cfi.scaled","tli.scaled","cfi.robust","tli.robust","rmsea","rmsea.scaled","rmsea.robust","srmr","post_check"
+"as_reported","model1",94278,40674.3065,33033.4591,17,0.8888,0.8169,0.8172,0.699,0.8888,0.8169,0.1593,0.1435,0.1593,0.0731,"TRUE"
+"as_reported","model2",94278,40674.3065,33033.4726,17,0.8888,0.8169,0.8172,0.699,0.8888,0.8169,0.1593,0.1435,0.1593,0.0731,"lavaan WARNING: covariance matrix of latent variables is not positive definite; use lavInspect(fit, ""cov.lv"") to investigate."
+"as_missing","model1",76522,12658.567,10088.6954,17,0.9495,0.9169,0.944,0.9078,0.9495,0.9169,0.0986,0.088,0.0986,0.0529,"TRUE"
+"as_missing","model2",76522,12658.567,10088.6971,17,0.9495,0.9169,0.944,0.9078,0.9495,0.9169,0.0986,0.088,0.0986,0.0529,"TRUE"

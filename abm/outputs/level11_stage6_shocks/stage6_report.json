@@ -1,0 +1,303 @@
+{
+  "n_seeds": 10,
+  "n_steps": 500,
+  "shock_step": 250,
+  "shocks": {
+    "delegate_removal": {
+      "shocked_runs": [
+        {
+          "n_pre_shock_delegated_rules": 2,
+          "n_post_shock_appointments": 80,
+          "n_post_shock_task_performances": 297,
+          "n_rules_with_active_delegate_at_end": 0,
+          "n_active_rules_at_end": 2
+        },
+        {
+          "n_pre_shock_delegated_rules": 1,
+          "n_post_shock_appointments": 83,
+          "n_post_shock_task_performances": 264,
+          "n_rules_with_active_delegate_at_end": 0,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": 3,
+          "n_post_shock_appointments": 75,
+          "n_post_shock_task_performances": 333,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": 1,
+          "n_post_shock_appointments": 63,
+          "n_post_shock_task_performances": 343,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": 3,
+          "n_post_shock_appointments": 58,
+          "n_post_shock_task_performances": 458,
+          "n_rules_with_active_delegate_at_end": 3,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": 2,
+          "n_post_shock_appointments": 85,
+          "n_post_shock_task_performances": 339,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": 2,
+          "n_post_shock_appointments": 86,
+          "n_post_shock_task_performances": 345,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": 4,
+          "n_post_shock_appointments": 84,
+          "n_post_shock_task_performances": 314,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": 2,
+          "n_post_shock_appointments": 73,
+          "n_post_shock_task_performances": 363,
+          "n_rules_with_active_delegate_at_end": 2,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": 2,
+          "n_post_shock_appointments": 88,
+          "n_post_shock_task_performances": 331,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        }
+      ],
+      "control_runs": [
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 60,
+          "n_post_shock_task_performances": 363,
+          "n_rules_with_active_delegate_at_end": 4,
+          "n_active_rules_at_end": 2
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 74,
+          "n_post_shock_task_performances": 357,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 76,
+          "n_post_shock_task_performances": 396,
+          "n_rules_with_active_delegate_at_end": 5,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 82,
+          "n_post_shock_task_performances": 359,
+          "n_rules_with_active_delegate_at_end": 3,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 63,
+          "n_post_shock_task_performances": 425,
+          "n_rules_with_active_delegate_at_end": 2,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 94,
+          "n_post_shock_task_performances": 307,
+          "n_rules_with_active_delegate_at_end": 3,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 76,
+          "n_post_shock_task_performances": 367,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 82,
+          "n_post_shock_task_performances": 287,
+          "n_rules_with_active_delegate_at_end": 4,
+          "n_active_rules_at_end": 2
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 84,
+          "n_post_shock_task_performances": 354,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 74,
+          "n_post_shock_task_performances": 405,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        }
+      ],
+      "n_seeds_with_post_shock_reappointment": 10,
+      "reappointment_rate": 1.0
+    },
+    "appropriation_spike": {
+      "shocked_runs": [
+        {
+          "n_pre_shock_delegated_rules": 2,
+          "n_post_shock_appointments": 72,
+          "n_post_shock_task_performances": 357,
+          "n_rules_with_active_delegate_at_end": 2,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": 1,
+          "n_post_shock_appointments": 74,
+          "n_post_shock_task_performances": 357,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": 3,
+          "n_post_shock_appointments": 76,
+          "n_post_shock_task_performances": 396,
+          "n_rules_with_active_delegate_at_end": 3,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": 1,
+          "n_post_shock_appointments": 82,
+          "n_post_shock_task_performances": 345,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": 3,
+          "n_post_shock_appointments": 65,
+          "n_post_shock_task_performances": 428,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": 2,
+          "n_post_shock_appointments": 92,
+          "n_post_shock_task_performances": 293,
+          "n_rules_with_active_delegate_at_end": 2,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": 2,
+          "n_post_shock_appointments": 74,
+          "n_post_shock_task_performances": 357,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": 4,
+          "n_post_shock_appointments": 82,
+          "n_post_shock_task_performances": 287,
+          "n_rules_with_active_delegate_at_end": 3,
+          "n_active_rules_at_end": 2
+        },
+        {
+          "n_pre_shock_delegated_rules": 2,
+          "n_post_shock_appointments": 92,
+          "n_post_shock_task_performances": 286,
+          "n_rules_with_active_delegate_at_end": 0,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": 2,
+          "n_post_shock_appointments": 77,
+          "n_post_shock_task_performances": 376,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        }
+      ],
+      "control_runs": [
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 60,
+          "n_post_shock_task_performances": 363,
+          "n_rules_with_active_delegate_at_end": 4,
+          "n_active_rules_at_end": 2
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 74,
+          "n_post_shock_task_performances": 357,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 76,
+          "n_post_shock_task_performances": 396,
+          "n_rules_with_active_delegate_at_end": 5,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 82,
+          "n_post_shock_task_performances": 359,
+          "n_rules_with_active_delegate_at_end": 3,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 63,
+          "n_post_shock_task_performances": 425,
+          "n_rules_with_active_delegate_at_end": 2,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 94,
+          "n_post_shock_task_performances": 307,
+          "n_rules_with_active_delegate_at_end": 3,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 76,
+          "n_post_shock_task_performances": 367,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 82,
+          "n_post_shock_task_performances": 287,
+          "n_rules_with_active_delegate_at_end": 4,
+          "n_active_rules_at_end": 2
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 84,
+          "n_post_shock_task_performances": 354,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        },
+        {
+          "n_pre_shock_delegated_rules": null,
+          "n_post_shock_appointments": 74,
+          "n_post_shock_task_performances": 405,
+          "n_rules_with_active_delegate_at_end": 1,
+          "n_active_rules_at_end": 3
+        }
+      ],
+      "n_seeds_with_post_shock_reappointment": 10,
+      "reappointment_rate": 1.0
+    }
+  }
+}

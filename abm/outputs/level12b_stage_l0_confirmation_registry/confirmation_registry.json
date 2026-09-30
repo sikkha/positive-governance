@@ -1,0 +1,68 @@
+{
+  "candidate_status": "no_independent_well_separated_candidates -- Section 16 verdict is 'continuum', not 'multi_config'. Per this milestone's own preregistered null_replication_rule ('if Section 16 discovery supports no candidates, confirmation replicates the null result rather than manufacturing a candidate to test'), a continuum finding is treated the same way a no-candidate finding would be: this Work Package does not name, number, or assign an expected direction to any discrete institutional-phenotype class.",
+  "confirmation_design_hash": "5bd2a91ec7ad5b3d886558f92246a3112eaa7db23583d0faf7c960e52acf7bc3",
+  "expected_directions": {
+    "primary_prereg_expectation": "NULL: an independent replication of Section 16's own discovery procedure (gmm/hierarchical across k=1..8 plus hdbscan, identical classify_discovery_verdict thresholds) run on the fresh confirmation pool's own feature matrix should likewise fail to reach a stable, single-peaked, failure-independent 'multi_config' verdict -- i.e. this Work Package expects its own independent_replication_verdict to NOT be 'multi_config'. Preregistered BEFORE the confirmation pool is generated.",
+    "secondary_prereg_expectation": "the diagnostic k=headline_k partition's out-of-sample assignment on the confirmation pool is expected to show LOW-TO-MODERATE agreement (ARI) with the confirmation pool's own independently fit partition, mirroring Work Package K's own moderate-not-high in-pool stability metrics -- consistent with a continuum rather than sharp, portable classes."
+  },
+  "frozen_diagnostic_partition": {
+    "description": "the headline_k GMM fit is retained ONLY as a diagnostic stress-test object, never as N independent confirmed candidates",
+    "fit_procedure": "GaussianMixture(n_components=k, random_state=RNG_SEED) refit on the discovery pool's own mean-impute-standardized feature matrix (X_train=X_apply=discovery pool, matching Work Package K's own preprocess_features call convention) -- deterministically reproducible bit-for-bit, refit at Work Package L analysis time rather than loaded from a serialized model object, since Work Package K's own saved results.json did not persist model parameters (disclosed gap, not silently worked around).",
+    "k": 4,
+    "rng_seed": 20260818
+  },
+  "frozen_preprocessing": {
+    "dimension_keys": [
+      "C",
+      "E",
+      "L",
+      "D",
+      "M",
+      "R",
+      "S",
+      "F",
+      "V",
+      "H"
+    ],
+    "feature_vector_source": "vector_end (end-of-run institutional_phenotype_vector, window=None) -- matches Work Package K's own headline feature set, not the mid-run temporal-window-stability snapshot (already tested by Work Package K; not re-tested here, a disclosed scope reduction)",
+    "missingness_strategy": "mean_impute",
+    "standardize": true
+  },
+  "hard_minimum": {
+    "n_ic_families": 2,
+    "n_joint_points": 18,
+    "seeds_per_point": 6,
+    "total_runs": 216
+  },
+  "null_replication_rule_applied": true,
+  "null_replication_rule_text": "if Section 16 discovery supports no candidates, confirmation replicates the null result rather than manufacturing a candidate to test",
+  "preregistration_manifest_hash": "f5bd19df912c0653b97d83f98a4685bb6020fc18b33092e2b2e1ecf11c319b77",
+  "run_arithmetic": {
+    "n_ic_families": 2,
+    "n_joint_points": 24,
+    "seeds_per_point": 8,
+    "total_runs": 384
+  },
+  "source_design_hash": "04e2987fe2710014da00c3d917541983e34a5fcd1cc1087b9cb1d271d4f4b89d",
+  "source_discovery": {
+    "wp_k_headline_k": 4,
+    "wp_k_n_total": 576,
+    "wp_k_report_sha256_informational_only": "52e1d39e1763fda13dd9497d9d07cfe9fa5c72f1c8ee5cbb60ce976add574a63",
+    "wp_k_verdict": {
+      "reasons": [
+        "3_ks_within_0.05_silhouette_of_best"
+      ],
+      "verdict": "continuum"
+    }
+  },
+  "tests_applied": [
+    "recurrence_across_seeds_points_and_initial_condition_families",
+    "assignment_stability",
+    "feature_profile_stability",
+    "held_out_predictiveness",
+    "unclassified_outcome_rate",
+    "failure_transition_rate"
+  ],
+  "uncertainty_ranges": "not applicable -- Section 16 did not confirm independent candidate clusters, so no per-candidate uncertainty range is preregistered here. The only quantity given an explicit uncertainty treatment is the diagnostic partition's own stability (bootstrap ARI / algorithm-agreement ARI), already reported by Work Package K in-pool and re-tested here out-of-sample against fresh confirmation data.",
+  "version": "level1.2b-confirmation-registry-v1"
+}

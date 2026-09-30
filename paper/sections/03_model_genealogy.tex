@@ -1,0 +1,169 @@
+\section{Model Genealogy}
+\label{sec:model-genealogy}
+
+Level 1.2 and Level 1.2b are not a single design decision; they sit at the
+end of an eight-milestone development sequence in which each mechanism was
+introduced, defaulted to an exact no-op, and validated before the next
+layer was added. Level 1.3 and Level 1.3b, the historical extension this
+paper's second half reports, continue that same discipline directly:
+every historical mechanism they add --- pressure-transmission channels,
+entrenchment, dual legitimacy ledgers --- was itself introduced, defaulted
+to a verified no-op, and mechanism-validated before any discovery or causal
+experiment consumed it. This section summarizes the full ten-milestone
+sequence to make clear what was already established, and under what
+conditions, before each discovery pipeline reported later in this paper was
+ever run. Full detail for every milestone below is in the source
+repository's own per-level scientific notes and ODD addenda (see
+\cref{sec:reproducibility}); this section reports only what is load-bearing
+for interpreting the results that follow.
+
+\begin{table}[htbp]
+\centering
+\caption{Model layers and mechanisms by milestone. Every mechanism
+defaults to a verified, byte-for-byte no-op unless explicitly activated.}
+\label{tab:mechanism-layer}
+\adjustbox{max width=\textwidth}{\input{tables/tab_mechanism_layer.tex}}
+\end{table}
+
+\subsection{Level 0: atomic relational mechanisms}
+\label{sec:level0}
+
+The base model (Level 0 and its Level~0.1 ecological-closure extension) is
+a heterogeneous population interacting over a dynamic network via a
+repeated cooperation/defection payoff grammar, with imperfect observation,
+memory and forgiveness, optional costly punishment, strategy imitation
+with low-rate mutation, and costly relationship exit and formation. Level
+0.1 closes the resource loop with a shared, bounded environment pool
+governed by logistic regeneration and mandatory subsistence costs, and
+makes relationship dynamics genuinely ongoing rather than an
+initialization-time artifact. Every stochastic draw in the codebase passes
+through one explicit, seeded random-number generator, making every run
+exactly reproducible from its configuration.
+
+\subsection{Ecological closure and viability}
+\label{sec:ecological-closure}
+
+Level 0.2 added full participation-opportunity accounting, a disableable
+agent viability state machine (distress, dormancy, and, only if
+explicitly enabled, removal and replacement), configurable imitation
+fitness signals, explicit ecological supply/demand balance accounting, and
+operational (never "attractor"-labeled) dynamical classification
+definitions. This milestone's own investigation into Level 0.1's pool
+collapse and near-universal measured cooperation found both candidate
+explanations it tested --- selective-participation bias and
+relative-fitness invariance to universal impoverishment --- genuinely
+present, with regime-dependent relative weight.
+
+\subsection{Endogenous ecological behavior}
+\label{sec:endogenous-ecology}
+
+Level 0.3 gave agents a second, structurally independent behavioral
+dimension --- an ecological action (extraction, maintenance, or restraint)
+governed by its own policy, never derived from the social
+cooperate/defect decision --- and an opt-in spatially disaggregated
+alternative to the single global pool: fixed-membership local patches.
+Four causal-intervention counterfactuals (no environmental effect, and
+frozen, randomized, or shuffled ecological policy) were built so that any
+observed persistence could be attributed to actual agent behavior, not
+merely to the bare environmental equation. Level 0.3b then re-audited Level
+0.3's own regime classifier with a stricter, burn-in-aware, multi-criterion
+test and a prospectively registered confirmation pipeline; the audited
+classifier found none of the original "oscillatory" or "intermittent"
+labels survived across 144 point-seed runs, and established, via a
+paired, prespecified causal comparison, that endogenous adaptive
+ecological behavior causally worsens ecological persistence relative to
+frozen or randomized counterfactuals. This causal result --- not a
+discretionary preference --- was the two-route decision gate that licensed
+proceeding to institutional mechanisms at all.
+
+\subsection{Proto-institutions, delegation, accountability, and coordination}
+\label{sec:proto-institutions}
+
+Level 1.0 introduced the proto-institution substrate directly in response
+to Level 0.3b's demonstrated coordination failure: a locally shared,
+patch-attached rule that can be proposed, voluntarily adopted, imperfectly
+monitored and enforced, amended, dissolved, and --- possibly ---
+reconstructed, entirely from local information. Level 1.0's own
+counterfactual comparison found persistent proto-institutions emerged
+unforced at every tested ecological candidate, alongside a
+directionally consistent (not, at that milestone's sample size,
+statistically confirmed) pattern in which real monitoring and
+sanctioning infrastructure was associated with \textit{lower} final
+ecological occupancy than no institution at all. Level 1.1 then built the
+generative bridge from a single static rule to delegation: administrative
+capacity accumulated only from realized task performance (never a static
+trait), discretion and its corresponding appropriation opportunity,
+accountability (audit, recall, appeal), opt-in collective contributions,
+and minimal bilateral interpatch coordination, deliberately independent of
+delegation. Level 1.1b then validated these mechanisms directly ---
+artifact-independent re-verification, a per-mechanism random-number
+substream architecture for causal ablations, and an audited, more
+conservative delegation classifier reported alongside the original for
+direct comparison, never replacing it.
+
+\subsection{Why Level 1.2 was the appropriate discovery gate}
+\label{sec:why-level12}
+
+Only once local institutional formation, delegation, accountability, and
+coordination were each independently built, defaulted to exact no-ops, and
+mechanism-validated in isolation did the project introduce the mechanisms
+that make institutions capable of \textit{propagating and competing for
+persistence across space} --- local observation, component-wise
+transmission, migration and membership selection, differential
+persistence, and institutional scaling --- and, simultaneously, the
+observer-only apparatus needed to ask, without bias toward any answer,
+whether recurrent institutional configurations exist at all: a
+ten-dimensional phenotype vector, temporal feature extraction, a blind
+discovery pipeline, and a twelve-criterion recurrence test. This is Level
+1.2. Running an outcome-blind discovery search before this point would have
+been premature (institutions could not yet propagate or compete); running
+it very much later, without first establishing that every prior mechanism
+defaults to a verified no-op and is individually validated, would have
+made any discovered (or undiscovered) structure impossible to attribute to
+specific, understood mechanisms. Level 1.2 is where those two
+requirements are jointly first satisfied.
+
+\subsection{Why Level 1.3 was the appropriate historical-extension gate}
+\label{sec:why-level13}
+
+Level 1.2b's own closing synthesis (\cref{sec:level12b-verdict}) established
+that the synchronic substrate is generatively sufficient but not
+phenotype-convergent, and explicitly motivated, without implementing or
+testing, a historically conditioned extension
+(\cref{eq:historical-decomposition-intro}). Only once that synchronic
+result was independently replicated on fresh data, and only once the
+project's own ecological ledger, feasibility measures, and recurrence
+machinery were validated at the 576-run scale, did the project introduce
+history as a generative mechanism: three pressure-transmission channels
+(security, bargaining, coordination-complexity), each wired through two of
+six candidate transmission primitives shared across channels
+(\texttt{pressure\_adjusted\_probability}, \texttt{pressure\_adjusted\_%
+scale}); institutional entrenchment (age-dependent resistance to
+amendment/dissolution); and dual performance/procedural legitimacy ledgers,
+each independently costly and fallible. Every one of these mechanisms
+defaults to the identical Level 1.2b behavior when disabled, verified by
+regression test, so that Level 1.3's own results can be attributed to the
+specific historical mechanisms added, not to an undisclosed change in the
+substrate Level 1.2b already validated. Running a historical-pressure
+search before Level 1.2b's own synchronic null was independently replicated
+would have made it impossible to tell whether any resulting structure came
+from history or from unresolved ecological confounding; Level 1.3 is where
+those two requirements are jointly first satisfied for the historical
+extension, exactly as Level 1.2 was for the synchronic one.
+
+\subsection{Level 1.3b: purpose-designed validation and causal intervention}
+\label{sec:why-level13b}
+
+Level 1.3's own discovery evidence (\cref{sec:level13}) was pooled and
+post hoc: every headline finding rested on the same 216- or 228-run pool
+assembled across Stages 3-5/7, with only one genuinely independent
+fresh-data test (Stage 7's 12-point confirmation), which is exactly the one
+claim that failed to reproduce. Level 1.3b closes this gap not by
+re-analyzing Level 1.3's own pool but by running a purpose-designed,
+preregistered, eight-hypothesis program with its own discovery pool
+(Stage 4, $n=240$), its own disjoint fresh-confirmation pool (Stage 8,
+$n=96$), and, for the first time in this project, a sham-controlled causal
+intervention stage (Stage 6) capable of directly testing whether erasing or
+altering a run's own realized history changes its trajectory, validated
+against a byte-identical control that itself introduces zero spurious
+divergence. \Cref{sec:level13b} reports this program in full.

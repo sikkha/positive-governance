@@ -1,0 +1,499 @@
+{
+  "cell_summaries": [
+    {
+      "activation_fraction_min_duration_steps_10": 0.25,
+      "activation_fraction_min_duration_steps_3": 0.75,
+      "activation_fraction_min_duration_steps_5": 0.75,
+      "mean_realized_compliance_rate": 0.06015804796296608,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.02,
+      "stratum": "high_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.06181234600587945,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.02,
+      "stratum": "high_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.25,
+      "activation_fraction_min_duration_steps_3": 0.75,
+      "activation_fraction_min_duration_steps_5": 0.75,
+      "mean_realized_compliance_rate": 0.05918306380144192,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.05,
+      "stratum": "high_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.06072181608669973,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.05,
+      "stratum": "high_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.25,
+      "activation_fraction_min_duration_steps_3": 0.75,
+      "activation_fraction_min_duration_steps_5": 0.75,
+      "mean_realized_compliance_rate": 0.0638315036708294,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.1,
+      "stratum": "high_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.05899882915148133,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.1,
+      "stratum": "high_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.25,
+      "activation_fraction_min_duration_steps_3": 0.75,
+      "activation_fraction_min_duration_steps_5": 0.75,
+      "mean_realized_compliance_rate": 0.06748497727726195,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.2,
+      "stratum": "high_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.061461259087527996,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.2,
+      "stratum": "high_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.0,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.11406833778215492,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.02,
+      "stratum": "low_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.1156290553543725,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.02,
+      "stratum": "low_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.0,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.11606186514254205,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.05,
+      "stratum": "low_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.11091506893551592,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.05,
+      "stratum": "low_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.0,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.11622074361810465,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.1,
+      "stratum": "low_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.12089014484896056,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.1,
+      "stratum": "low_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.0,
+      "activation_fraction_min_duration_steps_3": 0.75,
+      "activation_fraction_min_duration_steps_5": 0.75,
+      "mean_realized_compliance_rate": 0.13160534545488864,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.2,
+      "stratum": "low_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.1279850191304914,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.2,
+      "stratum": "low_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.75,
+      "activation_fraction_min_duration_steps_3": 1.0,
+      "activation_fraction_min_duration_steps_5": 1.0,
+      "mean_realized_compliance_rate": 0.0363135924785368,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.02,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.043023163208235474,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.02,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.75,
+      "activation_fraction_min_duration_steps_3": 1.0,
+      "activation_fraction_min_duration_steps_5": 1.0,
+      "mean_realized_compliance_rate": 0.03446369921118261,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.05,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.036485122931146315,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.05,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.75,
+      "activation_fraction_min_duration_steps_3": 1.0,
+      "activation_fraction_min_duration_steps_5": 1.0,
+      "mean_realized_compliance_rate": 0.03840580488312334,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.1,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.044553038103718266,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.1,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.75,
+      "activation_fraction_min_duration_steps_3": 1.0,
+      "activation_fraction_min_duration_steps_5": 1.0,
+      "mean_realized_compliance_rate": 0.037616041580601674,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.2,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.03488137904227418,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.2,
+      "stratum": "medium_feasibility"
+    }
+  ],
+  "frozen_region_candidates": [
+    {
+      "activation_fraction_min_duration_steps_10": 0.25,
+      "activation_fraction_min_duration_steps_3": 0.75,
+      "activation_fraction_min_duration_steps_5": 0.75,
+      "mean_realized_compliance_rate": 0.06015804796296608,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.02,
+      "stratum": "high_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.06181234600587945,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.02,
+      "stratum": "high_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.25,
+      "activation_fraction_min_duration_steps_3": 0.75,
+      "activation_fraction_min_duration_steps_5": 0.75,
+      "mean_realized_compliance_rate": 0.05918306380144192,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.05,
+      "stratum": "high_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.06072181608669973,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.05,
+      "stratum": "high_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.25,
+      "activation_fraction_min_duration_steps_3": 0.75,
+      "activation_fraction_min_duration_steps_5": 0.75,
+      "mean_realized_compliance_rate": 0.0638315036708294,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.1,
+      "stratum": "high_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.05899882915148133,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.1,
+      "stratum": "high_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.25,
+      "activation_fraction_min_duration_steps_3": 0.75,
+      "activation_fraction_min_duration_steps_5": 0.75,
+      "mean_realized_compliance_rate": 0.06748497727726195,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.2,
+      "stratum": "high_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.061461259087527996,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.2,
+      "stratum": "high_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.1156290553543725,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.02,
+      "stratum": "low_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.11091506893551592,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.05,
+      "stratum": "low_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.12089014484896056,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.1,
+      "stratum": "low_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.1279850191304914,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.2,
+      "stratum": "low_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.75,
+      "activation_fraction_min_duration_steps_3": 1.0,
+      "activation_fraction_min_duration_steps_5": 1.0,
+      "mean_realized_compliance_rate": 0.0363135924785368,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.02,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.043023163208235474,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.02,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.75,
+      "activation_fraction_min_duration_steps_3": 1.0,
+      "activation_fraction_min_duration_steps_5": 1.0,
+      "mean_realized_compliance_rate": 0.03446369921118261,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.05,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.036485122931146315,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.05,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.75,
+      "activation_fraction_min_duration_steps_3": 1.0,
+      "activation_fraction_min_duration_steps_5": 1.0,
+      "mean_realized_compliance_rate": 0.03840580488312334,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.1,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.044553038103718266,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.1,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.75,
+      "activation_fraction_min_duration_steps_3": 1.0,
+      "activation_fraction_min_duration_steps_5": 1.0,
+      "mean_realized_compliance_rate": 0.037616041580601674,
+      "n_seeds": 4,
+      "period": 5,
+      "response_cost": 0.2,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "activation_fraction_min_duration_steps_10": 0.5,
+      "activation_fraction_min_duration_steps_3": 0.5,
+      "activation_fraction_min_duration_steps_5": 0.5,
+      "mean_realized_compliance_rate": 0.03488137904227418,
+      "n_seeds": 4,
+      "period": 10,
+      "response_cost": 0.2,
+      "stratum": "medium_feasibility"
+    }
+  ],
+  "frozen_region_strata_represented": [
+    "high_feasibility",
+    "low_feasibility",
+    "medium_feasibility"
+  ],
+  "n_cells_in_target_range": 20,
+  "n_cells_total": 24,
+  "n_runs_completed": 96,
+  "scope": {
+    "ecological_design_source": "outputs/level13_stage2_calibration/design.json",
+    "ecological_strata": [
+      "low_feasibility",
+      "medium_feasibility",
+      "high_feasibility"
+    ],
+    "levers_held_fixed": [
+      "pressure_onset_order (security, bargaining, coordination_complexity)",
+      "pressure_magnitude_and_kind (early_pulse, level12b_frozen_reference defaults)",
+      "transmission_sensitivity (bargaining_pressure_conditional_contribution_sensitivity, config default)",
+      "entrenchment_enabled=True, entrenchment_maturation_steps=100"
+    ],
+    "levers_swept": {
+      "participation_frequency_contribution_period_steps": [
+        10,
+        5
+      ],
+      "response_cost_contribution_amount": [
+        0.2,
+        0.1,
+        0.05,
+        0.02
+      ],
+      "sustained_crossing_duration_min_duration_steps_post_hoc": [
+        10,
+        5,
+        3
+      ]
+    },
+    "milestone": "level1.3b_work_package_c_stage2_bargaining_calibration",
+    "n_cells": 24,
+    "n_patches": 3,
+    "n_runs_declared": 96,
+    "n_seeds_per_cell": 4,
+    "n_steps": 500,
+    "population_size": 40,
+    "seed_base": 8100000,
+    "selection_rule_disclosed": "region frozen for downstream use = cells where activation_fraction at min_duration_steps=10 falls in [0.2, 0.8], selected using ONLY bargaining_participation activation counts -- never S_obs, Z_obs, clustering, or dissertation resemblance",
+    "target_activation_fraction_range": [
+      0.2,
+      0.8
+    ]
+  },
+  "smoke_test_passed": true
+}

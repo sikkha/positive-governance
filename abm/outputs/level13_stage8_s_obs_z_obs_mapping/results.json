@@ -1,0 +1,152 @@
+{
+  "correlation_by_source_stage": {
+    "stage3": {
+      "n": 72,
+      "pearson_p": 1.4762052799032106e-16,
+      "pearson_r": 0.790543085340642,
+      "spearman_p": 6.026276017287533e-20,
+      "spearman_r": 0.8363306027233619
+    },
+    "stage4": {
+      "n": 96,
+      "pearson_p": 1.7094319623965664e-15,
+      "pearson_r": 0.701539918618729,
+      "spearman_p": 1.0586011837078502e-13,
+      "spearman_r": 0.6679191535539881
+    },
+    "stage5_base": {
+      "n": 16,
+      "pearson_p": 5.679598526767379e-07,
+      "pearson_r": 0.9173190366105752,
+      "spearman_p": 1.6777243705941578e-06,
+      "spearman_r": 0.9029411764705882
+    },
+    "stage5_erased": {
+      "n": 16,
+      "pearson_p": 1.0704383247268757e-06,
+      "pearson_r": 0.9091978002442851,
+      "spearman_p": 1.1005852200187758e-06,
+      "spearman_r": 0.9088235294117648
+    },
+    "stage5_reversed": {
+      "n": 16,
+      "pearson_p": 2.0744872208329017e-07,
+      "pearson_r": 0.9287140548747834,
+      "spearman_p": 1.3635133553269886e-06,
+      "spearman_r": 0.9058823529411765
+    },
+    "stage7": {
+      "n": 12,
+      "pearson_p": 0.012410132716468665,
+      "pearson_r": 0.6933241111397888,
+      "spearman_p": 0.0004181179404149967,
+      "spearman_r": 0.8531468531468532
+    }
+  },
+  "covariate_correlations": {
+    "conversion_incidence": {
+      "with_s_obs": {
+        "n": 228,
+        "pearson_p": 0.17290482515490813,
+        "pearson_r": 0.09057438448625585,
+        "spearman_p": 0.007254562724968777,
+        "spearman_r": 0.17737637669321932
+      },
+      "with_z_obs": {
+        "n": 228,
+        "pearson_p": 0.1843088979721372,
+        "pearson_r": 0.08823612518845717,
+        "spearman_p": 0.023575994389683802,
+        "spearman_r": 0.1499107170884673
+      }
+    },
+    "entrenchment": {
+      "with_s_obs": {
+        "n": 228,
+        "pearson_p": 0.06095815267452026,
+        "pearson_r": 0.1242968748858613,
+        "spearman_p": 0.45765848787468033,
+        "spearman_r": 0.049428639612251635
+      },
+      "with_z_obs": {
+        "n": 228,
+        "pearson_p": 0.7273479714548688,
+        "pearson_r": -0.023214756908504837,
+        "spearman_p": 0.819357221788677,
+        "spearman_r": 0.015206999125876294
+      }
+    },
+    "performance_legitimacy": {
+      "with_s_obs": {
+        "n": 228,
+        "pearson_p": 2.0553256645851657e-57,
+        "pearson_r": 0.8229405731239494,
+        "spearman_p": 2.57526378417733e-49,
+        "spearman_r": 0.7870659189830581
+      },
+      "with_z_obs": {
+        "n": 228,
+        "pearson_p": 6.641952879710437e-95,
+        "pearson_r": 0.9216812738850374,
+        "spearman_p": 2.8274121486512843e-63,
+        "spearman_r": 0.8446915016037094
+      }
+    },
+    "procedural_legitimacy": {
+      "with_s_obs": {
+        "n": 228,
+        "pearson_p": 3.15801741591516e-60,
+        "pearson_r": 0.833774631055193,
+        "spearman_p": 2.98959890498274e-48,
+        "spearman_r": 0.7817602900998031
+      },
+      "with_z_obs": {
+        "n": 228,
+        "pearson_p": 1.6928848539714778e-129,
+        "pearson_r": 0.962081199806774,
+        "spearman_p": 3.2829777028709356e-64,
+        "spearman_r": 0.8478808452870281
+      }
+    }
+  },
+  "decision_gate_note": "no six-way decision-gate verdict is rendered here -- Section 23's classification (task #108) synthesizes this stage alongside Stage 6/7/9's own evidence",
+  "median_split_joint_table": {
+    "high_s_high_z": 100,
+    "high_s_low_z": 14,
+    "low_s_high_z": 14,
+    "low_s_low_z": 100,
+    "n": 228,
+    "s_obs_median": 0.6416209151107648,
+    "z_obs_median": 0.42851903095708865
+  },
+  "milestone": "level1.3_stage8_s_obs_z_obs_mapping",
+  "n_pooled_by_source": {
+    "stage3": 72,
+    "stage4": 96,
+    "stage5_base": 16,
+    "stage5_erased": 16,
+    "stage5_reversed": 16,
+    "stage7": 12
+  },
+  "n_total": 228,
+  "pooled_correlation": {
+    "n": 228,
+    "pearson_p": 2.3517111012142783e-78,
+    "pearson_r": 0.8883724296753619,
+    "spearman_p": 3.771622408490689e-90,
+    "spearman_r": 0.9133453431440464
+  },
+  "report_hash": "9022ec09cafb06c6b37ca3a4896e459e8cc3fa912fe4122899db311cef3b7215",
+  "source_files": {
+    "stage3": "outputs/level13_stage3_sequencing_entrenchment_factorial/records.json",
+    "stage4": "outputs/level13_stage4_open_pressure_history_search/records.json",
+    "stage5": "outputs/level13_stage5_causal_counterfactuals/records.json",
+    "stage7": "outputs/level13_stage7_fresh_confirmation/records.json"
+  },
+  "stage5_reused_counterfactual_shift": {
+    "mean_erased_vs_base_s_obs_abs_diff": 0.002701461450674625,
+    "mean_erased_vs_base_z_obs_abs_diff": 0.001922374411242555,
+    "mean_reversed_vs_base_s_obs_abs_diff": 0.011576234423270423,
+    "mean_reversed_vs_base_z_obs_abs_diff": 0.009224943464842504
+  }
+}

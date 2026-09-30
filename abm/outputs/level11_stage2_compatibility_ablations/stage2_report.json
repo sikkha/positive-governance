@@ -1,0 +1,151 @@
+{
+  "compatibility_check": {
+    "n_seeds": 20,
+    "n_mismatches": 0,
+    "mismatched_seeds": [],
+    "byte_for_byte_identical": true
+  },
+  "ablations": {
+    "n_seeds": 10,
+    "complete_values": {
+      "final_occupancy": [
+        0.013782419359494522,
+        0.02250272302444024,
+        0.020143510429500144,
+        0.02511454129362951,
+        0.01330252465227563,
+        0.0030974259955997654,
+        0.026412891671260968,
+        0.026658146589043013,
+        0.010493018294918699,
+        0.028104610584004295
+      ],
+      "final_total_resources": [
+        2354.5691629688536,
+        1914.9924369956927,
+        3905.4874195340226,
+        4266.986039038842,
+        3449.5043460618244,
+        -177.849907336838,
+        7308.276139704702,
+        1348.189577535834,
+        2183.0212866010065,
+        141.44096516573603
+      ],
+      "total_appropriated_resources": [
+        3.2095343715829587,
+        1.1725641781812308,
+        3.634521799143712,
+        2.2687428565744954,
+        2.1481401888,
+        1.1093310479999996,
+        3.8435581190370143,
+        0.6417830365456001,
+        4.297759701289666,
+        1.1030380800000006
+      ],
+      "total_administrative_cost": [
+        13.100000000000051,
+        11.750000000000032,
+        12.550000000000043,
+        12.557886388514772,
+        9.5,
+        6.999999999999983,
+        14.750000000000075,
+        10.95000000000002,
+        10.20000000000001,
+        6.88223513924308
+      ]
+    },
+    "effects_vs_complete": {
+      "level11_no_memory": {
+        "final_occupancy": {
+          "mean_effect": 0.0,
+          "n_condition": 10,
+          "n_baseline": 10
+        },
+        "final_total_resources": {
+          "mean_effect": 0.0,
+          "n_condition": 10,
+          "n_baseline": 10
+        },
+        "total_appropriated_resources": {
+          "mean_effect": 0.0,
+          "n_condition": 10,
+          "n_baseline": 10
+        },
+        "total_administrative_cost": {
+          "mean_effect": 0.0,
+          "n_condition": 10,
+          "n_baseline": 10
+        }
+      },
+      "level11_no_accountability": {
+        "final_occupancy": {
+          "mean_effect": 0.0046267923161937285,
+          "n_condition": 10,
+          "n_baseline": 10
+        },
+        "final_total_resources": {
+          "mean_effect": 620.9468777191105,
+          "n_condition": 10,
+          "n_baseline": 10
+        },
+        "total_appropriated_resources": {
+          "mean_effect": -0.6035488350845557,
+          "n_condition": 10,
+          "n_baseline": 10
+        },
+        "total_administrative_cost": {
+          "mean_effect": 7.0155595615414335,
+          "n_condition": 10,
+          "n_baseline": 10
+        }
+      },
+      "level11_no_admin_cost": {
+        "final_occupancy": {
+          "mean_effect": 0.0022543228447005417,
+          "n_condition": 10,
+          "n_baseline": 10
+        },
+        "final_total_resources": {
+          "mean_effect": 600.0120706635585,
+          "n_condition": 10,
+          "n_baseline": 10
+        },
+        "total_appropriated_resources": {
+          "mean_effect": 17.178988060288706,
+          "n_condition": 10,
+          "n_baseline": 10
+        },
+        "total_administrative_cost": {
+          "mean_effect": -10.924012152775806,
+          "n_condition": 10,
+          "n_baseline": 10
+        }
+      },
+      "level11_no_interpatch_coordination": {
+        "final_occupancy": {
+          "mean_effect": 0.028736626827213785,
+          "n_condition": 10,
+          "n_baseline": 10
+        },
+        "final_total_resources": {
+          "mean_effect": 586.5169062203086,
+          "n_condition": 10,
+          "n_baseline": 10
+        },
+        "total_appropriated_resources": {
+          "mean_effect": 6.614220503661428,
+          "n_condition": 10,
+          "n_baseline": 10
+        },
+        "total_administrative_cost": {
+          "mean_effect": 3.3509878472242622,
+          "n_condition": 10,
+          "n_baseline": 10
+        }
+      }
+    }
+  }
+}

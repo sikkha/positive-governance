@@ -1,0 +1,64 @@
+{
+  "divergence_by_intervention_vs_no_intervention_control": {
+    "all_history": {
+      "mean_gap_at_early": 0.0,
+      "mean_gap_at_final_sustained": 0.0694384680559281,
+      "mean_gap_at_late": 0.05146559070225488,
+      "mean_gap_at_middle": 0.016690822242553527,
+      "n_seeds": 12
+    },
+    "entrenchment_only": {
+      "mean_gap_at_early": 0.0,
+      "mean_gap_at_final_sustained": 0.07208044716733703,
+      "mean_gap_at_late": 0.06476511211068321,
+      "mean_gap_at_middle": 0.017379870314405372,
+      "n_seeds": 12
+    },
+    "legitimacy_history_only": {
+      "mean_gap_at_early": 0.0,
+      "mean_gap_at_final_sustained": 4.1753452547273655e-12,
+      "mean_gap_at_late": 5.351972198752719e-10,
+      "mean_gap_at_middle": 0.00908334935930813,
+      "n_seeds": 12
+    },
+    "pressure_memory_only": {
+      "mean_gap_at_early": 0.0,
+      "mean_gap_at_final_sustained": 0.05353792016913695,
+      "mean_gap_at_late": 0.03719699871638893,
+      "mean_gap_at_middle": 0.01697627945795337,
+      "n_seeds": 12
+    }
+  },
+  "note": "sham_validation MUST show sham_machinery_validated=true before any of divergence_by_intervention's numbers can be trusted as historically meaningful rather than an artifact of the fork/resume machinery itself -- Section 11's own explicit requirement",
+  "scope": {
+    "intervention_step": 250,
+    "interventions": [
+      "pressure_memory_only",
+      "legitimacy_history_only",
+      "entrenchment_only",
+      "all_history",
+      "sham_identical_state_copy",
+      "no_intervention_control"
+    ],
+    "milestone": "level1.3b_work_package_g_stage6_history_erasure",
+    "n_patches": 3,
+    "n_runs_declared": 72,
+    "n_seeds": 12,
+    "n_steps": 500,
+    "population_size": 40,
+    "representative_cell": {
+      "entrenchment": "moderate",
+      "legitimacy": "dual",
+      "ordering": "security_first",
+      "stratum": "medium_feasibility"
+    },
+    "seed_base": 9100000,
+    "what_each_intervention_resets": "see module docstring for the full, pre-run, per-intervention mutation disclosure"
+  },
+  "sham_validation": {
+    "n_seeds": 12,
+    "n_sham_matches_control_exactly": 12,
+    "sham_machinery_validated": true
+  },
+  "smoke_test_passed": true
+}

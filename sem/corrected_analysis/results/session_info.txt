@@ -1,0 +1,4 @@
+R R version 4.3.3 (2024-02-29)
+lavaan 0.6.17
+data WVS_RDATA wvs_data from m1.RData
+run 2026-09-30 16:42:31 +07

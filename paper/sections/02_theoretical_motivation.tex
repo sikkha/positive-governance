@@ -1,0 +1,171 @@
+\section{Theoretical Motivation}
+\label{sec:theoretical-motivation}
+
+\subsection{Governance as an emergent relational ecology}
+\label{sec:emergent-ecology}
+
+Agent-based computational social science treats macro-level social pattern
+as an emergent consequence of micro-level rules, rather than as a
+directly-specified target
+\parencite{epstein1996growing,railsback2019agent}. The tradition most
+directly relevant here descends from two distinct lines: iterated-game
+accounts of cooperation, reciprocity, and costly punishment
+\parencite{axelrod1984evolution,axelrod1981evolution,fehr2002altruistic},
+and empirically grounded common-pool-resource governance research
+\parencite{ostrom1990governing,janssen2006empirically,poteete2010working}.
+Ostrom's fieldwork identified design principles --- clearly defined
+boundaries, congruence between rules and local conditions, collective-choice
+arrangements, monitoring, graduated sanctions, conflict-resolution
+mechanisms, and nested enterprises --- under which self-governing
+institutions for shared resources persist without either central
+authority or privatization. Our model does not encode these principles
+directly; it encodes the more elementary primitives (extraction,
+maintenance, monitoring, sanctioning, delegation, coordination) from which
+such principles, if they matter, would have to emerge as statistical
+regularities in simulated outcomes, not as assumed structure.
+
+\subsection{From atomic interactions to proto-institutions}
+\label{sec:atomic-to-proto}
+
+The project's own development sequence (\cref{sec:model-genealogy}) is
+built explicitly bottom-up: a population of heterogeneous agents interacts
+bilaterally under a repeated cooperation/defection grammar with imperfect
+observation, memory, and optional costly punishment; the population is
+coupled to a materially accounted resource ecology; and only once that
+ecology's own dynamics were understood did the project introduce a
+locally shared, voluntarily adopted, imperfectly monitored and enforced
+rule --- a \textit{proto-institution} --- as an opt-in generative
+mechanism. Proto-institutions are then extended with delegation
+(administrative capacity accumulated from realized performance, never
+granted as a trait), discretion and its accountability counterweight
+(audit, appeal, recall), and interpatch coordination. At every stage, the
+mechanism defaults to a verified, byte-for-byte no-op, so that each new
+layer is additive rather than a silent redefinition of what came before.
+
+\subsection{Recurrent institutional phenotypes versus imposed typologies}
+\label{sec:recurrent-vs-imposed}
+
+A central methodological commitment of this project, enforced structurally
+rather than merely stated, is that the generative layer never encodes a
+governance typology, and the observer layer never imposes one on the
+results before the results are seen. We use \textit{recurrent
+institutional phenotype} throughout, rather than \textit{institutional
+type} or \textit{governance regime}, to mark this distinction: a phenotype
+is a statistically discovered pattern in an observer-computed feature
+vector, evaluated against explicit stability and recurrence criteria; it is
+never a category the model was built to produce. This distinguishes our
+approach from ABM applications that calibrate agent rules to reproduce a
+known macro-target. Here the target category count is itself an open
+empirical question the discovery pipeline is asked, not told.
+
+\subsection{Historical institutionalism, path dependence, and critical junctures}
+\label{sec:historical-institutionalism}
+
+A separate literature, largely orthogonal to the agent-based tradition
+above, argues that governance outcomes are shaped not only by
+contemporaneous structural conditions but by the specific historical
+sequence through which institutions formed: critical junctures at which
+a range of outcomes was genuinely possible, followed by increasing-returns
+dynamics that make an early institutional choice progressively more costly
+to reverse \parencite{pierson2000increasing,mahoney2000path,capoccia2007critical};
+the long shadow of colonial extraction versus
+settlement patterns and early state-building choices on later institutional
+quality \parencite{acemoglu2012why,northwallisweingast2009}; and the
+broader claim that political order and its erosion are themselves
+historically contingent processes, not fixed endpoints
+\parencite{fukuyama2014political,north1990institutions}. This literature
+supplies the theoretical vocabulary --- sequencing, entrenchment, critical
+juncture, lock-in --- that Level 1.3/1.3b's own historical mechanisms
+operationalize generatively (\cref{sec:level13}); it does not, by itself,
+adjudicate whether path-dependent processes compress governance outcomes
+into a small number of discrete, recurring configurations or instead
+produce a continuously varying space with graded, historically contingent
+structure. That is an empirical question this paper's own historical
+discovery program is built to ask without presupposing the answer, in the
+same outcome-blind spirit as Level 1.2/1.2b's synchronic search.
+
+The dissertation's own governance-indicator critique is relevant here too.
+Aggregate governance rankings such as the World Bank's Worldwide Governance
+Indicators \parencite{kaufmann2011worldwide} compress multiple correlated
+component indicators onto a single latent dimension via an unobserved
+components model, an approach the dissertation argues collapses
+theoretically distinct dimensions --- capacity to act and constraint on
+how that capacity may be used --- into one ranking, and which is, by
+construction, silent on historical trajectory: a single cross-sectional
+score cannot represent how a state arrived at its current position, only
+where it currently sits. The dissertation's own two-dimensional $S$/$Z$
+reframing is explicitly a response to this limitation; this paper's own
+historical extension is a further response, adding a third
+axis --- historical trajectory itself --- that neither a one-dimensional
+ranking nor a two-dimensional cross-sectional coordinate space can
+represent.
+
+\subsection{Terminological discipline}
+\label{sec:terminology-discipline}
+
+This paper uses five terms that name related but analytically distinct
+objects, and treats confusing them as a substantive error rather than a
+stylistic one, given how directly this project's own headline findings turn
+on the distinction. A \textit{configuration} is a specific, realized point
+in the observer-computed feature space (Level 1.2/1.2b's ten-dimensional
+phenotype vector, or Level 1.3/1.3b's fourteen-dimensional extension) ---
+one simulated jurisdiction's own outcome, nothing more. A
+\textit{statistical component} is a fitted element of a clustering or
+mixture model (a Gaussian-mixture component, a hierarchical-clustering
+branch) --- a property of a fitting procedure applied to a finite sample,
+not by itself evidence of anything in the underlying process. A
+\textit{recurrent institutional phenotype} is a statistical component that
+has additionally cleared this project's own preregistered recurrence
+criteria (\cref{sec:discovery-procedure}) --- cross-seed recurrence,
+cross-algorithm support, bootstrap stability, and the rest --- evaluated
+by strict conjunction, never a majority. A \textit{dynamical attractor} is
+a further, stronger claim this project has never made about any discovered
+structure: that a system returns to a specific state after perturbation,
+which requires direct, disclosed evidence of majority recovery on every
+tracked dimension (\cref{sec:level12b-scale-causal}), not merely that a
+state persists once reached. An \textit{empirical trajectory}, finally, is
+the dissertation's own object: a qualitatively interpreted region of its
+SEM-identified $S$/$Z$ space, populated by real countries' survey-measured
+positions, which this paper's own simulation results can inform but cannot
+directly confirm or refute (\cref{sec:disc-relationship-to-dissertation}).
+
+We use \textit{historically structured, heterogeneous governance
+continuum} as this paper's own preferred summary phrase for what Level
+1.3/1.3b's evidence supports, and, where the evidence licenses a
+marginally stronger reading, \textit{a continuous institutional space
+containing conditional path dependence and possible metastable regions}
+--- never stronger than that. We do not, anywhere in this paper, claim that
+the model discovered exactly three or exactly eight governance species,
+that the ABM's own discovery pipeline found three attractors corresponding
+to the dissertation's trajectories, that path dependence in this model is
+universal or historically deterministic, or that any simulation result in
+this paper empirically validates the dissertation's own trajectory
+typology. Each of these five specific claims is one this paper's own
+evidence does not support, and \cref{sec:disc-boundary-claims} states
+explicitly, alongside the positive findings, why each is ruled out.
+
+\subsection{Why null discovery is theoretically informative}
+\label{sec:why-null-informative}
+
+A discovery procedure that always finds structure is not informative about
+whether structure exists; it is informative only about the procedure's own
+bias. The clustering-methodology literature treats this directly: cluster
+stability under resampling and under alternative algorithms is itself the
+primary evidence for whether a partition reflects real structure or
+artifact of the fitting procedure
+\parencite{benhur2002stability,vonluxburg2010clustering,hubert1985comparing,rousseeuw1987silhouettes}.
+Model-based (finite-mixture) clustering in particular is well known to
+overfit at modest sample sizes, producing spuriously confident partitions
+that do not generalize to held-out data \parencite{fraley2002model};
+density-based clustering supplies a structurally different failure mode
+(explicit noise, no forced full-coverage partition) precisely so that a
+finding of "structure" is not an artifact of a single clustering
+family's own inductive bias \parencite{campello2013density}. Reporting a
+well-designed null result --- one that would have detected recurrent
+structure had it been there, evaluated by multiple algorithms and
+independently replicated on fresh data --- is therefore not merely
+permissible negative-results hygiene; in a discovery setting it is direct,
+positive evidence about the shape of the underlying outcome space. This is
+the logic \cref{sec:level12,sec:level12b} apply throughout: every reported
+null is a preregistered, multiply-corroborated, independently replicated
+finding, not an absence of search.

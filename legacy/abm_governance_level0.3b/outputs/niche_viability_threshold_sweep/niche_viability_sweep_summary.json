@@ -1,0 +1,25 @@
+{
+  "design": {
+    "n_seeds": 5,
+    "population_size": 24,
+    "n_steps": 200,
+    "distress_thresholds": [
+      2.0,
+      8.0
+    ],
+    "deficit_step_thresholds": [
+      5,
+      20
+    ],
+    "viability_modes": [
+      "none",
+      "dormancy_recovery",
+      "removal_replacement"
+    ],
+    "n_grid_points": 9
+  },
+  "n_failures": 0,
+  "failures": [],
+  "n_points_with_mechanism_active": 8,
+  "n_points_total": 9
+}

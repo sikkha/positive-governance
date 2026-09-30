@@ -1,0 +1,59 @@
+# Citation metadata for this research companion. No DOI, repository URL,
+# version number or release date has been assigned yet; add them only when
+# they exist (see github_preparation report, "Decisions required").
+cff-version: 1.2.0
+message: "If you use this software or its archived outputs, please cite it as below."
+type: software
+title: "Positive Governance: computational social science companion (SEM, MCMEA, ABM)"
+abstract: >-
+  Research companion to the doctoral dissertation "Positive Governance".
+  It contains structural equation models of World Values Survey Wave 7
+  governance perceptions (data not included), MCMEA evolutionary-deduction
+  notebooks, and the outcome-blind agent-based model abm_governance
+  (Levels 0.1-1.3b) with its archived evidence outputs and manuscript sources.
+authors:
+  - family-names: Yuenyong
+    given-names: Kan
+    affiliation: "Graduate School of Public Administration, National Institute of Development Administration (NIDA)"
+keywords:
+  - governance
+  - state capacity
+  - institutional constraint
+  - structural equation modelling
+  - evolutionary computation
+  - agent-based modelling
+  - computational social science
+references:
+  - type: thesis
+    title: "Positive Governance"
+    authors:
+      - family-names: Yuenyong
+        given-names: Kan
+    institution:
+      name: "National Institute of Development Administration (NIDA)"
+    thesis-type: "PhD dissertation (Doctor of Philosophy Program in Governance and Development (International)); version 1.2, not yet published"
+  - type: data
+    title: "World Values Survey: Round Seven - Country-Pooled Datafile Version 5.0"
+    doi: 10.14281/18241.20
+    year: 2022
+    authors:
+      - family-names: Haerpfer
+        given-names: Christian
+      - family-names: Inglehart
+        given-names: Ronald
+      - family-names: Moreno
+        given-names: Alejandro
+      - family-names: Welzel
+        given-names: Christian
+      - family-names: Kizilova
+        given-names: Kseniya
+      - family-names: Diez-Medrano
+        given-names: Jaime
+      - family-names: Lagos
+        given-names: Marta
+      - family-names: Norris
+        given-names: Pippa
+      - family-names: Ponarin
+        given-names: Eduard
+      - family-names: Puranen
+        given-names: Bi

@@ -1,0 +1,120 @@
+{
+  "design": {
+    "n_seeds": 6,
+    "population_size": 30,
+    "n_steps": 220,
+    "shock_step": 100,
+    "pre_shock_window": 20,
+    "post_shock_horizon": 120,
+    "shock_types": [
+      "local_patch_depletion",
+      "regen_reduction",
+      "maintenance_efficiency_reduction",
+      "random_patch_loss",
+      "remove_random_agents",
+      "remove_high_extraction_agents",
+      "remove_high_maintenance_agents"
+    ],
+    "frozen_comparison_shocks": [
+      "local_patch_depletion",
+      "remove_random_agents"
+    ],
+    "scale_reduction_note": "milestone brief asks for >=20 seeds/condition; this run used 6, and the endogenous-vs-frozen comparison was limited to 2 of 7 shocks -- both documented compute-budget reductions (see module docstring).",
+    "removal_semantics_note": "'removed' agents are set alive=False and have every social-graph edge severed, not deleted from the population entirely -- see module docstring."
+  },
+  "n_failures": 0,
+  "failures": [],
+  "recovery_by_shock_and_condition": {
+    "local_patch_depletion__endogenous": {
+      "n_seeds": 6,
+      "fraction_recovered": 0.6666666666666666,
+      "mean_recovery_time_steps": 0.0,
+      "mean_overshoot": 0.0649022963054261
+    },
+    "local_patch_depletion__frozen": {
+      "n_seeds": 6,
+      "fraction_recovered": 0.5,
+      "mean_recovery_time_steps": 0.6666666666666666,
+      "mean_overshoot": 0.07046244267415132
+    },
+    "maintenance_efficiency_reduction__endogenous": {
+      "n_seeds": 6,
+      "fraction_recovered": 1.0,
+      "mean_recovery_time_steps": 4.833333333333333,
+      "mean_overshoot": 0.017077693191923246
+    },
+    "random_patch_loss__endogenous": {
+      "n_seeds": 6,
+      "fraction_recovered": 0.5,
+      "mean_recovery_time_steps": 0.0,
+      "mean_overshoot": 0.10808446817933781
+    },
+    "regen_reduction__endogenous": {
+      "n_seeds": 6,
+      "fraction_recovered": 0.5,
+      "mean_recovery_time_steps": 9.333333333333334,
+      "mean_overshoot": 0.10743000309977213
+    },
+    "remove_high_extraction_agents__endogenous": {
+      "n_seeds": 6,
+      "fraction_recovered": 0.8333333333333334,
+      "mean_recovery_time_steps": 17.4,
+      "mean_overshoot": 0.06494911807494765
+    },
+    "remove_high_maintenance_agents__endogenous": {
+      "n_seeds": 6,
+      "fraction_recovered": 1.0,
+      "mean_recovery_time_steps": 11.666666666666666,
+      "mean_overshoot": 0.03952766768481417
+    },
+    "remove_random_agents__endogenous": {
+      "n_seeds": 6,
+      "fraction_recovered": 1.0,
+      "mean_recovery_time_steps": 0.16666666666666666,
+      "mean_overshoot": 0.008364113028194257
+    },
+    "remove_random_agents__frozen": {
+      "n_seeds": 6,
+      "fraction_recovered": 0.6666666666666666,
+      "mean_recovery_time_steps": 2.25,
+      "mean_overshoot": 0.010524990541207835
+    }
+  },
+  "control_drift_check": {
+    "local_patch_depletion": {
+      "control_drift": 0.0030884897305571424,
+      "shocked_drift": -0.05842489581669215,
+      "same_direction_as_control": false
+    },
+    "regen_reduction": {
+      "control_drift": 0.0030884897305571424,
+      "shocked_drift": -0.0935995981801869,
+      "same_direction_as_control": false
+    },
+    "maintenance_efficiency_reduction": {
+      "control_drift": 0.0030884897305571424,
+      "shocked_drift": 0.0019437395280173797,
+      "same_direction_as_control": true
+    },
+    "random_patch_loss": {
+      "control_drift": 0.0030884897305571424,
+      "shocked_drift": -0.09693568693910282,
+      "same_direction_as_control": false
+    },
+    "remove_random_agents": {
+      "control_drift": 0.0030884897305571424,
+      "shocked_drift": 0.002227339536200801,
+      "same_direction_as_control": true
+    },
+    "remove_high_extraction_agents": {
+      "control_drift": 0.0030884897305571424,
+      "shocked_drift": -0.05840229481223359,
+      "same_direction_as_control": false
+    },
+    "remove_high_maintenance_agents": {
+      "control_drift": 0.0030884897305571424,
+      "shocked_drift": -0.03050495412650636,
+      "same_direction_as_control": false
+    }
+  }
+}

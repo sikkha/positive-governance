@@ -1,0 +1,4084 @@
+{
+  "records": [
+    {
+      "S_obs_recomputed": 0.603897260788254,
+      "Z_obs_recomputed": 0.43173523147677156,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.0,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.7694863039412698,
+        "procedural_legitimacy": 0.7952056944303147
+      },
+      "point_id": 0,
+      "seed": 8700000,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7493098066870987,
+      "Z_obs_recomputed": 0.6357826834000105,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.037037037037037035,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.746549033435494,
+        "procedural_legitimacy": 0.8703110131629946
+      },
+      "point_id": 0,
+      "seed": 8700001,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6638188233693911,
+      "Z_obs_recomputed": 0.5652338656469714,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.0,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.5690941168469558,
+        "procedural_legitimacy": 0.6957015969409143
+      },
+      "point_id": 0,
+      "seed": 8700002,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7337649427007564,
+      "Z_obs_recomputed": 0.4714535556065374,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.15151515151515152,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6688247135037824,
+        "procedural_legitimacy": 0.7628455153044608
+      },
+      "point_id": 0,
+      "seed": 8700003,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6630382673902813,
+      "Z_obs_recomputed": 0.6055210402392398,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.8151913369514062,
+        "procedural_legitimacy": 0.8165631207177195
+      },
+      "point_id": 0,
+      "seed": 8700004,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6158401605681941,
+      "Z_obs_recomputed": 0.6604396096781359,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.2857142857142857,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5792008028409706,
+        "procedural_legitimacy": 0.6956045433201221
+      },
+      "point_id": 1,
+      "seed": 8701000,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7352872154006204,
+      "Z_obs_recomputed": 0.4943660312234519,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.2,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6764360770031019,
+        "procedural_legitimacy": 0.7830980936703558
+      },
+      "point_id": 1,
+      "seed": 8701001,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.605321099425575,
+      "Z_obs_recomputed": 0.8058493573480835,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.45,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6932721637945418,
+        "procedural_legitimacy": 0.9675480720442508
+      },
+      "point_id": 1,
+      "seed": 8701002,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7040419936338792,
+      "Z_obs_recomputed": 0.6431683644852554,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.3,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5202099681693961,
+        "procedural_legitimacy": 0.629505093455766
+      },
+      "point_id": 1,
+      "seed": 8701003,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.726135106227927,
+      "Z_obs_recomputed": 0.7862247923579084,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.41935483870967744,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8806755311396351,
+        "procedural_legitimacy": 0.9393195383640477
+      },
+      "point_id": 1,
+      "seed": 8701004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6116135320175498,
+      "Z_obs_recomputed": 0.6225125974900069,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 0.3333333333333333,
+        "bargaining_participation": 0.40625,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.7247343267544156,
+        "procedural_legitimacy": 0.7946211258033543
+      },
+      "point_id": 2,
+      "seed": 8702000,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8586521643781756,
+      "Z_obs_recomputed": 0.5231336551475504,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.34615384615384615,
+        "delegation": 1.0,
+        "interpatch_coordination": 1.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.5432608218908781,
+        "procedural_legitimacy": 0.7232471192888048
+      },
+      "point_id": 2,
+      "seed": 8702001,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.4510656929555412,
+      "Z_obs_recomputed": 0.6182924305886842,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.2222222222222222,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.505328464777706,
+        "procedural_legitimacy": 0.6326550695438302
+      },
+      "point_id": 2,
+      "seed": 8702002,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7090869977222198,
+      "Z_obs_recomputed": 0.5089713792294382,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.3103448275862069,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5454349886110994,
+        "procedural_legitimacy": 0.7165693101021079
+      },
+      "point_id": 2,
+      "seed": 8702003,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7567391796623837,
+      "Z_obs_recomputed": 0.6179752998824529,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.32,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.2836958983119186,
+        "procedural_legitimacy": 0.5339258996473585
+      },
+      "point_id": 2,
+      "seed": 8702004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8263264998063933,
+      "Z_obs_recomputed": 0.34857501973263627,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.06666666666666667,
+        "delegation": 0.25,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8816324990319668,
+        "procedural_legitimacy": 0.9790583925312422
+      },
+      "point_id": 3,
+      "seed": 8703000,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7123687985333873,
+      "Z_obs_recomputed": 0.4880864073885704,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.03571428571428571,
+        "delegation": 0.25,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.31184399266693646,
+        "procedural_legitimacy": 0.4285449364514253
+      },
+      "point_id": 3,
+      "seed": 8703001,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5693897370528962,
+      "Z_obs_recomputed": 0.4374151225378986,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.034482758620689655,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8469486852644809,
+        "procedural_legitimacy": 0.7777626089930062
+      },
+      "point_id": 3,
+      "seed": 8703002,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8725972741819282,
+      "Z_obs_recomputed": 0.4503674647143752,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.862986370909641,
+        "procedural_legitimacy": 0.8511023941431256
+      },
+      "point_id": 3,
+      "seed": 8703003,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6853154765479442,
+      "Z_obs_recomputed": 0.6513143472480886,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.19230769230769232,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6765773827397212,
+        "procedural_legitimacy": 0.7616353494365732
+      },
+      "point_id": 3,
+      "seed": 8703004,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8065288707127036,
+      "Z_obs_recomputed": 0.5695516236450753,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.3333333333333333,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7826443535635185,
+        "procedural_legitimacy": 0.7086548709352257
+      },
+      "point_id": 4,
+      "seed": 8704000,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7601259287393638,
+      "Z_obs_recomputed": 0.5712044849449109,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.36666666666666664,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5506296436968191,
+        "procedural_legitimacy": 0.6802801215013996
+      },
+      "point_id": 4,
+      "seed": 8704001,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6598682708946564,
+      "Z_obs_recomputed": 0.5237644662734383,
+      "components": {
+        "accountability": 0.3333333333333333,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.45,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5493413544732821,
+        "procedural_legitimacy": 0.7879600654869816
+      },
+      "point_id": 4,
+      "seed": 8704002,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.2982914025951618,
+      "Z_obs_recomputed": 0.3701152010480957,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.5357142857142857,
+        "delegation": 0.0,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.491457012975809,
+        "procedural_legitimacy": 0.5746313174300013
+      },
+      "point_id": 4,
+      "seed": 8704003,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6068823047198026,
+      "Z_obs_recomputed": 0.4489939906135705,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.3870967741935484,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.36774485693234693,
+        "procedural_legitimacy": 0.45988519764716296
+      },
+      "point_id": 4,
+      "seed": 8704004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.9854841373591379,
+      "Z_obs_recomputed": 0.6348516082204408,
+      "components": {
+        "accountability": 0.75,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.25806451612903225,
+        "delegation": 1.0,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.9274206867956895,
+        "procedural_legitimacy": 0.8964903085322904
+      },
+      "point_id": 5,
+      "seed": 8705000,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.647823945138186,
+      "Z_obs_recomputed": 0.3726766349912782,
+      "components": {
+        "accountability": 0.3333333333333333,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.1,
+        "delegation": 1.0,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.6666666666666666,
+        "performance_legitimacy": 0.5724530590242638,
+        "procedural_legitimacy": 0.6846965716405012
+      },
+      "point_id": 5,
+      "seed": 8705001,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7475221763580089,
+      "Z_obs_recomputed": 0.27929859338477847,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0967741935483871,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7376108817900442,
+        "procedural_legitimacy": 0.7411215866059483
+      },
+      "point_id": 5,
+      "seed": 8705002,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8272827794026153,
+      "Z_obs_recomputed": 0.45761622435752786,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.21875,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6364138970130766,
+        "procedural_legitimacy": 0.6540986730725835
+      },
+      "point_id": 5,
+      "seed": 8705003,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5927269324783504,
+      "Z_obs_recomputed": 0.6285403093482362,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.14285714285714285,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.7969679957250853,
+        "procedural_legitimacy": 0.7427637851875659
+      },
+      "point_id": 5,
+      "seed": 8705004,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7093498616067899,
+      "Z_obs_recomputed": 0.5740665622191313,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5467493080339494,
+        "procedural_legitimacy": 0.7221996866573938
+      },
+      "point_id": 6,
+      "seed": 8706000,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6598955911231752,
+      "Z_obs_recomputed": 0.20895073588852084,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.037037037037037035,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5494779556158758,
+        "procedural_legitimacy": 0.5898151706285254
+      },
+      "point_id": 6,
+      "seed": 8706001,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8086261053098746,
+      "Z_obs_recomputed": 0.40765495374959876,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.037037037037037035,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5431305265493723,
+        "procedural_legitimacy": 0.6859278242117592
+      },
+      "point_id": 6,
+      "seed": 8706002,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7466424591231602,
+      "Z_obs_recomputed": 0.38381492272677437,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.037037037037037035,
+        "delegation": 0.75,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.3165456289491348,
+        "procedural_legitimacy": 0.44774106447661943
+      },
+      "point_id": 6,
+      "seed": 8706003,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.4404446619904908,
+      "Z_obs_recomputed": 0.2720801776277777,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.0,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7022233099524537,
+        "procedural_legitimacy": 0.8162405328833331
+      },
+      "point_id": 6,
+      "seed": 8706004,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6126329020355319,
+      "Z_obs_recomputed": 0.4387850436465182,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.0,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.8131645101776592,
+        "procedural_legitimacy": 0.8163551309395547
+      },
+      "point_id": 7,
+      "seed": 8707000,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7726669226700655,
+      "Z_obs_recomputed": 0.5192934333523185,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.03571428571428571,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.363334613350328,
+        "procedural_legitimacy": 0.5221660143426696
+      },
+      "point_id": 7,
+      "seed": 8707001,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.42080112101922057,
+      "Z_obs_recomputed": 0.446236240601898,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.034482758620689655,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.5,
+        "performance_legitimacy": 0.6040056050961029,
+        "procedural_legitimacy": 0.8042259631850043
+      },
+      "point_id": 7,
+      "seed": 8707002,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6396160393509527,
+      "Z_obs_recomputed": 0.5752039573235015,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.14285714285714285,
+        "delegation": 0.25,
+        "interpatch_coordination": 1.0,
+        "monitoring": 0.5,
+        "performance_legitimacy": 0.4480801967547634,
+        "procedural_legitimacy": 0.5827547291133617
+      },
+      "point_id": 7,
+      "seed": 8707003,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.46890722051773703,
+      "Z_obs_recomputed": 0.25965393761658473,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.04,
+        "delegation": 0.0,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8445361025886852,
+        "procedural_legitimacy": 0.7389618128497542
+      },
+      "point_id": 7,
+      "seed": 8707004,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7173893977172547,
+      "Z_obs_recomputed": 0.6652416502420655,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.37037037037037035,
+        "delegation": 0.25,
+        "interpatch_coordination": 1.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.5869469885862738,
+        "procedural_legitimacy": 0.6253545803558261
+      },
+      "point_id": 8,
+      "seed": 8708000,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.9102926629635458,
+      "Z_obs_recomputed": 0.7087766545193729,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.3333333333333333,
+        "delegation": 1.0,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5514633148177297,
+        "procedural_legitimacy": 0.7929966302247856
+      },
+      "point_id": 8,
+      "seed": 8708001,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6404941165325617,
+      "Z_obs_recomputed": 0.7586749628463316,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.39285714285714285,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8691372493294754,
+        "procedural_legitimacy": 0.883167745681852
+      },
+      "point_id": 8,
+      "seed": 8708002,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8586717570893778,
+      "Z_obs_recomputed": 0.76987432287312,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.5,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.793358785446889,
+        "procedural_legitimacy": 0.8096229686193597
+      },
+      "point_id": 8,
+      "seed": 8708003,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7606622370811067,
+      "Z_obs_recomputed": 0.5744310065789012,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.10714285714285714,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.8033111854055333,
+        "procedural_legitimacy": 0.6161501625938465
+      },
+      "point_id": 8,
+      "seed": 8708004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6633111166739629,
+      "Z_obs_recomputed": 0.6247277520907463,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.14285714285714285,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.5,
+        "performance_legitimacy": 0.5665555833698143,
+        "procedural_legitimacy": 0.7313261134150962
+      },
+      "point_id": 9,
+      "seed": 8709000,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7095547092209527,
+      "Z_obs_recomputed": 0.5703952156173485,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.09375,
+        "delegation": 1.0,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5477735461047637,
+        "procedural_legitimacy": 0.6174356468520455
+      },
+      "point_id": 9,
+      "seed": 8709001,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8074913841925289,
+      "Z_obs_recomputed": 0.47459355625353705,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.07142857142857142,
+        "delegation": 1.0,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7041235876293114,
+        "procedural_legitimacy": 0.6856854306653731
+      },
+      "point_id": 9,
+      "seed": 8709002,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.2563930503791697,
+      "Z_obs_recomputed": 0.15452072816863893,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.0,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.2819652518958485,
+        "procedural_legitimacy": 0.4635621845059168
+      },
+      "point_id": 9,
+      "seed": 8709003,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5708417217365147,
+      "Z_obs_recomputed": 0.5884750139784193,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.10344827586206896,
+        "delegation": 0.25,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6042086086825733,
+        "procedural_legitimacy": 0.6619767660731891
+      },
+      "point_id": 9,
+      "seed": 8709004,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8065690515276367,
+      "Z_obs_recomputed": 0.48748440873033005,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7828452576381834,
+        "procedural_legitimacy": 0.7957865595243235
+      },
+      "point_id": 10,
+      "seed": 8710000,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6965948220677454,
+      "Z_obs_recomputed": 0.6148240575992301,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.04,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7329741103387266,
+        "procedural_legitimacy": 0.8044721727976902
+      },
+      "point_id": 10,
+      "seed": 8710001,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6107834995692325,
+      "Z_obs_recomputed": 0.3230344466544333,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.10714285714285714,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.803917497846163,
+        "procedural_legitimacy": 0.8619604828204428
+      },
+      "point_id": 10,
+      "seed": 8710002,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6560785810025556,
+      "Z_obs_recomputed": 0.4745917878502424,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.22727272727272727,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6137262383461116,
+        "procedural_legitimacy": 0.6965026362780001
+      },
+      "point_id": 10,
+      "seed": 8710003,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.853000846021103,
+      "Z_obs_recomputed": 0.6311831592443844,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.058823529411764705,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7650042301055154,
+        "procedural_legitimacy": 0.8347259483213886
+      },
+      "point_id": 10,
+      "seed": 8710004,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7582748753836668,
+      "Z_obs_recomputed": 0.5306456713780022,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.23333333333333334,
+        "delegation": 0.75,
+        "interpatch_coordination": 1.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.6247077102516676,
+        "procedural_legitimacy": 0.6919370141340069
+      },
+      "point_id": 11,
+      "seed": 8711000,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6296201384997123,
+      "Z_obs_recomputed": 0.306057246586571,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.30303030303030304,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.3981006924985616,
+        "procedural_legitimacy": 0.6151414367294101
+      },
+      "point_id": 11,
+      "seed": 8711001,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7058278714972879,
+      "Z_obs_recomputed": 0.7073178932809774,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.42857142857142855,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.5291393574864396,
+        "procedural_legitimacy": 0.6933822512715035
+      },
+      "point_id": 11,
+      "seed": 8711002,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5911603530328634,
+      "Z_obs_recomputed": 0.652498229346575,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.16,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.705801765164317,
+        "procedural_legitimacy": 0.797494688039725
+      },
+      "point_id": 11,
+      "seed": 8711003,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7228911525197759,
+      "Z_obs_recomputed": 0.5490903204873243,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.3225806451612903,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6144557625988792,
+        "procedural_legitimacy": 0.8246903163006827
+      },
+      "point_id": 11,
+      "seed": 8711004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6101344928415852,
+      "Z_obs_recomputed": 0.2628448465020454,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.26666666666666666,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.3006724642079257,
+        "procedural_legitimacy": 0.5218678728394696
+      },
+      "point_id": 12,
+      "seed": 8712000,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.758099651588498,
+      "Z_obs_recomputed": 0.5703674163869444,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.08,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5404982579424902,
+        "procedural_legitimacy": 0.6311022491608331
+      },
+      "point_id": 12,
+      "seed": 8712001,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6094231346020993,
+      "Z_obs_recomputed": 0.5573260370969703,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.2727272727272727,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.7971156730104966,
+        "procedural_legitimacy": 0.8992508385636383
+      },
+      "point_id": 12,
+      "seed": 8712002,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.2776591366099029,
+      "Z_obs_recomputed": 0.30267769440358644,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.18518518518518517,
+        "delegation": 0.0,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.6666666666666666,
+        "performance_legitimacy": 0.7216290163828477,
+        "procedural_legitimacy": 0.722847898025574
+      },
+      "point_id": 12,
+      "seed": 8712003,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6359783904189129,
+      "Z_obs_recomputed": 0.22128006086397722,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.03333333333333333,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 0.6666666666666666,
+        "performance_legitimacy": 0.513225285427898,
+        "procedural_legitimacy": 0.6305068492585983
+      },
+      "point_id": 12,
+      "seed": 8712004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7604626926036211,
+      "Z_obs_recomputed": 0.48220902462722365,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.06666666666666667,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5523134630181057,
+        "procedural_legitimacy": 0.7132937405483376
+      },
+      "point_id": 13,
+      "seed": 8713000,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6543619067029116,
+      "Z_obs_recomputed": 0.4632380809733883,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.03125,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7718095335145583,
+        "procedural_legitimacy": 0.858464242920165
+      },
+      "point_id": 13,
+      "seed": 8713001,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6130722520390706,
+      "Z_obs_recomputed": 0.6660969796527276,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.15384615384615385,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.8153612601953528,
+        "procedural_legitimacy": 0.8444447851120291
+      },
+      "point_id": 13,
+      "seed": 8713002,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5603308661378614,
+      "Z_obs_recomputed": 0.6237971443121424,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.22580645161290322,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.5,
+        "performance_legitimacy": 0.5516543306893069,
+        "procedural_legitimacy": 0.6455849813235239
+      },
+      "point_id": 13,
+      "seed": 8713003,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8553181011138584,
+      "Z_obs_recomputed": 0.5583657318805615,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.13793103448275862,
+        "delegation": 0.75,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8599238389026251,
+        "procedural_legitimacy": 0.8704994944922593
+      },
+      "point_id": 13,
+      "seed": 8713004,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.4470922972390917,
+      "Z_obs_recomputed": 0.3804937829651777,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.3793103448275862,
+        "delegation": 0.0,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5687948195287921,
+        "procedural_legitimacy": 0.7621710040679468
+      },
+      "point_id": 14,
+      "seed": 8714000,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6174738310102051,
+      "Z_obs_recomputed": 0.6915243290320966,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.2962962962962963,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7540358217176927,
+        "procedural_legitimacy": 0.7782766907999936
+      },
+      "point_id": 14,
+      "seed": 8714001,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6230564653988835,
+      "Z_obs_recomputed": 0.45435550631307864,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.1111111111111111,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6152823269944175,
+        "procedural_legitimacy": 0.7519554078281248
+      },
+      "point_id": 14,
+      "seed": 8714002,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.744195430119764,
+      "Z_obs_recomputed": 0.5155651138049221,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.20833333333333334,
+        "delegation": 1.0,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.72097715059882,
+        "procedural_legitimacy": 0.8383620080814329
+      },
+      "point_id": 14,
+      "seed": 8714003,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.649202166751648,
+      "Z_obs_recomputed": 0.723403806587632,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.3448275862068966,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.74601083375824,
+        "procedural_legitimacy": 0.8253838335559994
+      },
+      "point_id": 14,
+      "seed": 8714004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7135903078177155,
+      "Z_obs_recomputed": 0.534055595797768,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.16129032258064516,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.5679515390885777,
+        "procedural_legitimacy": 0.774209798145992
+      },
+      "point_id": 15,
+      "seed": 8715000,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.43318875083166575,
+      "Z_obs_recomputed": 0.6189648824141512,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.034482758620689655,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8326104208249953,
+        "procedural_legitimacy": 0.8224118886217636
+      },
+      "point_id": 15,
+      "seed": 8715001,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.672677565891181,
+      "Z_obs_recomputed": 0.44509416769705873,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.03225806451612903,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6133878294559052,
+        "procedural_legitimacy": 0.6363577719083806
+      },
+      "point_id": 15,
+      "seed": 8715002,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8964470215315214,
+      "Z_obs_recomputed": 0.6851690687353552,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.2,
+        "delegation": 1.0,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8155684409909408,
+        "procedural_legitimacy": 0.8555072062060655
+      },
+      "point_id": 15,
+      "seed": 8715003,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.493997911841025,
+      "Z_obs_recomputed": 0.5792131994609359,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.1111111111111111,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.5,
+        "performance_legitimacy": 0.46998955920512486,
+        "procedural_legitimacy": 0.6265284872716963
+      },
+      "point_id": 15,
+      "seed": 8715004,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.37794971182193615,
+      "Z_obs_recomputed": 0.5886863698081188,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.034482758620689655,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.8897485591096806,
+        "procedural_legitimacy": 0.7315763508036669
+      },
+      "point_id": 16,
+      "seed": 8716000,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7625474343467545,
+      "Z_obs_recomputed": 0.551299565439705,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.2413793103448276,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.8127371717337728,
+        "procedural_legitimacy": 0.745852719307621
+      },
+      "point_id": 16,
+      "seed": 8716001,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7040426244839634,
+      "Z_obs_recomputed": 0.36473884394469575,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.5714285714285714,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.27021312241981693,
+        "procedural_legitimacy": 0.5227879604055158
+      },
+      "point_id": 16,
+      "seed": 8716002,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6185204303078846,
+      "Z_obs_recomputed": 0.2888165344247582,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.28125,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.3426021515394232,
+        "procedural_legitimacy": 0.5851996032742746
+      },
+      "point_id": 16,
+      "seed": 8716003,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7569648635753108,
+      "Z_obs_recomputed": 0.47182299416442763,
+      "components": {
+        "accountability": 0.3333333333333333,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.25,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.784824317876554,
+        "procedural_legitimacy": 0.8321356491599495
+      },
+      "point_id": 16,
+      "seed": 8716004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5309417356539194,
+      "Z_obs_recomputed": 0.6063849605480645,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.3333333333333333,
+        "bargaining_participation": 0.0625,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.8213753449362641,
+        "procedural_legitimacy": 0.7566548816441934
+      },
+      "point_id": 17,
+      "seed": 8717000,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5676832973926571,
+      "Z_obs_recomputed": 0.5744993598510234,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.08,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5884164869632851,
+        "procedural_legitimacy": 0.64349807955307
+      },
+      "point_id": 17,
+      "seed": 8717001,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.4206030234024234,
+      "Z_obs_recomputed": 0.5928347533142151,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.03571428571428571,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.35301511701211685,
+        "procedural_legitimacy": 0.7427899742283595
+      },
+      "point_id": 17,
+      "seed": 8717002,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5722828763560145,
+      "Z_obs_recomputed": 0.2771083617531949,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5280810484467393,
+        "procedural_legitimacy": 0.8313250852595847
+      },
+      "point_id": 17,
+      "seed": 8717003,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5347684356354319,
+      "Z_obs_recomputed": 0.604810353676723,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.07692307692307693,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.4238421781771594,
+        "procedural_legitimacy": 0.737507984107092
+      },
+      "point_id": 17,
+      "seed": 8717004,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.549020869343331,
+      "Z_obs_recomputed": 0.6273987427717285,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.4230769230769231,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.24510434671665532,
+        "procedural_legitimacy": 0.45911930523826233
+      },
+      "point_id": 18,
+      "seed": 8718000,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6687192154345284,
+      "Z_obs_recomputed": 0.43644716087126145,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.25806451612903225,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.3435960771726418,
+        "procedural_legitimacy": 0.551276966484752
+      },
+      "point_id": 18,
+      "seed": 8718001,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8269940419055242,
+      "Z_obs_recomputed": 0.6061711184406461,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.41379310344827586,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8016368761942879,
+        "procedural_legitimacy": 0.9047202518736626
+      },
+      "point_id": 18,
+      "seed": 8718002,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.79089220038308,
+      "Z_obs_recomputed": 0.6258084535450125,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.3,
+        "delegation": 1.0,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6211276685820666,
+        "procedural_legitimacy": 0.5774253606350376
+      },
+      "point_id": 18,
+      "seed": 8718003,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6933323219481297,
+      "Z_obs_recomputed": 0.2850584938143999,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.037037037037037035,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.7166616097406484,
+        "procedural_legitimacy": 0.8181384444061628
+      },
+      "point_id": 18,
+      "seed": 8718004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7001697281877977,
+      "Z_obs_recomputed": 0.375745701285803,
+      "components": {
+        "accountability": 0.3333333333333333,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7508486409389883,
+        "procedural_legitimacy": 0.7939037705240757
+      },
+      "point_id": 19,
+      "seed": 8719000,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6708354669765763,
+      "Z_obs_recomputed": 0.5973246190608531,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.04,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 0.6666666666666666,
+        "performance_legitimacy": 0.6875106682162148,
+        "procedural_legitimacy": 0.7519738571825592
+      },
+      "point_id": 19,
+      "seed": 8719001,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.3342360821032678,
+      "Z_obs_recomputed": 0.17363235826932058,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.037037037037037035,
+        "delegation": 0.0,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.1711804105163387,
+        "procedural_legitimacy": 0.4838600377709248
+      },
+      "point_id": 19,
+      "seed": 8719002,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5135178378899401,
+      "Z_obs_recomputed": 0.5614890181083415,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.6666666666666666,
+        "performance_legitimacy": 0.5675891894497004,
+        "procedural_legitimacy": 0.6844670543250245
+      },
+      "point_id": 19,
+      "seed": 8719003,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.3037755665031413,
+      "Z_obs_recomputed": 0.31047906837596023,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.15384615384615385,
+        "delegation": 0.0,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.7688778325157064,
+        "procedural_legitimacy": 0.7775910512817268
+      },
+      "point_id": 19,
+      "seed": 8719004,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.879272342045098,
+      "Z_obs_recomputed": 0.44914707331823905,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.13793103448275862,
+        "delegation": 0.75,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6463617102254893,
+        "procedural_legitimacy": 0.542843518805292
+      },
+      "point_id": 20,
+      "seed": 8720000,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7763363898776025,
+      "Z_obs_recomputed": 0.5017837304021623,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.07407407407407407,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.8816819493880123,
+        "procedural_legitimacy": 0.764610450465746
+      },
+      "point_id": 20,
+      "seed": 8720001,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6494665253038286,
+      "Z_obs_recomputed": 0.20761925039494367,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.08,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.7473326265191435,
+        "procedural_legitimacy": 0.542857751184831
+      },
+      "point_id": 20,
+      "seed": 8720002,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.686811149896125,
+      "Z_obs_recomputed": 0.5295606486837473,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.16666666666666666,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.7673890828139586,
+        "procedural_legitimacy": 0.7553486127179085
+      },
+      "point_id": 20,
+      "seed": 8720003,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6828088923434719,
+      "Z_obs_recomputed": 0.35610511904238457,
+      "components": {
+        "accountability": 0.3333333333333333,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.13793103448275862,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6640444617173593,
+        "procedural_legitimacy": 0.5970509893110618
+      },
+      "point_id": 20,
+      "seed": 8720004,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8551248486650913,
+      "Z_obs_recomputed": 0.4788116200109796,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.11764705882352941,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7756242433254567,
+        "procedural_legitimacy": 0.8187878012094094
+      },
+      "point_id": 21,
+      "seed": 8721000,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6891012517161818,
+      "Z_obs_recomputed": 0.5608453129040569,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0967741935483871,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.6955062585809086,
+        "procedural_legitimacy": 0.5857617451637838
+      },
+      "point_id": 21,
+      "seed": 8721001,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7211709247972153,
+      "Z_obs_recomputed": 0.5659060354156158,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6058546239860765,
+        "procedural_legitimacy": 0.6977181062468474
+      },
+      "point_id": 21,
+      "seed": 8721002,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6477297879266165,
+      "Z_obs_recomputed": 0.3404730294049206,
+      "components": {
+        "accountability": 0.3333333333333333,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.041666666666666664,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.7386489396330823,
+        "procedural_legitimacy": 0.6464190882147618
+      },
+      "point_id": 21,
+      "seed": 8721003,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7250805308298015,
+      "Z_obs_recomputed": 0.517532033928274,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.09375,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7087359874823411,
+        "procedural_legitimacy": 0.7921794351181553
+      },
+      "point_id": 21,
+      "seed": 8721004,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7925572006783348,
+      "Z_obs_recomputed": 0.4676905603329389,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.14285714285714285,
+        "delegation": 1.0,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.7127860033916739,
+        "procedural_legitimacy": 0.7602145381416737
+      },
+      "point_id": 22,
+      "seed": 8722000,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6646557668807302,
+      "Z_obs_recomputed": 0.5934945951492904,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.3333333333333333,
+        "bargaining_participation": 0.07142857142857142,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7399455010703182,
+        "procedural_legitimacy": 0.7090552140192995
+      },
+      "point_id": 22,
+      "seed": 8722001,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6369685188174931,
+      "Z_obs_recomputed": 0.5266729252926879,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.03333333333333333,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.5181759274207989,
+        "procedural_legitimacy": 0.5466854425447303
+      },
+      "point_id": 22,
+      "seed": 8722002,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6774091855199857,
+      "Z_obs_recomputed": 0.41710823476566,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.03225806451612903,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.6370459275999288,
+        "procedural_legitimacy": 0.719066639780851
+      },
+      "point_id": 22,
+      "seed": 8722003,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.42309188697590683,
+      "Z_obs_recomputed": 0.5779917794009192,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 0.6666666666666666,
+        "performance_legitimacy": 0.44879276821286745,
+        "procedural_legitimacy": 0.7339753382027575
+      },
+      "point_id": 22,
+      "seed": 8722004,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8603897102411755,
+      "Z_obs_recomputed": 0.6168959551102741,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.03571428571428571,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8019485512058774,
+        "procedural_legitimacy": 0.8149735796165365
+      },
+      "point_id": 23,
+      "seed": 8723000,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6561611886701862,
+      "Z_obs_recomputed": 0.6115553417155558,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.043478260869565216,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6141392766842646,
+        "procedural_legitimacy": 0.7911877642771022
+      },
+      "point_id": 23,
+      "seed": 8723001,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6700811730281033,
+      "Z_obs_recomputed": 0.48036296762523123,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.1,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.6004058651405171,
+        "procedural_legitimacy": 0.8410889028756937
+      },
+      "point_id": 23,
+      "seed": 8723002,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8046474033071693,
+      "Z_obs_recomputed": 0.6353067378692904,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6899036832025134,
+        "procedural_legitimacy": 0.9059202136078711
+      },
+      "point_id": 23,
+      "seed": 8723003,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.4891826601980875,
+      "Z_obs_recomputed": 0.543616025898089,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.1,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.2792466343237708,
+        "procedural_legitimacy": 0.5308480776942669
+      },
+      "point_id": 23,
+      "seed": 8723004,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6517654338756693,
+      "Z_obs_recomputed": 0.8063525687456808,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.6206896551724138,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7588271693783466,
+        "procedural_legitimacy": 0.7983680510646289
+      },
+      "point_id": 24,
+      "seed": 8724000,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5958759481500797,
+      "Z_obs_recomputed": 0.7059380749772424,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.28125,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7293797407503985,
+        "procedural_legitimacy": 0.8365642249317272
+      },
+      "point_id": 24,
+      "seed": 8724001,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6787343866351152,
+      "Z_obs_recomputed": 0.6857834512066394,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.3333333333333333,
+        "bargaining_participation": 0.2916666666666667,
+        "delegation": 1.0,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 0.6666666666666666,
+        "performance_legitimacy": 0.7270052665089093,
+        "procedural_legitimacy": 0.7656836869532514
+      },
+      "point_id": 24,
+      "seed": 8724002,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.47066201872340996,
+      "Z_obs_recomputed": 0.46660884146323345,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.3333333333333333,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.5,
+        "performance_legitimacy": 0.3533100936170499,
+        "procedural_legitimacy": 0.5664931910563671
+      },
+      "point_id": 24,
+      "seed": 8724003,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6640671914890001,
+      "Z_obs_recomputed": 0.6316720886555877,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.2692307692307692,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.5703359574450001,
+        "procedural_legitimacy": 0.6257854967359939
+      },
+      "point_id": 24,
+      "seed": 8724004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5388664212932341,
+      "Z_obs_recomputed": 0.5317339929368924,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.14814814814814814,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.5,
+        "performance_legitimacy": 0.7776654397995043,
+        "procedural_legitimacy": 0.7803871639958624
+      },
+      "point_id": 25,
+      "seed": 8725000,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6764967737218731,
+      "Z_obs_recomputed": 0.4802370915696468,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.17391304347826086,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.715817201942699,
+        "procedural_legitimacy": 0.7667982312306795
+      },
+      "point_id": 25,
+      "seed": 8725001,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7046149340501555,
+      "Z_obs_recomputed": 0.4823941152923519,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 0.75,
+        "bargaining_participation": 0.08695652173913043,
+        "delegation": 1.0,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.5,
+        "performance_legitimacy": 0.7730746702507774,
+        "procedural_legitimacy": 0.8602258241379254
+      },
+      "point_id": 25,
+      "seed": 8725002,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6638067713649244,
+      "Z_obs_recomputed": 0.34313137471880634,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.16666666666666666,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.8190338568246223,
+        "procedural_legitimacy": 0.8627274574897524
+      },
+      "point_id": 25,
+      "seed": 8725003,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.17601002834544163,
+      "Z_obs_recomputed": 0.20305829341559525,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.15789473684210525,
+        "delegation": 0.0,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.5,
+        "performance_legitimacy": 0.3800501417272082,
+        "procedural_legitimacy": 0.4512801434046805
+      },
+      "point_id": 25,
+      "seed": 8725004,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7152103271798368,
+      "Z_obs_recomputed": 0.2826317046259383,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.12903225806451613,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5760516358991842,
+        "procedural_legitimacy": 0.7188628558132988
+      },
+      "point_id": 26,
+      "seed": 8726000,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6524201594650851,
+      "Z_obs_recomputed": 0.6723013449281162,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.3333333333333333,
+        "bargaining_participation": 0.2692307692307692,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.678767463992093,
+        "procedural_legitimacy": 0.7476732655535793
+      },
+      "point_id": 26,
+      "seed": 8726001,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8125165607456841,
+      "Z_obs_recomputed": 0.49212242244559395,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.11764705882352941,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7292494703950873,
+        "procedural_legitimacy": 0.8587202085132523
+      },
+      "point_id": 26,
+      "seed": 8726002,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7216510360602142,
+      "Z_obs_recomputed": 0.4709490715546049,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.13793103448275862,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.3582551803010712,
+        "procedural_legitimacy": 0.6082495135143895
+      },
+      "point_id": 26,
+      "seed": 8726003,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5511524928031467,
+      "Z_obs_recomputed": 0.7321600399857598,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.5333333333333333,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5057624640157335,
+        "procedural_legitimacy": 0.6631467866239462
+      },
+      "point_id": 26,
+      "seed": 8726004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.477385687932747,
+      "Z_obs_recomputed": 0.5098674212653412,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.386928439663735,
+        "procedural_legitimacy": 0.5296022637960238
+      },
+      "point_id": 27,
+      "seed": 8727000,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7244699829938557,
+      "Z_obs_recomputed": 0.6357245942783366,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.14285714285714285,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7056832483026118,
+        "procedural_legitimacy": 0.7643166399778673
+      },
+      "point_id": 27,
+      "seed": 8727001,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7385224466176904,
+      "Z_obs_recomputed": 0.6384217160711319,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.08,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8592788997551191,
+        "procedural_legitimacy": 0.8352651482133954
+      },
+      "point_id": 27,
+      "seed": 8727002,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6388660131535262,
+      "Z_obs_recomputed": 0.21808190143412917,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.13043478260869565,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5276633991009643,
+        "procedural_legitimacy": 0.5238109216936918
+      },
+      "point_id": 27,
+      "seed": 8727003,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6481886461403424,
+      "Z_obs_recomputed": 0.43124434820213403,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.11538461538461539,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.4909432307017122,
+        "procedural_legitimacy": 0.6783484292217866
+      },
+      "point_id": 27,
+      "seed": 8727004,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.692869128048366,
+      "Z_obs_recomputed": 0.5892587074728366,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.3333333333333333,
+        "bargaining_participation": 0.0,
+        "delegation": 0.75,
+        "interpatch_coordination": 1.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.6310123069084969,
+        "procedural_legitimacy": 0.7677761224185098
+      },
+      "point_id": 28,
+      "seed": 8728000,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.656124603017209,
+      "Z_obs_recomputed": 0.3868199383987349,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.280623015086045,
+        "procedural_legitimacy": 0.4937931485295381
+      },
+      "point_id": 28,
+      "seed": 8728001,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6827781402649689,
+      "Z_obs_recomputed": 0.6564917279627348,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.23076923076923078,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6638907013248443,
+        "procedural_legitimacy": 0.7387059531189736
+      },
+      "point_id": 28,
+      "seed": 8728002,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6453451114351136,
+      "Z_obs_recomputed": 0.32310262347160984,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.07142857142857142,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.893392223842235,
+        "procedural_legitimacy": 0.8978792989862581
+      },
+      "point_id": 28,
+      "seed": 8728003,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6057834497499797,
+      "Z_obs_recomputed": 0.6791363326082352,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.12,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8622505820832318,
+        "procedural_legitimacy": 0.9174089978247054
+      },
+      "point_id": 28,
+      "seed": 8728004,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7248985618410486,
+      "Z_obs_recomputed": 0.7456754473306028,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.42857142857142855,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.624492809205243,
+        "procedural_legitimacy": 0.80845491342038
+      },
+      "point_id": 29,
+      "seed": 8729000,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7599270125385512,
+      "Z_obs_recomputed": 0.673955707902945,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.41935483870967744,
+        "delegation": 0.75,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.38296839602608956,
+        "procedural_legitimacy": 0.6025122849991577
+      },
+      "point_id": 29,
+      "seed": 8729001,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7523743928797464,
+      "Z_obs_recomputed": 0.5381623746294517,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.25,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7618719643987317,
+        "procedural_legitimacy": 0.8644871238883552
+      },
+      "point_id": 29,
+      "seed": 8729002,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8081453109654575,
+      "Z_obs_recomputed": 0.5539861608377304,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.4482758620689655,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5407265548272873,
+        "procedural_legitimacy": 0.7136826204442259
+      },
+      "point_id": 29,
+      "seed": 8729003,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6972904954485619,
+      "Z_obs_recomputed": 0.615611531958081,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.4642857142857143,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.4864524772428097,
+        "procedural_legitimacy": 0.7158822149218622
+      },
+      "point_id": 29,
+      "seed": 8729004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7680253878527601,
+      "Z_obs_recomputed": 0.5009812157174481,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.0625,
+        "delegation": 0.75,
+        "interpatch_coordination": 1.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.6734602725971336,
+        "procedural_legitimacy": 0.7737769804856778
+      },
+      "point_id": 30,
+      "seed": 8730000,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7009556979196063,
+      "Z_obs_recomputed": 0.6077659497554284,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.5,
+        "performance_legitimacy": 0.7547784895980313,
+        "procedural_legitimacy": 0.8232978492662852
+      },
+      "point_id": 30,
+      "seed": 8730001,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6859249431484666,
+      "Z_obs_recomputed": 0.3385969873184782,
+      "components": {
+        "accountability": 0.3333333333333333,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.0,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.7629580490756664,
+        "procedural_legitimacy": 0.6824576286221012
+      },
+      "point_id": 30,
+      "seed": 8730002,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5174988814105024,
+      "Z_obs_recomputed": 0.1967789420023919,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.1724137931034483,
+        "delegation": 0.0,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.587494407052512,
+        "procedural_legitimacy": 0.41792303290372745
+      },
+      "point_id": 30,
+      "seed": 8730003,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8799082217729703,
+      "Z_obs_recomputed": 0.590717579164454,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.75,
+        "bargaining_participation": 0.1,
+        "delegation": 1.0,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6495411088648513,
+        "procedural_legitimacy": 0.672152737493362
+      },
+      "point_id": 30,
+      "seed": 8730004,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6642474049885825,
+      "Z_obs_recomputed": 0.42798454122418433,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.5712370249429122,
+        "procedural_legitimacy": 0.7839536236725532
+      },
+      "point_id": 31,
+      "seed": 8731000,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7282348329453727,
+      "Z_obs_recomputed": 0.6477461311160893,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.0625,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.8911741647268636,
+        "procedural_legitimacy": 0.8807383933482678
+      },
+      "point_id": 31,
+      "seed": 8731001,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5477698188354437,
+      "Z_obs_recomputed": 0.29996133486237925,
+      "components": {
+        "accountability": 0.3333333333333333,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.23884909417721872,
+        "procedural_legitimacy": 0.5665506712538043
+      },
+      "point_id": 31,
+      "seed": 8731002,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7987089621576033,
+      "Z_obs_recomputed": 0.5479200449497309,
+      "components": {
+        "accountability": 0.75,
+        "administrative_function": 0.25,
+        "bargaining_participation": 0.06451612903225806,
+        "delegation": 1.0,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7435448107880166,
+        "procedural_legitimacy": 0.8292440058169348
+      },
+      "point_id": 31,
+      "seed": 8731003,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5587396604894174,
+      "Z_obs_recomputed": 0.34202106645898606,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.058823529411764705,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.29369830244708683,
+        "procedural_legitimacy": 0.46723966996519345
+      },
+      "point_id": 31,
+      "seed": 8731004,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8564973555478819,
+      "Z_obs_recomputed": 0.6568080545372946,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.18181818181818182,
+        "delegation": 1.0,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7824867777394092,
+        "procedural_legitimacy": 0.7886059817937019
+      },
+      "point_id": 32,
+      "seed": 8732000,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6764093272650572,
+      "Z_obs_recomputed": 0.5797139971271218,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.13333333333333333,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.3820466363252861,
+        "procedural_legitimacy": 0.605808658048032
+      },
+      "point_id": 32,
+      "seed": 8732001,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.37996259609039973,
+      "Z_obs_recomputed": 0.6040978529069578,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.03571428571428571,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6498129804519988,
+        "procedural_legitimacy": 0.7765792730065876
+      },
+      "point_id": 32,
+      "seed": 8732002,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7087000981534961,
+      "Z_obs_recomputed": 0.5496065305863541,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0967741935483871,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.543500490767481,
+        "procedural_legitimacy": 0.5520453982106752
+      },
+      "point_id": 32,
+      "seed": 8732003,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8109408452206353,
+      "Z_obs_recomputed": 0.5267265342481077,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.16666666666666666,
+        "delegation": 0.75,
+        "interpatch_coordination": 1.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.5547042261031767,
+        "procedural_legitimacy": 0.74684626941099
+      },
+      "point_id": 32,
+      "seed": 8732004,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6720478855063415,
+      "Z_obs_recomputed": 0.22840999404693804,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.03225806451612903,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6102394275317078,
+        "procedural_legitimacy": 0.6529719176246851
+      },
+      "point_id": 33,
+      "seed": 8733000,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.4367099187642376,
+      "Z_obs_recomputed": 0.6440931732768175,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8502162604878546,
+        "procedural_legitimacy": 0.9322795198304524
+      },
+      "point_id": 33,
+      "seed": 8733001,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8435495053163509,
+      "Z_obs_recomputed": 0.6738434526275633,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.06451612903225806,
+        "delegation": 0.25,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.9677475265817542,
+        "procedural_legitimacy": 0.9570142288504317
+      },
+      "point_id": 33,
+      "seed": 8733002,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8429467420178252,
+      "Z_obs_recomputed": 0.4572438782221158,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.06451612903225806,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.714733710089126,
+        "procedural_legitimacy": 0.8072155056340895
+      },
+      "point_id": 33,
+      "seed": 8733003,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6535241610234183,
+      "Z_obs_recomputed": 0.4869949950158225,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.14814814814814814,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.5,
+        "performance_legitimacy": 0.5176208051170914,
+        "procedural_legitimacy": 0.6461701702326527
+      },
+      "point_id": 33,
+      "seed": 8733004,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.71504188957633,
+      "Z_obs_recomputed": 0.4405738731475479,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.06896551724137931,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5752094478816501,
+        "procedural_legitimacy": 0.7527561022012644
+      },
+      "point_id": 34,
+      "seed": 8734000,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5578166331295429,
+      "Z_obs_recomputed": 0.3655868301530374,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.5,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.5390831656477143,
+        "procedural_legitimacy": 0.5967604904591122
+      },
+      "point_id": 34,
+      "seed": 8734001,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.3563072851613086,
+      "Z_obs_recomputed": 0.693835988859587,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.36363636363636365,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5315364258065431,
+        "procedural_legitimacy": 0.7178716029423969
+      },
+      "point_id": 34,
+      "seed": 8734002,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8366165013248785,
+      "Z_obs_recomputed": 0.7986863508335507,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.5161290322580645,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8497491732910599,
+        "procedural_legitimacy": 0.8799300202425876
+      },
+      "point_id": 34,
+      "seed": 8734003,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7359663154786789,
+      "Z_obs_recomputed": 0.638823094373831,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.30434782608695654,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6798315773933948,
+        "procedural_legitimacy": 0.6121214570345364
+      },
+      "point_id": 34,
+      "seed": 8734004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7480180906944993,
+      "Z_obs_recomputed": 0.5966048811202346,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.04,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 0.5,
+        "performance_legitimacy": 0.7400904534724962,
+        "procedural_legitimacy": 0.7498146433607037
+      },
+      "point_id": 35,
+      "seed": 8735000,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6728456868627999,
+      "Z_obs_recomputed": 0.6009015180920739,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.1111111111111111,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.6142284343139994,
+        "procedural_legitimacy": 0.6915934431651104
+      },
+      "point_id": 35,
+      "seed": 8735001,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6645661719857301,
+      "Z_obs_recomputed": 0.6182601236024161,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.034482758620689655,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5728308599286506,
+        "procedural_legitimacy": 0.8202976121865587
+      },
+      "point_id": 35,
+      "seed": 8735002,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8599524381801464,
+      "Z_obs_recomputed": 0.518252519539233,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.03125,
+        "delegation": 0.75,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5497621909007316,
+        "procedural_legitimacy": 0.523507558617699
+      },
+      "point_id": 35,
+      "seed": 8735003,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8280692943079767,
+      "Z_obs_recomputed": 0.5237222979220751,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.75,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.3903464715398836,
+        "procedural_legitimacy": 0.5711668937662254
+      },
+      "point_id": 35,
+      "seed": 8735004,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7476183710727773,
+      "Z_obs_recomputed": 0.5804409357680709,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 0.6666666666666666,
+        "performance_legitimacy": 0.7380918553638866,
+        "procedural_legitimacy": 0.7413228073042125
+      },
+      "point_id": 36,
+      "seed": 8736000,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6913429126728395,
+      "Z_obs_recomputed": 0.6064803628443117,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.08,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7067145633641977,
+        "procedural_legitimacy": 0.7394410885329349
+      },
+      "point_id": 36,
+      "seed": 8736001,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.730210051632651,
+      "Z_obs_recomputed": 0.648879036326892,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.0625,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8177169248299218,
+        "procedural_legitimacy": 0.884137108980676
+      },
+      "point_id": 36,
+      "seed": 8736002,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.35530990828107667,
+      "Z_obs_recomputed": 0.5615726378274243,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.037037037037037035,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5265495414053833,
+        "procedural_legitimacy": 0.6476808764452359
+      },
+      "point_id": 36,
+      "seed": 8736003,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.753187312574761,
+      "Z_obs_recomputed": 0.6243771427409117,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0967741935483871,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.765936562873805,
+        "procedural_legitimacy": 0.7763572346743481
+      },
+      "point_id": 36,
+      "seed": 8736004,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7471788609527157,
+      "Z_obs_recomputed": 0.3985889131274483,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.12,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.48589430476357837,
+        "procedural_legitimacy": 0.5757667393823449
+      },
+      "point_id": 37,
+      "seed": 8737000,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8288310600826548,
+      "Z_obs_recomputed": 0.4926138807378661,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.03333333333333333,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8108219670799416,
+        "procedural_legitimacy": 0.9445083088802649
+      },
+      "point_id": 37,
+      "seed": 8737001,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.40580849803636776,
+      "Z_obs_recomputed": 0.20836831865066308,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.037037037037037035,
+        "delegation": 0.0,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5290424901818389,
+        "procedural_legitimacy": 0.5880679189149522
+      },
+      "point_id": 37,
+      "seed": 8737002,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5627698206982638,
+      "Z_obs_recomputed": 0.5424249748216662,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.480515770157986,
+        "procedural_legitimacy": 0.6272749244649988
+      },
+      "point_id": 37,
+      "seed": 8737003,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5632145848564161,
+      "Z_obs_recomputed": 0.6030152186914265,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.3333333333333333,
+        "bargaining_participation": 0.06666666666666667,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7327395909487474,
+        "procedural_legitimacy": 0.742378989407613
+      },
+      "point_id": 37,
+      "seed": 8737004,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5970565824593514,
+      "Z_obs_recomputed": 0.2159072422942909,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.1724137931034483,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.4852829122967576,
+        "procedural_legitimacy": 0.4753079337794244
+      },
+      "point_id": 38,
+      "seed": 8738000,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6269295911668394,
+      "Z_obs_recomputed": 0.46693544206311416,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.21428571428571427,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6346479558341972,
+        "procedural_legitimacy": 0.686520611903628
+      },
+      "point_id": 38,
+      "seed": 8738001,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7606759059877225,
+      "Z_obs_recomputed": 0.6946154487938139,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.35714285714285715,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5533795299386128,
+        "procedural_legitimacy": 0.7267034892385843
+      },
+      "point_id": 38,
+      "seed": 8738002,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6252575477345306,
+      "Z_obs_recomputed": 0.25042046870356044,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.18518518518518517,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.5,
+        "performance_legitimacy": 0.626287738672653,
+        "procedural_legitimacy": 0.566076220925496
+      },
+      "point_id": 38,
+      "seed": 8738003,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7541250215942362,
+      "Z_obs_recomputed": 0.5691682707215757,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.3181818181818182,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.7706251079711811,
+        "procedural_legitimacy": 0.7226563273162422
+      },
+      "point_id": 38,
+      "seed": 8738004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7928537684209063,
+      "Z_obs_recomputed": 0.5792781134998299,
+      "components": {
+        "accountability": 0.75,
+        "administrative_function": 0.75,
+        "bargaining_participation": 0.19230769230769232,
+        "delegation": 1.0,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7142688421045316,
+        "procedural_legitimacy": 0.7955266481917976
+      },
+      "point_id": 39,
+      "seed": 8739000,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7670132800228238,
+      "Z_obs_recomputed": 0.523393650084968,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.18518518518518517,
+        "delegation": 0.75,
+        "interpatch_coordination": 1.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.668399733447452,
+        "procedural_legitimacy": 0.7183290984030521
+      },
+      "point_id": 39,
+      "seed": 8739001,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6535093971269201,
+      "Z_obs_recomputed": 0.40144536322404717,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0967741935483871,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.5175469856346009,
+        "procedural_legitimacy": 0.6075618961237544
+      },
+      "point_id": 39,
+      "seed": 8739002,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6836726881605605,
+      "Z_obs_recomputed": 0.3822918039426802,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.038461538461538464,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.6683634408028024,
+        "procedural_legitimacy": 0.6084138733665021
+      },
+      "point_id": 39,
+      "seed": 8739003,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5740265687112233,
+      "Z_obs_recomputed": 0.6151613804428432,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.2,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.6201328435561164,
+        "procedural_legitimacy": 0.6454841413285298
+      },
+      "point_id": 39,
+      "seed": 8739004,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6693465949465136,
+      "Z_obs_recomputed": 0.6115756117682302,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.07692307692307693,
+        "delegation": 1.0,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6800663080659017,
+        "procedural_legitimacy": 0.7578037583816138
+      },
+      "point_id": 40,
+      "seed": 8740000,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6558477936749549,
+      "Z_obs_recomputed": 0.5110397134637785,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 0.3333333333333333,
+        "bargaining_participation": 0.13333333333333333,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.695905635041442,
+        "procedural_legitimacy": 0.7331191403913355
+      },
+      "point_id": 40,
+      "seed": 8740001,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7300856436037082,
+      "Z_obs_recomputed": 0.2444190120262442,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.10344827586206896,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.40042821801854095,
+        "procedural_legitimacy": 0.6298087602166637
+      },
+      "point_id": 40,
+      "seed": 8740002,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6104699516361035,
+      "Z_obs_recomputed": 0.6201524751012321,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.037037037037037035,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8023497581805175,
+        "procedural_legitimacy": 0.823420388266659
+      },
+      "point_id": 40,
+      "seed": 8740003,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7387680572480135,
+      "Z_obs_recomputed": 0.5664517399255758,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.1111111111111111,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.44384028624006755,
+        "procedural_legitimacy": 0.5882441086656166
+      },
+      "point_id": 40,
+      "seed": 8740004,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5071646194915571,
+      "Z_obs_recomputed": 0.6569082252052793,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.3333333333333333,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5358230974577858,
+        "procedural_legitimacy": 0.6373913422825046
+      },
+      "point_id": 41,
+      "seed": 8741000,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.755592313554088,
+      "Z_obs_recomputed": 0.6858237339875192,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.21875,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7779615677704398,
+        "procedural_legitimacy": 0.8387212019625574
+      },
+      "point_id": 41,
+      "seed": 8741001,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5603912801415238,
+      "Z_obs_recomputed": 0.7366961000205574,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.5185185185185185,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5519564007076191,
+        "procedural_legitimacy": 0.6915697815431538
+      },
+      "point_id": 41,
+      "seed": 8741002,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6609585389241328,
+      "Z_obs_recomputed": 0.40178492483533884,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.4666666666666667,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.8047926946206643,
+        "procedural_legitimacy": 0.7386881078393499
+      },
+      "point_id": 41,
+      "seed": 8741003,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5040591258261011,
+      "Z_obs_recomputed": 0.5766274456222483,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.43333333333333335,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.7702956291305056,
+        "procedural_legitimacy": 0.7965490035334115
+      },
+      "point_id": 41,
+      "seed": 8741004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5867653701169416,
+      "Z_obs_recomputed": 0.6887153977230381,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.3333333333333333,
+        "bargaining_participation": 0.39285714285714285,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.6004935172513753,
+        "procedural_legitimacy": 0.6732890503119713
+      },
+      "point_id": 42,
+      "seed": 8742000,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6712819504066425,
+      "Z_obs_recomputed": 0.4117764591150664,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.6086956521739131,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.6064097520332123,
+        "procedural_legitimacy": 0.626633725171286
+      },
+      "point_id": 42,
+      "seed": 8742001,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6673665976339107,
+      "Z_obs_recomputed": 0.4169454706968918,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.41935483870967744,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.8368329881695535,
+        "procedural_legitimacy": 0.8314815733809979
+      },
+      "point_id": 42,
+      "seed": 8742002,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6914904423516167,
+      "Z_obs_recomputed": 0.6645505746687869,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.21212121212121213,
+        "delegation": 1.0,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.790785545091417,
+        "procedural_legitimacy": 0.7815305118851485
+      },
+      "point_id": 42,
+      "seed": 8742003,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6356111265705524,
+      "Z_obs_recomputed": 0.5433861142566001,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.38461538461538464,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6780556328527624,
+        "procedural_legitimacy": 0.7455429581544158
+      },
+      "point_id": 42,
+      "seed": 8742004,
+      "stratum": "high_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5897645338697919,
+      "Z_obs_recomputed": 0.4914831042315299,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6988226693489592,
+        "procedural_legitimacy": 0.4744493126945898
+      },
+      "point_id": 43,
+      "seed": 8743000,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7052697872075929,
+      "Z_obs_recomputed": 0.40472122657721904,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.037037037037037035,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.859682269371298,
+        "procedural_legitimacy": 0.5104599760279533
+      },
+      "point_id": 43,
+      "seed": 8743001,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5910509892403114,
+      "Z_obs_recomputed": 0.20847437867594906,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.043478260869565216,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6219216128682241,
+        "procedural_legitimacy": 0.581944875158282
+      },
+      "point_id": 43,
+      "seed": 8743002,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7202422350072881,
+      "Z_obs_recomputed": 0.37684769017556047,
+      "components": {
+        "accountability": 0.3333333333333333,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 1.0,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.6666666666666666,
+        "performance_legitimacy": 0.9345445083697741,
+        "procedural_legitimacy": 0.7972097371933481
+      },
+      "point_id": 43,
+      "seed": 8743003,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6888539160264441,
+      "Z_obs_recomputed": 0.46672172510857113,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.08,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.4442695801322203,
+        "procedural_legitimacy": 0.8201651753257135
+      },
+      "point_id": 43,
+      "seed": 8743004,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5910822328988881,
+      "Z_obs_recomputed": 0.5459621763385593,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.03571428571428571,
+        "delegation": 0.5,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.45541116449444063,
+        "procedural_legitimacy": 0.6021722433013921
+      },
+      "point_id": 44,
+      "seed": 8744000,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7063648141006841,
+      "Z_obs_recomputed": 0.4817712967917191,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.038461538461538464,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7818240705034201,
+        "procedural_legitimacy": 0.7401856852469522
+      },
+      "point_id": 44,
+      "seed": 8744001,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7653167469152408,
+      "Z_obs_recomputed": 0.43402857452986976,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8265837345762038,
+        "procedural_legitimacy": 0.8020857235896093
+      },
+      "point_id": 44,
+      "seed": 8744002,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6873944365637903,
+      "Z_obs_recomputed": 0.44411809527316404,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.08823529411764706,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.43697218281895134,
+        "procedural_legitimacy": 0.5774523250351784
+      },
+      "point_id": 44,
+      "seed": 8744003,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7263312256516657,
+      "Z_obs_recomputed": 0.4147210963802455,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.038461538461538464,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.6316561282583286,
+        "procedural_legitimacy": 0.705701750679198
+      },
+      "point_id": 44,
+      "seed": 8744004,
+      "stratum": "low_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6645613064755854,
+      "Z_obs_recomputed": 0.4397126528027156,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.125,
+        "delegation": 0.5,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.572806532377927,
+        "procedural_legitimacy": 0.6941379584081468
+      },
+      "point_id": 45,
+      "seed": 8745000,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.3625426336409191,
+      "Z_obs_recomputed": 0.23768090233895847,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.0,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8127131682045957,
+        "procedural_legitimacy": 0.7130427070168754
+      },
+      "point_id": 45,
+      "seed": 8745001,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6121083729500064,
+      "Z_obs_recomputed": 0.6422449725181162,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.03571428571428571,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.8105418647500324,
+        "procedural_legitimacy": 0.8910206318400626
+      },
+      "point_id": 45,
+      "seed": 8745002,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7243962166258205,
+      "Z_obs_recomputed": 0.6148140449458164,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.125,
+        "delegation": 0.25,
+        "interpatch_coordination": 1.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.6219810831291028,
+        "procedural_legitimacy": 0.7194421348374491
+      },
+      "point_id": 45,
+      "seed": 8745003,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.8636750180477792,
+      "Z_obs_recomputed": 0.5525607951303874,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.0,
+        "delegation": 0.75,
+        "interpatch_coordination": 1.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.568375090238896,
+        "procedural_legitimacy": 0.657682385391162
+      },
+      "point_id": 45,
+      "seed": 8745004,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6378046567607238,
+      "Z_obs_recomputed": 0.3282862128089516,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.24242424242424243,
+        "delegation": 0.25,
+        "interpatch_coordination": 0.5,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.689023283803619,
+        "procedural_legitimacy": 0.7424343960026124
+      },
+      "point_id": 46,
+      "seed": 8746000,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7586595648079031,
+      "Z_obs_recomputed": 0.326770030439053,
+      "components": {
+        "accountability": 0.3333333333333333,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.037037037037037035,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5432978240395152,
+        "procedural_legitimacy": 0.6099397209467887
+      },
+      "point_id": 46,
+      "seed": 8746001,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.30838182674381187,
+      "Z_obs_recomputed": 0.3042125747821818,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 0.0,
+        "bargaining_participation": 0.125,
+        "delegation": 0.0,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.7919091337190595,
+        "procedural_legitimacy": 0.7876377243465453
+      },
+      "point_id": 46,
+      "seed": 8746002,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7240818762431454,
+      "Z_obs_recomputed": 0.6410400968061546,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.0967741935483871,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.6666666666666666,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.7870760478823935,
+        "procedural_legitimacy": 0.8263460968700768
+      },
+      "point_id": 46,
+      "seed": 8746003,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6031879828063094,
+      "Z_obs_recomputed": 0.49575474445794815,
+      "components": {
+        "accountability": 1.0,
+        "administrative_function": 0.25,
+        "bargaining_participation": 0.0,
+        "delegation": 1.0,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.2659399140315469,
+        "procedural_legitimacy": 0.4872642333738444
+      },
+      "point_id": 46,
+      "seed": 8746004,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.5662967868558739,
+      "Z_obs_recomputed": 0.315324893024786,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.1111111111111111,
+        "delegation": 0.3333333333333333,
+        "interpatch_coordination": 0.0,
+        "monitoring": 0.6666666666666666,
+        "performance_legitimacy": 0.8314839342793693,
+        "procedural_legitimacy": 0.8348635679632469
+      },
+      "point_id": 47,
+      "seed": 8747000,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.7474371752055131,
+      "Z_obs_recomputed": 0.23524927777425564,
+      "components": {
+        "accountability": 0.0,
+        "administrative_function": 1.0,
+        "bargaining_participation": 0.03571428571428571,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.4871858760275657,
+        "procedural_legitimacy": 0.6700335476084812
+      },
+      "point_id": 47,
+      "seed": 8747001,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6692548833423992,
+      "Z_obs_recomputed": 0.29003502872723946,
+      "components": {
+        "accountability": 0.3333333333333333,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.10344827586206896,
+        "delegation": 0.75,
+        "interpatch_coordination": 1.0,
+        "monitoring": 0.75,
+        "performance_legitimacy": 0.17960775004532953,
+        "procedural_legitimacy": 0.4333234769863161
+      },
+      "point_id": 47,
+      "seed": 8747002,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.49433486902780366,
+      "Z_obs_recomputed": 0.40772558678239684,
+      "components": {
+        "accountability": 0.5,
+        "administrative_function": 0.5,
+        "bargaining_participation": 0.2,
+        "delegation": 0.6666666666666666,
+        "interpatch_coordination": 0.0,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.3050076784723517,
+        "procedural_legitimacy": 0.5231767603471905
+      },
+      "point_id": 47,
+      "seed": 8747003,
+      "stratum": "medium_feasibility"
+    },
+    {
+      "S_obs_recomputed": 0.6999843660999725,
+      "Z_obs_recomputed": 0.46751187887114626,
+      "components": {
+        "accountability": 0.6666666666666666,
+        "administrative_function": 0.6666666666666666,
+        "bargaining_participation": 0.0,
+        "delegation": 0.75,
+        "interpatch_coordination": 0.5,
+        "monitoring": 1.0,
+        "performance_legitimacy": 0.5832551638331962,
+        "procedural_legitimacy": 0.735868969946772
+      },
+      "point_id": 47,
+      "seed": 8747004,
+      "stratum": "medium_feasibility"
+    }
+  ]
+}

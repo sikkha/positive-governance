@@ -1,0 +1,741 @@
+{
+  "n_seeds": 8,
+  "n_steps": 350,
+  "population": 40,
+  "n_patches": 4,
+  "conditions": {
+    "level12_baseline": {
+      "totals": {
+        "n_local_institution_observations": 0,
+        "n_institution_component_transmissions": 0,
+        "n_migrations": 0,
+        "n_membership_exits": 0,
+        "n_institution_extinctions": 7,
+        "n_coordination_scale_changes": 0,
+        "n_institutions_ever_formed": 31,
+        "n_institutions_active_at_end": 24
+      },
+      "checks": {
+        "expected_nonzero_confirmed": {},
+        "expected_zero_confirmed": {
+          "n_local_institution_observations": true,
+          "n_institution_component_transmissions": true,
+          "n_migrations": true,
+          "n_membership_exits": true,
+          "n_coordination_scale_changes": true
+        }
+      },
+      "per_seed": [
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 3,
+          "n_institutions_active_at_end": 2
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 0,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 4
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 0,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 4
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 2,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 2
+        }
+      ]
+    },
+    "level12_observation_only": {
+      "totals": {
+        "n_local_institution_observations": 1230,
+        "n_institution_component_transmissions": 0,
+        "n_migrations": 0,
+        "n_membership_exits": 0,
+        "n_institution_extinctions": 9,
+        "n_coordination_scale_changes": 0,
+        "n_institutions_ever_formed": 31,
+        "n_institutions_active_at_end": 22
+      },
+      "checks": {
+        "expected_nonzero_confirmed": {
+          "n_local_institution_observations": true
+        },
+        "expected_zero_confirmed": {
+          "n_institution_component_transmissions": true,
+          "n_migrations": true,
+          "n_membership_exits": true,
+          "n_coordination_scale_changes": true
+        }
+      },
+      "per_seed": [
+        {
+          "n_local_institution_observations": 88,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 3,
+          "n_institutions_active_at_end": 2
+        },
+        {
+          "n_local_institution_observations": 192,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 2,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 2
+        },
+        {
+          "n_local_institution_observations": 126,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 248,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 0,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 4
+        },
+        {
+          "n_local_institution_observations": 152,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 182,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 212,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 0,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 4
+        },
+        {
+          "n_local_institution_observations": 30,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 3,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 1
+        }
+      ]
+    },
+    "level12_transmission_only": {
+      "totals": {
+        "n_local_institution_observations": 0,
+        "n_institution_component_transmissions": 63,
+        "n_migrations": 0,
+        "n_membership_exits": 0,
+        "n_institution_extinctions": 10,
+        "n_coordination_scale_changes": 0,
+        "n_institutions_ever_formed": 31,
+        "n_institutions_active_at_end": 21
+      },
+      "checks": {
+        "expected_nonzero_confirmed": {
+          "n_institution_component_transmissions": true
+        },
+        "expected_zero_confirmed": {
+          "n_local_institution_observations": true,
+          "n_migrations": true,
+          "n_membership_exits": true,
+          "n_coordination_scale_changes": true
+        }
+      },
+      "per_seed": [
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 3,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 2,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 3,
+          "n_institutions_active_at_end": 1
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 11,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 4,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 13,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 0,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 4
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 3,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 2,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 2
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 12,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 0,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 4
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 9,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 8,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 3,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 1
+        }
+      ]
+    },
+    "level12_migration_only": {
+      "totals": {
+        "n_local_institution_observations": 0,
+        "n_institution_component_transmissions": 0,
+        "n_migrations": 453,
+        "n_membership_exits": 53,
+        "n_institution_extinctions": 11,
+        "n_coordination_scale_changes": 0,
+        "n_institutions_ever_formed": 32,
+        "n_institutions_active_at_end": 21
+      },
+      "checks": {
+        "expected_nonzero_confirmed": {
+          "n_migrations": true,
+          "n_membership_exits": true
+        },
+        "expected_zero_confirmed": {
+          "n_local_institution_observations": true,
+          "n_institution_component_transmissions": true,
+          "n_coordination_scale_changes": true
+        }
+      },
+      "per_seed": [
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 49,
+          "n_membership_exits": 5,
+          "n_institution_extinctions": 2,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 2
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 71,
+          "n_membership_exits": 4,
+          "n_institution_extinctions": 2,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 2
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 47,
+          "n_membership_exits": 7,
+          "n_institution_extinctions": 2,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 2
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 66,
+          "n_membership_exits": 9,
+          "n_institution_extinctions": 2,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 2
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 42,
+          "n_membership_exits": 9,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 66,
+          "n_membership_exits": 6,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 55,
+          "n_membership_exits": 7,
+          "n_institution_extinctions": 0,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 4
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 57,
+          "n_membership_exits": 6,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        }
+      ]
+    },
+    "level12_membership_exit_only": {
+      "totals": {
+        "n_local_institution_observations": 0,
+        "n_institution_component_transmissions": 0,
+        "n_migrations": 0,
+        "n_membership_exits": 268,
+        "n_institution_extinctions": 9,
+        "n_coordination_scale_changes": 0,
+        "n_institutions_ever_formed": 31,
+        "n_institutions_active_at_end": 22
+      },
+      "checks": {
+        "expected_nonzero_confirmed": {
+          "n_membership_exits": true
+        },
+        "expected_zero_confirmed": {
+          "n_local_institution_observations": true,
+          "n_institution_component_transmissions": true,
+          "n_migrations": true,
+          "n_coordination_scale_changes": true
+        }
+      },
+      "per_seed": [
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 30,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 3,
+          "n_institutions_active_at_end": 2
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 31,
+          "n_institution_extinctions": 0,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 4
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 29,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 43,
+          "n_institution_extinctions": 2,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 2
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 37,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 34,
+          "n_institution_extinctions": 0,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 4
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 38,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 26,
+          "n_institution_extinctions": 3,
+          "n_coordination_scale_changes": 0,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 1
+        }
+      ]
+    },
+    "level12_scaling_only": {
+      "totals": {
+        "n_local_institution_observations": 0,
+        "n_institution_component_transmissions": 0,
+        "n_migrations": 0,
+        "n_membership_exits": 0,
+        "n_institution_extinctions": 7,
+        "n_coordination_scale_changes": 153,
+        "n_institutions_ever_formed": 31,
+        "n_institutions_active_at_end": 24
+      },
+      "checks": {
+        "expected_nonzero_confirmed": {
+          "n_coordination_scale_changes": true
+        },
+        "expected_zero_confirmed": {
+          "n_local_institution_observations": true,
+          "n_institution_component_transmissions": true,
+          "n_migrations": true,
+          "n_membership_exits": true
+        }
+      },
+      "per_seed": [
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 17,
+          "n_institutions_ever_formed": 3,
+          "n_institutions_active_at_end": 2
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 0,
+          "n_coordination_scale_changes": 22,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 4
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 27,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 21,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 13,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 0,
+          "n_coordination_scale_changes": 28,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 4
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 13,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 0,
+          "n_institution_component_transmissions": 0,
+          "n_migrations": 0,
+          "n_membership_exits": 0,
+          "n_institution_extinctions": 2,
+          "n_coordination_scale_changes": 12,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 2
+        }
+      ]
+    },
+    "level12_complete": {
+      "totals": {
+        "n_local_institution_observations": 1316,
+        "n_institution_component_transmissions": 77,
+        "n_migrations": 473,
+        "n_membership_exits": 288,
+        "n_institution_extinctions": 8,
+        "n_coordination_scale_changes": 131,
+        "n_institutions_ever_formed": 32,
+        "n_institutions_active_at_end": 24
+      },
+      "checks": {
+        "expected_nonzero_confirmed": {
+          "n_local_institution_observations": true,
+          "n_institution_component_transmissions": true,
+          "n_migrations": true,
+          "n_membership_exits": true,
+          "n_coordination_scale_changes": true
+        },
+        "expected_zero_confirmed": {}
+      },
+      "per_seed": [
+        {
+          "n_local_institution_observations": 136,
+          "n_institution_component_transmissions": 3,
+          "n_migrations": 54,
+          "n_membership_exits": 32,
+          "n_institution_extinctions": 2,
+          "n_coordination_scale_changes": 13,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 2
+        },
+        {
+          "n_local_institution_observations": 130,
+          "n_institution_component_transmissions": 9,
+          "n_migrations": 51,
+          "n_membership_exits": 38,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 11,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 134,
+          "n_institution_component_transmissions": 11,
+          "n_migrations": 61,
+          "n_membership_exits": 27,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 7,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 140,
+          "n_institution_component_transmissions": 7,
+          "n_migrations": 72,
+          "n_membership_exits": 36,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 9,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 158,
+          "n_institution_component_transmissions": 11,
+          "n_migrations": 57,
+          "n_membership_exits": 36,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 21,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 160,
+          "n_institution_component_transmissions": 10,
+          "n_migrations": 72,
+          "n_membership_exits": 47,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 15,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        },
+        {
+          "n_local_institution_observations": 240,
+          "n_institution_component_transmissions": 16,
+          "n_migrations": 49,
+          "n_membership_exits": 27,
+          "n_institution_extinctions": 0,
+          "n_coordination_scale_changes": 32,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 4
+        },
+        {
+          "n_local_institution_observations": 218,
+          "n_institution_component_transmissions": 10,
+          "n_migrations": 57,
+          "n_membership_exits": 45,
+          "n_institution_extinctions": 1,
+          "n_coordination_scale_changes": 23,
+          "n_institutions_ever_formed": 4,
+          "n_institutions_active_at_end": 3
+        }
+      ]
+    }
+  }
+}

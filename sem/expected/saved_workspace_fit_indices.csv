@@ -1,0 +1,5 @@
+"saved_object","model","nobs","lavaan_version","chisq","chisq.scaled","df","cfi","tli","cfi.scaled","tli.scaled","cfi.robust","tli.robust","rmsea","rmsea.scaled","rmsea.robust","srmr","post_check"
+"fit","model1",94278,"0.6.15",40674.3065,33033.4591,17,0.8888,0.8169,0.8172,0.699,0.8888,0.8169,0.1593,0.1435,0.1593,0.0731,"TRUE"
+"fit2","model2",94278,"0.6.15",40674.3065,33033.4726,17,0.8888,0.8169,0.8172,0.699,0.8888,0.8169,0.1593,0.1435,0.1593,0.0731,"WARN: lavaan WARNING: covariance matrix of latent variables is not positive definite; use lavInspect(fit, ""cov.lv"") to investigate."
+"fit3","model3",94278,"0.6.15",29595.676,18622.6938,11,0.9191,0.7941,0.897,0.7377,0.9191,0.7941,0.1689,0.134,0.1689,0.0887,"WARN: lavaan WARNING: some estimated lv variances are negative"
+"fit4","model4",94278,"0.6.15",29590.4616,18605.9833,10,0.9191,0.7735,0.8971,0.7118,0.9191,0.7736,0.1771,0.1404,0.1771,0.0887,"TRUE"

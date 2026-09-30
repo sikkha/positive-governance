@@ -1,0 +1,241 @@
+\section{Level 1.2b: Ecologically Stratified Rediscovery}
+\label{sec:level12b}
+
+\subsection{Exact accounting and ledger validation}
+\label{sec:level12b-ledger}
+
+Before any feasibility ratio could be trusted, Level 1.2b required its own
+ecological ledger --- a full supply/demand/net-zero-transfer
+reconciliation of total system resources (every patch's stock, every
+agent's resources, and every active rule's fund) --- to close to zero
+within a documented floating-point tolerance
+(\cref{sec:appendix-accounting} gives the full identity and category
+list). The ledger was first validated only at short scale (population 16,
+3 patches, 40 steps) and marked complete on that basis. While preparing
+the milestone's actual production-scale design (population 32, 4 patches,
+700 steps), the identical configuration preset showed a residual of
+$9.14$, not approximately zero --- the ledger-closure gate blocked the
+main discovery run pending investigation, exactly as its own preregistered
+stop condition required.
+
+All six root causes shared one property: none could manifest at short
+scale. They were, in order of discovery: (1) a sign-flip in every
+capped-resource-deduction site, so that a target agent already in a
+negative-resource distress state would have resources incorrectly
+\textit{restored} rather than further deducted; (2) a monitoring-cost
+event stamped onto every violation observed in a round rather than once
+per round, double- and triple-counting a cost paid once; (3) a per-active-
+link coordination maintenance fee charged every step but previously logged
+only when a separately gated activity roll fired, silently under-recording
+the fee on steps where it did not; (4) a rule-identifier/patch-identifier
+key-space conflation in dissolution routing that could silently corrupt
+institutional state via unrelated numeric coincidences; (5) an amendment-
+triggered dissolution path that never removed the dissolved rule from the
+live registry, leaving a stale entry whose fund kept counting toward
+system totals; and (6) a zero-recipient fund-disposition case not treated
+as a loss. After all six fixes, the production-scale configuration
+reconciles to a residual on the order of $10^{-10}$ for every seed tried
+(\cref{fig:l12b-ledger}); across the milestone's full 576-run discovery
+design, the maximum observed residual was $5.9\times10^{-9}$ and the mean
+$7.1\times10^{-10}$, confirming the fix generalizes across the full design
+space rather than only the configuration that first exposed it. These were
+genuine accounting bugs, invisible below production scale, found and
+fixed by this milestone's own mandatory preflight audit --- not
+generative-behavior changes: every fix is either a bookkeeping correction
+or a corrected cleanup of already-dissolved state, confirmed
+behavior-preserving against the full pre-existing test suite at every step
+of the fix sequence.
+
+\subsection{Ex-ante feasibility measures}
+\label{sec:level12b-feasibility}
+
+Two ex-ante ecological feasibility ratios were defined and validated
+before being used to stratify the main design. The
+\textit{structural feasibility ratio} is a pure function of configuration
+(no simulation, no randomness): maximum-sustainable-yield regeneration
+(patch regeneration rate times capacity over four, the logistic-growth
+maximum at half capacity, summed across patches) divided by population
+size times the bare mandatory subsistence cost --- deliberately excluding
+every discretionary or institutionally contingent cost, so it never
+assumes optimistic endogenous cooperation in either direction. The
+\textit{expected-pressure ratio} uses the same numerator but adds expected
+behavioral extraction demand, evaluated at configured mean trait values
+and a preregistered neutral occupancy of one-half. A feasibility-map
+experiment (120 runs: a nine-column Latin Hypercube design over ecological
+parameters, at least two population/patch-count combinations, institutional
+configuration held fixed) validated both ratios against realized ecological
+balance. The expected-pressure ratio predicted realized ecological pressure
+substantially better than the structural ratio (Pearson $r\approx0.84$
+versus $r\approx0.48$; \cref{fig:l12b-feasibility-ratios}), an expected,
+un-tuned result given that only the expected-pressure ratio incorporates
+behavioral extraction demand. The feasibility map itself returned a
+genuinely informative, non-degenerate three-way outcome split (50 other,
+52 collapse, 18 saturation out of 120 runs; \cref{fig:l12b-feasibility-strata}).
+Tertile cut points on the expected-pressure ratio, computed from this
+design's own ecological draws and frozen before any discovery run, define
+the three ecological strata (low, medium, high) used to stratify the main
+joint design.
+
+\subsection{Stratified experimental design}
+\label{sec:level12b-design}
+
+The main discovery design (Work Package E) crosses a freshly sampled
+ecological feasibility space with a freshly sampled 21-dimensional
+institutional Latin Hypercube design (60 institutional points, verified
+free of correlated parameter "packages") and two initial-condition
+families --- an institution-free default state, and a heterogeneous
+proto-institution injected independently per patch --- stratified only by
+the ex-ante expected-pressure ratio, never by any realized simulation
+outcome. The preferred design (48 joint points $\times$ 6 seeds
+$\times$ 2 initial-condition families = 576 runs) was executed in full: 576
+of 576 runs completed with zero failures, stratum spread 17/16/15 points
+(204/192/180 runs) across low/medium/high, both initial-condition families
+balanced exactly at 288/288, and every run's ledger residual under the
+$10^{-4}$ tolerance (\cref{tab:l12-vs-l12b-design} compares this design
+directly against Level 1.2's own 24-run design).
+
+\subsection{Discovery and confirmation samples}
+\label{sec:level12b-discovery-confirmation}
+
+The main discovery pipeline (Work Package J) reused Level 1.2's own
+failure/viability classification unmodified and added a five-label
+failure-trajectory classification. On the full 576-run pool: all-outcome
+distribution collapse 326, viable 161, fragmented 89, every other label
+zero (\cref{fig:l12b-outcome-distribution}); failure-trajectory
+distribution sustained collapse 305, no collapse observed 194, transient
+dip recovered 56, late-onset collapse 21 --- most collapse outcomes were
+sustained across a run's duration, not a last-instant artifact. All 576
+runs cleared the non-normative sustained-system data-sufficiency screen,
+comfortably above both the preferred (60) and hard-minimum (40) gates.
+
+Clustering and structure discovery (Work Package K) reused Level 1.2's own
+primitives unmodified on this much larger pool and reached headline
+$k=4$ with verdict \texttt{continuum} (three $k$'s within 0.05 silhouette
+of the best; \cref{fig:l12b-discovery-confirmation}). Supporting
+diagnostics: bootstrap stability mean adjusted Rand index 0.598 ($k=4$,
+30 resamples); mean pairwise algorithm-agreement adjusted Rand index
+0.192 (dragged down by \texttt{HDBSCAN} finding zero clusters and 576
+noise points on this feature space, while the Gaussian-mixture/
+hierarchical pairwise agreement alone was 0.576); missingness-strategy
+robustness 0.591 (\texttt{complete\_case}) and 0.653
+(\texttt{missingness\_indicator}); cluster assignment essentially
+unrelated to initial-condition family (adjusted Rand index 0.0008,
+ruling out "clustering is just rediscovering which initial condition a
+run started from"); temporal-window stability 0.141 (end-of-run versus
+mid-run cluster assignments diverge substantially --- cluster membership
+is not stable across a single run's own duration, a genuine finding in
+its own right); parameter-neighborhood stability 0.626; and cluster
+assignment essentially unrelated to the failure/success split (adjusted
+Rand index 0.0, ruling out "clustering is just rediscovering collapse
+versus not").
+
+Per the preregistered null-replication rule, a \texttt{continuum} verdict
+is treated exactly as a no-candidate finding: no discrete institutional
+class was named, bounded, or given an expected direction anywhere in the
+confirmation design. What was tested instead was the one concrete object
+discovery did produce --- the headline four-cluster partition --- stress-
+tested for out-of-sample recurrence on a fresh, disjoint 384-run
+confirmation pool (24 joint points $\times$ 8 seeds $\times$ 2
+initial-condition families, a disjoint fresh-seed base). The confirmation
+pool's own all-outcome distribution (collapse 245, viable 86, fragmented
+53) closely tracked the discovery pool's; its own independent clustering
+refit reached headline $k=2$, not 4, with verdict \texttt{unstable} (mean
+algorithm-agreement adjusted Rand index 0.276, bootstrap mean adjusted
+Rand index 0.182, both below the 0.3 stability bar) --- never
+\texttt{multi\_config}, so the primary preregistered null expectation
+held. Assignment stability between the frozen discovery fit and the
+confirmation pool's own independent labels was moderate (adjusted Rand
+index 0.527), and feature-profile stability across matched clusters was
+high (mean cosine similarity 0.948) --- both consistent with a continuum
+rather than either pure noise or a sharply discrete structure. The overall
+confirmation verdict was \texttt{null\_replicated}.
+
+\subsection{Cluster stability and held-out replication}
+\label{sec:level12b-stability}
+
+\cref{fig:l12b-stability-metrics} summarizes the discovery pool's own
+stability diagnostics; \cref{fig:l12b-discovery-confirmation} plots the
+discovery and confirmation silhouette curves side by side, visually
+showing both the discovery pool's shallow, multi-peaked profile and the
+confirmation pool's independent, differently shaped profile --- the
+headline $k$ itself is unstable across independent samples, which is
+direct evidence for reading the discovery pool's own \texttt{continuum}
+verdict as gradedness rather than an artifact of one sample.
+
+A genuine seed-clustered bootstrap (resampling whole ecological-and-
+institutional joint-point groups, correctly accounting for the multiple
+seeds nested within each point, rather than treating every seed-row as an
+independent draw) reproduced the discovery pool's own stability estimate
+closely (seed-clustered mean adjusted Rand index 0.591 versus the flat
+bootstrap's 0.598), confirming the original result was not an artifact of
+a less conservative resampling unit. Bootstrap 95\% confidence intervals
+were computed for the headline point estimates: collapse fraction 0.566
+[0.526, 0.608] ($n=576$); population-fraction recovery 0.0 [0.0, 0.0]
+($n=32$, a tight zero-width interval, itself informative); ecological-
+fraction recovery 0.875 [0.75, 0.97]. All four pooled run sets (Work
+Packages E, L, M, N) were verified pairwise seed-disjoint.
+
+\subsection{Scale tests and causal ablations}
+\label{sec:level12b-scale-causal}
+
+A 32-run scaling-robustness grid (2 population sizes $\times$ 2 patch
+counts $\times$ 2 network-modularity levels $\times$ 4 seeds, scale
+invariance explicitly not required) found collapse remained dominant at
+smaller, structurally varied scales (25 collapse, 4 fragmented, 3 viable;
+\cref{tab:outcome-distribution}) and exposed a genuine, disclosed
+dissociation between two recovery dimensions after a standardized shock:
+population-fraction recovery was 0 of 32 (0\%) at every scale tested,
+while ecological-fraction recovery was 28 of 32 (87.5\%). This
+dissociation is precisely why no "attractor" label was assigned anywhere
+in this milestone: an attractor claim would require majority recovery on
+\textit{both} tracked dimensions, and population's own 0\% alone rules it
+out (\cref{fig:l12b-causal-ablation} places this alongside the causal
+decomposition below; see \cref{sec:appendix-tables} for the full
+scaling-robustness table).
+
+A thirteen-factor, 208-run matched-seed causal decomposition (eight
+matched-seed pairs per factor, \texttt{rng\_mode="mechanism\_%
+substreams"}) moved beyond Level 1.2's own two-factor ablation to test
+every major mechanism family's causal contribution to ecological outcome
+directly. The two largest ecological-fraction effects were
+\texttt{subsistence} (mean paired difference $+0.198$; collapse
+probability fell from 1.00 to 0.62 as subsistence cost rose from 0.1 to
+0.6 --- counterintuitive, reported as found, not reinterpreted) and
+\texttt{migration\_on\_off} (mean paired difference $-0.110$; migration on
+worsens the ecological outcome, collapse probability rising from 0.38 to
+0.88, directly replicating Level 1.2's own Section 13 migration finding
+at roughly 24 times the scale). \texttt{migration\_congestion} and
+\texttt{patch\_regen} each contributed a further $\approx+0.11$ and
+$+0.10$ respectively. The smallest effect, \texttt{transmission\_cost},
+showed essentially no causal signal (mean paired difference $-0.002$,
+zero outcome-label transitions in 8 pairs) --- the institutional-
+transmission-probability lever this milestone tested does not move
+collapse risk in this design. \cref{tab:causal-ablation} reports the full
+ranked table; results were never fed back into any already-frozen
+artifact, honoring the milestone's own recalibration-prohibition stop
+condition.
+
+\subsection{The final continuum/null verdict}
+\label{sec:level12b-verdict}
+
+Work Package O's synthesis, applying a closed seven-label cautious
+vocabulary and a fixed rule that no "attractor" label may be assigned
+without direct evidence of majority recovery on every tracked dimension,
+classified the milestone's overall result as \texttt{continuum}, inherited
+directly from Work Package K's own discovery verdict, and assigned no
+attractor label anywhere. Of six candidate explanations considered for why
+cross-run phenotype similarity is observed at all, the evidence was mixed
+by design rather than uniform: consistent with temporary (within-run)
+similarity and with independent structural convergence (a proxy measure,
+not a literal lineage-based test); consistent with environmentally forced
+similarity for the three substantial clusters; against measurement
+compression (five of eleven raw principal components were needed to reach
+90\% explained variance) and against failure-state similarity (adjusted
+Rand index against a collapse/non-collapse proxy of 0.0); and
+\texttt{shared\_lineage\_persistence} was not evaluated at all, disclosed
+explicitly as an evidence gap rather than silently omitted, since
+evaluating it would require a fourth full 576-run re-simulation with
+per-run lineage identifiers exported, which this milestone judged
+low-value given that the continuum and null-replication findings already
+independently established that no discrete, well-separated candidate
+structure exists for shared ancestry to explain in the first place.

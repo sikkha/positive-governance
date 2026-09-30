@@ -1,0 +1,24 @@
+{
+  "disjoint_from_stage4": {
+    "stage4_lhs_seed": 20260821001,
+    "stage4_seed_range_start": 8700000
+  },
+  "frozen_before_scoring": [
+    "preprocessing",
+    "phenotype_fields",
+    "observer_thresholds",
+    "clustering_or_manifold_model_from_stage7"
+  ],
+  "lhs_seed": 20260821008,
+  "milestone": "level1.3b_work_package_i_stage8_fresh_confirmation",
+  "n_patches": 4,
+  "n_points": 24,
+  "n_runs_declared": 96,
+  "n_seeds_per_point": 4,
+  "n_steps": 500,
+  "no_post_hoc_parameter_selection": true,
+  "no_refitting_before_primary_scoring": true,
+  "population_size": 40,
+  "scale_disclosed_as": "Section 13's own stated MINIMUM (24 x 4 = 96), not the preferred 36-48 x 4-6",
+  "seed_base": 8950000
+}
